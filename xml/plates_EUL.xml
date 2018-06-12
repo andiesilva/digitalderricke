@@ -1,0 +1,988 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-stylesheet type="text/xsl" href="teibp.xsl"?>
+<TEI xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title corresp="http://imageofirelande.org">John Derricke's The Image of Irelande
+                    (1581): Plates </title>
+                <funder>Freedman Fellows Grant, Case West Reserve University</funder>
+                <principal>Andie Silva</principal>
+                <respStmt>
+                    <resp>principal researcher and editor</resp>
+                    <name key="AS">Andie Silva</name>
+                </respStmt>
+                <principal>Denna Iammarino</principal>
+                <respStmt>
+                    <resp>principal researcher and editor</resp>
+                    <name key="DI">Denna Iammarino</name>
+                </respStmt>
+                <respStmt>
+                    <resp>transcribed by</resp>
+                    <name key="AS">Andie Silva</name>
+                    <name key="DI">Denna Iammarino</name>
+                </respStmt>
+                <respStmt>
+                    <resp>verified by</resp>
+                    <name key="PH">Place Holder</name>
+                </respStmt>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Dinah Mulock Craik: A Digital Archive</authority>
+                <pubPlace>Calgary, Alberta, Canada</pubPlace>
+                <date>2016</date>
+                <availability>
+                    <p>Reproduced by courtesy of the <placeName>REPOSITORY</placeName>.</p>
+                    <licence>Distributed under a Creative Commons Attribution-ShareAlike 3.0
+                        Unported License</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <repository>Edingurgh University Library</repository>
+                        <idno>De.3.76</idno>
+                        <msName>The Image of Irelande, by John Derrick (London, 1581) -
+                            Plates</msName>
+                    </msIdentifier>
+                    <!-- FOR THE TRANSCRITON WE WOULD USE THIS FOR PARTS 1, 2, 3, ETC 
+                    <msContents>
+                        <msItem corresp="#LDev001-TM1479">
+                            <locus>f. 2r</locus>
+                            <title>Take hede be tyme leste ye be spyede</title>
+                        </msItem>
+                        <msItem corresp="#LDev002-TM108">
+                            <locus>f. 2v-</locus>
+                            <title>O cruell causer of vndeserrved chaynge</title>
+                        </msItem>
+                        <msItem corresp="#LDev003-TM1039-TP1162"> </msContents>
+                    
+                    STILL LOTS OF ORIGINAL WORDING FROM DEVON IN NEED OF REVISING
+                    
+                    CREDIT UVIC/DEVON MODEL
+                    
+                    -->
+
+                    <physDesc>
+                        <objectDesc form="codex">
+                            <supportDesc>
+                                <support>
+                                    <p>Twelve illustrated fold-out inserts</p>
+                                    <p>Some pages are torn and show signs of wear</p>
+                                    <p>Designed to be sold with, or bound to John Derricke's Image
+                                        of Ireland</p>
+                                </support>
+                                <extent> 12 </extent>
+                                <foliation>
+                                    <p>Numbers appear in the center of folio between verse
+                                        columns.</p>
+                                </foliation>
+                            </supportDesc>
+                        </objectDesc>
+                    </physDesc>
+                    <history>
+                        <origin>
+                            <p>Believe to have been sketched in <origPlace>Ireland</origPlace>
+                                during <origDate notAfter="1578" notBefore="1575"><persName
+                                        corresp="#HSidney">Sir Henry Sidney's</persName> tenure as
+                                    Lord Deputy of Ireland</origDate>.</p>
+                        </origin>
+                        <acquisition>
+                            <p>The Edinburgh University Library copy of "The Image of Irelande, with
+                                a discouerie of VVoodkarne" was gifted by the poet William Drummond
+                                of Hawthornden, one of the early graduates of the Tounis College to
+                                his alma mater. The woodkarne, or woodkerne, were a semi-nomadic
+                                people, perceived as living by plunder and bloodshed like the Border
+                                Reivers in the Debatable Land between Scotland and England at the
+                                same period. </p>
+                        </acquisition>
+
+                    </history>
+
+                </msDesc>
+            </sourceDesc>
+
+        </fileDesc>
+        <encodingDesc>
+
+            <projectDesc>
+                <p>The project is to transcribe, encode, and publish, for the first time the
+                    full-text and plates of John Derricke's The Image of Irelande (1578)</p>
+            </projectDesc>
+            <editorialDecl>
+                <correction>
+                    <p>The transcription is based on two forms of a document. The base-text was a
+                        scan of the plates supplied by the University of Edinburgh Library. The
+                        initial transcriptions were made with the online images, but the final
+                        transcription was done with reference to the high-quality photos of the
+                        document. </p>
+                    <p>As far as is possible, a diplomatic edition is intended, so there is a strong
+                        orientation towards the physical appearance of each page, including
+                        recording such aspects as indentations, centring, brackets, and spaces. All
+                        omissions, truncations, deletions, etc. in the original are retained. Text
+                        that is indecipherable is marked by the use of the &lt;gap&gt; element. The
+                        choice element, containing &lt;orig&gt; paired with &lt;reg&gt; marks text
+                        that is in some way possibly erroneous, idiosyncratic, or easily
+                        misunderstood with a clarification. Not marked are ligatures, dropped
+                        &#145;r&#146;, and long &#145;s&#146;. </p>
+                    <p>Punctuation in the copy-text is retained. </p>
+                </correction>
+                <normalization method="markup">
+                    <!-- add note about capitalization being silently normalized -->
+                    <p>Spelling is modernized. The transcription silently replaces the letters
+                        &#145;u&#146; for &#145;v&#146;, &#145;i&#146; for &#145;j&#146;, and
+                        &#145;vv&#146; for &#145;w&#146;. </p>
+                    <p>Abbreviations (eg. elided letters) and expansions (brevigraphs and
+                        contractions) are marked as such in both their contracted and expanded
+                        forms. Words, wordforms, or compounded words in which letters are elided by
+                        the scribe are designated as abbreviations and encoded with the element
+                        &lt;abbr&gt; and the attribute expan= recording both the construction of the
+                        original and the expanded format. </p>
+                    <p>Marginal annotations included within the body of the text are distinguished
+                        from editorial annotations, which are encoded with the element &lt;note&gt;
+                        and the attribute type= with a description of &#145;annotation&#146; to
+                        distinguish marginal from editorial notes, which are encoded with the
+                        element &lt;note&gt; and the attribute type= with a description of
+                        &#145;editorial.&#146; </p>
+                    <p>Personal names of historical interest, mostly of poets or scribes, are
+                        identified as such and refer back to a &lt;listPerson&gt; item using a key
+                        tag. Within the listPerson descriptions, each person is identified with a
+                        ref pointer using the Library of Congress Authority number, and a second URI
+                        ref to the Dictionary of National Biography. Modern researchers or scholars
+                        who are referred to in the text, including the project team, are listed in a
+                        second listPerson element, with the attribute of type="modern". </p>
+                    <p>The element &lt;note&gt; is used for additions to the text that are marginal
+                        and for editorial notes. They are delineated by first, type (editorial,
+                        annotation, marginal), and secondly, place on the page (in the case of a
+                        marginal note). </p>
+                    <p>The element &lt;gap&gt; records the (possibly temporary) unavailability of a
+                        transcription, implying indecipherability, for one reason or another:
+                        faintness, obliteration (for example, by an ink blotch), deletion (when it
+                        so thorough that the deleted letters cannot be deciphered), invisibility
+                        (when the letters enter the spine of the book, erased, or torn. The extent
+                        of the indecipherable section is not recorded. The element &lt;supplied&gt;
+                        records instances in which a character is supplied by the editor on
+                        reasonable grounds that it exists. The element &lt;unclear&gt; is used to
+                        identify a transcription that is difficult to ascertain. The element
+                        &#147;damage&#148; is used for occasions where the text has suffered some
+                        damage, most usually due to ink blots. The element &lt;space&gt; is used to
+                        record deliberate gaps left by the scribes, with attribute of extent, with
+                        the value indicating the approximate number of characters or lines. </p>
+                </normalization>
+                <segmentation>
+                    <p>In line with the orientation toward the physical aspect of the manuscript,
+                        graphical and bibliographical descriptions form an important component of
+                        the file. For example, we record details of page presentation, such as torn
+                        pages and a repaired leaf and we recognize of the former position of a page.
+                        Besides the description of such presentational aspects on a page as
+                        centring, indentation, brackets, and spaces is noted. </p>
+                    <p>The text as a whole is divided into segments by the use of specialized
+                        element tags that record the division points that mark the boundaries
+                        between sections, known as milestone type element tags, with reference to
+                        the TEI Guidelines (6.9.3). For example, when the text is divided into
+                        columns, the point at which a new column begins is marked by a specialized
+                        element tag designed for that purpose (&lt;cb/&gt;), with an attribute value
+                        of left or right. </p>
+                    <p>Despite recognizing divisions into pages, columns, and graphical lines, the
+                        principal orientation is into semantic units, poems, generally. The basic
+                        unit within the text of as a whole is the individual part or new page
+                        (&lt;div&gt;), together with its associated material, such as scribal
+                        annotations that appear in proximity to a poem and seem to refer to it. The
+                        poetic entity includes some units that are not strictly poems, such as poem
+                        fragments, anagram, annotation, figure, epigram, and some collective
+                        divisions (&lt;ab&gt; [anonymous block]) in which occur a number of what
+                        might be termed miscellaneous graffiti consisting of symbols, initials,
+                        words, epigrams, and drawings. Despite the varied nature of the basic
+                        division, it is here referred to as a poem.</p>
+
+                    <!--  stopped reading here-->
+
+                    <p>The text of the poem itself is contained within a stanza division (or
+                        divisions, if there is more than one), using &lt;lg&gt; (linegroup). Each
+                        stanza is numbered sequentially within the poem (unless there is only one).
+                        The stanza divisions are according to standard indexes and modern editions
+                        (if there is such an edition) because scribal practice is highly variable in
+                        both the intention to divide the text into stanzas and the method of doing
+                        so. For instance, it is not assumed that scribes leave spaces between
+                        stanzas. Sometimes there is no indication as to where one stanza ends and
+                        another begins. Sometimes scribes indicate internal divisions with marks in
+                        the left margins, the use of majuscule characters, spaces between groupings,
+                        or by aligning the first line of a stanza to the left compared to the
+                        alignment of the other lines of that stanza. The existence and type of
+                        stanza marking (or lack thereof) are described in editorial notes. When a
+                        scribe&#146;s presentation of stanzaic divisions differs from that given in
+                        standard indexes, the situation is recorded in an editorial note. </p>
+                    <p>Each stanza is divided into poetic lines using &lt;l&gt; (poetic line), each
+                        of which is numbered sequentially within the poem in an attribute value n=.
+                        Lines that are aborted or deleted by a scribe but that are recognizably part
+                        of the poem are numbered with half-numbers that indicate their position in
+                        the sequence. Lines that are omitted (according to standard indexes and
+                        modern editions) are indicated by a row of hyphens, numbered and noted as
+                        omissions. Annotations are included as the content of an element
+                        &lt;note&gt; with an attribute type="annotation" to distinguish them from
+                        editorial notes that have an attribute type of "editorial" and scribal notes
+                        that have an attribute type="scribal". Annotations also have an attribute
+                        giving their place relative to the poem. Within annotations, if no line
+                        divisions are noted by the use of &lt;seg&gt;, it is to be assumed that the
+                        annotation is on one graphical line, unless it is marked as being placed
+                        'inline.' The poetic lines are occasionally segmented to distinguish, for
+                        example, resonant phrases and graphically displaced words and phrases (as
+                        mentioned earlier). The element &lt;w&gt; (word) is occasionally used as an
+                        alternative when one word is involved in the distinction.</p>
+                    <p>The encoding of witnesses follows the practice of the main text, however, the
+                        encoding is somewhat simplified. Only the relevant poems are included.
+                        Capitalization, abbreviations, deletions, and annotations are recorded. Each
+                        witness manuscript or print source is encoded in a single file, which
+                        validates to the DTD of the main document. Each witness file can be
+                        considered a satellite to the main document file.</p>
+                    <p>The header section (which is also simplified) of each witness file includes
+                        an index encoded as a &lt;list&gt; of incipits (as they appear in the
+                        witness text) arranged alphabetically within a &lt;p&gt; section within a
+                        &lt;note&gt; that relates the location of a particular poem instance in the
+                        witness to the location within the Devonshire MS., which is repeated in the
+                        head section of each division. In addition, each relationship also mentions
+                        the other contemporary witnesses to that particular poem as a "See also"
+                        section and, when necessary, a designation of how that first line appears in
+                        the Devonshire MS, if there are significant differences. The header section
+                        includes a detailed description of the original source text used and, in
+                        some cases, also includes a description of the source of a modern
+                        transcription if that has been used instead, but it does not duplicate the
+                        detailed description of encoding practices as is found in the main
+                        document.</p>
+                    <!-- fix regarding our work<p>The internal structure of each witness file parallels the main file, with a
+                        division into a &lt;div&gt; element for each poem, and further divisions
+                        into &lt;lg&gt; and &lt;l&gt;. Each poem is given an &lt;id&gt; based on the
+                        abbreviation for that particular witness and its position in the sequence of
+                        poems transcribed from that witness. For example, AAH01 is the first poem
+                        transcribed from the Arundel-Harington MS. witness.</p> -->
+
+                </segmentation>
+                <interpretation>
+                    <p>Unless otherwise noted, responsiblity for all analytical or interpretive
+                        material that appears in the editorial notes rests with the editorial team
+                        as a whole.</p>
+                </interpretation>
+            </editorialDecl>
+
+            <variantEncoding method="location-referenced" location="external"/>
+        </encodingDesc>
+        <profileDesc>
+            <creation>
+                <date notBefore="1575" notAfter="1581">1575-1581 <interp>Completed in
+                    1581</interp></date>
+                <rs type="country">England</rs>
+            </creation>
+            <langUsage>
+                <language ident="eng" usage="98">early modern English</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div type="title-page">
+                <head place="margin"><title>A notable discouery most liuely describing the state and
+                        condition of the Wilde men in Ireland, properly called Woodkarne, with their
+                        actions, and exercises wherein they are dayly occupied, also the order of
+                        their relation and success of the same is likewise detected. Which also
+                        concludeth with the comming in of <seg rend="italics"><persName
+                                corresp="#TONeill">Thirlaugh Leonaugh</persName></seg> the great
+                            <seg rend="allcaps">ONEALE</seg> of Ireland, submitting himself to the
+                        right honorable <seg rend="italics"><persName corresp="#HSidney">Syr Henry
+                                Sydney</persName></seg>, at what time he was L. Deputy general here
+                        of the sayd Land, being in <seg rend="italics">An. 1578</seg>. Nowe
+                        published and set forth by <seg rend="italics allcaps"><persName
+                                corresp="#JDerrick">JOHN DERRICK</persName></seg> this present yeare
+                        of our Lord 1581. For pleasure and delight of those, whose mindes in
+                        laudable exercises are vertuously occupied.</title><lb/>
+                    <seg xml:id="permission">Seene and allowed</seg>.</head>
+                <note corresp="#permission" place="end" type="editorial" n="1"/>
+            </div>
+            <div type="imprint">
+                <p><g>Pilcrow</g>At <placeName>London</placeName>, printed by <persName
+                        corresp="#JDay">John Daye</persName> dwelling ouer
+                        <placeName>Aldersgate</placeName><date>1581</date>
+                    <!-- is there a tag for something like place type = bookshop? -->
+                </p>
+                <div type="woodcut"/>
+                <!-- fix this!! needs to figure -->
+            </div>
+        </front>
+        <body>
+            <div n="1" type="plate">
+                <figure>
+                    <graphic url="put URL"/>
+                    <figDesc sameAs="EUL description">Plate 1 A soldier holding a battle-axe hands a
+                        spear to an Irish chieftain in full dress, with a page holding the
+                        chieftain's horse</figDesc>
+                </figure>
+                <l>A</l>
+                <cb n="1"/>
+                <l>The lively shape of <choice>
+                        <orig>Irysh</orig>
+                        <reg>Irish</reg>
+                    </choice> karne, most perfect to behold,</l>
+                <l>Of man, the master, and the boy, these pictures doe unfolde:</l>
+                <l>Wherein is bravely paynted forth, A naturall Irish grace<gap quantity="1"
+                        unit="chars" reason="illegible" agent="tear"/></l>
+                <l>Whose like in <choice>
+                        <orig>eu'ry</orig>
+                        <reg>every</reg>
+                    </choice>
+                    <choice>
+                        <orig>poynt</orig>
+                        <reg>point</reg>
+                    </choice> to <choice>
+                        <orig>vewe</orig>
+                        <reg>view</reg>
+                    </choice> ,hath seldome <choice>
+                        <orig>stept</orig>
+                        <reg>stepped</reg>
+                    </choice> in place</l>
+                <l>Marke me the karne that gripes the axe, fast with his <choice>
+                        <orig>murd'ring</orig>
+                        <reg>murdering</reg>
+                    </choice>hand</l>
+                <l>Then shal you say a righter knave, came never in the land:</l>
+                <cb n="2"/>
+                <note type="clarification">Number "1" next to the column identifies this as plate
+                    1</note>
+                <l>As for the rest so trimly <choice>
+                        <orig>drest</orig>
+                        <reg>dressed</reg>
+                    </choice> , I speake of them no evill,</l>
+                <l>In <choice>
+                        <orig>ech</orig>
+                        <reg>each</reg>
+                    </choice> respect, the are detect, (as honest as the devill.)</l>
+                <l>As honest as the Pope himselfe, in all their outward actions,</l>
+                <l>And constant like the wavering winde, in the Imaginations,</l>
+                <l>Which may be <choice>
+                        <orig>prov'de</orig>
+                        <reg>proved</reg>
+                    </choice>in sundry partes, hereafter that ensue,</l>
+                <l>A perfect signe for to define, th'above additions true.</l>
+
+            </div>
+
+            <div n="2" type="plate">
+                <figure>
+                    <graphic url="put URL"/>
+                    <figDesc sameAs="EUL description">An armed company of the kerne, carrying
+                        halberds and pikes and led by a piper, attack and burn a farmhouse and drive
+                        off the horses and cattle</figDesc>
+                </figure>
+                <div type="column" n="1">
+                    <div type="caption" corresp="#p1sA">
+                        <p><metamark place="margin" function="imageCaption">A</metamark></p>
+                        <l>Here creepes out of <seg rend="italics">Sainct Fichers</seg>, a packe of
+                            prowling mates,</l>
+                        <l>Most hurtfull to the English pale, and <choice>
+                                <orig>noysome</orig>
+                                <reg>noisome</reg>
+                            </choice> to the states,</l>
+                        <l>Which spare no more their country <choice>
+                                <orig>byrth</orig>
+                                <reg>birth</reg>
+                            </choice>, then those of th’english race,</l>
+                        <l>But yeld to each a <choice>
+                                <orig>lyke</orig>
+                                <reg>like</reg>
+                            </choice> good turne, when as they come in place.</l>
+                    </div>
+                    <div type="caption" corresp="#p1sB">
+                        <p><metamark place="margin" function="imageCaption">B</metamark></p>
+                        <l>They <choice>
+                                <orig>spoyle</orig>
+                                <reg>spoil</reg>
+                            </choice> and burne, and beare away, as <choice>
+                                <orig>fitte</orig>
+                                <reg>fit</reg>
+                            </choice> occasions serve,</l>
+                        <l>And thinke the greater ill they <choice>
+                                <orig>doe</orig>
+                                <reg>do</reg>
+                            </choice>, the greater <choice>
+                                <orig>prayse</orig>
+                                <reg>praise</reg>
+                            </choice> deserve:</l>
+                    </div>
+                </div>
+                <note type="clarification">Number "2" next to the column identifies this as plate
+                    2</note>
+                <div type="column" n="2">
+                    <div type="caption" corresp="#p1sB">
+                        <l>They <choice>
+                                <orig>passe</orig>
+                                <reg>pass</reg>
+                            </choice> for the poore mans cry, nor yet respect his tears,</l>
+                        <l>But rather <gap quantity="1" unit="chars" reason="tightly bound"
+                                /><certainty locus="end" n="1" degree="5"/> joy to see the fire, to
+                            flash about his eares.</l>
+                        <l>To see both flame, and <choice>
+                                <orig>smoldring</orig>
+                                <reg>smoldering</reg>
+                            </choice> smoke, to duske the <choice>
+                                <orig>christall</orig>
+                                <reg>crystal</reg>
+                            </choice>
+                            <choice>
+                                <orig>skyes</orig>
+                                <reg>skies</reg>
+                            </choice>,</l>
+                        <l>Next to their pray, therein I say, their second glory lyes.</l>
+                    </div>
+                    <div type="caption" corresp="#p1sC">
+                        <p><metamark place="margin">C</metamark></p>
+                        <l>And thus bereaving him of house, of <choice>
+                                <orig>cattell</orig>
+                                <reg>cattle</reg>
+                            </choice> and of store:</l>
+                        <l>They do returne <choice>
+                                <orig>backe</orig>
+                                <reg>back</reg>
+                            </choice> to the wood, from whence they came before.</l>
+                    </div>
+                </div>
+            </div>
+            <div n="3" type="plate">
+                <figure>
+                    <graphic url="put URL"/>
+                    <figDesc sameAs="EUL description">The most famous plate of the set shows the
+                        chief of the Mac Sweynes seated at dinner and being entertained by a bard
+                        and a harper</figDesc>
+                </figure>
+                <cb n="1"/>
+                <floatingText type="caption">
+                    <body>
+                        <p><metamark place="margin" function="imageCaption">A</metamark></p>
+                    </body>
+                </floatingText>
+                <l>Now when into their fenced holdesm the knaves are <choice>
+                        <orig>entred</orig>
+                        <reg>entered</reg>
+                    </choice> in</l>
+                <l>To smite and knocke the <choice>
+                        <orig>cattell</orig>
+                        <reg>cattle</reg>
+                    </choice> downe, the hangmen doe beginne.</l>
+                <l>One plucketh off the <choice>
+                        <orig>Oxes</orig>
+                        <reg>Oxe's</reg>
+                    </choice> cote, which he even now did weare:</l>
+                <l>Another lacking <choice>
+                        <orig>pannes</orig>
+                        <reg>pans</reg>
+                    </choice>, to boyle the flesh, his hide prepare.</l>
+                <floatingText type="caption">
+                    <body>
+                        <p><metamark place="margin" function="imageCaption">C</metamark></p>
+                    </body>
+                </floatingText>
+                <l>These <choice>
+                        <orig>theeves</orig>
+                        <reg>thieves</reg>
+                    </choice> attend upon the fire, for serving up the feast:</l>
+                <floatingText type="caption">
+                    <body>
+                        <p><metamark place="margin" function="imageCaption">B</metamark></p>
+                    </body>
+                </floatingText>
+                <l>And <choice>
+                        <orig>fryer</orig>
+                        <reg>frier</reg>
+                    </choice> smelfeast sneaking in, doth preace amongst the best.</l>
+                <cb n="2"/>
+                <note type="clarification">Number "3" next to the column identifies this as plate
+                    3</note>
+                <!-- fill in gaps with Scott/modern editions/ markup? -->
+                <l>3</l>
+                <l>Who <gap reason="illegible" agent="tear" extent="half inch"/>in Romish toyes the
+                    Ape, counterfetting Paull:</l>
+                <l>For <gap reason="illegible" agent="tear" extent="half inch"/>they doe award him
+                    then, the highest roome of all.</l>
+                <l>Who <gap reason="illegible" agent="tear" extent="half inch"/>set, because the
+                    cheere, is deemed little worth:</l>
+                <l>Exce<gap reason="illegible" agent="tear" extent="half inch"/> same be intermixt,
+                    and lac'de with Irish myrth.</l>
+                <floatingText type="caption">
+                    <body>
+                        <p><metamark place="margin" function="imageCaption">D</metamark></p>
+                    </body>
+                </floatingText>
+                <l>Both<gap reason="illegible" agent="tear" extent="half inch"/> and Harper, is
+                    preparde, which by their cunning art,</l>
+                <l>Doe <gap reason="illegible" agent="tear" extent="half inch"/>and cheare up all
+                    the gestes, with comfort at the hart.</l>
+            </div>
+            <div n="4" type="plate">
+                <figure>
+                    <graphic url="put URL"/>
+                    <figDesc sameAs="EUL description">The Irish chieftain receives the priest's
+                        blessing before departing to fight the English, who are shown in full
+                        armour</figDesc>
+                </figure>
+                <cb n="1"/>
+                <floatingText type="caption">
+                    <body>
+                        <l>And when with myrth and belly <choice>
+                                <orig>cheere</orig>
+                                <reg>cheer</reg>
+                            </choice>, they are sufficed well,</l>
+                        <l>Mark what <choice>
+                                <orig>ensueth</orig>
+                                <reg>ensued</reg>
+                            </choice>, a <choice>
+                                <orig>playne</orig>
+                                <reg>plain</reg>
+                            </choice> discourse, of Irish <choice>
+                                <orig>sleightes</orig>
+                                <reg>slights</reg>
+                            </choice> I tell:</l>
+                        <p><metamark place="margin" function="imageCaption">A</metamark></p>
+                        <l>The <choice>
+                                <orig>fryer</orig>
+                                <reg>friar</reg>
+                            </choice> then absolves the <choice>
+                                <orig>theefe</orig>
+                                <reg>thief</reg>
+                            </choice>, from all his former <choice>
+                                <orig>sinne</orig>
+                                <reg>sin</reg>
+                            </choice>.</l>
+                        <l>And bids him plague the <choice>
+                                <orig>princes</orig>
+                                <reg>prince's</reg>
+                            </choice>
+                            <choice>
+                                <orig>frendes</orig>
+                                <reg>friends</reg>
+                            </choice>, if heaven he minde to winne.</l>
+                        <p><metamark place="margin" function="imageCaption">B</metamark></p>
+                        <l>Which <choice>
+                                <orig>beyng</orig>
+                                <reg>being</reg>
+                            </choice> sayd, he takes his horse, to put in <choice>
+                                <orig>practise</orig>
+                                <reg>practice</reg>
+                            </choice> then,</l>
+                        <l>The <choice>
+                                <orig>spoyling</orig>
+                                <reg>spoiling</reg>
+                            </choice> and destroying of, her <choice>
+                                <orig>graces</orig>
+                                <reg>grace's</reg>
+                            </choice>
+                            <choice>
+                                <orig>loyall</orig>
+                                <reg>loyal</reg>
+                            </choice> men.</l>
+                        <cb n="2"/>
+                        <l>4</l>
+                        <note type="clarification">Number "4" next to the column identifies this as
+                            plate 4</note>
+                        <p><metamark place="margin" function="imageCaption">C</metamark></p>
+                        <l>But <choice>
+                                <orig>loe</orig>
+                                <reg>lo</reg>
+                            </choice> the <choice>
+                                <orig>souldiers</orig>
+                                <reg>soldiers</reg>
+                            </choice> then the plague, unto this Karnish <choice>
+                                <!-- needs XML:ID for Kern -->
+                                <orig>rowt</orig>
+                                <reg>route</reg>
+                            </choice>:</l>
+                        <l>To <choice>
+                                <orig>yeld</orig>
+                                <reg>yield</reg>
+                            </choice> them <choice>
+                                <orig>vengaunce</orig>
+                                <reg>vengeance</reg>
+                            </choice> for their <choice>
+                                <orig>sinnes</orig>
+                                <reg>sins</reg>
+                            </choice>, in <choice>
+                                <orig>warlicke</orig>
+                                <reg>war like</reg>
+                            </choice> sort rise out.</l>
+                        <l>They <choice>
+                                <orig>presse</orig>
+                                <reg>press</reg>
+                            </choice> the <choice>
+                                <orig>rauncoure</orig>
+                                <reg>rancour</reg>
+                            </choice> of the <choice>
+                                <orig>theeves</orig>
+                                <reg>thieves</reg>
+                            </choice>, by force of bloody knife.</l>
+                        <l>And slay the pray they <choice>
+                                <orig>filcht</orig>
+                                <reg>filched</reg>
+                            </choice> away, depriving them of life:</l>
+                        <p><metamark place="margin" function="imageCaption">D</metamark></p>
+                        <l>The <choice>
+                                <orig>fryer</orig>
+                                <reg>friar</reg>
+                            </choice> then that <choice>
+                                <orig>traytrous</orig>
+                                <reg>traitorous</reg>
+                            </choice> knave, with <emph>Ough Ough hone</emph> lament:</l>
+                        <!-- check Small/Scott for annotation on language?/transl -->
+                        <l>To see his <choice>
+                                <orig>coosin</orig>
+                                <reg>cousin</reg>
+                            </choice>
+                            <choice>
+                                <orig>Devills</orig>
+                                <reg>Devil's</reg>
+                            </choice>
+                            <choice>
+                                <orig>sonnes</orig>
+                                <reg>sons</reg>
+                            </choice>, to have so <choice>
+                                <orig>fowle</orig>
+                                <reg>foul</reg>
+                            </choice> event.</l>
+                    </body>
+                </floatingText>
+            </div>
+            <div n="5" type="plate">
+                <figure>
+                    <graphic
+                        url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0057_jpg.htm"/>
+                    <figDesc sameAs="EUL description">The English soldiers return in triumph,
+                        carrying severed Irish heads and leading a captive by a halter</figDesc>
+                </figure>
+                <cb n="1"/>
+                <floatingText type="caption">
+                    <body>
+                        <p><metamark place="margin" function="imageCaption">B</metamark></p>
+                    </body>
+                </floatingText>
+                <l>And though the <choice>
+                        <orig>pray</orig>
+                        <reg>prey</reg>
+                    </choice>
+                    <choice>
+                        <orig>recover'd</orig>
+                        <reg>recovered</reg>
+                    </choice> be, yet are not all thinges ended:</l>
+                <l>For why<!-- symbol for abbreviation see image --><choice>
+                        <orig><expan>whylst</expan></orig>
+                        <reg>while</reg>
+                    </choice> the <choice>
+                        <orig>souldiours</orig>
+                        <reg>soldiers</reg>
+                    </choice>
+                    <choice>
+                        <orig>doe</orig>
+                        <reg>do</reg>
+                    </choice> pursue, the <choice>
+                        <orig>Roges</orig>
+                        <reg>rogues</reg>
+                    </choice> that have offended,</l>
+                <l>Who never cease till in the <choice>
+                        <orig>bloud</orig>
+                        <reg>blood</reg>
+                    </choice>, of these light <choice>
+                        <orig>fing'red</orig>
+                        <reg>fingered</reg>
+                    </choice>
+                    <choice>
+                        <orig>theeves</orig>
+                        <reg>thieves</reg>
+                    </choice>:</l>
+                <l>Their blades are <choice>
+                        <orig>bathd</orig>
+                        <reg>bathed</reg>
+                    </choice> to teach them how, they after <choice>
+                        <orig>prowle</orig>
+                        <reg>prowl</reg>
+                    </choice> for <choice>
+                        <orig>Beeves</orig>
+                        <reg>beefs</reg>
+                    </choice>.</l>
+                <p><metamark place="margin" function="imageCaption">A</metamark></p>
+                <l>To see a souldiour <term xml:id="arc">toze</term> a Karne, O Lorde it is a
+                        wonder:<gloss target="#arc">To pull asunder; to separate or unravel the
+                        fibres of; to comb or card (OED.) Used here derisevely to point to the
+                        eminent beheading of a captive Irish soldier. </gloss></l>
+                <l>And <choice>
+                        <orig>eke</orig>
+                        <reg>also</reg>
+                    </choice> what care he <choice>
+                        <orig>takth</orig>
+                        <reg>takes</reg>
+                    </choice> to part, the head from neck <choice>
+                        <orig>a sonder</orig>
+                        <reg>asunder</reg>
+                    </choice>.</l>
+                <cb n="2"/>
+                <l>5</l>
+                <note type="clarification">Number "5" next to the column identifies this as plate
+                    5</note>
+                <l>To see another <choice>
+                        <orig>leade</orig>
+                        <reg>lead</reg>
+                    </choice> a <choice>
+                        <orig>theefe</orig>
+                        <reg>thief</reg>
+                    </choice>, with such a lordly grace:</l>
+                <l>And for to <choice>
+                        <orig>marke</orig>
+                        <reg>mark</reg>
+                    </choice> how <choice>
+                        <orig>lothe</orig>
+                        <reg>loath</reg>
+                    </choice> the knave, <choice>
+                        <orig>doth</orig>
+                        <reg>does</reg>
+                    </choice> follow in that case.</l>
+                <p><metamark place="margin" function="imageCaption">C</metamark></p>
+                <l>To see how trimme their glibbed heades, are borne by valliant men,</l>
+                <p><metamark place="margin" function="imageCaption">D</metamark></p>
+                <l>And <choice>
+                        <orig>garded</orig>
+                        <reg>guarded</reg>
+                    </choice> with a <choice>
+                        <orig>royall</orig>
+                        <reg>royal</reg>
+                    </choice>
+                    <choice>
+                        <orig>sorte</orig>
+                        <reg>sort</reg>
+                    </choice>, of worthy <choice>
+                        <orig>souldiours</orig>
+                        <reg>soldiers</reg>
+                    </choice> then.</l>
+                <l>All these are <choice>
+                        <orig>thinges</orig>
+                        <reg>things</reg>
+                    </choice> sufficient, to move a <choice>
+                        <orig>subjects</orig>
+                        <reg>subject's</reg>
+                    </choice>
+                    <choice>
+                        <orig>minde</orig>
+                        <reg>mind</reg>
+                    </choice>:</l>
+                <l>To <choice>
+                        <orig>prayse</orig>
+                        <reg>praise</reg>
+                    </choice> the <choice>
+                        <orig>souldiours</orig>
+                        <reg>soldiers</reg>
+                    </choice>, which reward, the woodkarne in their <choice>
+                        <orig>kinde</orig>
+                        <reg>kind</reg>
+                    </choice>.</l>
+
+                <div n="6" type="plate">
+                    <figure>
+                        <graphic
+                            url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0058_jpg.htm"/>
+                        <figDesc sameAs="EUL description">Sir Henry Sidney, Lord-Deputy, accompanied
+                            by an armed force, sets out from Dublin Castle for a progress through
+                            Ireland</figDesc>
+                    </figure>
+                    <div type="caption" rend="top">
+                        <caption><l>These <choice>
+                                    <orig>trunckles</orig>
+                                    <reg>trunckless</reg>
+                                </choice>
+                                <choice>
+                                    <orig>headdes</orig>
+                                    <reg>heads</reg>
+                                </choice> do <choice>
+                                    <orig>playnly</orig>
+                                    <reg>plainly</reg>
+                                </choice>
+                                <choice>
+                                    <orig>showe</orig>
+                                    <reg>show</reg>
+                                </choice>, <choice>
+                                    <orig>eache</orig>
+                                    <reg>each</reg>
+                                </choice>
+                                <choice>
+                                    <orig>rebeles</orig>
+                                    <reg>rebel's</reg>
+                                </choice>
+                                <choice>
+                                    <orig>fatall</orig>
+                                    <reg>fatal</reg>
+                                </choice> end,</l>
+                            <l>And what a <choice>
+                                    <orig>haynous</orig>
+                                    <reg>heinous</reg>
+                                </choice> crime it is, the <choice>
+                                    <orig><rs corresp="#QElizabeth">Queene</rs></orig>
+                                    <reg>Queen</reg>
+                                </choice> for to offend.</l></caption>
+                    </div>
+                    <cb n="1"/>
+                    <div type="bottom">
+                        <l>Although the <choice>
+                                <orig>theeves</orig>
+                                <reg>thieves</reg>
+                            </choice> are plagued thus, by <choice>
+                                <orig>Princes</orig>
+                                <reg>prince's</reg>
+                            </choice> trusty <choice>
+                                <orig>frends</orig>
+                                <reg>friends</reg>
+                            </choice>,</l>
+                        <l>And brought for their <choice>
+                                <orig>innormyties</orig>
+                                <reg>enormities</reg>
+                            </choice>, to <choice>
+                                <orig>sondrie</orig>
+                                <reg>sundry</reg>
+                            </choice> wretched <choice>
+                                <orig>endes</orig>
+                                <reg>ends</reg>
+                            </choice>:</l>
+                        <l>Yet may not that a warning be, to those they leave <choice>
+                                <orig>behinde</orig>
+                                <reg>behind</reg>
+                            </choice>,</l>
+                        <l>But <choice>
+                                <orig>needes</orig>
+                                <reg>needs</reg>
+                            </choice> their treasons must <choice>
+                                <orig>appeare</orig>
+                                <reg>appear</reg>
+                            </choice>, long kept in <choice>
+                                <orig>festred</orig>
+                                <reg>festered</reg>
+                            </choice>
+                            <choice>
+                                <orig>mynde</orig>
+                                <reg>mind</reg>
+                            </choice>.</l>
+                        <l>Whereby the matter <choice>
+                                <orig>groweth</orig>
+                                <reg>growths</reg>
+                            </choice> at length, unto a <choice>
+                                <orig>bloudy</orig>
+                                <reg>bloody</reg>
+                            </choice>
+                            <choice>
+                                <orig>fielde</orig>
+                                <reg>field</reg>
+                            </choice>,</l>
+                        <l>Even to the <choice>
+                                <orig>rebells</orig>
+                                <reg>rebels'</reg>
+                            </choice> overthrow, except the <choice>
+                                <orig>traytours</orig>
+                                <reg>traitors</reg>
+                            </choice>
+                            <choice>
+                                <orig>yelde</orig>
+                                <reg>yield</reg>
+                            </choice>.</l>
+                    </div>
+                    <cb n="2"/>
+                    <div type="bottom">
+                        <l>6</l>
+                        <note type="clarification">Number "6" next to the column identifies this as
+                            plate 6</note>
+                        <l>for <rs corresp="#HSidney">he that governes Irish <choice>
+                                    <orig>soyle</orig>
+                                    <reg>soil</reg>
+                                </choice></rs>, presenting there her grace,</l>
+                        <l>Whose fame made <choice>
+                                <orig>rebelles</orig>
+                                <reg>rebels</reg>
+                            </choice> often <choice>
+                                <orig>flye</orig>
+                                <reg>fly</reg>
+                            </choice>, the presence of his face:</l>
+                        <l>He he I say, he <choice>
+                                <orig>goeth</orig>
+                                <reg>goes</reg>
+                            </choice> forth, with <choice>
+                                <orig>Marsis</orig>
+                                <reg>Mars'</reg>
+                            </choice> noble <choice>
+                                <orig>trayne</orig>
+                                <reg>train</reg>
+                            </choice>,</l>
+                        <l>To <choice>
+                                <orig>justifie</orig>
+                                <reg>justify</reg>
+                            </choice> his <choice>
+                                <orig>Princes</orig>
+                                <reg>Prince's</reg>
+                            </choice> cause, but their <choice>
+                                <orig>demenures</orig>
+                                <reg>demeanor's</reg>
+                            </choice>
+                            <choice>
+                                <orig>vayne</orig>
+                                <reg>vain</reg>
+                            </choice>:</l>
+                        <l>Thus <rs corresp="#QElizabeth"><choice>
+                                    <orig>Queene</orig>
+                                    <reg>Queen</reg>
+                                </choice></rs> he will have honored, in <choice>
+                                <orig>middest</orig>
+                                <reg>midst</reg>
+                            </choice> of all her foes,</l>
+                        <l>And <choice>
+                                <orig>knowne</orig>
+                                <reg>known</reg>
+                            </choice> to be a <choice>
+                                <orig>royall</orig>
+                                <reg>royal</reg>
+                            </choice> Prince, even in despite of those.</l>
+                    </div>
+
+
+                </div>
+            </div>
+        </body>
+        <back>
+            <listPerson>
+                <person xml:id="JDay" sameAs="https://viaf.org/viaf/74118429">
+                    <persName>John Day</persName>
+                    <floruit from="1540" to="1584"/>
+                    <occupation>Printer</occupation>
+                </person>
+                <person xml:id="HSidney">
+                    <persName>Henry Sidney</persName>
+                    <birth when="1529"/>
+                    <death when="1589"/>
+                    <occupation>Lord Deputy of Ireland</occupation>
+                </person>
+                <person xml:id="JDerrick" role="author, illustrator"
+                    sameAs="https://viaf.org/viaf/58221805">
+                    <persName>John Derricke</persName>
+                    <occupation cert="low">Surveyor</occupation>
+                    <occupation cert="high" resp="AndieS">Woodcarver</occupation>
+                    <floruit notBefore="1581"/>
+                </person>
+                <person>
+                    <persName xml:id="TONeill" sameAs="https://viaf.org/viaf/315683882">Turlough
+                        Luineach O'Neill</persName>
+                    <birth when="1532"/>
+                    <death when="1595"/>
+                    <occupation>Lord of Tyrone</occupation>
+                </person>
+                <person>
+                    <persName xml:id="QElizabeth" sameAs="http://viaf.org/viaf/97107753">Queen
+                        Elizabeth I</persName>
+                    <birth when="1533"/>
+                    <death when="1603"/>
+                    <occupation from="1558" to="1603">Queen of England</occupation>
+                </person>
+            </listPerson>
+
+        </back>
+    </text>
+
+
+
+</TEI>
