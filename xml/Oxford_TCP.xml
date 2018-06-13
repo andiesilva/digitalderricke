@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
    <teiHeader>
       <fileDesc>
@@ -123,66 +124,71 @@
    </teiHeader>
    <text xml:lang="eng">
       <front>
+         <pb facs="BL001.jpg"/>
          <div type="frontispiece">
-            <pb facs="tcp:14477:1"/><!-- link to our own facesimile or to EEBO/other? -->
+            <pb facs="BL002.jpg"/>
+            <!-- link to our own facesimile or to EEBO/other? -->
             <p>
                <figure>
                   <head>
                      <l>The portraiture of the most valiant and perfect honourable</l>
                      <l>gentleman S<hi rend="surperscript">r</hi> Phillip Sidney Knight, late Governour of Flushing</l>
                      <l>in Ireland, Famous for Letters and Armes. <sic>Hee</sic> received his</l>
-                     <l>Death's wounde, at a Battle nere Zutsphen the 22 of Septemb<gap reason="illegible" extent="2 letters"></gap>,</l>
+                     <l>Death's wounde, at a Battle nere Zutsphen the 22 of Septemb<gap reason="illegible" resp="#ASilva" extent="2 letters"/>,</l>
                      <l>And died at Arneham the 16 day of October A<hi rend="sup">o</hi>. 1586. </l>
                     </head>
                </figure>
             </p>
          </div>
          <div type="title_page">
-            <pb facs="tcp:14477:1" rendition="simple:additions"/>
-            <p>The Image of Irelande, with a discouerie of VVoodkarne, wherin is moste liuely expressed, the Nature, and qualitie of the laied wilde Irishe Woodkarne, their notable aptnesse, celeritie, and pronesse to Rebellion, and by waie of argumente is manifested their originall, and ofspryng, their descent and Pedigree: Also their habite and apparell, is there plainly showne. The execrable life, and miserable death of <hi>Rorie Roge,</hi> that famous Archtraitour to God and the Croune (otherwise called <hi>Rorie Oge</hi>) is likewise discribed. Lastlie the commyng in of <hi>Thyrlaghe Leonaghe</hi> the greate <hi>Oneale</hi> of Irelande, with the effecte of his submission, to the right honourable Sir <hi>Henry Sidney</hi> (Lorde Deputie of the saied lande) is thereto adioyned. Made and deuised by <hi>Ihon Derricke, Anno</hi> 1578. and now published and set forthe by the saied authour this present yere of our Lorde 1581. for pleasure and delight of the well disposed reader.</p>
+            <pb facs="BL003.jpg"/>
+            <p>The Image of Irelande, with a discouerie of VVoodkarne, wherin is moste liuely expressed, the Nature, and qualitie of the laied wilde Irishe Woodkarne, their notable aptnesse, celeritie, and pronesse to Rebellion, and by waie of argumente is manifested their originall, and ofspryng, their descent and Pedigree: Also their habite and apparell, is there plainly showne. The execrable life, and miserable death of <seg rend="italics">Rorie Roge,</seg> that famous Archtraitour to God and the Croune (otherwise called <seg rend="italics">Rorie Oge</seg>) is likewise discribed. Lastlie the commyng in of <seg rend="italics">Thyrlaghe Leonaghe</seg> the greate <seg rend="italics">Oneale</seg> of Irelande, with the effecte of his submission, to the right honourable Sir <seg rend="italics">Henry Sidney</seg> (Lorde Deputie of the saied lande) is thereto adioyned. Made and deuised by <seg rend="italics">Ihon Derricke, Anno</seg> 1578. and now published and set forthe by the saied authour this present yere of our Lorde 1581. for pleasure and delight of the well disposed reader.</p>
             <p>Imprinted at London by Ihon Daie. 1581.</p>
          </div>
          <div type="dedication">
-            <pb facs="tcp:14477:2"/>
-            <pb facs="tcp:14477:2"/>
-            <head>¶To the right worshipfull Maister Phillip Sidney Esquire, Soonne and heire to the right honourable sir <hi>Henry Sidney,</hi> Knight of the moste noble order of the Garter, Lorde President of Wales, and Merches of the same, Lorde deputie generall of her highnesse realme in Irelande, and one of her Maiesties moste honourable priuie Counsell in Englande, <hi>Ihon Derricke</hi> wisheth perfecte felicitie in Christe, <hi>AMEN.</hi>
+            <pb facs="BL004.jpg"/>
+            <pb facs="BL005.jpg"/>
+            <head>
+               <g ref="#pilcrow">¶</g>To the right worshipfull Maister Phillip Sidney Esquire, Soonne and heire to the right honourable sir <seg rend="italics">Henry Sidney,</seg> Knight of the moste noble order of the Garter, Lorde President of Wales, and Merches of the same, Lorde deputie generall of her highnesse realme in Irelande, and one of her Maiesties moste honourable priuie Counsell in Englande, <seg rend="italics">Ihon Derricke</seg> wisheth perfecte felicitie in Christe, <seg rend="italics">AMEN.</seg>
             </head>
             <p>
-               <seg rend="decorInit">C</seg>Onsideryng with my self (right worshipfull) that it is not onely sufficiente for menne towardes their benefactors, to beare an inward affection, and minde gratulatorie for benefites receiued, but also, that some outward and externall token, of necessitie bee thereto adioyned, liuely to expresse outwardly, the secrete affectes of the same, though notwithstandyng inwarde good will, bee suche an excellent vertue, as who so euer hath it, sta<g ref="char:cmbAbbrStroke">̄</g>des partly in securitie, but who soeuer hath and expresseth it, to hym is all th<gap reason="faded" resp="#ASilva" extent="1 letter">
+               <seg rend="decorInit">C</seg>Onsideryng with my self (right worshipfull) that it is not onely sufficiente for menne towardes their benefactors, to beare an inward affection, and minde gratulatorie for benefites receiued, but also, that some outward and externall token, of necessitie bee thereto adioyned, liuely to expresse outwardly, the secrete affectes of the same, though notwithstandyng inwarde good will, bee suche an excellent vertue, as who so euer hath it, sta<g ref="#tilde">̄</g>des partly in securitie, but who soeuer hath and expresseth it, to hym is all th<gap reason="faded" resp="#ASilva" extent="1 letter">
                   <desc>•</desc>
                </gap>ng made sure: Euen so, and for because I haue euer
-<pb facs="tcp:14477:3"/>
-studied, and imployed my diligence, to flee vnthankefulnesse, that notable vice detested of God and man, and to imbrace gratefulnesse, that heauenly Sacrifice, approued of God, manifestyng it to the whole worlde, in discharge of my duetie towardes my Lorde your father, whom for many respectes, vnfainedly I honour, and in hym to your worship as a pattre<g ref="char:cmbAbbrStroke">̄</g> of all benignitie, proceding from so honorable a kindrede, with all semely reuerence I worship, I saie with all humilitie, sinceritie, and integritie of mynde, as a notable argument of my vnfained good will, these my labours beyng the fruites of my trauell, I humblie doe offer, assuryng my self of your fauorable cou<g ref="char:cmbAbbrStroke">̄</g>
-               tenaunce therein, to whose protection I am so muche the more bolder to comme<g ref="char:cmbAbbrStroke">̄</g>de them, by how muche I vnderstande your excellent Nature towardes all laudable exercises. And though (peraduenture) some will impute me arrogante, and passyng presumptuous in attemptyng the same: Hauyng respect but onely to the naked partes of the outward gifte and giuer, not waiyng the inward motion of the mynde, whereof the outward accions spryng, nor yet sufficiently ponderyng, that as it is impossible, for fire to be without heate
-<pb facs="tcp:14477:3"/>
+<pb facs="BL006.jpg"/>
+studied, and imployed my diligence, to flee vnthankefulnesse, that notable vice detested of God and man, and to imbrace gratefulnesse, that heauenly Sacrifice, approued of God, manifestyng it to the whole worlde, in discharge of my duetie towardes my Lorde your father, whom for many respectes, vnfainedly I honour, and in hym to your worship as a pattre<g ref="#tilde">̄</g> of all benignitie, proceding from so honorable a kindrede, with all semely reuerence I worship, I saie with all humilitie, sinceritie, and integritie of mynde, as a notable argument of my vnfained good will, these my labours beyng the fruites of my trauell, I humblie doe offer, assuryng my self of your fauorable cou<g ref="#tilde">̄</g>
+               tenaunce therein, to whose protection I am so muche the more bolder to comme<g ref="#tilde">̄</g>de them, by how muche I vnderstande your excellent Nature towardes all laudable exercises. And though (peraduenture) some will impute me arrogante, and passyng presumptuous in attemptyng the same: Hauyng respect but onely to the naked partes of the outward gifte and giuer, not waiyng the inward motion of the mynde, whereof the outward accions spryng, nor yet sufficiently ponderyng, that as it is impossible, for fire to be without heate
+<pb facs="BL007.jpg"/>
 or the Sunne without brightnesse, no more can the good meanyng of the good bee for euer repressed, but that at the laste it bursteth forthe &amp; is made manifeste, shewyng it self openly muche like the flames of fire, after a thicke and smouldryng smoke: not yet diligently consideryng, like wise and cunnyng Carpenters, that by how muche the weaker a house and buildyng is, by so muche the stronger ought the postes and pillers to bee, (I saie) thei hauyng regard to none of these thynges, or at the leaste not fullie consideryng theim, neither remembryng how commendable a thyng it is, for euery creature to yeelde his fruite simplye in his naturall kinde, without colouryng or dissimulation, bee it little or muche, but rather castynge their eyes like sencelesse beastes downe to the grounde, chauntyng vppon the outwarde Elementes, damnyng, and condemnyng those externall actions, signes, and tokens, and as vaine, friuolous, and of no effect, yet not withstandyng this maie not discomfort me in that whiche I haue here determined, but that (maugree their beardes) my good will muste appeare, giuyng them to vnderstande, that it is as possible for them, to put the whole seas, into a leather
-<pb facs="tcp:14477:4"/>
+<pb facs="BL008.jpg"/>
 Bottle, and to driue all the VVoodkarne of Irelande, into one Shepheardes bagge, or Satchell, as it is to driue me from my pretended purpose, because I knowe it consisteth in your worshippes free choise, and libertie, to make bothe the gifte, and giuer, seeme sufficient worthie, &amp;c. Thus beyng emboldened through fame of your courtesie, with hope of remission for this my temeritie, I duetifullie ende, besechyng God to preserue your worship, in good health, and long life, with muche encrease of worship, and honour, &amp;c. At Dublin her Maiesties cheef Citie in Irelande, xvj. of Iune. M.D.LXXVIII.</p>
             <closer>
                <signed>Your worshippes moste humble Ihon Derricke.</signed>
             </closer>
          </div>
          <div type="dedication">
-            <pb facs="tcp:14477:4"/>
-            <head>¶To the right honourable and my verie good Lordes, the Lordes of her Maiesties realme of Irelande, and to all other in generall of the saied lande, beyng louers of vertue, and imbracers of ciuilitie: grace bee multiplied, and peace euerlastyng.</head>
+            <pb facs="BL009.jpg"/>
+            <head>
+               <g ref="#pilcrow">¶</g>To the right honourable and my verie good Lordes, the Lordes of her Maiesties realme of Irelande, and to all other in generall of the saied lande, beyng louers of vertue, and imbracers of ciuilitie: grace bee multiplied, and peace euerlastyng.</head>
             <p>
                <seg rend="decorInit">I</seg>T maie be thought (right honourable) and likewise be imagined of some, who peraduenture) readyng this my little treatise, of the Image of Irelande, with a conscience corrupted, to bee a thyng deuised and sette forthe, in reproche of all the Nobilitie, and others, borne within this Realme of Irelande, as though the partie, ment nothyng els but a meere contempte of so many Noble, and worshipfull personages, and that this title of Woodkarne, should be but a couert, to shroude hym from suspition of the former allegation: Truth is my very good Lordes, if credite maie bee giuen to the artificer, simply as he meaneth, the substaunce is all one, (the matter I meane) to the verie Title, of that whiche is here called Woodkarne, who dissalowyng their Karnishe maners, affirme their dissolute life, and inordinate liuyng, better to pertaine vnto Infidelles,
-<pb facs="tcp:14477:5"/>
-and Heathen, then for those whiche in any respecte professe the name of Christe, (and what Christians thei bee, right honourable iudge ye) wherefore bee ye not then offended, O ye freendes of vertue and imbracers of ciuilitie, that I should so fore lothe, or enuaigh their farre vnseemely maners, settyng out in liuely protractours, in contempnyng the same, bothe their shape, and execrable accions, for (in verie troth) my harte abhorreth their dealynges, and my soule dooeth detest their wilde shamrocke maners, yea so muche the rather, because there is no societie, or fellowship betwene God, and the Deuill, little amitie betwene the Wolfe and the Lambe: like good will, betweene a Rebell, and a faithfull Subiect. Now for as muche then, as thinges with their co<g ref="char:cmbAbbrStroke">̄</g>traries agree not, I moste humblie beseche your courtesies, not to deeme the reprehension of these wilde wanto<g ref="char:cmbAbbrStroke">̄</g> Woodkarne, to bee spoken of all menne in generall, whiche is here ment but of some, of those I saie, that are Rebelles to our (Queene) enemies to peace, and disturbers of the common wealthe, as for your (Honours) in good tyme bee it spoken, and voide of flatterie recited, who knoweth not, what festination by your Lordshipps hath been vsed, what godlie care taken, what meanes practised, what pollicie shewed, and diligence bestowed at all tymes (as occasio<g ref="char:cmbAbbrStroke">̄</g> serued) to serue, accompanied either with the Lorde Deputie, or by your Lordshipps alone, against
-<pb facs="tcp:14477:5"/>
-those whom I haue here tearmed by the name of Woodkarne bestowyng not onely your trauelles, adioyned with greate charges, but also ventred your liues in aduauncyng her Maiesties honor, shewyng thereby, bothe a constant faithe, a perfecte fidelitie, to her royall Croune, conflictyng by force of maine batteil, many of these monsters, beeyng sworne enemies to her noble grace, the attempte whereof was laudable, and the action meritorious, before GOD and man. This I truste maie suffice (right honourable) your noble wisedomes, to withdraw all sinister suspicions from your suppliant, and his booke, giuyng full credite, my purposed intent is not, neither yet euer was, to blemishe any mannes renowne, (beeyng approued seruitours to her moste noble and dreadfull scepter) whose continuaunce, I praie GOD, maie bee long and ioyfull, peaceable as the daies of Salomon, copyng with the long yeres of Nestor, to gouerne vs her people, with an admirable regimente, and ouer her foes, triumphantly to raigne. <hi>Amen.</hi> God blesse your honours, with all maner of spirituall, and yearthly blessynges, the fauour, and loue of God and manne, muche honour in your countrie: and to conclude, life euerlastyng &amp;c.</p>
+<pb facs="BL010.jpg"/>
+and Heathen, then for those whiche in any respecte professe the name of Christe, (and what Christians thei bee, right honourable iudge ye) wherefore bee ye not then offended, O ye freendes of vertue and imbracers of ciuilitie, that I should so fore lothe, or enuaigh their farre vnseemely maners, settyng out in liuely protractours, in contempnyng the same, bothe their shape, and execrable accions, for (in verie troth) my harte abhorreth their dealynges, and my soule dooeth detest their wilde shamrocke maners, yea so muche the rather, because there is no societie, or fellowship betwene God, and the Deuill, little amitie betwene the Wolfe and the Lambe: like good will, betweene a Rebell, and a faithfull Subiect. Now for as muche then, as thinges with their co<g ref="#tilde">̄</g>traries agree not, I moste humblie beseche your courtesies, not to deeme the reprehension of these wilde wanto<g ref="#tilde">̄</g> Woodkarne, to bee spoken of all menne in generall, whiche is here ment but of some, of those I saie, that are Rebelles to our (Queene) enemies to peace, and disturbers of the common wealthe, as for your (Honours) in good tyme bee it spoken, and voide of flatterie recited, who knoweth not, what festination by your Lordshipps hath been vsed, what godlie care taken, what meanes practised, what pollicie shewed, and diligence bestowed at all tymes (as occasio<g ref="#tilde">̄</g> serued) to serue, accompanied either with the Lorde Deputie, or by your Lordshipps alone, against
+<pb facs="BL011.jpg"/>
+those whom I haue here tearmed by the name of Woodkarne bestowyng not onely your trauelles, adioyned with greate charges, but also ventred your liues in aduauncyng her Maiesties honor, shewyng thereby, bothe a constant faithe, a perfecte fidelitie, to her royall Croune, conflictyng by force of maine batteil, many of these monsters, beeyng sworne enemies to her noble grace, the attempte whereof was laudable, and the action meritorious, before GOD and man. This I truste maie suffice (right honourable) your noble wisedomes, to withdraw all sinister suspicions from your suppliant, and his booke, giuyng full credite, my purposed intent is not, neither yet euer was, to blemishe any mannes renowne, (beeyng approued seruitours to her moste noble and dreadfull scepter) whose continuaunce, I praie GOD, maie bee long and ioyfull, peaceable as the daies of Salomon, copyng with the long yeres of Nestor, to gouerne vs her people, with an admirable regimente, and ouer her foes, triumphantly to raigne. <seg rend="italics">Amen.</seg> God blesse your honours, with all maner of spirituall, and yearthly blessynges, the fauour, and loue of God and manne, muche honour in your countrie: and to conclude, life euerlastyng &amp;c.</p>
             <closer>
                <signed>Your honours moste humble Ihon Derricke.</signed>
             </closer>
          </div>
          <div type="to_the_reader">
-            <pb facs="tcp:14477:6"/>
-            <head>¶ To the good and gentle Reader in all places wheresoeuer, but especially, to my louing countrimen of Enlande, hartie salutations, and greetyng euer.</head>
+            <pb facs="BL012.jpg"/>
+            <head>
+               <g ref="#pilcrow">¶</g> To the good and gentle Reader in all places wheresoeuer, but especially, to my louing countrimen of Enlande, hartie salutations, and greetyng euer.</head>
             <p>
                <seg rend="decorInit">D</seg>Iuers were the causes (good Reader) that moued me first to take in hande, the caruyng forthe of this Image, and lastly to commende it to thy gentle deuotion, hoping, that as with no small labour, and trauel I haue finishte, and brought it to this perfection, and with no lesse willyng consent, and single mynde haue made it seruiceable at thy good pleasure to vse, so likewise on thy part, thou wilte freendly accept the same, entertainyng it as a straunger, or messenger come from a farre Countrey, simplie to report, and deliuer vnto thee, the state and condition of his saied Countremen the Woodkarne, without any imparyng of their credites, the more notable members of the same, who differyng from theim, in their rusticall rudenesse, doe agree wholie with vs, in all laudable discipline. Touching whiche causes, though thei bee many, and as I saied before diuerse, twoo yet especially, I thought good to signifie, whereof, the one came of a duetifull affection, and vnfarned good will (drawne of long continuaunce through graces receiued) towardes his persone, whiche vndoubtedly I honor, and the other of a bounden duetie, (through loue inseparable) towardes my natiue Countrey: Or whiche twoo, though either of them were sufficient to moue any man (if he were not a forgetfull persone) to like indeuer, yet seeyng thei are variable, and eche of them so laudable, I might in no wise slacken my pretended
-<pb facs="tcp:14477:6"/>
-purpose, but shewe my hartie good will, bothe to freende and countrie. If you therefore (my beloued countrimen) for whose sakes (as I saied before partely I framed it, and for whose greater delight, I haue clothed it with varietie, shall deeme it worthie of your custodie, or receiue thereby any profitable, pleasure, I obtaine not onely my expectation, touchyng suche courtesie, but also full recompence, of all my whole charges, (who doubtlesse accoumpte theim nothyng, to pleasure either partie). And if (by waie of digression) some peraduenture (whose iudgementes are parciall in other mennes labours) shall cauill at this my imprinted Image, or impugne the thinges therein contained (as reportyng matters of vntrouthe) especially the third lease of this discouered Woodkarne, affirmyng no suche rudenesse, in these our daies to bee practised with the rudeste of that moste barbarous Nacion, to suche I replie (crauyng their pacience) saiyng, that it is not our Englishe Pale, whiche in any respecte I haue touched, nor yet those of the Southe, whom I haue impeched, nor yet of the Weste, whom I haue nipped, but a people out of the Northe, whose vsages I beholde after the fashon there sette doune, and those are thei whom I haue detected, shadowyng notwithstandyng parte of their maners with flowres of that Countrey, and least peraduenture ye might muse whom I meante, I will not be curious in dischargyng my conscience, lettyng you vnderstande, that thei are a people sprong from <hi>Macke Swine,</hi> a barbarous ofspring, come from that Nation, whiche maie bee perceiued by their Hoggishe fashion: So as my beloued countrimen, and well desposed Reader, if wilfulnesse blinde not the fightes of your iudgementes) it manifestly appeareth, and maie easely bee coniectured, that it is not againste any one good member of this Common wealthe of Irelande, that I haue made my discouerie, but onely against the pernicious Uipers of the saied lande, whiche thing I wish hartely eche one to beleue, and credite, knowyng (for example sake) that warre is not waged, against the Queenes freendes, not yet a battell fought, saue onely against her enemies, which
-<pb facs="tcp:14477:7"/>
+<pb facs="BL013.jpg"/>
+purpose, but shewe my hartie good will, bothe to freende and countrie. If you therefore (my beloued countrimen) for whose sakes (as I saied before partely I framed it, and for whose greater delight, I haue clothed it with varietie, shall deeme it worthie of your custodie, or receiue thereby any profitable, pleasure, I obtaine not onely my expectation, touchyng suche courtesie, but also full recompence, of all my whole charges, (who doubtlesse accoumpte theim nothyng, to pleasure either partie). And if (by waie of digression) some peraduenture (whose iudgementes are parciall in other mennes labours) shall cauill at this my imprinted Image, or impugne the thinges therein contained (as reportyng matters of vntrouthe) especially the third lease of this discouered Woodkarne, affirmyng no suche rudenesse, in these our daies to bee practised with the rudeste of that moste barbarous Nacion, to suche I replie (crauyng their pacience) saiyng, that it is not our Englishe Pale, whiche in any respecte I haue touched, nor yet those of the Southe, whom I haue impeched, nor yet of the Weste, whom I haue nipped, but a people out of the Northe, whose vsages I beholde after the fashon there sette doune, and those are thei whom I haue detected, shadowyng notwithstandyng parte of their maners with flowres of that Countrey, and least peraduenture ye might muse whom I meante, I will not be curious in dischargyng my conscience, lettyng you vnderstande, that thei are a people sprong from <seg rend="italics">Macke Swine,</seg> a barbarous ofspring, come from that Nation, whiche maie bee perceiued by their Hoggishe fashion: So as my beloued countrimen, and well desposed Reader, if wilfulnesse blinde not the fightes of your iudgementes) it manifestly appeareth, and maie easely bee coniectured, that it is not againste any one good member of this Common wealthe of Irelande, that I haue made my discouerie, but onely against the pernicious Uipers of the saied lande, whiche thing I wish hartely eche one to beleue, and credite, knowyng (for example sake) that warre is not waged, against the Queenes freendes, not yet a battell fought, saue onely against her enemies, which
+<pb facs="BL014.jpg"/>
 if you so credite, and therewithall accepte of my trauelles, (whiche do represent my vnfained good will) I leaue not this simplie as a pledge of a further beneuolence with you, but therewithall doe paune euen my credite, for accomplishyng my promesse, till whiche tyme farewell as your hartes can desire.</p>
             <closer>
                <signed>Yours as his owne Ihon Derricke.</signed>
@@ -191,7 +197,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
       </front>
       <body>
          <div n="1" type="part">
-            <pb facs="tcp:14477:7"/>
+            <pb facs="BL015.jpg"/>
             <head>The first parte of the Image of Irelande.</head>
             <l>
                <seg rend="decorInit">T</seg>He <note n="*" place="margin">The aucthor in this his firste beginnyng, sheweth that GOD was the onely cause, whiche moued hym to write and set out this his woorkes, helpyng and fauourably supportyng hym in the same, who beyng otherwise insufficient, and not able of hym self to doe the same, but by the goodnesse and furtheraunce of God, yeldeth to hym due honor therefore.</note> heauenly God puissant Prince,</l>
@@ -200,10 +206,10 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>with his Imperiall mace.</l>
             <l>Whiche caused first the cristall Skies,</l>
             <l>in liuely formes appeare,</l>
-            <l>And by the course of glistryng <hi>Pheabe,</hi>
+            <l>And by the course of glistryng <seg rend="italics">Pheabe,</seg>
             </l>
             <l>deuided eke the yeare.</l>
-            <l>Whiche did the lothsome <hi>Chaos</hi> part,</l>
+            <l>Whiche did the lothsome <seg rend="italics">Chaos</seg> part,</l>
             <l>and separate a sonder:</l>
             <l>And plaste the yearth aboue the Sease,</l>
             <l>for mortall men to wonder.</l>
@@ -213,7 +219,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>to those that came behinde:</l>
             <l>(Whiche was to man as then not made,</l>
             <l>a famous creature sure:)</l>
-            <l>Of all the woorkes of mightie <hi>Ioue,</hi>
+            <l>Of all the woorkes of mightie <seg rend="italics">Ioue,</seg>
             </l>
             <l>(renowmed rare and pure:)</l>
             <l>Whiche gaue hym reason from aboue,</l>
@@ -223,7 +229,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>Whiche did reduce from bale to blisse,</l>
             <l>the wretched state of man:</l>
             <l>
-               <pb facs="tcp:14477:8"/>And in exchange the sacred heauens,</l>
+               <pb facs="BL016.jpg"/>And in exchange the sacred heauens,</l>
             <l>allotted to hym than.</l>
             <l>(Not for the good desartes he sawe,</l>
             <l>in mortall fleshe to be:</l>
@@ -248,7 +254,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>
                <note place="margin">Probations.</note>a pleasant storie is.</l>
             <l>
-               <note n="*" place="margin">Prince Arthure is here brought forth as an vnreprobable testes (beyng as it wer) a moste famous Riuer that watereth the face of y<hi rend="sup">e</hi> whole earth, with the streames of his immortall fame and renowne.</note> And to beginne with <hi>Marses</hi> knight,</l>
+               <note n="*" place="margin">Prince Arthure is here brought forth as an vnreprobable testes (beyng as it wer) a moste famous Riuer that watereth the face of y<hi rend="sup">e</hi> whole earth, with the streames of his immortall fame and renowne.</note> And to beginne with <seg rend="italics">Marses</seg> knight,</l>
             <l>that mightie man of of warre:</l>
             <l>Whose fame might not suffice the worlde,</l>
             <l>but peerst the highest Starre.</l>
@@ -258,14 +264,14 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>and shall from daie to daie.</l>
             <l>Who neuer made his backe retourne,</l>
             <l>
-               <pb facs="tcp:14477:8"/>once enterde in the feeld:</l>
+               <pb facs="BL017.jpg"/>once enterde in the feeld:</l>
             <l>Till he had made the stoutest foes,</l>
             <l>their stately Scepters yeeld.</l>
             <l>And brought by Marciall force of armes,</l>
             <l>their honour to the duste:</l>
             <l>By pluckyng doune their cheefest staies,</l>
             <l>whereon their hope did truste,</l>
-            <l>Prince Arthure is that noble kyng,<note n="*" place="margin">The honour of king Arthure his Actes, manhode, conquestes Magnanimitie, Chiualrie, and what els, in chronicles are sufficiently set out, to the greate comforte and consolatio<g ref="char:cmbAbbrStroke">̄</g> of all Britishe and Englishe mennes hartes.</note>
+            <l>Prince Arthure is that noble kyng,<note n="*" place="margin">The honour of king Arthure his Actes, manhode, conquestes Magnanimitie, Chiualrie, and what els, in chronicles are sufficiently set out, to the greate comforte and consolatio<g ref="#tilde">̄</g> of all Britishe and Englishe mennes hartes.</note>
             </l>
             <l>whose fame and greate reporte:</l>
             <l>Stirde vp the Nobles of the worlde,</l>
@@ -275,7 +281,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>This is the man that raignde as Kyng,</l>
             <l>in Britaine and in Fraunce.</l>
             <l>This is the knight whose bloodie blade,</l>
-            <l>obtained <hi>Caesars</hi> Croune:</l>
+            <l>obtained <seg rend="italics">Caesars</seg> Croune:</l>
             <l>This is the man that brought at laste,</l>
             <l>the haughtie Romanes doune.</l>
             <l>This is that thrice renowmed knight,</l>
@@ -291,10 +297,10 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>For breefly of them will I speake,</l>
             <l>accordyng to my skill.</l>
             <l>
-               <pb facs="tcp:14477:9"/>And as with Arthure I beganne,</l>
+               <pb facs="BL018.jpg"/>And as with Arthure I beganne,</l>
             <l>so will I here proceade:</l>
             <l>
-               <note n="*" place="margin">King He<g ref="char:cmbAbbrStroke">̄</g>ry the seco<g ref="char:cmbAbbrStroke">̄</g>d as Chronicles record for wisedome, knowledge, and iudgement was holden famous throughout the world in so muche as Emperours, (namely the Emperour of Rome, and of Constantinople) hearing of his notable wisedome, sent by their Ambassadors to haue his resolution &amp; iudgement in great matters of strife and conte<g ref="char:cmbAbbrStroke">̄</g>tion. Read more of this Kynges glorie his wealth and possessions in maister Foxes Ecclesiasticall historie, I meane the Actes and monumentes.</note> To write of Henries noble name,</l>
+               <note n="*" place="margin">King He<g ref="#tilde">̄</g>ry the seco<g ref="#tilde">̄</g>d as Chronicles record for wisedome, knowledge, and iudgement was holden famous throughout the world in so muche as Emperours, (namely the Emperour of Rome, and of Constantinople) hearing of his notable wisedome, sent by their Ambassadors to haue his resolution &amp; iudgement in great matters of strife and conte<g ref="#tilde">̄</g>tion. Read more of this Kynges glorie his wealth and possessions in maister Foxes Ecclesiasticall historie, I meane the Actes and monumentes.</note> To write of Henries noble name,</l>
             <l>the seconde as I reade.</l>
             <l>To shewe his magnanimitie,</l>
             <l>in wrightyngs comprehended,</l>
@@ -313,7 +319,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>To drawe vnto his noble Court,</l>
             <l>his wisedome for to heare.</l>
             <l>
-               <note n="*" place="margin">He sheweth the cause why kyng Henry was had in suche honour and greate admiratio<g ref="char:cmbAbbrStroke">̄</g>
+               <note n="*" place="margin">He sheweth the cause why kyng Henry was had in suche honour and greate admiratio<g ref="#tilde">̄</g>
                </note> For why, his domes were purely giuen,</l>
             <l>in matters of debate:</l>
             <l>He was an vmpere equally,</l>
@@ -326,10 +332,10 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>by wisedomes rules approued:</l>
             <l>Of Princes, Kynges, and Emperours,</l>
             <l>
-               <pb facs="tcp:14477:9"/>he highly was beloued.</l>
+               <pb facs="BL019.jpg"/>he highly was beloued.</l>
             <l>Thus was he counted in his daies,</l>
             <l>the wisest vnder Sonne:</l>
-            <l>Through <hi>Europe</hi> and beyonde those partes,</l>
+            <l>Through <seg rend="italics">Europe</seg> and beyonde those partes,</l>
             <l>so farre his fame did ronne.</l>
             <l>And as for his possessions,</l>
             <l>so largely thei extended:</l>
@@ -354,29 +360,29 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>dame Honour hath enrolde.</l>
             <l>There shall you see the famous Prince,</l>
             <l>in prease of worthies stande:</l>
-            <l>Euen cheeke by cheeke to mightie <hi>Mars,</hi>
+            <l>Euen cheeke by cheeke to mightie <seg rend="italics">Mars,</seg>
             </l>
             <l>with dreadfull sworde in hande.</l>
             <l>There shall you see dame Honour braue,</l>
             <l>amide the golden raies:</l>
             <l>
-               <pb facs="tcp:14477:10"/>This noble prices banner vaunce,</l>
+               <pb facs="BL020.jpg"/>This noble prices banner vaunce,</l>
             <l>to his eternall praise.</l>
             <l>Prince Edward is that noble Knight,<note n="*" place="margin">Prince Edward the third is here a noble testimony, to approue the aboue saied allegation, beeyng in his tyme moste excellent on yearth, as in Chronicles is reported.</note>
             </l>
             <l>the third Kyng of that name:</l>
             <l>Approued in the Misteries,</l>
-            <l>of <hi>Marses</hi> warlike game.</l>
+            <l>of <seg rend="italics">Marses</seg> warlike game.</l>
             <l>This is the Prince whose roiall acts,</l>
             <l>were knowne by sea and lande:</l>
             <l>This is the knight whose presence durste,</l>
             <l>no forraine Kyng withstande.</l>
-            <l>This is the prince whose co<g ref="char:cmbAbbrStroke">̄</g>quryng sworde,</l>
+            <l>This is the prince whose co<g ref="#tilde">̄</g>quryng sworde,</l>
             <l>possest a double Croune:</l>
             <l>This is the manne that made his foes,</l>
             <l>on euery side come doune.</l>
             <l>
-               <note n="*" place="margin">Kyng Edward not abiding the mallepartnesse of the dronken Pope of Rome, which needes would bee a stickler twixt him and the Frenche Kyng, standes at defiaunce bothe with Frenche Kyng and Pope, and offereth to fight hand to hande with them bothe, whiche when the Pope vnderstandeth, like a Coward, or rather like a snaile in a shell, draweth in his hornes, for feare of a broken Costerd, and quietly suffereth this noble Kyng Edward accordyng his pleasure, to execute the force of his sword against his aduersarie, whiche braue exa<g ref="char:cmbAbbrStroke">̄</g>
+               <note n="*" place="margin">Kyng Edward not abiding the mallepartnesse of the dronken Pope of Rome, which needes would bee a stickler twixt him and the Frenche Kyng, standes at defiaunce bothe with Frenche Kyng and Pope, and offereth to fight hand to hande with them bothe, whiche when the Pope vnderstandeth, like a Coward, or rather like a snaile in a shell, draweth in his hornes, for feare of a broken Costerd, and quietly suffereth this noble Kyng Edward accordyng his pleasure, to execute the force of his sword against his aduersarie, whiche braue exa<g ref="#tilde">̄</g>
                   ple if al other kynges would followe &amp; imitate, the beaste would beware how he entermedled with Princes matters, impertinent to his callyng.</note> This is the manne whose valiant harte,</l>
             <l>for triall of his right:</l>
             <l>Did proffer gainst the Romishe Pope,</l>
@@ -395,7 +401,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>the sworde to hym a lone.</l>
             <l>For Peter needes must silence keepe,</l>
             <l>
-               <pb facs="tcp:14477:10"/>when Paule steppes forthe in place:</l>
+               <pb facs="BL021.jpg"/>when Paule steppes forthe in place:</l>
             <l>And knowe we not how Paule withstoode,</l>
             <l>sainct Peter to his face?</l>
             <l>This thyng importes a misterie,</l>
@@ -406,15 +412,15 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>as some before haue doen:</l>
             <l>But that I see the daie forbiddes,</l>
             <l>and tyme is almoste ronne.</l>
-            <l>I see how <hi>Nox</hi> her self applies,</l>
-            <l>to shade sir <hi>Phebus</hi> light.</l>
+            <l>I see how <seg rend="italics">Nox</seg> her self applies,</l>
+            <l>to shade sir <seg rend="italics">Phebus</seg> light.</l>
             <l>But let the toothlesse crabbed queane,</l>
             <l>boyle in her owne despight.</l>
             <l>Yea let her euer frettyng liue,</l>
             <l>and pinyng fade awaie:</l>
             <l>A iuste reward for suche a drabbe,</l>
             <l>her mallice to bewraie.</l>
-            <l>But as for <hi>Phebe,</hi> you holie ones,</l>
+            <l>But as for <seg rend="italics">Phebe,</seg> you holie ones,</l>
             <l>graunt he maie flourishe still:</l>
             <l>And to the endyng of my worke,</l>
             <l>Lorde guide my quiuryng quill.</l>
@@ -429,7 +435,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>as wrighters beare in hande.</l>
             <l>At length as all thyngs hath a tyme,</l>
             <l>
-               <pb facs="tcp:14477:11"/>to spryng, to growe, and crease:</l>
+               <pb facs="BL022.jpg"/>to spryng, to growe, and crease:</l>
             <l>And backe againe in elder yeres,</l>
             <l>to wither, fade, and cease.</l>
             <l>Muche like the sweete and pleasant hearbe,</l>
@@ -457,20 +463,20 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>Whose praises all eche sacred Dame,</l>
             <l>in heauenly ditties synges.</l>
             <l>
-               <note n="*" place="margin">Though sonderie of Kyng Edwardes successours deserued immortal renowme, who<g ref="char:cmbAbbrStroke">̄</g> seuerally I omitted here to entreate of, yet emongest them all, one of late memorie I thought fit for proofe and argumentes sake to set forthe as an vndoubted paterne of all Nobilitie, whiche is meant of Kyng Henry the eight.</note>Emongest the whiche (though thei deserue,</l>
+               <note n="*" place="margin">Though sonderie of Kyng Edwardes successours deserued immortal renowme, who<g ref="#tilde">̄</g> seuerally I omitted here to entreate of, yet emongest them all, one of late memorie I thought fit for proofe and argumentes sake to set forthe as an vndoubted paterne of all Nobilitie, whiche is meant of Kyng Henry the eight.</note>Emongest the whiche (though thei deserue,</l>
             <l>to haue immortall fame:)</l>
             <l>Yet here of one his praise to wright,</l>
             <l>it ioyes my hande to frame.</l>
             <l>
-               <pb facs="tcp:14477:11"/>
-               <note place="margin">The onely looke and countenance of Kyng Henry the eight, was sufficie<g ref="char:cmbAbbrStroke">̄</g>t to discomfort an hoste of menne.</note>It gladdes my harte to name hym once,</l>
+               <pb facs="BL023.jpg"/>
+               <note place="margin">The onely looke and countenance of Kyng Henry the eight, was sufficie<g ref="#tilde">̄</g>t to discomfort an hoste of menne.</note>It gladdes my harte to name hym once,</l>
             <l>to bryng hym forthe in place:</l>
             <l>For hym that onely durst defie,</l>
             <l>his enemies to their face.</l>
             <l>
-               <note place="margin">Kyng Henry beyng at warre with the Fre<g ref="char:cmbAbbrStroke">̄</g>ch retaines the Emperour to serue vnder his standred, and ther withall makes his foes to taste bitterly of the rod of his correction, for his Maiestie would not abide to be dallied withall.</note> He, he it is, and none but he,</l>
+               <note place="margin">Kyng Henry beyng at warre with the Fre<g ref="#tilde">̄</g>ch retaines the Emperour to serue vnder his standred, and ther withall makes his foes to taste bitterly of the rod of his correction, for his Maiestie would not abide to be dallied withall.</note> He, he it is, and none but he,</l>
             <l>in these our latter daies:</l>
-            <l>Through <hi>Europe,</hi> and beyonde partes,</l>
+            <l>Through <seg rend="italics">Europe,</seg> and beyonde partes,</l>
             <l>hath wonne like noble praise.</l>
             <l>Kyng Henry that moste famous Prince,</l>
             <l>the eight I meane by name:</l>
@@ -481,12 +487,12 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>This is the manne that made likewise,</l>
             <l>huge towres and holds to shake.</l>
             <l>
-               <note place="margin">Kyng Henry waiyng with hym self, what a miserable plague it was for hym self, his people and kingdome, to be subiect vnto the Pope of Rome (that presumpteous Prelate to the admiratio<g ref="char:cmbAbbrStroke">̄</g> of all the worlde, vnhorseth the Pope, and makes him go on fote (w<hi rend="sup">t</hi> a mischeef) where as before he spared not to ride in the neckes of Christan Emperours and Kynges farre better then hym self. (So couragious was y<hi rend="sup">e</hi> excellent king) as therin he enterprised that whiche all the potentates of y<hi rend="sup">e</hi> world durst not attempt besides.</note>This is the Prince that did retaine,</l>
+               <note place="margin">Kyng Henry waiyng with hym self, what a miserable plague it was for hym self, his people and kingdome, to be subiect vnto the Pope of Rome (that presumpteous Prelate to the admiratio<g ref="#tilde">̄</g> of all the worlde, vnhorseth the Pope, and makes him go on fote (w<hi rend="sup">t</hi> a mischeef) where as before he spared not to ride in the neckes of Christan Emperours and Kynges farre better then hym self. (So couragious was y<hi rend="sup">e</hi> excellent king) as therin he enterprised that whiche all the potentates of y<hi rend="sup">e</hi> world durst not attempt besides.</note>This is the Prince that did retaine,</l>
             <l>the Emp'rour in his bande:</l>
             <l>This is that knight that made his foes,</l>
             <l>to feele his heauie hande.</l>
             <l>
-               <note place="margin">Kyng Henry waiyng with hym self, what a miserable plague it was for hym self, his people and kingdome, to be subiect vnto the Pope of Rome (that presumpteous Prelate to the admiratio<g ref="char:cmbAbbrStroke">̄</g> of all the worlde, vnhorseth the Pope, and makes him go on fote (w<hi rend="sup">t</hi> a mischeef) where as before he spared not to ride in the neckes of Christan Emperours and Kynges farre better then hym self. (So couragious was y<hi rend="sup">e</hi> excellent king) as therin he enterprised that whiche all the potentates of y<hi rend="sup">e</hi> world durst not attempt besides.</note>This is the Prince that of hymself,</l>
+               <note place="margin">Kyng Henry waiyng with hym self, what a miserable plague it was for hym self, his people and kingdome, to be subiect vnto the Pope of Rome (that presumpteous Prelate to the admiratio<g ref="#tilde">̄</g> of all the worlde, vnhorseth the Pope, and makes him go on fote (w<hi rend="sup">t</hi> a mischeef) where as before he spared not to ride in the neckes of Christan Emperours and Kynges farre better then hym self. (So couragious was y<hi rend="sup">e</hi> excellent king) as therin he enterprised that whiche all the potentates of y<hi rend="sup">e</hi> world durst not attempt besides.</note>This is the Prince that of hymself,</l>
             <l>did holde the stately Croune:</l>
             <l>This is the manne that durst attempt,</l>
             <l>to throwe the Papistes doune.</l>
@@ -498,10 +504,10 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>goe flittyng doune the streames:</l>
             <l>And thrust out all his peltyng trashe,</l>
             <l>
-               <pb facs="tcp:14477:12"/>
+               <pb facs="BL024.jpg"/>
                <note place="margin">
-                  <p>The honour of Kyng Henry is triple augme<g ref="char:cmbAbbrStroke">̄</g>ted in his successors (especially in the gouernement of our gracious and Soueraigne Ladie the quenes moste excellente maiestie) who not onely hath continued in y<hi rend="sup">e</hi> course of her Father, by suppressyng y<hi rend="sup">e</hi> pope but w<hi rend="sup">t</hi> more seueritie hath holden his nose doune to the grindestone, as by continual grindyng it is almost worne out to the gristle and bare stumps. The honour of our good Queene in her excellencie is here in published.</p>
-                  <p>Queene Elizabethes sacred arme, as y<hi rend="sup">e</hi> pope saieth, hath giuen him such a cut ouerthwart his Monkishe visnamie, that he is in dout whether he shall euer be able to be cured of the wounde, his Cardinalles are vtterly disco<g ref="char:cmbAbbrStroke">̄</g>forted, his Chiturgians haue giuen hym ouer as all his doctours doe doubt. The great care of her maiestie is euer in sekyng out the waie by whiche she maie gouerne her people and cou<g ref="char:cmbAbbrStroke">̄</g>trie w<hi rend="sup">t</hi> al godlines tra<g ref="char:cmbAbbrStroke">̄</g>quillite and peace. The life and blood of her Maiestie (whiche GOD for his mercie preserue &amp; maintain) is not to deare in her Graces sight, for the preseruation of her people and Countrie, but that she would if occasion serued (as God forbid that wee should see that daie to be so distressed) bothe venter an hazarde for defe<g ref="char:cmbAbbrStroke">̄</g>ce of the same for whiche God bee praised, and her Maiestie honoured (a singuler token of a most godly and christian prince.) The aucthor stirreth vp all Christian people and true subiectes to giue forthe a signe of their hartie good will, and loue towardes her sacred Maiestie, by adding) <hi>Amen</hi>) to that whiche he before praied for.</p>
+                  <p>The honour of Kyng Henry is triple augme<g ref="#tilde">̄</g>ted in his successors (especially in the gouernement of our gracious and Soueraigne Ladie the quenes moste excellente maiestie) who not onely hath continued in y<hi rend="sup">e</hi> course of her Father, by suppressyng y<hi rend="sup">e</hi> pope but w<hi rend="sup">t</hi> more seueritie hath holden his nose doune to the grindestone, as by continual grindyng it is almost worne out to the gristle and bare stumps. The honour of our good Queene in her excellencie is here in published.</p>
+                  <p>Queene Elizabethes sacred arme, as y<hi rend="sup">e</hi> pope saieth, hath giuen him such a cut ouerthwart his Monkishe visnamie, that he is in dout whether he shall euer be able to be cured of the wounde, his Cardinalles are vtterly disco<g ref="#tilde">̄</g>forted, his Chiturgians haue giuen hym ouer as all his doctours doe doubt. The great care of her maiestie is euer in sekyng out the waie by whiche she maie gouerne her people and cou<g ref="#tilde">̄</g>trie w<hi rend="sup">t</hi> al godlines tra<g ref="#tilde">̄</g>quillite and peace. The life and blood of her Maiestie (whiche GOD for his mercie preserue &amp; maintain) is not to deare in her Graces sight, for the preseruation of her people and Countrie, but that she would if occasion serued (as God forbid that wee should see that daie to be so distressed) bothe venter an hazarde for defe<g ref="#tilde">̄</g>ce of the same for whiche God bee praised, and her Maiestie honoured (a singuler token of a most godly and christian prince.) The aucthor stirreth vp all Christian people and true subiectes to giue forthe a signe of their hartie good will, and loue towardes her sacred Maiestie, by adding) <seg rend="italics">Amen</seg>) to that whiche he before praied for.</p>
                   <p>Here the aucthour exhorteth al estates and degrees of menne to praie for the prosperitie of her Grace, that God would be on her right hande, continually giuyng good successe to all her highnesse enterprises, (that she with vs her loyall and obedient subiectes, and we with her our right dread and soueraigne Queene, the true anoynted of the Lorde) maie raigne, and liue together in all peace and godlinesse, to the honour and glorie of God for euer.</p>
                </note>out of his highnesse Realmes.</l>
             <l>This is the manne whose roiall actes,</l>
@@ -514,7 +520,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>of honour now is stalde.</l>
             <l>I meane our (gracious soueraigne Queene,</l>
             <l>that sacred virgine pure:)</l>
-            <l>Whose raigne God graunt thrice <hi>Nestors</hi> yeres,</l>
+            <l>Whose raigne God graunt thrice <seg rend="italics">Nestors</seg> yeres,</l>
             <l>with honour to endure.</l>
             <l>This is the Prince whose worthie fame,</l>
             <l>doeth liue and raigne for euer:</l>
@@ -535,7 +541,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>This is the Prince that little cares,</l>
             <l>to hazarde life or blood.</l>
             <l>
-               <pb facs="tcp:14477:12"/>This is the Queene that nothyng spares,</l>
+               <pb facs="BL025.jpg"/>This is the Queene that nothyng spares,</l>
             <l>to doe her people good.</l>
             <l>O giftes of rare varietie,</l>
             <l>adornyng Princes grace:</l>
@@ -548,7 +554,8 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>And euerlastyng maiest thou liue,</l>
             <l>to rule thy people then:</l>
             <l>To whiche let every subject saie,</l>
-            <l>vnfainedly <seg rend="italics">Amen. (Amen.)</seg></l>
+            <l>vnfainedly <seg rend="italics">Amen. (Amen.)</seg>
+            </l>
             <l>O praie for her prosperitie,</l>
             <l>you people of her lande:</l>
             <l>That God maie prosper happely,</l>
@@ -558,7 +565,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>That she with vs, and we with her</l>
             <l>a blessed race maie ronne.</l>
             <l>In this as in all other thyngs,<note place="margin">
-                  <p>In all our petitions, actio<g ref="char:cmbAbbrStroke">̄</g>s, and requestes, wee muste referre the successe euer to the good will &amp; pleasure of God.</p>
+                  <p>In all our petitions, actio<g ref="#tilde">̄</g>s, and requestes, wee muste referre the successe euer to the good will &amp; pleasure of God.</p>
                   <p>The cause why wee should yeeld our will to Gods will is, because he is euen still y<hi rend="sup">e</hi> self same thyng that neuer chaungeth nor alters his entent or purpose, established in his secret counsell, but as he doeth &amp; hath purposed, so also in tyme conuenient doeth likewise accomplishe by whiche we may perceiue his excellent puritie.</p>
                </note>
             </l>
@@ -568,7 +575,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>For why? he is that self same God,</l>
             <l>that neuer alters kinde:</l>
             <l>
-               <pb facs="tcp:14477:13"/>(A God I saie moste excellent,</l>
+               <pb facs="BL026.jpg"/>(A God I saie moste excellent,</l>
             <l>and of a constant minde.)</l>
             <l>Whiche neuer doeth forsake the thyng,</l>
             <l>once tane in his protection:</l>
@@ -594,15 +601,15 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>To write some pleasant historie,</l>
             <l>I musyngly began:</l>
             <l>
-               <note n="*" place="margin">The aucthour is not ashamed to acknoweledge his imbecillitie, of hym self vnable to bring to passe any notable exploite, saue onely that he depe<g ref="char:cmbAbbrStroke">̄</g>deth on Gods direction to fluishe the thyng his goodnesse shall begin.</note>For to consider warely,</l>
+               <note n="*" place="margin">The aucthour is not ashamed to acknoweledge his imbecillitie, of hym self vnable to bring to passe any notable exploite, saue onely that he depe<g ref="#tilde">̄</g>deth on Gods direction to fluishe the thyng his goodnesse shall begin.</note>For to consider warely,</l>
             <l>of what it should be than.</l>
             <l>I was no fitte Astronomer,</l>
             <l>to treate vpon the Starres:</l>
-            <l>Nor yet trainde vp in <hi>Marsis</hi> court,</l>
+            <l>Nor yet trainde vp in <seg rend="italics">Marsis</seg> court,</l>
             <l>to tell of bloodie warres.</l>
             <l>I was no famous Oratour,</l>
             <l>
-               <pb facs="tcp:14477:13"/>nor craftie manne of Lawe:</l>
+               <pb facs="BL027.jpg"/>nor craftie manne of Lawe:</l>
             <l>
                <note n="*" place="margin">Better to bee meere ignorant, then to bee ouer skilfull to the hurt of other.</note>Whiche from a but of Muskadine,</l>
             <l>a tunne of Malmessies drawe.</l>
@@ -610,7 +617,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>in those high mist'ries seuen:</l>
             <l>By whiche I might vpon myne othe,</l>
             <l>tell what is doen in heauen.</l>
-            <l>I was not of God <hi>Neptunes</hi> Court,</l>
+            <l>I was not of God <seg rend="italics">Neptunes</seg> Court,</l>
             <l>as Pirates be on sease:</l>
             <l>I deemde it farre a better life,</l>
             <l>(though poore) to liue at ease.</l>
@@ -619,7 +626,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>whiche giue out golde to gaine:</l>
             <l>No, no, I dare auouche suche sainctes,</l>
             <l>my pouche did neuer staine.</l>
-            <l>Nor yet with Marchant venterers,<note n="*" place="margin">The aucthour still procedyng on in the discription of his imperfectio<g ref="char:cmbAbbrStroke">̄</g>, and hauyng felt the ground of his knowledge, seing him self to bee altogether vnfurnished of that, which in historiographers is required (doth as it) were aske a question, how it wer possible for hym to acco<g ref="char:cmbAbbrStroke">̄</g>
+            <l>Nor yet with Marchant venterers,<note n="*" place="margin">The aucthour still procedyng on in the discription of his imperfectio<g ref="#tilde">̄</g>, and hauyng felt the ground of his knowledge, seing him self to bee altogether vnfurnished of that, which in historiographers is required (doth as it) were aske a question, how it wer possible for hym to acco<g ref="#tilde">̄</g>
                   plish the thing he gladly desired, wherevnto he makes aunswere, alledgyng though in his owne eyes he seemed insufficient, yet God who gouerneth all thynges, bids hym but adde to his good will, &amp; he would further hym in the reste.</note>
             </l>
             <l>(those were too high for me:)</l>
@@ -638,7 +645,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>I marched forthe in stedfast hope,</l>
             <l>some good successe to finde.</l>
             <l>
-               <pb facs="tcp:14477:14"/>In whiche my trauells suerly,</l>
+               <pb facs="BL028.jpg"/>In whiche my trauells suerly,</l>
             <l>he did so we<gap reason="faded" resp="#ASilva" extent="1 letter">
                   <desc>•</desc>
                </gap>l attende me:</l>
@@ -647,12 +654,12 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>He gaue me to associate,</l>
             <l>a chosen Crewe of Dames</l>
             <l>
-               <note place="margin">Three principal thinges are to be retained of euery Chronicler &amp; writer of Histories, (that is to saie) Inuentio<g ref="char:cmbAbbrStroke">̄</g>, Memorie, and pleasant Conueiance without whiche, what soeuer a man doeth is altogether vnsauerie.</note>
-               <hi>Inuention,</hi> with good <hi>Memorie,</hi>
+               <note place="margin">Three principal thinges are to be retained of euery Chronicler &amp; writer of Histories, (that is to saie) Inuentio<g ref="#tilde">̄</g>, Memorie, and pleasant Conueiance without whiche, what soeuer a man doeth is altogether vnsauerie.</note>
+               <seg rend="italics">Inuention,</seg> with good <seg rend="italics">Memorie,</seg>
             </l>
             <l>these were their perfect names.</l>
-            <l>To whom <hi>Conueighaunce</hi> was adioyned,</l>
-            <l>as <hi>Corp'rall</hi> to the bande:</l>
+            <l>To whom <seg rend="italics">Conueighaunce</seg> was adioyned,</l>
+            <l>as <seg rend="italics">Corp'rall</seg> to the bande:</l>
             <l>Conuaiyng eche thyng pretily,</l>
             <l>what so thei tooke in hande.</l>
             <l>With these I venterde forwardlie,</l>
@@ -662,7 +669,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>
                <note place="margin">The aucthour at last through many daies trauail, obtaineth the Porte and Hauen of reste, where his three foresaid companions Inuention, Memorie and Conueighaunce, consultyng together, agree and conculde that he should entreat vpon the Irishe soile and inhabitauntes of the same, with the fertilitie of the ground.</note>And hauyng now the lothsome goulfe,</l>
             <l>of deepe Dispaire well paste:</l>
-            <l>We did approche <hi>Thelysiane</hi> feelds,</l>
+            <l>We did approche <seg rend="italics">Thelysiane</seg> feelds,</l>
             <l>of comfort at the laste.</l>
             <l>Where all the Crewe of heauenly Dames,</l>
             <l>with one consent beganne:</l>
@@ -677,13 +684,13 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>I might relate a misse:</l>
             <l>By reason of the longitude,</l>
             <l>
-               <pb facs="tcp:14477:14"/>or latitude, there is.</l>
+               <pb facs="BL029.jpg"/>or latitude, there is.</l>
             <l>A goodly braue Piramides,</l>
             <l>erected passyng high:</l>
             <l>From whence all corners of the lande,</l>
             <l>I might at large discrie.</l>
             <l>From whence I did behold and see,</l>
-            <l>moste noble slowyng streames:<note n="*" place="margin">By these flowyng stremes are ment, the goodlie Hauens and Riuers through euery parte of Irelande, most famous for marchantes, in whiche riuers also are store, change, and choise of all fine and delicate fishes, and that in most abondant sort, a notable pleasure and necessarie co<g ref="char:cmbAbbrStroke">̄</g>moditie for a co<g ref="char:cmbAbbrStroke">̄</g>mon wealthe, and this is the firste parte co<g ref="char:cmbAbbrStroke">̄</g>cernyng the waters</note>
+            <l>moste noble slowyng streames:<note n="*" place="margin">By these flowyng stremes are ment, the goodlie Hauens and Riuers through euery parte of Irelande, most famous for marchantes, in whiche riuers also are store, change, and choise of all fine and delicate fishes, and that in most abondant sort, a notable pleasure and necessarie co<g ref="#tilde">̄</g>moditie for a co<g ref="#tilde">̄</g>mon wealthe, and this is the firste parte co<g ref="#tilde">̄</g>cernyng the waters</note>
             </l>
             <l>Fit for the Marchantes of the worlde,</l>
             <l>to saile from forraine Realmes.</l>
@@ -715,7 +722,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                </gap>rectly ronnyng forthe,</l>
             <l>and turnyng in a genne:</l>
             <l>
-               <pb facs="tcp:14477:15"/>Muche like a sort of croked mates,</l>
+               <pb facs="BL030.jpg"/>Muche like a sort of croked mates,</l>
             <l>and ouertwhartyng menne.</l>
             <l>
                <note n="*" place="margin">The discription of the woodes of Irelande.</note> The woodes aboue and neath those hills,</l>
@@ -749,7 +756,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>so long thei doe remaine.</l>
             <l>Till Cupid toul'th his sacryng bell,</l>
             <l>
-               <pb facs="tcp:14477:15"/>to enter other Rites:</l>
+               <pb facs="BL031.jpg"/>to enter other Rites:</l>
             <l>Ah would'treuiue a manne halfe dedde?<note place="margin">This doe expounde the true meanyng of the rest that went before.</note>
             </l>
             <l>to see those naked Sprites?</l>
@@ -765,9 +772,9 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>
                <note n="*" place="margin">These Nimphes deserues eternal memorie for their holy conuersation: yea, though it were but with Asmodious the Deuil of hell: For pitie it were if thei should not bee remembred somwhere and since thei are not thought vpon in heauen, giue them leaue to bee had in memorie in hell.</note>O Nimphes of lastyng Memorie,</l>
             <l>your vertuous actions rare:</l>
-            <l>With <hi>Venus</hi> for integritie,</l>
+            <l>With <seg rend="italics">Venus</seg> for integritie,</l>
             <l>I freely maie compare.</l>
-            <l>With <hi>Venus</hi> for agilitie,</l>
+            <l>With <seg rend="italics">Venus</seg> for agilitie,</l>
             <l>(speake I of veniall sinne:)</l>
             <l>In her celestiall paradice,</l>
             <l>ought you to enter in.</l>
@@ -780,13 +787,13 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>transformed now and then:</l>
             <l>From Bores to Beares, and yet sometyme,</l>
             <l>resemblyng honest men.</l>
-            <l>From whe<g ref="char:cmbAbbrStroke">̄</g>ce there flowes as from a spring,</l>
+            <l>From whe<g ref="#tilde">̄</g>ce there flowes as from a spring,</l>
             <l>an other generation:</l>
             <l>
-               <note n="*" place="margin">The generation of these wood Nimphes are in their kind more craftier then y<hi rend="sup">e</hi> Foxes more frettyng then Bores, and terribler tha<g ref="char:cmbAbbrStroke">̄</g> Beares, working by secret conspiracies the subuersion, ruine, and destruction of the hurtlesse creatures of the lande.</note>More subtill then the Foxes are,</l>
+               <note n="*" place="margin">The generation of these wood Nimphes are in their kind more craftier then y<hi rend="sup">e</hi> Foxes more frettyng then Bores, and terribler tha<g ref="#tilde">̄</g> Beares, working by secret conspiracies the subuersion, ruine, and destruction of the hurtlesse creatures of the lande.</note>More subtill then the Foxes are,</l>
             <l>in their imagination.</l>
             <l>
-               <pb facs="tcp:14477:16"/>Who as thei growe in elder yeres,</l>
+               <pb facs="BL032.jpg"/>Who as thei growe in elder yeres,</l>
             <l>and springyng rise in strength:</l>
             <l>So doe thei worke the Realmes anoye,</l>
             <l>and hinderaunce at the length.</l>
@@ -812,7 +819,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>And in a towre of strong defence,</l>
             <l>our safties all assure.</l>
             <l>
-               <note n="*" place="margin">The aucthour continuing in his exhortation thereby to driue it more deper into the hartes of men bringeth forth a similitude of a tode and a crocadill, signifiyng that it is all one equall securitie for a ma<g ref="char:cmbAbbrStroke">̄</g> to sleepe with all those poysonyng wormes, as it is to keepe about hym those members before specified, for (in co<g ref="char:cmbAbbrStroke">̄</g>clusion) the wormes can but poyson them, and they murder them, so that bothe of them do worke all one effectte whiche is death.</note>Wee knowe by good experience,</l>
+               <note n="*" place="margin">The aucthour continuing in his exhortation thereby to driue it more deper into the hartes of men bringeth forth a similitude of a tode and a crocadill, signifiyng that it is all one equall securitie for a ma<g ref="#tilde">̄</g> to sleepe with all those poysonyng wormes, as it is to keepe about hym those members before specified, for (in co<g ref="#tilde">̄</g>clusion) the wormes can but poyson them, and they murder them, so that bothe of them do worke all one effectte whiche is death.</note>Wee knowe by good experience,</l>
             <l>it is a daungerous thyng:</l>
             <l>For one into his naked bedde,</l>
             <l>a poysning Tode to bryng.</l>
@@ -820,7 +827,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>when as he goeth to reste:</l>
             <l>To lead with hym, and as his mate,</l>
             <l>
-               <pb facs="tcp:14477:16"/>to place next to his breste.</l>
+               <pb facs="BL033.jpg"/>to place next to his breste.</l>
             <l>The mischeef thereof certainly,</l>
             <l>is this that doeth ensewe:</l>
             <l>Euen nothyng but a sodain death,</l>
@@ -853,7 +860,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>Within the compasse of this land,</l>
             <l>no poysonyng beast doeth liue:</l>
             <l>
-               <pb facs="tcp:14477:17"/>To Adder, Snake, nor Crocadile,</l>
+               <pb facs="BL034.jpg"/>To Adder, Snake, nor Crocadile,</l>
             <l>no respitte doeth it giue.</l>
             <l>Whereby thesame repast maie take</l>
             <l>to feede his appetite:</l>
@@ -873,7 +880,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>The Frogge, the Tode, nor Uiper vile,</l>
             <l>within her boundes to bee.</l>
             <l>
-               <note place="margin">Doubtfull obiectio<g ref="char:cmbAbbrStroke">̄</g>s, whether processe of tyme, or the power of Gods abbollished the serpentes out of Irelande.</note>If tyme haue chaunged thus the ground,</l>
+               <note place="margin">Doubtfull obiectio<g ref="#tilde">̄</g>s, whether processe of tyme, or the power of Gods abbollished the serpentes out of Irelande.</note>If tyme haue chaunged thus the ground,</l>
             <l>I stande therein in doubt:</l>
             <l>Or whether that the Goddes them selues,</l>
             <l>haue driuen those Serpentes out.</l>
@@ -887,7 +894,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>in steade of Sauage Beare.</l>
             <l>Or if it were for Iunos sake,</l>
             <l>
-               <pb facs="tcp:14477:17"/>who happlie begg'de the same:</l>
+               <pb facs="BL035.jpg"/>who happlie begg'de the same:</l>
             <l>In pasture for her newe giuen Cowe,</l>
             <l>(that Io. Greekishe dame.)</l>
             <l>Or if it hapte when thondryng fame,<note place="margin">Emongest sondrie suppositions a very likely hoode, opening the tyme of the wormes exylement.</note>
@@ -915,7 +922,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>In whiche consult one stepped forthe,</l>
             <l>(as farre as I can gesse:)</l>
             <l>
-               <hi>Apollo</hi> was that reuerende sire,</l>
+               <seg rend="italics">Apollo</seg> was that reuerende sire,</l>
             <l>cheef in this businesse.</l>
             <l>Who saied, you goddes that rul dome holde,</l>
             <l>aboue the circled Skie:</l>
@@ -923,11 +930,11 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             </l>
             <l>your graces terrifie.</l>
             <l>
-               <pb facs="tcp:14477:18"/>
-               <note place="margin">Mars co<g ref="char:cmbAbbrStroke">̄</g>firmeth Appolloes saiyng, verifiyng his greate wisedome, showing reason why they should exempt feare.</note>In sothe saied <hi>Mars</hi> (whose curled lokes,</l>
+               <pb facs="BL036.jpg"/>
+               <note place="margin">Mars co<g ref="#tilde">̄</g>firmeth Appolloes saiyng, verifiyng his greate wisedome, showing reason why they should exempt feare.</note>In sothe saied <seg rend="italics">Mars</seg> (whose curled lokes,</l>
             <l>did shade a doubtie face:)</l>
             <l>
-               <hi>Appolloes</hi> councell noble is,</l>
+               <seg rend="italics">Appolloes</seg> councell noble is,</l>
             <l>and fruitfull in this case.</l>
             <l>For why should wee that moulded man,</l>
             <l>of man be thus a fraied?</l>
@@ -943,27 +950,27 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>But shunne asmuche as in vs lieth</l>
             <l>the brunte of after clappes.</l>
             <l>
-               <note place="margin">Bloodie Mars ouertwharteth Appollo, annichillating his reasons, giuyng contrarie counsell to the confusion of the enemie.</note>Let worthie <hi>Ioue</hi> in Irefull rage,</l>
+               <note place="margin">Bloodie Mars ouertwharteth Appollo, annichillating his reasons, giuyng contrarie counsell to the confusion of the enemie.</note>Let worthie <seg rend="italics">Ioue</seg> in Irefull rage,</l>
             <l>restraine them by his might:</l>
             <l>And suffer half his thonder boltes,</l>
             <l>vpon their pates to light.</l>
             <l>
-               <note n="*" place="margin">Apollo contendyng with Mars, manifesteth his notable wisdome in waiyng the royall estate.</note>Peace (saied <hi>Apollo</hi>) conqu'ryng <hi>Mars,</hi>
+               <note n="*" place="margin">Apollo contendyng with Mars, manifesteth his notable wisdome in waiyng the royall estate.</note>Peace (saied <seg rend="italics">Apollo</seg>) conqu'ryng <seg rend="italics">Mars,</seg>
             </l>
             <l>that were not wisest lore:</l>
-            <l>For <hi>Ioue</hi> to spende his warlike boltes,</l>
+            <l>For <seg rend="italics">Ioue</seg> to spende his warlike boltes,</l>
             <l>if you beholde the store.</l>
             <l>And now the cicloppes are decaied</l>
             <l>(whose connyng science sure:</l>
-            <l>Could make the seate of mightie <hi>Ioue,</hi>
+            <l>Could make the seate of mightie <seg rend="italics">Ioue,</seg>
             </l>
             <l>for euer to endure.)</l>
             <l>But if that ye will liste awhile,</l>
             <l>and harken my deuice:</l>
             <l>I will relate a better waie,</l>
             <l>
-               <pb facs="tcp:14477:18"/>whiche doubtlesse maie suffice.</l>
-            <l>There be a Crewe of mountaine gods,<note place="margin">The deuice of Apollo is here most excelle<g ref="char:cmbAbbrStroke">̄</g>t, who opens a meane to saue both men and money.</note>
+               <pb facs="BL037.jpg"/>whiche doubtlesse maie suffice.</l>
+            <l>There be a Crewe of mountaine gods,<note place="margin">The deuice of Apollo is here most excelle<g ref="#tilde">̄</g>t, who opens a meane to saue both men and money.</note>
             </l>
             <l>possessyng yearth belowe:</l>
             <l>Praie that their Godheades would a fewe,</l>
@@ -976,10 +983,10 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>it houes you keepe it well:</l>
             <l>And no deuice maie serue so fitte,</l>
             <l>their mallice to expell.</l>
-            <l>Though god <hi>Apollo</hi> spake full wise<note place="margin">Mars addicted onely to slauter gensaithe Apolloes counsell, obiectyng, it to bee voyde of wisedomes forecast, not hauyng regarde to causalties that might ensue.</note>
+            <l>Though god <seg rend="italics">Apollo</seg> spake full wise<note place="margin">Mars addicted onely to slauter gensaithe Apolloes counsell, obiectyng, it to bee voyde of wisedomes forecast, not hauyng regarde to causalties that might ensue.</note>
             </l>
             <l>
-               <hi>Mars</hi> ganne againe replie:</l>
+               <seg rend="italics">Mars</seg> ganne againe replie:</l>
             <l>My soueraigne Lordes let reason yet,</l>
             <l>haue superioritie.</l>
             <l>Since Marshall knightes haue felt the tast,</l>
@@ -988,7 +995,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>doe taste it daie and howre.</l>
             <l>How maie the Goddes that hills posses,</l>
             <l>graunt this vniust requeste?</l>
-            <l>Or who would deeme <hi>Apollo</hi> sage,</l>
+            <l>Or who would deeme <seg rend="italics">Apollo</seg> sage,</l>
             <l>had follie in his breste?</l>
             <l>Knowe ye not in that sauage soile,<note place="margin">Mars showeth reason, why the Gods should reiecte Apolloes counsell, he sets out the whole rabble of ill beastes bred in the lande.</note>
             </l>
@@ -998,7 +1005,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>Behold you not the Sloworme there,</l>
             <l>with Uipers generation?</l>
             <l>
-               <pb facs="tcp:14477:19"/>Maie ye not see the Frogge and Tode,</l>
+               <pb facs="BL038.jpg"/>Maie ye not see the Frogge and Tode,</l>
             <l>there haue their procreation?</l>
             <l>Cannot eche wight (except the blinde)</l>
             <l>the sauage beastes perceiue?</l>
@@ -1015,18 +1022,18 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             </l>
             <l>enioye their consolation?</l>
             <l>
-               <note place="margin">Apollo confuteth Mars and his Marshall reasons beyng once experimented in the misteries of diuinitie hauyng fore knowledge of Iupiters entent and purpose.</note>Why (saied <hi>Apollo</hi>) angrie <hi>Mars,</hi>
+               <note place="margin">Apollo confuteth Mars and his Marshall reasons beyng once experimented in the misteries of diuinitie hauyng fore knowledge of Iupiters entent and purpose.</note>Why (saied <seg rend="italics">Apollo</seg>) angrie <seg rend="italics">Mars,</seg>
             </l>
             <l>eche parte maie well agree:</l>
-            <l>When as by <hi>Ioue</hi> eche sleayng beast,
+            <l>When as by <seg rend="italics">Ioue</seg> eche sleayng beast,
             </l>
             <l>abstracted thence shalbe.</l>
             <l>
-               <hi>Ioue</hi> first shall banishe quite the bests</l>
+               <seg rend="italics">Ioue</seg> first shall banishe quite the bests</l>
             <l>yea he shall cleane destroye:</l>
             <l>The thing that might in any wise,</l>
             <l>the Souldiers ought anoye.</l>
-            <l>And thei debarred once from the<g ref="char:cmbAbbrStroke">̄</g>ce,</l>
+            <l>And thei debarred once from the<g ref="#tilde">̄</g>ce,</l>
             <l>in saufe Securitie:</l>
             <l>The Souldiers then in open field,</l>
             <l>by daie and night maie lye.</l>
@@ -1036,7 +1043,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>their warlicke sute commence.</l>
             <l>Yea thei maie sleepe in bushe or hedge,</l>
             <l>
-               <pb facs="tcp:14477:19"/>for safetie shall be suche:</l>
+               <pb facs="BL039.jpg"/>for safetie shall be suche:</l>
             <l>As neither Snake nor Lion fearce</l>
             <l>their slombryng corpes shall touche.</l>
             <l>A mantill maie suffice to shroude,<note place="margin">It appeares by this, that Apollo was first deuisour of the woodkarnes glibbe and mantell.</note>
@@ -1044,18 +1051,16 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>their lethie naked skinne:</l>
             <l>And heare long growne maie serue full well,</l>
             <l>to lappe their noddells in.</l>
-            <l>In deede (saied <hi>Mars</hi>) it maie be so,<note place="margin">Mars conuicted by reason, concludes with Apollo.</note>
+            <l>In deede (saied <seg rend="italics">Mars</seg>) it maie be so,<note place="margin">Mars conuicted by reason, concludes with Apollo.</note>
             </l>
-            <l>if <hi>Ioue</hi> thereto agree:</l>
+            <l>if <seg rend="italics">Ioue</seg> thereto agree:</l>
             <l>But first tis meete that euery hill,</l>
             <l>in leauell sorte should bee.</l>
-            <l>Be whishte (O <hi>Mars</hi>) saied thondryng <hi>Ioue,</hi>
-               <note place="margin">Iupiter to Mars in Apolloes praise, rate<gap reason="illegible" resp="#PDCC" extent="2 letters">
-                     <desc>••</desc>
-                  </gap>yng, that Apollo had respecte, to daungers as well extant, as to those that might after followe.</note>
+            <l>Be whishte (O <seg rend="italics">Mars</seg>) saied thondryng <seg rend="italics">Ioue,</seg>
+               <note place="margin">Iupiter to Mars in Apolloes praise, ratefyng, that Apollo had respecte, to daungers as well extant, as to those that might after followe.</note>
             </l>
             <l>
-               <hi>Apollo</hi> in degree:</l>
+               <seg rend="italics">Apollo</seg> in degree:</l>
             <l>The seconde to my sacred self,</l>
             <l>I hould hym next to bee.</l>
             <l>Hath saied, what might suffice eche one,</l>
@@ -1069,13 +1074,13 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>The crokyng Tode that ougly semes,</l>
             <l>with Snakes and Adders fell:</l>
             <l>Shall be desmiste and sent forthe with,</l>
-            <l>to <hi>Plutos</hi> ghostes in hell:</l>
+            <l>to <seg rend="italics">Plutos</seg> ghostes in hell:</l>
             <l>To feede thereon, them selues to glutte,</l>
             <l>sufficyng hongrie mawe:</l>
             <l>Yea thei them selues without constraint,</l>
             <l>them selues shall thether drawe.</l>
             <l>
-               <pb facs="tcp:14477:20"/>Let therefore little Mountaine Gods,</l>
+               <pb facs="BL040.jpg"/>Let therefore little Mountaine Gods,</l>
             <l>a troupe (as thei maie spare:)</l>
             <l>Of breachlesse men at all assaies,</l>
             <l>bothe leauie and prepare.</l>
@@ -1089,12 +1094,12 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>With safer meanes to daunce the Boggs,</l>
             <l>when thei by foes are vexte.</l>
             <l>
-               <note place="margin">It is agreed vpon, by consent of the Gods, that Woodkarne shall weare glibbed heds, signifiyng their monstrous mallice, irefull hartes, and bloodie hands, which moste stricktly they to this daie doe obserue.</note>With glibbed heddes like <hi>Mars</hi> hym self,</l>
+               <note place="margin">It is agreed vpon, by consent of the Gods, that Woodkarne shall weare glibbed heds, signifiyng their monstrous mallice, irefull hartes, and bloodie hands, which moste stricktly they to this daie doe obserue.</note>With glibbed heddes like <seg rend="italics">Mars</seg> hym self,</l>
             <l>their malice to expresse:</l>
             <l>With Irefull hartes and bloudie hands,</l>
             <l>soone prone to wickednesse.</l>
             <l>
-               <hi>Ioue</hi> spake, twas doen and I suppose,</l>
+               <seg rend="italics">Ioue</seg> spake, twas doen and I suppose,</l>
             <l>then Serpents were dismiste:</l>
             <l>And sent awaie, whiche to be true,</l>
             <l>now credite if ye liste.</l>
@@ -1112,7 +1117,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>
                <note place="margin">A renuyng againe of the historie.</note>It brynges forthe no Lion feare,</l>
             <l>
-               <pb facs="tcp:14477:20"/>nor yet the rau'nyng Beare.</l>
+               <pb facs="BL041.jpg"/>nor yet the rau'nyng Beare.</l>
             <l>No beastes (I saie) whiche do possesse,</l>
             <l>one iote of crewell kinde:</l>
             <l>Excepte the Wolfe that nosome is,<note place="margin">Greate store of wolues in Irelande.</note>
@@ -1127,7 +1132,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>mans helpe at all assaies:</l>
             <l>And next for Neate, whereby his life,</l>
             <l>is lengthned sondrie waies.</l>
-            <l>Dame <hi>Venus</hi> hath a portion eke,</l>
+            <l>Dame <seg rend="italics">Venus</seg> hath a portion eke,</l>
             <l>obseruyng well her tourne:</l>
             <l>Restoryng that whiche tracte of tyme,</l>
             <l>and withred age hath worne?</l>
@@ -1144,13 +1149,11 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>or shewe in plaine prospecte:</l>
             <l>Because I am no God at all,</l>
             <l>my cunnyng hath defecte.</l>
-            <l>Of haukes which retaining sondrie names,<note place="margin">Irelande hath great store of Hawkes <gap reason="illegible" resp="#PDCC" extent="1 word">
-                     <desc>〈◊〉</desc>
-                  </gap> in it.</note>
+            <l>Of haukes which retaining sondrie names,<note place="margin">Irelande hath great store of Hawkes bred in it.</note>
             </l>
             <l>the Countrie store doeth breede:</l>
             <l>
-               <pb facs="tcp:14477:21"/>Whose names if Pacience will abide,</l>
+               <pb facs="BL042.jpg"/>Whose names if Pacience will abide,</l>
             <l>in order shall proceede.</l>
             <l>
                <note place="margin">The names of the Hawkes that are bred in Ireland with their estemations orderly whiche are in nomber seuen.</note>The Goshauke first of the Crewe,</l>
@@ -1185,7 +1188,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>in Irelande many bee.</l>
             <l>Not in the bounds of Englishe pale,</l>
             <l>
-               <pb facs="tcp:14477:21"/>whiche is a ciuill place:</l>
+               <pb facs="BL043.jpg"/>whiche is a ciuill place:</l>
             <l>But in the Deuills Arse, a Peake,</l>
             <l>where Rebells moste imbrace.</l>
             <l>For as this foule and all the reste,</l>
@@ -1211,7 +1214,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>She scarce will stint on twige or bowe,</l>
             <l>till on his fiste she fall.</l>
             <l>
-               <pb facs="tcp:14477:22"/>Thus thei obey their tutors hestes</l>
+               <pb facs="BL044.jpg"/>Thus thei obey their tutors hestes</l>
             <l>and doe degenerate:</l>
             <l>From wildnesse that belonged to,</l>
             <l>their forepossessed state.</l>
@@ -1228,7 +1231,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>whereof thei haue the store.</l>
             <l>And if perhappes a little Ape,</l>
             <l>be taken from the Henne:</l>
-            <l>And brought fro<g ref="char:cmbAbbrStroke">̄</g> Boggs to cha<g ref="char:cmbAbbrStroke">̄</g>pion ground,</l>
+            <l>And brought fro<g ref="#tilde">̄</g> Boggs to cha<g ref="#tilde">̄</g>pion ground,</l>
             <l>suche thyngs happe now and then.</l>
             <l>
                <note place="margin">The sowe returnes to the mire, and the dog to his vomite againe.</note>Yea though thei were in Courte trainde vp,</l>
@@ -1249,7 +1252,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>and other wormes to kill?</l>
             <l>What caused thee on sillie beastes,</l>
             <l>
-               <pb facs="tcp:14477:22"/>to woorke thy cruell will?</l>
+               <pb facs="BL045.jpg"/>to woorke thy cruell will?</l>
             <l>What thyng incenst thee for to strike,</l>
             <l>them with thy heauie hande?</l>
             <l>When as thou leftest more spitefull beastes,<note place="margin">Irishe karne more hurtfull then Serpentes.</note>
@@ -1271,7 +1274,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>like gracelesse graftes abhorre.</l>
             <l>Thou tookest paine them to reduce,</l>
             <l>vnto a godlie state:</l>
-            <l>But could thy meanes preuaill where <hi>Ioue,</hi>
+            <l>But could thy meanes preuaill where <seg rend="italics">Ioue,</seg>
                <note place="margin">No strength maie preuaile whom God doeth withstande, no phisicke can cure, whom God in his ire striketh, showing that God hath giuen vp Woodkarne to a reprobate sence infectyng them also with an incurable botche.</note>
             </l>
             <l>smightes with a curelesse fate?</l>
@@ -1287,8 +1290,8 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>No Pies to plucke the Thatch from house,</l>
             <l>are breed in Irishe grounde:</l>
             <l>
-               <pb facs="tcp:14477:23"/>
-               <note place="margin">Better it were to haue Pyes the<g ref="char:cmbAbbrStroke">̄</g> prowlers.</note>But worse then Pies, the same to burne,</l>
+               <pb facs="BL046.jpg"/>
+               <note place="margin">Better it were to haue Pyes the<g ref="#tilde">̄</g> prowlers.</note>But worse then Pies, the same to burne,</l>
             <l>a thousande maie be founde.</l>
             <l>Whiche will not sticke without remorse,</l>
             <l>whole tounes for to deuoure:</l>
@@ -1342,7 +1345,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>
                <note n="*" place="margin">Woodkarnes armes artificially displaide.</note>No wight regardyng vertue lesse,</l>
             <l>
-               <pb facs="tcp:14477:23"/>more prone to sinfull lust:<note place="margin">Woodkarne of all creatures least regardeth vertue, beyng giuen wholy to wicked sensualitie and lust, they are of least credite vnder heauen a notable commendaiton.</note>
+               <pb facs="BL047.jpg"/>more prone to sinfull lust:<note place="margin">Woodkarne of all creatures least regardeth vertue, beyng giuen wholy to wicked sensualitie and lust, they are of least credite vnder heauen a notable commendaiton.</note>
             </l>
             <l>Nor creatures liuyng vnder heauen,</l>
             <l>that men maie worser trust.</l>
@@ -1353,7 +1356,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>tis not in handes of his.</l>
             <l>If cunnyng had preuailed ought,</l>
             <l>or toile might winne the game:</l>
-            <l>Then <hi>Sidney</hi> had through labours paine,<note place="margin">Sir Henry Sidneys indeuour in reducyng of Irelande.</note>
+            <l>Then <seg rend="italics">Sidney</seg> had through labours paine,<note place="margin">Sir Henry Sidneys indeuour in reducyng of Irelande.</note>
             </l>
             <l>long since atchiu'd the same.</l>
             <l>If execution of the Lawes,</l>
@@ -1371,7 +1374,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>Might make this gracelesse cursed race,</l>
             <l>their euill liues refuse.</l>
             <l>
-               <note n="*" place="margin">Marke here the obstinacie of these wodkarne whiche by how muche lenitie they are better vsed ordered, and gouerned, by so muche the more wilfulnesse, frowardnesse and stubbornesse, they are alienated, and enstranged fro<g ref="char:cmbAbbrStroke">̄</g> all good discipline, and loyall obedience, a moste euident signe and token of an vntowarde generation.</note>The more he seeketh them to win</l>
+               <note n="*" place="margin">Marke here the obstinacie of these wodkarne whiche by how muche lenitie they are better vsed ordered, and gouerned, by so muche the more wilfulnesse, frowardnesse and stubbornesse, they are alienated, and enstranged fro<g ref="#tilde">̄</g> all good discipline, and loyall obedience, a moste euident signe and token of an vntowarde generation.</note>The more he seeketh them to win</l>
             <l>the further of thei straie:</l>
             <l>As ympes that doe detest to walke</l>
             <l>the high and pleasant waie:</l>
@@ -1380,7 +1383,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>Till place and space and heauenly grace,</l>
             <l>shall fitter tyme bestowe.</l>
             <l>
-               <pb facs="tcp:14477:24"/>And to conclude this formoste part</l>
+               <pb facs="BL048.jpg"/>And to conclude this formoste part</l>
             <l>herein I make an ende:</l>
             <l>Supposyng loiall subiectes minds</l>
             <l>in nought I doe offende.</l>
@@ -1408,12 +1411,12 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <trailer>FINIS.</trailer>
          </div>
          <div type="prologue">
-            <pb facs="tcp:14477:24"/>
+            <pb facs="BL049.jpg"/>
             <head>The Prolog to the seconde parte.</head>
             <l>
                <seg rend="decorInit">S</seg>Ince sacred Ioue whose royall throne,</l>
             <l>is plaste in circled Skies:</l>
-            <l>Beholdeth thinges farr distant the<g ref="char:cmbAbbrStroke">̄</g>ce,</l>
+            <l>Beholdeth thinges farr distant the<g ref="#tilde">̄</g>ce,</l>
             <l>with vewe of godly eyes.</l>
             <l>And seyng that the Lorde doeth guide,</l>
             <l>eache thyng with heauenly might:</l>
@@ -1433,7 +1436,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <l>as how they doe rebell.</l>
             <l>And euery thyng to showe aright,</l>
             <l>
-               <pb facs="tcp:14477:25"/>thou Lorde directe my course:</l>
+               <pb facs="BL050.jpg"/>thou Lorde directe my course:</l>
             <l>And leade me to Thelysian fieldes,</l>
             <l>by thy triumphant force.</l>
             <l>I seeke no helpe of forraigne Gods,</l>
@@ -1451,7 +1454,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
             <trailer>FINIS.</trailer>
          </div>
          <div n="2" type="part">
-            <pb facs="tcp:14477:25"/>
+            <pb facs="BL051.jpg"/>
             <head>The second part of the Image of Irelande.</head>
             <lg>
                <l>
@@ -1483,7 +1486,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>With sculles vpon their poules,</l>
                <l>in steade of ciuill Cappes:</l>
                <l>
-                  <pb facs="tcp:14477:26"/>With speares in hand and swordes by sides,</l>
+                  <pb facs="BL052.jpg"/>With speares in hand and swordes by sides,</l>
                <l>to beare of after clappes.</l>
                <l>With Iackettes long and large,</l>
                <l>whiche shroude simplicitie:</l>
@@ -1515,7 +1518,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                </l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:26"/>
+               <pb facs="BL053.jpg"/>
                <l>Like as their weedes be straunge,</l>
                <l>and monstrous to beholde:</l>
                <l>So doe their maners far surpasse,<note place="margin">Woodkarnes manners are more straunger then his apparell.</note>
@@ -1533,7 +1536,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>For why, thei feare not God,</l>
                <l>nor honour yet their Prince:<note n="*" place="margin">Irishe Rebbelles feare neither god nor man.</note>
                </l>
-               <l>Whom by the lawes of mightie <hi>Ioue</hi>
+               <l>Whom by the lawes of mightie <seg rend="italics">Ioue</seg>
                </l>
                <l>thei ought to reuerence.</l>
                <l>Eche theef would be a Lorde,<note place="margin">The hautie hartes of Woodkarne desire rule dome, but they shall haue a rope.</note>
@@ -1557,7 +1560,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>When as thei finde a subtill fleight,<note place="margin">The ioye of rebbelles is in plagyng of true men.</note>
                </l>
                <l>
-                  <pb facs="tcp:14477:27"/>to worke true mens anoye.</l>
+                  <pb facs="BL054.jpg"/>to worke true mens anoye.</l>
                <l>For mischeefis the game,</l>
                <l>wherein thei doe delight:</l>
                <l>
@@ -1596,7 +1599,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                   <note place="margin">The woodkarnes Cookes.</note>But who shalbe the Cooke:</l>
                <l>it is no question here:</l>
                <l>
-                  <pb facs="tcp:14477:27"/>Nor for the Pantlers chipped loues,<note place="margin">Bread seldomly vsed amongst Wodkarne.
+                  <pb facs="BL055.jpg"/>Nor for the Pantlers chipped loues,<note place="margin">Bread seldomly vsed amongst Wodkarne.
                   </note>
                </l>
                <l>thei aske for once a yere.</l>
@@ -1615,7 +1618,13 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>Upon the coales or embers hotte,</l>
                <l>for want of Gredyron laie.</l>
                <l>And scarse not halfe enough,</l>
-               <l>(draffe <choice><orig>serue<choice ana="foulCase"><orig>c</orig><reg>t</reg></choice>h</orig><reg>serves</reg></choice> well for Hoggs:)</l>
+               <l>(draffe <choice>
+                     <orig>serue<choice ana="foulCase">
+                           <orig>c</orig>
+                           <reg resp="#ASilva">t</reg>
+                        </choice>h</orig>
+                     <reg resp="#ASilva">serves</reg>
+                  </choice> well for Hoggs:)</l>
                <l>Thei take them vp and fall therto,</l>
                <l>like rau'nyng hongrie Doggs.</l>
                <l>Deuouryng gutte and limine,<note place="margin">The rudenesse of hors boyes is herein set open, who fill them with driffe draffe, farwell the good token.</note>
@@ -1635,8 +1644,8 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>No table there is spread,<note place="margin">The very order of the wilde Irish, their sittyng, table, dishes, and cushens discribed O braue swinishe fashion founde our emongst hogges. Deseruyng for maners to sitt amongst dogges.</note>
                </l>
                <l>
-                  <pb facs="tcp:14477:28"/>thei haue no courtlike guise,</l>
-               <l>The yearth sometimes standes the<g ref="char:cmbAbbrStroke">̄</g> in steede</l>
+                  <pb facs="BL056.jpg"/>thei haue no courtlike guise,</l>
+               <l>The yearth sometimes standes the<g ref="#tilde">̄</g> in steede</l>
                <l>whereon their victuall lyes.</l>
                <l>Their Coushens are of Strawe,</l>
                <l>of Rushes or of Haye:</l>
@@ -1650,7 +1659,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                   <note place="margin">The order of Wodkarne is to haue a Frier blesse hym and all his housholde before he sits doune.</note>Now ere the Lordesitts doune,</l>
                <l>with concubine or wife:</l>
                <l>
-                  <note n="*" place="margin">Irishe Karne euery yeare once or twise peraduenture make exchaunge of their wiues, as thei like the<g ref="char:cmbAbbrStroke">̄</g> so will thei keepe the<g ref="char:cmbAbbrStroke">̄</g>, for thei will not be bounde to them.</note>(Whereof he often makes exchaunge,</l>
+                  <note n="*" place="margin">Irishe Karne euery yeare once or twise peraduenture make exchaunge of their wiues, as thei like the<g ref="#tilde">̄</g> so will thei keepe the<g ref="#tilde">̄</g>, for thei will not be bounde to them.</note>(Whereof he often makes exchaunge,</l>
                <l>in compasse of his life.)</l>
                <l>Before he takes his rome,</l>
                <l>a Frier doeth beginne:</l>
@@ -1671,7 +1680,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>Doe sit them doune on strawe or grounde,</l>
                <l>their victualles for to gette.</l>
                <l>
-                  <pb facs="tcp:14477:28"/>Long stabbers plucke thei forthe,<note place="margin">A Foyner of three quarters of a yarde long, is the Woodkarnes knife.</note>
+                  <pb facs="BL057.jpg"/>Long stabbers plucke thei forthe,<note place="margin">A Foyner of three quarters of a yarde long, is the Woodkarnes knife.</note>
                </l>
                <l>in steede of handsome kniues:</l>
                <l>And with the same thei slashe me out,</l>
@@ -1683,7 +1692,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>Their cheefest drinke is Milke,<note place="margin">The Irishe mans drinke.</note>
                </l>
                <l>for want of Milke, the brothe:</l>
-               <l>Thei take which thing y<hi rend="sup">e</hi> Surgio<g ref="char:cmbAbbrStroke">̄</g> sweares,<note place="margin">A thyng of necessitie proued to be phisicke, hauyng his confirmation vpon the othe of a periured caitiffe Karne.</note>
+               <l>Thei take which thing y<hi rend="sup">e</hi> Surgio<g ref="#tilde">̄</g> sweares,<note place="margin">A thyng of necessitie proued to be phisicke, hauyng his confirmation vpon the othe of a periured caitiffe Karne.</note>
                </l>
                <l>is Phisicke by his trothe.</l>
                <l>And if that brothe be scante,</l>
@@ -1692,16 +1701,16 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>within that goodly land:</l>
                <l>Againe if Fortune faunth,</l>
                <l>or on them chaunce to smile:</l>
-               <l>She filles the<g ref="char:cmbAbbrStroke">̄</g> then with <hi>Vskebeaghe,</hi>
+               <l>She filles the<g ref="#tilde">̄</g> then with <seg rend="italics">Vskebeaghe,</seg>
                   <note place="margin">
-                     <hi>Vskebeaghe,</hi> is Aquanite.</note>
+                     <seg rend="italics">Vskebeaghe,</seg> is Aquanite.</note>
                </l>
                <l>and wine an other while.</l>
                <l>O that is cheare in <gap reason="illegible" resp="#PDCC" extent="1 letter">
                      <desc>•</desc>
                   </gap>owles,</l>
                <l>it beautifith the feaste:</l>
-               <l>And makes the<g ref="char:cmbAbbrStroke">̄</g> loke with dronken noules,</l>
+               <l>And makes the<g ref="#tilde">̄</g> loke with dronken noules,</l>
                <l>from moste vnto the leaste.</l>
                <l>Now when their gutts be full,</l>
                <l>then comes the pastyme in:</l>
@@ -1714,7 +1723,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>And eke in Rimes shewes forthe at large,<note place="margin">The Barde by his Rimes hath as great force emongst Woodkarne to perswade, as the elloquent oration of a learned Oratour emongest the ciuill people.</note>
                </l>
                <l>
-                  <pb facs="tcp:14477:29"/>their glorie thereby wonne.</l>
+                  <pb facs="BL058.jpg"/>their glorie thereby wonne.</l>
                <l>Thus he at randome ronneth,</l>
                <l>he pricks the Rebells on:</l>
                <l>And shewes by suche externall deeds,</l>
@@ -1752,7 +1761,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>
                   <note n="*" place="margin">This flatteryng Frier promiseth to the Rebels euerlasting life, if they perceiuer in rebellyng against the (Queene.)</note>the white he tournes to blacke:</l>
                <l>
-                  <pb facs="tcp:14477:29"/>And through the pardons in his Male,</l>
+                  <pb facs="BL059.jpg"/>And through the pardons in his Male,</l>
                <l>he workes a Knauishe Knacke.</l>
             </lg>
             <lg>
@@ -1794,7 +1803,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                      </gap> meate must haue sowre sauce.</note>
                </l>
                <l>
-                  <pb facs="tcp:14477:30"/>a sause to stealyng cheare.</l>
+                  <pb facs="BL060.jpg"/>a sause to stealyng cheare.</l>
                <l>Whose heddes are taken vp,</l>
                <l>their triumphe to declare.</l>
                <l>And more to make their doyngs knowne,</l>
@@ -1831,7 +1840,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>And therefore serues his booke,</l>
                <l>the Candell and the Bell:</l>
                <l>
-                  <pb facs="tcp:14477:30"/>But thinke you that suche Apishetoies,<note n="*" place="margin">A notable question whiche demaundes, if pardones fro<g ref="char:cmbAbbrStroke">̄</g> Rome, maie bryng damned soules from hell.</note>
+                  <pb facs="BL061.jpg"/>But thinke you that suche Apishetoies,<note n="*" place="margin">A notable question whiche demaundes, if pardones fro<g ref="#tilde">̄</g> Rome, maie bryng damned soules from hell.</note>
                </l>
                <l>bring damned soules from hell,</l>
                <l>It longs not to my parte,</l>
@@ -1867,7 +1876,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>the reste from mortall warre.</l>
                <l>But still thei busie are,</l>
                <l>
-                  <pb facs="tcp:14477:31"/>leage Subiectes to desease:</l>
+                  <pb facs="BL062.jpg"/>leage Subiectes to desease:</l>
                <l>Their natiue countrie for to spoile,</l>
                <l>and Princs to displease.</l>
                <l>
@@ -1879,7 +1888,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>
                   <note n="*" place="margin">The Karne goe still on in their malice, growyng from pettie fellonie to maine treason.</note>and marche in warlike wise:</l>
                <l>Unto the feeld, with sworde and speare,</l>
-               <l>whiche <hi>Mars</hi> did first deuise.</l>
+               <l>whiche <seg rend="italics">Mars</seg> did first deuise.</l>
                <l>
                   <note n="*" place="margin">They boste of their manhood.</note>Thei bragge to fight it out,</l>
                <l>their quarell iuste to trie:</l>
@@ -1891,7 +1900,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                   <note place="margin">The successe of reachlesse enterprises.</note>Whereof doe rise a sodaine plague,</l>
                <l>these traitours to consume.</l>
                <l>
-                  <note place="margin">The celeritie of Sir Henry Sidney, to encounter with the Rebelles.</note>Our valiaunt <hi>Sidney</hi> Lord,</l>
+                  <note place="margin">The celeritie of Sir Henry Sidney, to encounter with the Rebelles.</note>Our valiaunt <seg rend="italics">Sidney</seg> Lord,</l>
                <l>who gouernes Irishe soile:</l>
                <l>Doth poste himself with Marshall knightes</l>
                <l>those braggyng beastes to coile.</l>
@@ -1906,7 +1915,7 @@ if you so credite, and therewithall accepte of my trauelles, (whiche do represen
                <l>In whiche Caliuers vantyng foes,</l>
                <l>their iuste reward maie paie.</l>
                <l>
-                  <pb facs="tcp:14477:31"/>And many Irelande Lords,<note n="*" place="margin">Recommendation of the good subiectes of Irelande, their fidelitie, loyaltie, and seruice to their Prince is described.</note>
+                  <pb facs="BL063.jpg"/>And many Irelande Lords,<note n="*" place="margin">Recommendation of the good subiectes of Irelande, their fidelitie, loyaltie, and seruice to their Prince is described.</note>
 beyng faithfull to the Croune:</l>
                <l>Protest through force of horse and speare,</l>
                <l>those crakyng Knaues shall doune.</l>
@@ -1949,7 +1958,7 @@ beyng faithfull to the Croune:</l>
                <l>Against whom comes the Karne,</l>
                <l>farre of in warlicke wise:</l>
                <l>
-                  <pb facs="tcp:14477:32"/>
+                  <pb facs="BL064.jpg"/>
                   <note place="margin">The marche of the Irishry and their notable bragges beyng farre from their enemies, wherein they discouer openly their couragious dasterly hartes.</note>With three and three in ranckes be<gap reason="illegible" resp="#PDCC" extent="1 letter">
                      <desc>•</desc>
                   </gap>et,</l>
@@ -1991,7 +2000,7 @@ beyng faithfull to the Croune:</l>
                <l>to either parte is lent.</l>
                <l>The horsemen scoures the coaste:</l>
                <l>
-                  <pb facs="tcp:14477:32"/>with shakyng speares in hande:</l>
+                  <pb facs="BL065.jpg"/>with shakyng speares in hande:</l>
                <l>And Rebells whiche before did boaste,<note place="margin">Uauntyng Woodkarne doe first giue backe.</note>
                </l>
                <l>now ginne to flye the lande.</l>
@@ -2031,7 +2040,7 @@ beyng faithfull to the Croune:</l>
                </l>
                <l>till that the feeld be gotte.</l>
                <l>
-                  <pb facs="tcp:14477:33"/>But still thei forward pearse,</l>
+                  <pb facs="BL066.jpg"/>But still thei forward pearse,</l>
                <l>vpon the glibbed route:</l>
                <l>And with their weapons meete for warre,</l>
                <l>these vauntyng foes thei cloute.</l>
@@ -2070,7 +2079,7 @@ beyng faithfull to the Croune:</l>
                <l>for so thei thinke it beste:</l>
                <l>As for to stande to fight it out,</l>
                <l>
-                  <pb facs="tcp:14477:33"/>their soules doe it deteste.</l>
+                  <pb facs="BL067.jpg"/>their soules doe it deteste.</l>
                <l>Their hartes are molified,</l>
                <l>with feare thei are opprest:</l>
                <l>And now thei waile y<hi rend="sup">e</hi> thing which wrought</l>
@@ -2095,7 +2104,7 @@ beyng faithfull to the Croune:</l>
                <l>Euen so the Irishe Karne,<note place="margin">The Princes pleasure put in execution by Sir Henry Sidney.</note>
                </l>
                <l>whiche doe our Queene prouoke:</l>
-               <l>Doe throughly feele by <hi>Sidneis</hi> hande,</l>
+               <l>Doe throughly feele by <seg rend="italics">Sidneis</seg> hande,</l>
                <l>the waight of Lyons stroke.</l>
                <l>For why? he mailes them doune,</l>
                <l>he strikes them in the chase:</l>
@@ -2115,7 +2124,7 @@ beyng faithfull to the Croune:</l>
                <l>for Iustice commeth in:<note place="margin">Iustice and fortitude yeeldes Rebels their hire.</note>
                </l>
                <l>
-                  <pb facs="tcp:14477:34"/>With Fortitude that (worthie wight,)</l>
+                  <pb facs="BL068.jpg"/>With Fortitude that (worthie wight,)</l>
                <l>to contribute their sinne.</l>
                <l>
                   <note place="margin">The Souldiers wrecke their anger and displeasure vpon the poore Irish karne without all pitie.</note>Thei prosecute the chase,</l>
@@ -2159,7 +2168,7 @@ beyng faithfull to the Croune:</l>
                <l>his purpose maie reuoke.</l>
                <l>For as he is the Prince,</l>
                <l>
-                  <pb facs="tcp:14477:34"/>and kyng of eurie beaste:</l>
+                  <pb facs="BL069.jpg"/>and kyng of eurie beaste:</l>
                <l>So would he haue obedience showne,</l>
                <l>from moste vnto the leaste.</l>
                <l>Els if you should repunge,<note place="margin">The rewarde of Rebellion is death.</note>
@@ -2197,7 +2206,7 @@ beyng faithfull to the Croune:</l>
                <l>And other beyng hedlesse made,</l>
                <l>like witlesse Geese remaine.</l>
                <l>
-                  <pb facs="tcp:14477:35"/>
+                  <pb facs="BL070.jpg"/>
                   <note place="margin">Irishe coltes are tamed by the snaffie of warre.</note>Thus vauntyng foes are tamde,</l>
                <l>by gliues of warlicke youthes:</l>
                <l>Receiuyng strokes in steede of meedes,</l>
@@ -2209,7 +2218,7 @@ beyng faithfull to the Croune:</l>
                <l>the reste are put to flight.</l>
                <l>Untruste remaineth not one,</l>
                <l>whiche maie the least anoye:</l>
-               <l>For windes are stilde by mightie <hi>Ioue,</hi>
+               <l>For windes are stilde by mightie <seg rend="italics">Ioue,</seg>
                </l>
                <l>O cause of endlesse ioye.</l>
                <l>
@@ -2222,7 +2231,7 @@ beyng faithfull to the Croune:</l>
                <l>the ende of warre is peace.</l>
                <l>
                   <note place="margin">A Godly praier that Irelande ought to vse.</note>God graunt the warres of Irishe sone,</l>
-               <l>by <hi>Sidneys</hi> meanes maie cease.</l>
+               <l>by <seg rend="italics">Sidneys</seg> meanes maie cease.</l>
                <l>Loe Lordyngs here the draught,</l>
                <l>of that whiche went before:</l>
                <l>And lande discride, the wished tide,</l>
@@ -2231,30 +2240,30 @@ beyng faithfull to the Croune:</l>
             <trailer>FINIS.</trailer>
          </div>
          <div type="part">
-            <pb facs="tcp:14477:35"/>
+            <pb facs="BL071.jpg"/>
             <p>
-               <seg rend="decorInit">A</seg>Fter that I had finished the first and seconde parte of the Image of Irelande, and had there somewhat disclosed the nature and qualitie of the wantone Irishe wilde VVoodkarne, I thought it expedient for the volumes augmentation, as more ampler by examples to proue the thinges therein co<g ref="char:cmbAbbrStroke">̄</g>tained, to put next in sequence, the picters and protractours of the moste notablest Rebelles in Irelande, (who as they are many) so doe thei aske sondrie opperations, if of eache seuerall one I should make relation. (And againe) musing in my mynde with whom I might encounter, as best beginne withall, hauing sondrie choyse to chose vpon, I supposed it a thing necessarie, and at this instant fittest to serue my turne, to laie the foundation of my attempt, <gap reason="illegible" resp="#PDCC" extent="1 letter">
+               <seg rend="decorInit">A</seg>Fter that I had finished the first and seconde parte of the Image of Irelande, and had there somewhat disclosed the nature and qualitie of the wantone Irishe wilde VVoodkarne, I thought it expedient for the volumes augmentation, as more ampler by examples to proue the thinges therein co<g ref="#tilde">̄</g>tained, to put next in sequence, the picters and protractours of the moste notablest Rebelles in Irelande, (who as they are many) so doe thei aske sondrie opperations, if of eache seuerall one I should make relation. (And againe) musing in my mynde with whom I might encounter, as best beginne withall, hauing sondrie choyse to chose vpon, I supposed it a thing necessarie, and at this instant fittest to serue my turne, to laie the foundation of my attempt, <gap reason="illegible" resp="#PDCC" extent="1 letter">
                   <desc>•</desc>
                </gap> sure substanciall corner stone, vpon Rory Ogge our next neighbour, at this present (a liuely Image <gap reason="illegible" resp="#PDCC" extent="1 letter">
                   <desc>•</desc>
                </gap> patterne of rebellion) who after many pagentes of treasons plaid, and notable offers of grace refused, beyng brought into greate miserie (by Sir Henry Sidney the Lorde Deputies daily instigation) and seyng hym self vtterly forsaken bothe of God
-<pb facs="tcp:14477:36"/>
+<pb facs="BL072.jpg"/>
 and man, at last moued through a desperate and condemned conscience, confessing his folly, manifesteth to the whole world, his croked nature, complaineth of his fatall destenie (and finally) as it were through a certaine coniecture, fore telleth of thynges that shortly shall happen hym. VVherefore behold in plaine protractour, a grose and corpulent man, lapped in a mantel ouerwhelmed with miserie, beyng in a VVood (an ill fauored Churle) standyng on a Hillocke enclosed with a shaking Bogge (his onely refuge in the tyme of trouble) vtteryng moste lamentably, with brynishe salte woluishe teares, his life as enseweth.</p>
             <trailer>FINIS.</trailer>
          </div>
          <div type="part">
-            <pb facs="tcp:14477:36"/>
+            <pb facs="BL073.jpg"/>
             <lg>
                <l>
-                  <hi>I Rorie Ogge,</hi>
+                  <seg rend="italics">I Rorie Ogge,</seg>
                   <note place="margin">Rorie Ogg showeth he<gap reason="illegible" resp="#PDCC" extent="1 letter">
                         <desc>•</desc>
-                     </gap>e the Countie wherein he dwelleth, and his naturall inclination, whereunto he is addicted.</note> inhabitaunt of <hi>Leasse,</hi>
+                     </gap>e the Countie wherein he dwelleth, and his naturall inclination, whereunto he is addicted.</note> inhabitaunt of <seg rend="italics">Leasse,</seg>
                </l>
                <l>A rebell false, against my (soueraine quene)</l>
                <l>I loue debate, expellyng godlie peace,</l>
                <l>I lead my life, in Boggs and thickets grene,</l>
-               <l>What mortall wight, my co<g ref="char:cmbAbbrStroke">̄</g>pere then hath seene,</l>
+               <l>What mortall wight, my co<g ref="#tilde">̄</g>pere then hath seene,</l>
                <l>Whiche of y<hi rend="sup">e</hi> lorde nor prince doeth stand in awe,</l>
                <l>Nor passe not for, the rigour of the Lawe.</l>
             </lg>
@@ -2282,11 +2291,11 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>And curie where, is in ancthoritie.</l>
             </lg>
             <lg>
-               <l>What maie displease,<note place="margin">Rory Ogge goyng forwarde in the settyng out of his dispositio<g ref="char:cmbAbbrStroke">̄</g> telleth that he doeth all this kind of mischefe of set purpose against y<hi rend="sup">e</hi> queene, who notwithstandyng, laieth al the blame and falte vpon the Deuill.</note> her princly roiall grace,</l>
+               <l>What maie displease,<note place="margin">Rory Ogge goyng forwarde in the settyng out of his dispositio<g ref="#tilde">̄</g> telleth that he doeth all this kind of mischefe of set purpose against y<hi rend="sup">e</hi> queene, who notwithstandyng, laieth al the blame and falte vpon the Deuill.</note> her princly roiall grace,</l>
                <l>(I like a theef) doe put the same in vre,</l>
                <l>Her highnesse Lawes, I daiely doe deface,</l>
                <l>
-                  <pb facs="tcp:14477:37"/>And through y<hi rend="sup">e</hi> same, her heauie wrath procure:</l>
+                  <pb facs="BL074.jpg"/>And through y<hi rend="sup">e</hi> same, her heauie wrath procure:</l>
                <l>Thus Sathan he, my sences doeth allure,</l>
                <l>Who makes them thrall, to serue his appetite,</l>
                <l>So that in nought, but synne I doe delight.</l>
@@ -2295,7 +2304,7 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>She would me good, if I would loyall bee,</l>
                <l>But my ill happe, and crewell Destinie,</l>
                <l>In parte or whole, that thyng forbiddeth me,</l>
-               <l>Till Ize constrainde, through <hi>Sidneis</hi> pollicie:</l>
+               <l>Till Ize constrainde, through <seg rend="italics">Sidneis</seg> pollicie:</l>
                <l>Her mightie hande, perforce to testifie,</l>
                <l>Prostratyng me, before her fearfull Lawe,</l>
                <l>Though of the same, I stoode not erst in awe.</l>
@@ -2317,15 +2326,15 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>In eche respect, surpasse the flames of fire,</l>
                <l>I languishe still, but hopelesse of redresse:</l>
                <l>My wicked life, I needes must now confesse,</l>
-               <l>Through which I feele, eue<g ref="char:cmbAbbrStroke">̄</g> liue y<hi rend="sup">e</hi> pa<g ref="char:cmbAbbrStroke">̄</g>ges of hell,</l>
+               <l>Through which I feele, eue<g ref="#tilde">̄</g> liue y<hi rend="sup">e</hi> pa<g ref="#tilde">̄</g>ges of hell,</l>
                <l>
                   <note n="*" place="margin">A good note for Rebelles, Marks the effecte, of rebellion, and wherevnto it driueth this wretched Roge, euen to the brincke of desperation, who as he saieth beyng yet aliue, feeleth moste apparantly the tormentes of hell, and here it is proued true, that a mans owne conscience is better then a thousande witnesses.</note>That neither penne, nor tongue of man can tell.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:37"/>
+               <pb facs="BL075.jpg"/>
                <l>I am expelde,<note place="margin">There be two sortes of people on earth, knaues and honest men, whereon I gather that Rorie Ogge being banished the companie of honest men, must be entertained of his like e<gap reason="illegible" resp="#PDCC" extent="1 letter">
                         <desc>•</desc>
-                     </gap>uall companio<g ref="char:cmbAbbrStroke">̄</g>s, (who as him self saith) is daily pursued of the good in moste wofull sorte.</note> from crewe of honest men,</l>
+                     </gap>uall companio<g ref="#tilde">̄</g>s, (who as him self saith) is daily pursued of the good in moste wofull sorte.</note> from crewe of honest men,</l>
                <l>None but my mates, me traitour maie abide,</l>
                <l>As for the good, thei hunte me now and then,</l>
                <l>From wooddes to Boggs, beset on eurie side:</l>
@@ -2338,7 +2347,7 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>
                   <note n="*" place="margin">Rorie is here <gap reason="illegible" resp="#PDCC" extent="1 word">
                         <desc>〈◊〉</desc>
-                     </gap> very penitent persone, whiche co<g ref="char:cmbAbbrStroke">̄</g>fesseth his life to haue deserued death, which refused the princes pardone once offered hym.</note>Since freedome once, was offerde vnto me,</l>
+                     </gap> very penitent persone, whiche co<g ref="#tilde">̄</g>fesseth his life to haue deserued death, which refused the princes pardone once offered hym.</note>Since freedome once, was offerde vnto me,</l>
                <l>Vaine is the gift, that's profferde to a knaue,</l>
                <l>Who nought estemes, his Princes elemencie:</l>
                <l>O Rebell cause, of all thy miserie,</l>
@@ -2373,9 +2382,9 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>And all because, he helde not when he might.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:38"/>
+               <pb facs="BL076.jpg"/>
                <l>
-                  <note place="margin">He verifieth and approueth the aboue saiyng by hym self, whiche reiectyng grace beyng offered, now seeketh after it, but maie not haue it, though with weeping he doth request it.</note>Euen so alas, when noble <hi>Sidney</hi> he,</l>
+                  <note place="margin">He verifieth and approueth the aboue saiyng by hym self, whiche reiectyng grace beyng offered, now seeketh after it, but maie not haue it, though with weeping he doth request it.</note>Euen so alas, when noble <seg rend="italics">Sidney</seg> he,</l>
                <l>My pardon sent, for faltes I did comit,</l>
                <l>Though there I saw, eche crime forgiuen to be,</l>
                <l>I not contente, with chat his pardon yet:</l>
@@ -2393,7 +2402,7 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>As semeth good, vnto her royall grace.</l>
                <l>For God and tyme,<note n="*" place="margin">Rorie Ogg seyng hym self enuironed on euery side with enemies, manifesteth his miserie, showing not one craftie hose or <gap reason="illegible" resp="#PDCC" extent="1 letter">
                         <desc>•</desc>
-                     </gap>enne to be free from the knowledge of y<hi rend="sup">e</hi> Lord deputie, but that he hath intellige<g ref="char:cmbAbbrStroke">̄</g>ce and knowledge of it.</note> bid Iustice to take place.</l>
+                     </gap>enne to be free from the knowledge of y<hi rend="sup">e</hi> Lord deputie, but that he hath intellige<g ref="#tilde">̄</g>ce and knowledge of it.</note> bid Iustice to take place.</l>
             </lg>
             <lg>
                <l>And Iustice she, sendes forthe her warlike crew,</l>
@@ -2401,30 +2410,30 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>Who connyngly poore Rories tracte doe vewe,</l>
                <l>Relatyng it vnto his mortall foes:</l>
                <l>As nought is lefte, wherein he maie repose,</l>
-               <l>Mo<g ref="char:cmbAbbrStroke">̄</g>gest all his de<g ref="char:cmbAbbrStroke">̄</g>nes a bulwarke for his health</l>
+               <l>Mo<g ref="#tilde">̄</g>gest all his de<g ref="#tilde">̄</g>nes a bulwarke for his health</l>
                <l>Nor yet a ho<gap reason="illegible" resp="#PDCC" extent="1 letter">
                      <desc>•</desc>
                   </gap>e, to shroude his gotten stealth.</l>
             </lg>
             <lg>
                <l>
-                  <note n="*" place="margin">Rorie sheweth how spitefull greedie, the English Captanes and Souldiers are in chasyng and hu<g ref="char:cmbAbbrStroke">̄</g>ting him.</note>Like greedie haukes, pursuyng faste their praie,</l>
+                  <note n="*" place="margin">Rorie sheweth how spitefull greedie, the English Captanes and Souldiers are in chasyng and hu<g ref="#tilde">̄</g>ting him.</note>Like greedie haukes, pursuyng faste their praie,</l>
                <l>All fullie bent, the same for to deuoure,</l>
                <l>And as the Night, the Orientall daie,</l>
                <l>Doeth captiue make, by his externall powre:</l>
-               <l>So time from time, small distance fro<g ref="char:cmbAbbrStroke">̄</g> an howre,</l>
+               <l>So time from time, small distance fro<g ref="#tilde">̄</g> an howre,</l>
                <l>Pursude I am and brought to suche a baie,</l>
                <l>As I expecte, nought but my dismall daie.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:38"/>
+               <pb facs="BL077.jpg"/>
                <l>Sir Henry now,<note place="margin">Rorie acknowledgeth y<hi rend="sup">e</hi> Lorde Deputies notable wisedome, onely to haue brought hym to this miserie.</note> who gouernes Irishe soyle,</l>
                <l>Hath made an othe, to breuiate my daies,</l>
                <l>Whose stratagemes, haue giuen me suche a foile</l>
                <l>As all the lande, soundes out his noble praise:</l>
                <l>For he it is, that breaketh doune my staies,</l>
                <l>And who but he might Rorie ouerthrowe,</l>
-               <l>Though <hi>Mars</hi> hmself, had sworne my mortal fo.</l>
+               <l>Though <seg rend="italics">Mars</seg> hmself, had sworne my mortal fo.</l>
             </lg>
             <lg>
                <l>Who might haue tane,<note place="margin">He proueth his affirmation by a moste manifest example, whiche was brought at that time to pas</note> out of my bloodie hande,</l>
@@ -2440,9 +2449,9 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                         <desc>•</desc>
                      </gap>s to the nomber of sixtene are saine in a cabbin, beyng in a Wood of the Englishe men, and after warde the cabbin beyng set on fire, all their bodies are burned also.</note>
                </l>
-               <l>Whose brethlesse corps, wer giue<g ref="char:cmbAbbrStroke">̄</g> to flams of fire</l>
+               <l>Whose brethlesse corps, wer giue<g ref="#tilde">̄</g> to flams of fire</l>
                <l>Good cause had I, to waile their lucklesse ends,</l>
-               <l>Though <hi>Ioue</hi> agreed, to yeeld them suche a hire:</l>
+               <l>Though <seg rend="italics">Ioue</seg> agreed, to yeeld them suche a hire:</l>
                <l>O heauie plague, to moue the heauens to Ire,</l>
                <l>Through whose outrage, y<hi rend="sup">e</hi> iust oft su<gap reason="illegible" resp="#PDCC" extent="1 letter">
                      <desc>•</desc>
@@ -2456,10 +2465,10 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>That readie was, my courage for to tame,</l>
                <l>Whiche when that I, well pondred had thesame</l>
                <l>I tooke good harte, it stoode me then vpon,</l>
-               <l>And leapt me forthe, tyme wilde I should be go<g ref="char:cmbAbbrStroke">̄</g>.</l>
+               <l>And leapt me forthe, tyme wilde I should be go<g ref="#tilde">̄</g>.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:39"/>
+               <pb facs="BL078.jpg"/>
                <l>
                   <note place="margin">To leape well is very necessarie sometyme, as appeareth here by Rorie Ogge.</note>Now with that leape, I got me quight awaie</l>
                <l>Moste ioyous that, I skaped had the trappe,</l>
@@ -2500,18 +2509,18 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>Receu'de his dome, by warriours fearce assent,</l>
                <l>Like thra<gap reason="illegible" resp="#PDCC" extent="1 letter">
                      <desc>•</desc>
-                  </gap>domes slaue, I sithens haue been pe<g ref="char:cmbAbbrStroke">̄</g>t.</l>
+                  </gap>domes slaue, I sithens haue been pe<g ref="#tilde">̄</g>t.</l>
                <l>
                   <note place="margin">Rorie Ogge being be reaued of his counsellers, is all moste out of his wittes.</note>In easlesse holde, not wittyng what to doe,</l>
                <l>Or what were beste, to put my self vnto.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:39"/>
-               <l>My men wer slain,<note place="margin">When Rebels lacke fawterers and helpers, the<g ref="char:cmbAbbrStroke">̄</g> fall they to miserie.</note> which onely wer my staie,</l>
+               <pb facs="BL079.jpg"/>
+               <l>My men wer slain,<note place="margin">When Rebels lacke fawterers and helpers, the<g ref="#tilde">̄</g> fall they to miserie.</note> which onely wer my staie,</l>
                <l>My wife through whom, I often gat releef,</l>
-               <l>My fre<g ref="char:cmbAbbrStroke">̄</g>des which brought, to Rorie daie by daie</l>
+               <l>My fre<g ref="#tilde">̄</g>des which brought, to Rorie daie by daie</l>
                <l>The stolen horse, the Mutton and the Beef,</l>
-               <l>Which thinges to wa<g ref="char:cmbAbbrStroke">̄</g>t, who holds it not a greef?</l>
+               <l>Which thinges to wa<g ref="#tilde">̄</g>t, who holds it not a greef?</l>
                <l>Yea suche a plague, as aucthours tell to me,</l>
                <l>That to a man, no greater plague can be.</l>
             </lg>
@@ -2525,7 +2534,7 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>Where are the plagues, on Rorie Ogge shall fal.</l>
             </lg>
             <lg>
-               <l>For <hi>Sidney</hi> now,<note place="margin">The Lord Deputie is in armour against Rorie Ogge, whose fame is spread vniuersaly through out the Realme of Irelande.</note> that thrice (renowmed knight,)</l>
+               <l>For <seg rend="italics">Sidney</seg> now,<note place="margin">The Lord Deputie is in armour against Rorie Ogge, whose fame is spread vniuersaly through out the Realme of Irelande.</note> that thrice (renowmed knight,)</l>
                <l>T'augment the fame, and seruice of his (queene)</l>
                <l>Stands out in feeld, by sworde to trie her right:</l>
                <l>(Whose valiant hart, like to the Laurell greene,</l>
@@ -2536,14 +2545,14 @@ and man, at last moued through a desperate and condemned conscience, confessing 
             <lg>
                <l>He sondrie waies,<note place="margin">Sir Henry Sidney encreaseth Rorie Oges miserie, and worketh his subuersion by his notable industerie.</note> doeth aggrauate my smart,</l>
                <l>He he I saie, hath wrought me sore anoye,</l>
-               <l>His wisedomes skill, hath dau<g ref="char:cmbAbbrStroke">̄</g>ted sore my hart:</l>
+               <l>His wisedomes skill, hath dau<g ref="#tilde">̄</g>ted sore my hart:</l>
                <l>And my attemptes, doeth vtterly, destroye,</l>
                <l>He daie from daie, his accious doeth imploye,</l>
                <l>False Rories daies, to breuiate with speede:</l>
                <l>Because that he, so vile a life doe leede.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:40"/>
+               <pb facs="BL080.jpg"/>
                <l>
                   <note place="margin">
                      <p>Souldiers are sent out to put in practise, the Lord Deputies purpose.</p>
@@ -2568,7 +2577,7 @@ and man, at last moued through a desperate and condemned conscience, confessing 
             </lg>
             <lg>
                <l>
-                  <note place="margin">This is a true and good co<g ref="char:cmbAbbrStroke">̄</g>fession of Rorie Oge, vttered in his extremitie. Rorie Oge is in his similitudes vp to the harde eares, prouyng with manifest arguments, vnlesse he had been bolstered vp by his saide father in lawe and his frendes, it had been vnpossible that he should haue continued so long vnexecuted or taken.</note>When H. doth well, to deale with double hande</l>
+                  <note place="margin">This is a true and good co<g ref="#tilde">̄</g>fession of Rorie Oge, vttered in his extremitie. Rorie Oge is in his similitudes vp to the harde eares, prouyng with manifest arguments, vnlesse he had been bolstered vp by his saide father in lawe and his frendes, it had been vnpossible that he should haue continued so long vnexecuted or taken.</note>When H. doth well, to deale with double hande</l>
                <l>Els from his kinde, he should degenerate.</l>
                <l>But if that S. his sleight did vnderstande,</l>
                <l>H. should be turnde, augmenter of debate,</l>
@@ -2584,11 +2593,11 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>With eurie puffe, maie not be blowne awaie:</l>
                <l>So long as thei, in linked state endure,</l>
                <l>Euen so my self, I doe you all assure,</l>
-               <l>Shall scarce betrapt w<hi rend="sup">t</hi> Fortunes fatall chau<g ref="char:cmbAbbrStroke">̄</g>ce</l>
-               <l>Whilst frendes w<hi rend="sup">t</hi> aide, my mischeef do aduau<g ref="char:cmbAbbrStroke">̄</g>ce.</l>
+               <l>Shall scarce betrapt w<hi rend="sup">t</hi> Fortunes fatall chau<g ref="#tilde">̄</g>ce</l>
+               <l>Whilst frendes w<hi rend="sup">t</hi> aide, my mischeef do aduau<g ref="#tilde">̄</g>ce.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:40"/>
+               <pb facs="BL081.jpg"/>
                <l>But postes remou'de, the house sone hath a fall,</l>
                <l>And buildyng goeth,<note place="margin">Marke here Rories reasone, whiche speaketh by experience.</note> with violence to wracke,</l>
                <l>No parte maie stande, the rofe nor yet the wall:</l>
@@ -2598,7 +2607,7 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>By hym or them, that seme frends to the queene.</l>
             </lg>
             <lg>
-               <l>Whiche if thei were,<note place="margin">Gods blessyng haste thou good Rorie for speakyng the truthe.</note> fro<g ref="char:cmbAbbrStroke">̄</g> Rorie once remou'de,</l>
+               <l>Whiche if thei were,<note place="margin">Gods blessyng haste thou good Rorie for speakyng the truthe.</note> fro<g ref="#tilde">̄</g> Rorie once remou'de,</l>
                <l>Who would misdoubt, y<hi rend="sup">e</hi> peace that should ensue</l>
                <l>This by his like, the wise hath often prou'de:</l>
                <l>As now by me, it maie bee holden true,</l>
@@ -2608,12 +2617,12 @@ and man, at last moued through a desperate and condemned conscience, confessing 
             </lg>
             <lg>
                <l>But as a part,<note place="margin">As the Lorde Deputie abbridged the daies of some of Rorie Oges fosterers in this his visitation, so he prophesteth of the ende of the rest of his said frendes together with hym self.</note> is silde through fatall chaunce,</l>
-               <l>Or by the sleight, of <hi>Sidneys</hi> prudent skill,</l>
-               <l>So in good tyme, the rest shall trace that dau<g ref="char:cmbAbbrStroke">̄</g>ce:</l>
+               <l>Or by the sleight, of <seg rend="italics">Sidneys</seg> prudent skill,</l>
+               <l>So in good tyme, the rest shall trace that dau<g ref="#tilde">̄</g>ce:</l>
                <l>Whiche hetherto, haue seru'de my wicked will,</l>
                <l>And since that thei, haue nourst me in myne ill.</l>
                <l>Thei shall receiue, with me for their rewarde:</l>
-               <l>Aguerdon due, long since of <hi>Ioue</hi> preparde.</l>
+               <l>Aguerdon due, long since of <seg rend="italics">Ioue</seg> preparde.</l>
             </lg>
             <lg>
                <l>That tyme drawes nye,<note n="*" place="margin">Rorie seeth by some secret waie that his prophesie is at hande, ready to be performed, and so muche the more he is certaine of it, because he doeth see Sir Henry Sidney bent wholy to his destruction.</note> and howre is at hande,</l>
@@ -2625,7 +2634,7 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>So that the right, at no tyme could bee heard.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:41"/>
+               <pb facs="BL082.jpg"/>
                <l>
                   <note place="margin">Rorie Ogge t<gap reason="illegible" resp="#PDCC" extent="1 letter">
                         <desc>•</desc>
@@ -2643,13 +2652,13 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>The date is out, and tyme appointed spent,</l>
                <l>And reapman now, the vanter to reclame:</l>
                <l>
-                  <note place="margin">The Harolde of death is sent to Rorie Oge, certainly to make manifest, his ruine and fall.</note>In Irefull rage, from mightie <hi>Ioue</hi> is sent,</l>
+                  <note place="margin">The Harolde of death is sent to Rorie Oge, certainly to make manifest, his ruine and fall.</note>In Irefull rage, from mightie <seg rend="italics">Ioue</seg> is sent,</l>
                <l>Whose message thus, vnto me doeth present.</l>
                <l>Affirmyng R. to come to desolation:</l>
                <l>And his supporters, to suffer like destruction.</l>
             </lg>
             <lg>
-               <l>Then men shall walke, vpon the mou<g ref="char:cmbAbbrStroke">̄</g>taines hie,</l>
+               <l>Then men shall walke, vpon the mou<g ref="#tilde">̄</g>taines hie,</l>
                <l>
                   <note place="margin">The peace is discribed that shall be after the death of Rorie Oge.</note>And feare nowhit, the Tyger, Wolfe, nor Beare</l>
                <l>The Kids shall slepe, with Leopard quietly:</l>
@@ -2660,8 +2669,8 @@ and man, at last moued through a desperate and condemned conscience, confessing 
             </lg>
             <lg>
                <l>
-                  <note place="margin">The Lord Deputie in prosecuting his purpose against Rorie Oge, &amp; through procurement of the saide Rories fall, deserueth euerlastyng remembraunce, with all good &amp; famous men.</note>The<g ref="char:cmbAbbrStroke">̄</g> 
-                  <hi>H.</hi> &amp; <hi>S.</hi> through who<g ref="char:cmbAbbrStroke">̄</g> this peace doth spring,</l>
+                  <note place="margin">The Lord Deputie in prosecuting his purpose against Rorie Oge, &amp; through procurement of the saide Rories fall, deserueth euerlastyng remembraunce, with all good &amp; famous men.</note>The<g ref="#tilde">̄</g> 
+                  <seg rend="italics">H.</seg> &amp; <seg rend="italics">S.</seg> through who<g ref="#tilde">̄</g> this peace doth spring,</l>
                <l>For his desartes, shall crouned sitte with Fame,</l>
                <l>And ouer that, whiche is a better thyng:</l>
                <l>He shall possesse, an euerlastyng name,</l>
@@ -2670,8 +2679,8 @@ and man, at last moued through a desperate and condemned conscience, confessing 
                <l>Yet shall his name, still florishe as the Baye.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:41"/>
-               <l>Lo you that liue,<note place="margin">Rorie Oge maketh here his conclusion, and giueth forthe a good exhortatio<g ref="char:cmbAbbrStroke">̄</g> to all men, councelyng them to eschewe and flee treasons, and showeth though sinnes be for a while let go vnpunished, yet at length they are recompensed at full.</note> and I that soone shall dye,</l>
+               <pb facs="BL083.jpg"/>
+               <l>Lo you that liue,<note place="margin">Rorie Oge maketh here his conclusion, and giueth forthe a good exhortatio<g ref="#tilde">̄</g> to all men, councelyng them to eschewe and flee treasons, and showeth though sinnes be for a while let go vnpunished, yet at length they are recompensed at full.</note> and I that soone shall dye,</l>
                <l>Beholde I saie, the salerie for synne,</l>
                <l>Now let my cause, teache other impes to flye:</l>
                <l>From treasons lure, lest stipende like thei winne,</l>
@@ -2682,31 +2691,31 @@ and man, at last moued through a desperate and condemned conscience, confessing 
             <trailer>FINIS.</trailer>
          </div>
          <div type="part">
-            <pb facs="tcp:14477:42"/>
+            <pb facs="BL084.jpg"/>
             <p>
-               <seg rend="decorInit">E</seg>Nteryng into the discourse of Rorie Ogge, at the firste, I was purposely bent, frendly with hym to adioine the liues of many (the open professed enemies of her Maiesties gouerment within this Realme of Irelande) but before I had ended that portion (euen in the middest thereof) I behelde many impedimentes, wonderfull obstacklesse, stoppes, and staies perswadyng the contrarie, whiche beeyng replenished with sufficient matter, grounded vpon reason, wisedome aduised me, to co<g ref="char:cmbAbbrStroke">̄</g>sider thereof (least peraduenture) ranging on rashely, I might seeme to prosecute an endlesse worke, making a volume, more greater, then gratefull, and more painfull, then pleasaunt, (whiche thyng doubtlesse) I vtterlie abhorre. Seeyng that praise consistes not, in the quantitie, but rather, in the qualitie <gap reason="illegible" resp="#PDCC" extent="1 letter">
+               <seg rend="decorInit">E</seg>Nteryng into the discourse of Rorie Ogge, at the firste, I was purposely bent, frendly with hym to adioine the liues of many (the open professed enemies of her Maiesties gouerment within this Realme of Irelande) but before I had ended that portion (euen in the middest thereof) I behelde many impedimentes, wonderfull obstacklesse, stoppes, and staies perswadyng the contrarie, whiche beeyng replenished with sufficient matter, grounded vpon reason, wisedome aduised me, to co<g ref="#tilde">̄</g>sider thereof (least peraduenture) ranging on rashely, I might seeme to prosecute an endlesse worke, making a volume, more greater, then gratefull, and more painfull, then pleasaunt, (whiche thyng doubtlesse) I vtterlie abhorre. Seeyng that praise consistes not, in the quantitie, but rather, in the qualitie <gap reason="illegible" resp="#PDCC" extent="1 letter">
                   <desc>•</desc>
                </gap> grace of a thing doen. And thus I breuiated my former entent, though in effect, nothing deminishyng that whiche I promised. For in this discourse, you may
-<pb facs="tcp:14477:42"/>
-perfectly se, as in a glasse, perceiue, learne, and vnderstande, to what vexations of minde, troubles of bodie, anguishe and wretchednesse in conscience all the rable of Rebels are captiued vnto. VVherfore leauyng theim with their vngracious Patrones; Phisniognamies, externall; and infernall, to thy consideration (gentill Reader:) It came then into my minde, freshely to gather my wittes together, to the settyng forthe of an other maner of thyng, of greater valure then as yet thou hast seen (that is to saie) the commyng in of O Neale to (Sir Henry Sidney our Lorde Deputie of Ireland) at the Newrie, with his submission, the othe that the saied O Neale the<g ref="char:cmbAbbrStroke">̄</g> and there made, touchyng his perpetuall fidelitie, and inuiolable continuaunce of his duetifull aledgaunce, to the (quenes Maiestie her royall Croune and dignitie) with sondrie other promisses moe, decently becommyng euery good Subiecte: not barely in woordes to saie, but actually in deedes to accomplishe and performe, whiche if I had passed ouer in silence, some perhapps would haue blamed me of parcialities, who in this Image so sharply enueighyng, against the wickednesse &amp; rudenesse of woodkarne,
-<pb facs="tcp:14477:43"/>
-should haue omitted suche a presidente of humble submission, wherefore beholde the saied O Neale here making his submission, as before is saied, who<g ref="char:cmbAbbrStroke">̄</g> the Lord Deputie in the (Queenes Maiesties) behalf moste noblie accepteth, renderyng such honour as to his persone appertaineth. The effecte whereof hereafter followeth.</p>
+<pb facs="BL085.jpg"/>
+perfectly se, as in a glasse, perceiue, learne, and vnderstande, to what vexations of minde, troubles of bodie, anguishe and wretchednesse in conscience all the rable of Rebels are captiued vnto. VVherfore leauyng theim with their vngracious Patrones; Phisniognamies, externall; and infernall, to thy consideration (gentill Reader:) It came then into my minde, freshely to gather my wittes together, to the settyng forthe of an other maner of thyng, of greater valure then as yet thou hast seen (that is to saie) the commyng in of O Neale to (Sir Henry Sidney our Lorde Deputie of Ireland) at the Newrie, with his submission, the othe that the saied O Neale the<g ref="#tilde">̄</g> and there made, touchyng his perpetuall fidelitie, and inuiolable continuaunce of his duetifull aledgaunce, to the (quenes Maiestie her royall Croune and dignitie) with sondrie other promisses moe, decently becommyng euery good Subiecte: not barely in woordes to saie, but actually in deedes to accomplishe and performe, whiche if I had passed ouer in silence, some perhapps would haue blamed me of parcialities, who in this Image so sharply enueighyng, against the wickednesse &amp; rudenesse of woodkarne,
+<pb facs="BL086.jpg"/>
+should haue omitted suche a presidente of humble submission, wherefore beholde the saied O Neale here making his submission, as before is saied, who<g ref="#tilde">̄</g> the Lord Deputie in the (Queenes Maiesties) behalf moste noblie accepteth, renderyng such honour as to his persone appertaineth. The effecte whereof hereafter followeth.</p>
          </div>
          <div type="part">
-            <pb facs="tcp:14477:43"/>
+            <pb facs="BL087.jpg"/>
             <lg>
                <l>IF sillie beastes,<note place="margin">If beastes whiche haue no vnderstandyng, doe reioyce at winters departyng, and at the comming in of sommer, (the encreaser of their delightes) much more ought that man, who beyng long without the princes fauour, and kept in disgrace, be trebble ioyous, (receiued at length to mercie and fauour)</note> long pent in droopyng stale,</l>
                <l>Or if the Harte, sore pincht with chillyng cold,</l>
                <l>No meruaile ioyes, to see the Sommer fale,</l>
                <l>Through whiche the plantes, kept doune in massie hold</l>
-               <l>Their fragra<g ref="char:cmbAbbrStroke">̄</g>t se<g ref="char:cmbAbbrStroke">̄</g>tes, &amp; beauties maie vnfold.</l>
+               <l>Their fragra<g ref="#tilde">̄</g>t se<g ref="#tilde">̄</g>tes, &amp; beauties maie vnfold.</l>
                <l>Or if the Larcke, when cloudes are paste awaye,</l>
                <l>
-                  <hi>Te deum</hi> synges, to see the Sunnie daie.</l>
+                  <seg rend="italics">Te deum</seg> synges, to see the Sunnie daie.</l>
             </lg>
             <lg>
                <l>Why should not man, the highest firmament,</l>
-               <l>Whose thoughtes did pearce, where <hi>Ioue</hi> resple<g ref="char:cmbAbbrStroke">̄</g>dent sit</l>
+               <l>Whose thoughtes did pearce, where <seg rend="italics">Ioue</seg> resple<g ref="#tilde">̄</g>dent sit</l>
                <l>Whose outward shape, the same doth represent:</l>
                <l>As nexte extende, for his forecastyng witte,</l>
                <l>To whom alone, he onely doeth committe.</l>
@@ -2725,7 +2734,7 @@ should haue omitted suche a presidente of humble submission, wherefore beholde t
             <lg>
                <l>This ioye at full, I meane my Princes grace,</l>
                <l>
-                  <pb facs="tcp:14477:44"/>
+                  <pb facs="BL088.jpg"/>
                   <note place="margin">The fauour of the prince is an inestimable treasure to that subiect which hath it, surmountyng <gap reason="illegible" resp="#PDCC" extent="1 word">
                         <desc>〈◊〉</desc>
                      </gap> and preacious stones.</note>The chefest wealth, that subiectes can require,</l>
@@ -2752,8 +2761,8 @@ should haue omitted suche a presidente of humble submission, wherefore beholde t
                         <desc>〈◊〉</desc>
                      </gap> what a thing the fauor and grace of our Queene is.</note>A Samson strong to riue the gates a sonder,</l>
                <l>A mightie Sea, that lande from lande exclude:</l>
-               <l>A doubtie <hi>Mars,</hi> whiche Nations bringeth vnder,</l>
-               <l>A seconde <hi>Ioue,</hi> that worketh mickle wonder.</l>
+               <l>A doubtie <seg rend="italics">Mars,</seg> whiche Nations bringeth vnder,</l>
+               <l>A seconde <seg rend="italics">Ioue,</seg> that worketh mickle wonder.</l>
                <l>A passyng st<gap reason="illegible" resp="#PDCC" extent="1 letter">
                      <desc>•</desc>
                   </gap>rne, to guide mans Shipp a right:</l>
@@ -2786,7 +2795,7 @@ should haue omitted suche a presidente of humble submission, wherefore beholde t
                <l>Theilde no exchange, though change at will thei might</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:44"/>
+               <pb facs="BL089.jpg"/>
                <l>If happe to change,<note n="*" place="margin">Truly the condition of Rebelles in Irelande is very ticklish, and their chaunces very harde, as in this part<gap reason="illegible" resp="#PDCC" extent="1 letter">
                         <desc>•</desc>
                      </gap> is discribed.</note> the change for worser parte,</l>
@@ -2830,7 +2839,7 @@ should haue omitted suche a presidente of humble submission, wherefore beholde t
                <l>Yet cease thei not, to plaie disloiall partes.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:45"/>
+               <pb facs="BL090.jpg"/>
                <l>
                   <note place="margin">
                      <gap reason="illegible" resp="#PDCC" extent="1 letter">
@@ -2878,11 +2887,11 @@ should haue omitted suche a presidente of humble submission, wherefore beholde t
                <l>As he that will, not yet againe reuoke:</l>
                <l>By Marshall actes, that persone Ile reclame,</l>
                <l>And make hym yeeld, submission to her name.</l>
-               <l>Yea though he were, a seconde <hi>Mars</hi> I vowe:</l>
+               <l>Yea though he were, a seconde <seg rend="italics">Mars</seg> I vowe:</l>
                <l>Ile make hym stoope, to breake, to bende, or bowe.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:45"/>
+               <pb facs="BL091.jpg"/>
                <l>Fewe Scottes in North (if Quene will haue it so)</l>
                <l>Shall there abide,<note place="margin">O Neale promiseth to expell al Scots out of the North of Irelande, if the Queenes Maiestie would but giue hym ayde, or if her grace would haue it so.</note> the grounde for to manure,</l>
                <l>Excepte that thei, their homage yeeld her to:</l>
@@ -2897,7 +2906,7 @@ should haue omitted suche a presidente of humble submission, wherefore beholde t
                <l>My harte is set, as twere in flames of fire:</l>
                <l>By seruice iuste,<note place="margin">Meanyng Sir Henry Sidney, to whom O Neale made like protestation.</note> t'augmene her greate renowne,</l>
                <l>Whiche shall appeare, by Rebells pluckyng doune.</l>
-               <l>Withstandyng the<g ref="char:cmbAbbrStroke">̄</g>, that shall withstande her right:</l>
+               <l>Withstandyng the<g ref="#tilde">̄</g>, that shall withstande her right:</l>
                <l>In midste of feelde, (I vow'de it to her knight.)</l>
             </lg>
             <lg>
@@ -2921,7 +2930,7 @@ should haue omitted suche a presidente of humble submission, wherefore beholde t
             <trailer>FINIS.</trailer>
          </div>
          <div type="part">
-            <pb facs="tcp:14477:46"/>
+            <pb facs="BL092.jpg"/>
             <head>The Aucthors exhortation.</head>
             <lg>
                <l>Come eche wight, whiche now do haunt the wood,</l>
@@ -2944,22 +2953,22 @@ should haue omitted suche a presidente of humble submission, wherefore beholde t
             <trailer>FINIS.</trailer>
          </div>
          <div type="part">
-            <pb facs="tcp:14477:46"/>
+            <pb facs="BL093.jpg"/>
             <p>
                <seg rend="decorInit">T</seg>HE miserable calamitie of Rorie Ogge set out by meanes of the deadly pursute of valiaunt seruitures daily pursewyng him, remained nothyng to the concludyng of my labours, but the finall endyng of his wretched race, which thing I constantly beleued would shortly come to passe, (admirable both to the beholders and seers) for as his life was notorious and passyng knauishe, so could it not otherwise be, but that his death must agree, fallyng out equall in eache condition to his traiterous vsage, for seldome is it seen, that wicked rebelling hath a blessed ending, and as men oftentymes hope not in vaine, so I expectyng, or rather wishing, the cuttyng of (of suche a botchie member (receiued at length, the rewarde of my expectation, in the fulnesse of the thyng I so long thursted for. (For as God would) it came luckely to passe, (long tyme predestinated by his vnsearchable and secret counsell) efte sone, as I had ended with the discription of O Neale, that this cursed caitife, (cursed of gods own mouth)
-<pb facs="tcp:14477:47"/>
+<pb facs="BL094.jpg"/>
 was through the sworde, by the meanes of the Lorde of Vppossery and his seruiters (a faithfull subiecte of that Realme) bereaued of his life, to the greate tranquilitie of Lease, and els where (her Maiesties leage people there inhabityng) accordyng to the true prophesie, in his liuyng story, at large set out. VVherfore, and for as muche, as I suppose your desire is, to heare some discourse consernyng his death, as you heard before touchyng his life, suppose that you see a monstrous Deuill, a trunckelesse head, and a hedlesse bodie liuyng, the one hid in some miskin &amp; donghill, but the other exalted, yea mounted vppon a poule (a proper sight God wot to be holde (vanting it self on the highest toppe of the Castell of Dublin, vtteryng in plaine Irishe the thynges that ensewe.</p>
             <trailer>FINIS.</trailer>
          </div>
          <div type="part">
-            <pb facs="tcp:14477:47"/>
+            <pb facs="BL095.jpg"/>
             <lg>
                <l>WHilste feare ioynde w<hi rend="sup">t</hi> hope,<note place="margin">In this part Rorie Oge showeth the state of that man to be sure, so long as he kepeth hym self dutifull to his Prince and Countrie.</note> liege people retaine,</l>
                <l>A feare to offende, the Prince or her lawe,</l>
                <l>And hope for desartes, suche goodnesse to gaine:</l>
                <l>As shall be imposde, to the line they drawe,</l>
                <l>Whilste one vprightly, twixt these standes in awe.</l>
-               <l>He dreades no turbulent stormes that maie chau<g ref="char:cmbAbbrStroke">̄</g>ce</l>
+               <l>He dreades no turbulent stormes that maie chau<g ref="#tilde">̄</g>ce</l>
                <l>For tyme trieth falshood, the trothe to aduaunce.</l>
             </lg>
             <lg>
@@ -2985,7 +2994,7 @@ was through the sworde, by the meanes of the Lorde of Vppossery and his seruiter
                <l>Though treason not reason, is chefest pretence,</l>
                <l>Thus whilste in malice, the Rebell doeth houer:</l>
                <l>
-                  <pb facs="tcp:14477:48"/>Raising a powre, to be his defence,</l>
+                  <pb facs="BL096.jpg"/>Raising a powre, to be his defence,</l>
                <l>To subiectes disquiet, the Realme and the Prince,</l>
                <l>Good God what reason, iste then to defende,</l>
                <l>The thyng that treason, is founde in the ende?</l>
@@ -3026,7 +3035,7 @@ was through the sworde, by the meanes of the Lorde of Vppossery and his seruiter
                <l>What here is spoken, a thousande haue tride,</l>
                <l>Who maie be triall, the truth will declare,</l>
                <l>
-                  <pb facs="tcp:14477:48"/>The course of fortune,<note place="margin">Many <gap reason="illegible" resp="#PDCC" extent="1 word">
+                  <pb facs="BL097.jpg"/>The course of fortune,<note place="margin">Many <gap reason="illegible" resp="#PDCC" extent="1 word">
                         <desc>〈◊〉</desc>
                      </gap> founde fo<gap reason="illegible" resp="#PDCC" extent="1 letter">
                         <desc>•</desc>
@@ -3071,7 +3080,7 @@ was through the sworde, by the meanes of the Lorde of Vppossery and his seruiter
             <lg>
                <l>Muche like a champion, addicted to warre,</l>
                <l>
-                  <pb facs="tcp:14477:49"/>
+                  <pb facs="BL098.jpg"/>
                   <note place="margin">
                      <gap reason="illegible" resp="#PDCC" extent="1 word">
                         <desc>〈◊〉</desc>
@@ -3088,15 +3097,15 @@ was through the sworde, by the meanes of the Lorde of Vppossery and his seruiter
                <l>
                   <note place="margin">Rorie Oge troubleth both Toune and Country with his Karne, and setteth more then a hundred houses on fire in one night.</note>With these I marched, from place vnto place,</l>
                <l>With these I troubled bothe Uillage and Toune,</l>
-               <l>With these in one night, I fired the <hi>Nace:</hi>
+               <l>With these in one night, I fired the <seg rend="italics">Nace:</seg>
                </l>
-               <l>With these my <hi>Recisters,</hi> I spoylde of renoune,</l>
+               <l>With these my <seg rend="italics">Recisters,</seg> I spoylde of renoune,</l>
                <l>With these I made many a Castell come doune,</l>
                <l>With these I yeelded, augmentyng my fame:</l>
                <l>The people to sworde, and houses to flame.</l>
             </lg>
             <lg>
-               <l>With these I wasted, the Countie of <hi>Lease,</hi>
+               <l>With these I wasted, the Countie of <seg rend="italics">Lease,</seg>
                </l>
                <l>The places likewise, that bordred it nye,</l>
                <l>
@@ -3117,8 +3126,8 @@ was through the sworde, by the meanes of the Lorde of Vppossery and his seruiter
                <l>Awarded me death, long sithence desarued.</l>
             </lg>
             <lg>
-               <pb facs="tcp:14477:49"/>
-               <l>And here I lye groulyng, poore wretch on y<hi rend="sup">e</hi> grou<g ref="char:cmbAbbrStroke">̄</g>d</l>
+               <pb facs="BL099.jpg"/>
+               <l>And here I lye groulyng, poore wretch on y<hi rend="sup">e</hi> grou<g ref="#tilde">̄</g>d</l>
                <l>Spoylde of the Iewell,<note place="margin">Rorie Oge hed is sert vppon the top of the Cas<gap reason="illegible" resp="#PDCC" extent="1 letter">
                         <desc>•</desc>
                      </gap>el of Dublin, for a spectakle to all the whole lande.</note> I cheefly loued,</l>
@@ -3129,7 +3138,7 @@ was through the sworde, by the meanes of the Lorde of Vppossery and his seruiter
                <l>Is set on the Castell, a signe to remaine.</l>
             </lg>
             <lg>
-               <l>All men that heare this, take warnyng by me,<note place="margin">Rorie Oge maketh here his conclusio<g ref="char:cmbAbbrStroke">̄</g> and giueth wholsome counsel more better then he euer could take, how they attempt any thyng that might be preiudiciall to the prince, for feare of like distruction.</note>
+               <l>All men that heare this, take warnyng by me,<note place="margin">Rorie Oge maketh here his conclusio<g ref="#tilde">̄</g> and giueth wholsome counsel more better then he euer could take, how they attempt any thyng that might be preiudiciall to the prince, for feare of like distruction.</note>
                </l>
                <l>Least that ye fall, in like predicament,</l>
                <l>The arte of treason, see likewise ye flee:</l>
