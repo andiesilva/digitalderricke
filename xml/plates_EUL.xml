@@ -279,7 +279,7 @@
     </teiHeader>
     <text>
         <body>
-            <div n="1" type="plate">
+            <div n="1" type="plate" facs="EUL_plate01.jpg">
                 <div type="caption" corresp="#p1" rend="left-side">
                     <div type="title">
                         <head>A notable discouery most liuely describing the state and condition of
@@ -370,7 +370,7 @@
                     <l>A perfect signe for to define, th'above additions true.</l>
                 </div>
             </div>
-            <div n="2" type="plate">
+            <div n="2" type="plate" facs="EUL_plate02.jpg">
                 <figure>
                     <graphic url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0054_jpg.htm"/>
                     <figDesc sameAs="EULdesc">An armed company of the kerne, carrying halberds and
@@ -452,7 +452,7 @@
                         </choice> to the wood, from whence they came before.</l>
                 </div>
             </div>
-            <div n="3" type="plate">
+            <div n="3" type="plate" facs="EUL_plate03.jpg">
                 <figure>
                     <graphic url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0055_jpg.htm"/>
                     <figDesc sameAs="EULdesc">The most famous plate of the set shows the chief of
@@ -517,7 +517,7 @@
                         all the gestes, with comfort at the hart.</l>
                 </div>
             </div>
-            <div n="4" type="plate">
+            <div n="4" type="plate" facs="EUL_plate04.jpg">
                 <figure>
                     <graphic url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0056_jpg.htm"/>
                     <figDesc sameAs="EULdesc">The Irish chieftain receives the priest's blessing
@@ -661,7 +661,7 @@
                         </choice> event.</l>
                 </div>
             </div>
-            <div n="5" type="plate">
+            <div n="5" type="plate" facs="EUL_plate05.jpg">
                 <figure>
                     <graphic
                         url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0057_jpg.htm"/>
@@ -680,10 +680,7 @@
                             <orig>recover'd</orig>
                             <reg>recovered</reg>
                         </choice> be, yet are not all thinges ended:</l>
-                    <l>For why<!--ASilva: symbol for abbreviation see image --><!-- RJP: We need to great a g element - a special character placeholder similar to what we need for the Pilcrow --><choice>
-                            <orig><expan>whylst</expan></orig>
-                            <reg>while</reg>
-                        </choice> the <choice>
+                    <l>For why? the <choice>
                             <orig>souldiours</orig>
                             <reg>soldiers</reg>
                         </choice>
@@ -803,7 +800,7 @@
                 </div>
             </div>
 
-            <div n="6" type="plate">
+            <div n="6" type="plate" facs="EUL_plate06.jpg">
                 <figure>
                     <graphic
                         url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0058_jpg.htm"/>
