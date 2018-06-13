@@ -299,9 +299,9 @@
                             are vertuously occupied.</head>
                     </div>
                     <div type="rights">
-                        <p><seg xml:id="permission">Seene and allowed</seg>.</p>
+                        <p><seg xml:id="permission" rend="italics">Seene and allowed</seg>.</p>
                         <note corresp="#permission" place="end" type="editorial" n="1"
-                            resp="#ASilva">Indicator Permission to </note>
+                            resp="#ASilva">This line acts as an indicator Permission to print and distribute.</note>
                     </div>
                     <div type="imprint">
                         <p><g>Pilcrow</g>At <placeName>London</placeName>, printed by <persName
@@ -313,7 +313,7 @@
                     </div>
                 </div>
                 <figure>
-                    <graphic url="put URL"/>
+                    <graphic url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0053_jpg.htm"/>
                     <figDesc sameAs="EULdesc">Plate 1 A soldier holding a battle-axe hands a spear
                         to an Irish chieftain in full dress, with a page holding the chieftain's
                         horse</figDesc>
@@ -372,7 +372,7 @@
             </div>
             <div n="2" type="plate">
                 <figure>
-                    <graphic url="put URL"/>
+                    <graphic url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0054_jpg.htm"/>
                     <figDesc sameAs="EULdesc">An armed company of the kerne, carrying halberds and
                         pikes and led by a piper, attack and burn a farmhouse and drive off the
                         horses and cattle</figDesc>
@@ -454,7 +454,7 @@
             </div>
             <div n="3" type="plate">
                 <figure>
-                    <graphic url="put URL"/>
+                    <graphic url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0055_jpg.htm"/>
                     <figDesc sameAs="EULdesc">The most famous plate of the set shows the chief of
                         the Mac Sweynes seated at dinner and being entertained by a bard and a
                         harper</figDesc>
@@ -519,7 +519,7 @@
             </div>
             <div n="4" type="plate">
                 <figure>
-                    <graphic url="put URL"/>
+                    <graphic url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0056_jpg.htm"/>
                     <figDesc sameAs="EULdesc">The Irish chieftain receives the priest's blessing
                         before departing to fight the English, who are shown in full
                         armour</figDesc>
