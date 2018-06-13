@@ -256,7 +256,6 @@
                         abbreviation for that particular witness and its position in the sequence of
                         poems transcribed from that witness. For example, AAH01 is the first poem
                         transcribed from the Arundel-Harington MS. witness.</p> -->
-
                 </segmentation>
                 <interpretation>
                     <p>Unless otherwise noted, responsiblity for all analytical or interpretive
@@ -279,668 +278,689 @@
         </profileDesc>
     </teiHeader>
     <text>
-        <front>
-            <div type="title-page">
-                <head place="margin"><title>A notable discouery most liuely describing the state and
-                        condition of the Wilde men in Ireland, properly called Woodkarne, with their
-                        actions, and exercises wherein they are dayly occupied, also the order of
-                        their relation and success of the same is likewise detected. Which also
-                        concludeth with the comming in of <seg rend="italics"><persName
-                                corresp="#TONeill">Thirlaugh Leonaugh</persName></seg> the great
-                            <seg rend="allcaps">ONEALE</seg> of Ireland, submitting himself to the
-                        right honorable <seg rend="italics"><persName corresp="#HSidney">Syr Henry
-                                Sydney</persName></seg>, at what time he was L. Deputy general here
-                        of the sayd Land, being in <seg rend="italics">An. 1578</seg>. Nowe
-                        published and set forth by <seg rend="italics allcaps"><persName
-                                corresp="#JDerrick">JOHN DERRICK</persName></seg> this present yeare
-                        of our Lord 1581. For pleasure and delight of those, whose mindes in
-                        laudable exercises are vertuously occupied.</title><lb/>
-                    <seg xml:id="permission">Seene and allowed</seg>.</head>
-                <note corresp="#permission" place="end" type="editorial" n="1"/>
-            </div>
-            <div type="imprint">
-                <p><g>Pilcrow</g>At <placeName>London</placeName>, printed by <persName
-                        corresp="#JDay">John Daye</persName> dwelling ouer
-                        <placeName>Aldersgate</placeName><date>1581</date>
-                    <!-- is there a tag for something like place type = bookshop? -->
-                </p>
-                <div type="woodcut"/>
-                <!-- fix this!! needs to figure -->
-            </div>
-        </front>
         <body>
             <div n="1" type="plate">
+                <div type="caption" corresp="#p1" rend="left-side">
+                    <div type="title">
+                        <head>A notable discouery most liuely describing the state and condition of
+                            the Wilde men in Ireland, properly called Woodkarne, with their actions,
+                            and exercises wherein they are dayly occupied, also the order of their
+                            relation and success of the same is likewise detected. Which also
+                            concludeth with the comming in of <seg rend="italics"><persName
+                                    corresp="#TONeill">Thirlaugh Leonaugh</persName></seg> the great
+                                <seg rend="allcaps">ONEALE</seg> of Ireland, submitting himself to
+                            the right honorable <seg rend="italics"><persName corresp="#HSidney">Syr
+                                    Henry Sydney</persName></seg>, at what time he was L. Deputy
+                            general here of the sayd Land, being in <seg rend="italics">An.
+                                1578</seg>. Nowe published and set forth by <seg
+                                rend="italics allcaps"><persName corresp="#JDerrick">JOHN
+                                    DERRICK</persName></seg> this present yeare of our Lord 1581.
+                            For pleasure and delight of those, whose mindes in laudable exercises
+                            are vertuously occupied.</head>
+                    </div>
+                    <div type="rights">
+                        <p><seg xml:id="permission">Seene and allowed</seg>.</p>
+                        <note corresp="#permission" place="end" type="editorial" n="1"
+                            resp="#ASilva">Indicator Permission to </note>
+                    </div>
+                    <div type="imprint">
+                        <p><g>Pilcrow</g>At <placeName>London</placeName>, printed by <persName
+                                corresp="#JDay">John Daye</persName> dwelling ouer
+                                <placeName>Aldersgate</placeName><date>1581</date>
+                            <!-- ASilva: is there a tag for something like place type = bookshop? -->
+                            <!-- RJP: We would create a list in the back that gives such information about the places mentioned if we decide to grab such things as place names in addition to what we already have agreed on grabbing: persNames = people  -->
+                        </p>
+                    </div>
+                </div>
                 <figure>
                     <graphic url="put URL"/>
-                    <figDesc sameAs="EUL description">Plate 1 A soldier holding a battle-axe hands a
-                        spear to an Irish chieftain in full dress, with a page holding the
-                        chieftain's horse</figDesc>
+                    <figDesc sameAs="EULdesc">Plate 1 A soldier holding a battle-axe hands a spear
+                        to an Irish chieftain in full dress, with a page holding the chieftain's
+                        horse</figDesc>
                 </figure>
-                <l>A</l>
                 <cb n="1"/>
-                <l>The lively shape of <choice>
-                        <orig>Irysh</orig>
-                        <reg>Irish</reg>
-                    </choice> karne, most perfect to behold,</l>
-                <l>Of man, the master, and the boy, these pictures doe unfolde:</l>
-                <l>Wherein is bravely paynted forth, A naturall Irish grace<gap quantity="1"
-                        unit="chars" reason="illegible" agent="tear"/></l>
-                <l>Whose like in <choice>
-                        <orig>eu'ry</orig>
-                        <reg>every</reg>
-                    </choice>
-                    <choice>
-                        <orig>poynt</orig>
-                        <reg>point</reg>
-                    </choice> to <choice>
-                        <orig>vewe</orig>
-                        <reg>view</reg>
-                    </choice> ,hath seldome <choice>
-                        <orig>stept</orig>
-                        <reg>stepped</reg>
-                    </choice> in place</l>
-                <l>Marke me the karne that gripes the axe, fast with his <choice>
-                        <orig>murd'ring</orig>
-                        <reg>murdering</reg>
-                    </choice>hand</l>
-                <l>Then shal you say a righter knave, came never in the land:</l>
-                <cb n="2"/>
-                <note type="clarification">Number "1" next to the column identifies this as plate
-                    1</note>
-                <l>As for the rest so trimly <choice>
-                        <orig>drest</orig>
-                        <reg>dressed</reg>
-                    </choice> , I speake of them no evill,</l>
-                <l>In <choice>
-                        <orig>ech</orig>
-                        <reg>each</reg>
-                    </choice> respect, the are detect, (as honest as the devill.)</l>
-                <l>As honest as the Pope himselfe, in all their outward actions,</l>
-                <l>And constant like the wavering winde, in the Imaginations,</l>
-                <l>Which may be <choice>
-                        <orig>prov'de</orig>
-                        <reg>proved</reg>
-                    </choice>in sundry partes, hereafter that ensue,</l>
-                <l>A perfect signe for to define, th'above additions true.</l>
+                <div type="caption" corresp="#p1">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p1sA"
+                        >A</metamark></p>
+                    <l>The lively shape of <choice>
+                            <orig>Irysh</orig>
+                            <reg>Irish</reg>
+                        </choice> karne, most perfect to behold,</l>
+                    <l>Of man, the master, and the boy, these pictures doe unfolde:</l>
+                    <l>Wherein is bravely paynted forth, A naturall Irish grace<gap quantity="1"
+                            unit="chars" reason="illegible" agent="tear"/></l>
+                    <l>Whose like in <choice>
+                            <orig>eu'ry</orig>
+                            <reg>every</reg>
+                        </choice>
+                        <choice>
+                            <orig>poynt</orig>
+                            <reg>point</reg>
+                        </choice> to <choice>
+                            <orig>vewe</orig>
+                            <reg>view</reg>
+                        </choice> ,hath seldome <choice>
+                            <orig>stept</orig>
+                            <reg>stepped</reg>
+                        </choice> in place</l>
+                    <l>Marke me the karne that gripes the axe, fast with his <choice>
+                            <orig>murd'ring</orig>
+                            <reg>murdering</reg>
+                        </choice>hand</l>
+                    <l>Then shal you say a righter knave, came never in the land:</l>
 
+                    <p><metamark place="margin" function="plateID" corresp="#p1">1</metamark>
+                        <note type="clarification">Number "1" next to the column identifies this as
+                            plate 1</note></p>
+                    <cb n="2"/>
+                    <l>As for the rest so trimly <choice>
+                            <orig>drest</orig>
+                            <reg>dressed</reg>
+                        </choice> , I speake of them no evill,</l>
+                    <l>In <choice>
+                            <orig>ech</orig>
+                            <reg>each</reg>
+                        </choice> respect, the are detect, (as honest as the devill.)</l>
+                    <l>As honest as the Pope himselfe, in all their outward actions,</l>
+                    <l>And constant like the wavering winde, in the Imaginations,</l>
+                    <l>Which may be <choice>
+                            <orig>prov'de</orig>
+                            <reg>proved</reg>
+                        </choice>in sundry partes, hereafter that ensue,</l>
+                    <l>A perfect signe for to define, th'above additions true.</l>
+                </div>
             </div>
-
             <div n="2" type="plate">
                 <figure>
                     <graphic url="put URL"/>
-                    <figDesc sameAs="EUL description">An armed company of the kerne, carrying
-                        halberds and pikes and led by a piper, attack and burn a farmhouse and drive
-                        off the horses and cattle</figDesc>
+                    <figDesc sameAs="EULdesc">An armed company of the kerne, carrying halberds and
+                        pikes and led by a piper, attack and burn a farmhouse and drive off the
+                        horses and cattle</figDesc>
                 </figure>
-                <div type="column" n="1">
-                    <div type="caption" corresp="#p1sA">
-                        <p><metamark place="margin" function="imageCaption">A</metamark></p>
-                        <l>Here creepes out of <seg rend="italics">Sainct Fichers</seg>, a packe of
-                            prowling mates,</l>
-                        <l>Most hurtfull to the English pale, and <choice>
-                                <orig>noysome</orig>
-                                <reg>noisome</reg>
-                            </choice> to the states,</l>
-                        <l>Which spare no more their country <choice>
-                                <orig>byrth</orig>
-                                <reg>birth</reg>
-                            </choice>, then those of th’english race,</l>
-                        <l>But yeld to each a <choice>
-                                <orig>lyke</orig>
-                                <reg>like</reg>
-                            </choice> good turne, when as they come in place.</l>
-                    </div>
-                    <div type="caption" corresp="#p1sB">
-                        <p><metamark place="margin" function="imageCaption">B</metamark></p>
-                        <l>They <choice>
-                                <orig>spoyle</orig>
-                                <reg>spoil</reg>
-                            </choice> and burne, and beare away, as <choice>
-                                <orig>fitte</orig>
-                                <reg>fit</reg>
-                            </choice> occasions serve,</l>
-                        <l>And thinke the greater ill they <choice>
-                                <orig>doe</orig>
-                                <reg>do</reg>
-                            </choice>, the greater <choice>
-                                <orig>prayse</orig>
-                                <reg>praise</reg>
-                            </choice> deserve:</l>
-                    </div>
+                <cb n="1"/>
+                <div type="caption" corresp="#p2">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p2sA"
+                        >A</metamark></p>
+                    <l>Here creepes out of <seg rend="italics">Sainct Fichers</seg>, a packe of
+                        prowling mates,</l>
+                    <l>Most hurtfull to the English pale, and <choice>
+                            <orig>noysome</orig>
+                            <reg>noisome</reg>
+                        </choice> to the states,</l>
+                    <l>Which spare no more their country <choice>
+                            <orig>byrth</orig>
+                            <reg>birth</reg>
+                        </choice>, then those of th’english race,</l>
+                    <l>But yeld to each a <choice>
+                            <orig>lyke</orig>
+                            <reg>like</reg>
+                        </choice> good turne, when as they come in place.</l>
                 </div>
-                <note type="clarification">Number "2" next to the column identifies this as plate
-                    2</note>
-                <div type="column" n="2">
-                    <div type="caption" corresp="#p1sB">
-                        <l>They <choice>
-                                <orig>passe</orig>
-                                <reg>pass</reg>
-                            </choice> for the poore mans cry, nor yet respect his tears,</l>
-                        <l>But rather <gap quantity="1" unit="chars" reason="tightly bound"
-                                /><certainty locus="end" n="1" degree="5"/> joy to see the fire, to
-                            flash about his eares.</l>
-                        <l>To see both flame, and <choice>
-                                <orig>smoldring</orig>
-                                <reg>smoldering</reg>
-                            </choice> smoke, to duske the <choice>
-                                <orig>christall</orig>
-                                <reg>crystal</reg>
-                            </choice>
-                            <choice>
-                                <orig>skyes</orig>
-                                <reg>skies</reg>
-                            </choice>,</l>
-                        <l>Next to their pray, therein I say, their second glory lyes.</l>
-                    </div>
-                    <div type="caption" corresp="#p1sC">
-                        <p><metamark place="margin">C</metamark></p>
-                        <l>And thus bereaving him of house, of <choice>
-                                <orig>cattell</orig>
-                                <reg>cattle</reg>
-                            </choice> and of store:</l>
-                        <l>They do returne <choice>
-                                <orig>backe</orig>
-                                <reg>back</reg>
-                            </choice> to the wood, from whence they came before.</l>
-                    </div>
+                <div type="caption" corresp="#p2">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p2sB"
+                        >B</metamark></p>
+                    <l>They <choice>
+                            <orig>spoyle</orig>
+                            <reg>spoil</reg>
+                        </choice> and burne, and beare away, as <choice>
+                            <orig>fitte</orig>
+                            <reg>fit</reg>
+                        </choice> occasions serve,</l>
+                    <l>And thinke the greater ill they <choice>
+                            <orig>doe</orig>
+                            <reg>do</reg>
+                        </choice>, the greater <choice>
+                            <orig>prayse</orig>
+                            <reg>praise</reg>
+                        </choice> deserve:</l>
+
+                    <p>
+                        <metamark place="margin" function="plateID" corresp="#p2">2</metamark>
+                        <note type="clarification">Number "2" next to the column identifies this as
+                            plate 2</note></p>
+                    <cb n="2"/>
+                    <l>They <choice>
+                            <orig>passe</orig>
+                            <reg>pass</reg>
+                        </choice> for the poore mans cry, nor yet respect his tears,</l>
+                    <l>But rather <gap quantity="1" unit="chars" reason="tightly bound"/><certainty
+                            locus="end" n="1" degree="5"/> joy to see the fire, to flash about his
+                        eares.</l>
+                    <l>To see both flame, and <choice>
+                            <orig>smoldring</orig>
+                            <reg>smoldering</reg>
+                        </choice> smoke, to duske the <choice>
+                            <orig>christall</orig>
+                            <reg>crystal</reg>
+                        </choice>
+                        <choice>
+                            <orig>skyes</orig>
+                            <reg>skies</reg>
+                        </choice>,</l>
+                    <l>Next to their pray, therein I say, their second glory lyes.</l>
+                </div>
+                <div type="caption" corresp="#p2">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p2sC"
+                        >C</metamark></p>
+                    <l>And thus bereaving him of house, of <choice>
+                            <orig>cattell</orig>
+                            <reg>cattle</reg>
+                        </choice> and of store:</l>
+                    <l>They do returne <choice>
+                            <orig>backe</orig>
+                            <reg>back</reg>
+                        </choice> to the wood, from whence they came before.</l>
                 </div>
             </div>
             <div n="3" type="plate">
                 <figure>
                     <graphic url="put URL"/>
-                    <figDesc sameAs="EUL description">The most famous plate of the set shows the
-                        chief of the Mac Sweynes seated at dinner and being entertained by a bard
-                        and a harper</figDesc>
+                    <figDesc sameAs="EULdesc">The most famous plate of the set shows the chief of
+                        the Mac Sweynes seated at dinner and being entertained by a bard and a
+                        harper</figDesc>
                 </figure>
                 <cb n="1"/>
-                <floatingText type="caption">
-                    <body>
-                        <p><metamark place="margin" function="imageCaption">A</metamark></p>
-                    </body>
-                </floatingText>
-                <l>Now when into their fenced holdesm the knaves are <choice>
-                        <orig>entred</orig>
-                        <reg>entered</reg>
-                    </choice> in</l>
-                <l>To smite and knocke the <choice>
-                        <orig>cattell</orig>
-                        <reg>cattle</reg>
-                    </choice> downe, the hangmen doe beginne.</l>
-                <l>One plucketh off the <choice>
-                        <orig>Oxes</orig>
-                        <reg>Oxe's</reg>
-                    </choice> cote, which he even now did weare:</l>
-                <l>Another lacking <choice>
-                        <orig>pannes</orig>
-                        <reg>pans</reg>
-                    </choice>, to boyle the flesh, his hide prepare.</l>
-                <floatingText type="caption">
-                    <body>
-                        <p><metamark place="margin" function="imageCaption">C</metamark></p>
-                    </body>
-                </floatingText>
-                <l>These <choice>
-                        <orig>theeves</orig>
-                        <reg>thieves</reg>
-                    </choice> attend upon the fire, for serving up the feast:</l>
-                <floatingText type="caption">
-                    <body>
-                        <p><metamark place="margin" function="imageCaption">B</metamark></p>
-                    </body>
-                </floatingText>
-                <l>And <choice>
-                        <orig>fryer</orig>
-                        <reg>frier</reg>
-                    </choice> smelfeast sneaking in, doth preace amongst the best.</l>
-                <cb n="2"/>
-                <note type="clarification">Number "3" next to the column identifies this as plate
-                    3</note>
-                <!-- fill in gaps with Scott/modern editions/ markup? -->
-                <l>3</l>
-                <l>Who <gap reason="illegible" agent="tear" extent="half inch"/>in Romish toyes the
-                    Ape, counterfetting Paull:</l>
-                <l>For <gap reason="illegible" agent="tear" extent="half inch"/>they doe award him
-                    then, the highest roome of all.</l>
-                <l>Who <gap reason="illegible" agent="tear" extent="half inch"/>set, because the
-                    cheere, is deemed little worth:</l>
-                <l>Exce<gap reason="illegible" agent="tear" extent="half inch"/> same be intermixt,
-                    and lac'de with Irish myrth.</l>
-                <floatingText type="caption">
-                    <body>
-                        <p><metamark place="margin" function="imageCaption">D</metamark></p>
-                    </body>
-                </floatingText>
-                <l>Both<gap reason="illegible" agent="tear" extent="half inch"/> and Harper, is
-                    preparde, which by their cunning art,</l>
-                <l>Doe <gap reason="illegible" agent="tear" extent="half inch"/>and cheare up all
-                    the gestes, with comfort at the hart.</l>
+                <div type="caption" corresp="#p3">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p3sA"
+                        >A</metamark></p>
+                    <l>Now when into their fenced holdesm the knaves are <choice>
+                            <orig>entred</orig>
+                            <reg>entered</reg>
+                        </choice> in</l>
+                    <l>To smite and knocke the <choice>
+                            <orig>cattell</orig>
+                            <reg>cattle</reg>
+                        </choice> downe, the hangmen doe beginne.</l>
+                    <l>One plucketh off the <choice>
+                            <orig>Oxes</orig>
+                            <reg>Oxe's</reg>
+                        </choice> cote, which he even now did weare:</l>
+                    <l>Another lacking <choice>
+                            <orig>pannes</orig>
+                            <reg>pans</reg>
+                        </choice>, to boyle the flesh, his hide prepare.</l>
+                </div>
+                <div type="caption" corresp="#p3">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p3sC"
+                        >C</metamark></p>
+                    <l>These <choice>
+                            <orig>theeves</orig>
+                            <reg>thieves</reg>
+                        </choice> attend upon the fire, for serving up the feast:</l>
+                </div>
+                <div type="caption" corresp="#p3">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p3sB"
+                        >B</metamark></p>
+                    <l>And <choice>
+                            <orig>fryer</orig>
+                            <reg>frier</reg>
+                        </choice> smelfeast sneaking in, doth preace amongst the best.</l>
+                    <p><metamark place="margin" function="plateID" corresp="#p3">3</metamark><note
+                            type="clarification">Number "3" next to the column identifies this as
+                            plate 3</note></p>
+                    <cb n="2"/>
+                    <l>Who <gap reason="illegible" agent="tear" extent="half inch"/>in Romish toyes
+                        the Ape, counterfetting Paull:</l>
+                    <l>For <gap reason="illegible" agent="tear" extent="half inch"/>they doe award
+                        him then, the highest roome of all.</l>
+                    <l>Who <gap reason="illegible" agent="tear" extent="half inch"/>set, because the
+                        cheere, is deemed little worth:</l>
+                    <l>Exce<gap reason="illegible" agent="tear" extent="half inch"/> same be
+                        intermixt, and lac'de with Irish myrth.</l>
+                </div>
+                <div type="caption" corresp="#p3">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p3sD"
+                        >D</metamark></p>
+                    <l>Both<gap reason="illegible" agent="tear" extent="half inch"/> and Harper, is
+                        preparde, which by their cunning art,</l>
+                    <l>Doe <gap reason="illegible" agent="tear" extent="half inch"/>and cheare up
+                        all the gestes, with comfort at the hart.</l>
+                </div>
             </div>
             <div n="4" type="plate">
                 <figure>
                     <graphic url="put URL"/>
-                    <figDesc sameAs="EUL description">The Irish chieftain receives the priest's
-                        blessing before departing to fight the English, who are shown in full
+                    <figDesc sameAs="EULdesc">The Irish chieftain receives the priest's blessing
+                        before departing to fight the English, who are shown in full
                         armour</figDesc>
                 </figure>
                 <cb n="1"/>
-                <floatingText type="caption">
-                    <body>
-                        <l>And when with myrth and belly <choice>
-                                <orig>cheere</orig>
-                                <reg>cheer</reg>
-                            </choice>, they are sufficed well,</l>
-                        <l>Mark what <choice>
-                                <orig>ensueth</orig>
-                                <reg>ensued</reg>
-                            </choice>, a <choice>
-                                <orig>playne</orig>
-                                <reg>plain</reg>
-                            </choice> discourse, of Irish <choice>
-                                <orig>sleightes</orig>
-                                <reg>slights</reg>
-                            </choice> I tell:</l>
-                        <p><metamark place="margin" function="imageCaption">A</metamark></p>
-                        <l>The <choice>
-                                <orig>fryer</orig>
-                                <reg>friar</reg>
-                            </choice> then absolves the <choice>
-                                <orig>theefe</orig>
-                                <reg>thief</reg>
-                            </choice>, from all his former <choice>
-                                <orig>sinne</orig>
-                                <reg>sin</reg>
-                            </choice>.</l>
-                        <l>And bids him plague the <choice>
-                                <orig>princes</orig>
-                                <reg>prince's</reg>
-                            </choice>
-                            <choice>
-                                <orig>frendes</orig>
-                                <reg>friends</reg>
-                            </choice>, if heaven he minde to winne.</l>
-                        <p><metamark place="margin" function="imageCaption">B</metamark></p>
-                        <l>Which <choice>
-                                <orig>beyng</orig>
-                                <reg>being</reg>
-                            </choice> sayd, he takes his horse, to put in <choice>
-                                <orig>practise</orig>
-                                <reg>practice</reg>
-                            </choice> then,</l>
-                        <l>The <choice>
-                                <orig>spoyling</orig>
-                                <reg>spoiling</reg>
-                            </choice> and destroying of, her <choice>
-                                <orig>graces</orig>
-                                <reg>grace's</reg>
-                            </choice>
-                            <choice>
-                                <orig>loyall</orig>
-                                <reg>loyal</reg>
-                            </choice> men.</l>
-                        <cb n="2"/>
-                        <l>4</l>
-                        <note type="clarification">Number "4" next to the column identifies this as
-                            plate 4</note>
-                        <p><metamark place="margin" function="imageCaption">C</metamark></p>
-                        <l>But <choice>
-                                <orig>loe</orig>
-                                <reg>lo</reg>
-                            </choice> the <choice>
-                                <orig>souldiers</orig>
-                                <reg>soldiers</reg>
-                            </choice> then the plague, unto this Karnish <choice>
-                                <!-- needs XML:ID for Kern -->
-                                <orig>rowt</orig>
-                                <reg>route</reg>
-                            </choice>:</l>
-                        <l>To <choice>
-                                <orig>yeld</orig>
-                                <reg>yield</reg>
-                            </choice> them <choice>
-                                <orig>vengaunce</orig>
-                                <reg>vengeance</reg>
-                            </choice> for their <choice>
-                                <orig>sinnes</orig>
-                                <reg>sins</reg>
-                            </choice>, in <choice>
-                                <orig>warlicke</orig>
-                                <reg>war like</reg>
-                            </choice> sort rise out.</l>
-                        <l>They <choice>
-                                <orig>presse</orig>
-                                <reg>press</reg>
-                            </choice> the <choice>
-                                <orig>rauncoure</orig>
-                                <reg>rancour</reg>
-                            </choice> of the <choice>
-                                <orig>theeves</orig>
-                                <reg>thieves</reg>
-                            </choice>, by force of bloody knife.</l>
-                        <l>And slay the pray they <choice>
-                                <orig>filcht</orig>
-                                <reg>filched</reg>
-                            </choice> away, depriving them of life:</l>
-                        <p><metamark place="margin" function="imageCaption">D</metamark></p>
-                        <l>The <choice>
-                                <orig>fryer</orig>
-                                <reg>friar</reg>
-                            </choice> then that <choice>
-                                <orig>traytrous</orig>
-                                <reg>traitorous</reg>
-                            </choice> knave, with <emph>Ough Ough hone</emph> lament:</l>
-                        <!-- check Small/Scott for annotation on language?/transl -->
-                        <l>To see his <choice>
-                                <orig>coosin</orig>
-                                <reg>cousin</reg>
-                            </choice>
-                            <choice>
-                                <orig>Devills</orig>
-                                <reg>Devil's</reg>
-                            </choice>
-                            <choice>
-                                <orig>sonnes</orig>
-                                <reg>sons</reg>
-                            </choice>, to have so <choice>
-                                <orig>fowle</orig>
-                                <reg>foul</reg>
-                            </choice> event.</l>
-                    </body>
-                </floatingText>
+                <div type="caption" corresp="#p4">
+                    <l>And when with myrth and belly <choice>
+                            <orig>cheere</orig>
+                            <reg>cheer</reg>
+                        </choice>, they are sufficed well,</l>
+                    <l>Mark what <choice>
+                            <orig>ensueth</orig>
+                            <reg>ensued</reg>
+                        </choice>, a <choice>
+                            <orig>playne</orig>
+                            <reg>plain</reg>
+                        </choice> discourse, of Irish <choice>
+                            <orig>sleightes</orig>
+                            <reg>slights</reg>
+                        </choice> I tell:</l>
+                </div>
+                <div type="caption" corresp="#p4">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p4sA"
+                        >A</metamark></p>
+                    <l>The <choice>
+                            <orig>fryer</orig>
+                            <reg>friar</reg>
+                        </choice> then absolves the <choice>
+                            <orig>theefe</orig>
+                            <reg>thief</reg>
+                        </choice>, from all his former <choice>
+                            <orig>sinne</orig>
+                            <reg>sin</reg>
+                        </choice>.</l>
+                    <l>And bids him plague the <choice>
+                            <orig>princes</orig>
+                            <reg>prince's</reg>
+                        </choice>
+                        <choice>
+                            <orig>frendes</orig>
+                            <reg>friends</reg>
+                        </choice>, if heaven he minde to winne.</l>
+                </div>
+                <div type="caption" corresp="#p4">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p4sB"
+                        >B</metamark></p>
+                    <l>Which <choice>
+                            <orig>beyng</orig>
+                            <reg>being</reg>
+                        </choice> sayd, he takes his horse, to put in <choice>
+                            <orig>practise</orig>
+                            <reg>practice</reg>
+                        </choice> then,</l>
+                    <l>The <choice>
+                            <orig>spoyling</orig>
+                            <reg>spoiling</reg>
+                        </choice> and destroying of, her <choice>
+                            <orig>graces</orig>
+                            <reg>grace's</reg>
+                        </choice>
+                        <choice>
+                            <orig>loyall</orig>
+                            <reg>loyal</reg>
+                        </choice> men.</l>
+                    <p>
+                        <metamark place="margin" function="plateID"><note type="clarification"
+                                >Number "4" next to the column identifies this as plate
+                            4</note></metamark>
+                    </p>
+                </div>
+                <cb n="2"/>
+                <div type="caption" corresp="#p4">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p4sC"
+                        >C</metamark></p>
+                    <l>But <choice>
+                            <orig>loe</orig>
+                            <reg>lo</reg>
+                        </choice> the <choice>
+                            <orig>souldiers</orig>
+                            <reg>soldiers</reg>
+                        </choice> then the plague, unto this Karnish <choice>
+                            <!--ASilva: needs XML:ID for Kern -->
+                            <orig>rowt</orig>
+                            <reg>route</reg>
+                        </choice>:</l>
+                    <l>To <choice>
+                            <orig>yeld</orig>
+                            <reg>yield</reg>
+                        </choice> them <choice>
+                            <orig>vengaunce</orig>
+                            <reg>vengeance</reg>
+                        </choice> for their <choice>
+                            <orig>sinnes</orig>
+                            <reg>sins</reg>
+                        </choice>, in <choice>
+                            <orig>warlicke</orig>
+                            <reg>war like</reg>
+                        </choice> sort rise out.</l>
+                    <l>They <choice>
+                            <orig>presse</orig>
+                            <reg>press</reg>
+                        </choice> the <choice>
+                            <orig>rauncoure</orig>
+                            <reg>rancour</reg>
+                        </choice> of the <choice>
+                            <orig>theeves</orig>
+                            <reg>thieves</reg>
+                        </choice>, by force of bloody knife.</l>
+                    <l>And slay the pray they <choice>
+                            <orig>filcht</orig>
+                            <reg>filched</reg>
+                        </choice> away, depriving them of life:</l>
+                </div>
+                <div type="caption" corresp="#p4">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p4sD"
+                        >D</metamark></p>
+                    <l>The <choice>
+                            <orig>fryer</orig>
+                            <reg>friar</reg>
+                        </choice> then that <choice>
+                            <orig>traytrous</orig>
+                            <reg>traitorous</reg>
+                        </choice> knave, with <emph>Ough Ough hone</emph> lament:</l>
+                    <!--ASilva: check Small/Scott for annotation on language?/transl -->
+                    <l>To see his <choice>
+                            <orig>coosin</orig>
+                            <reg>cousin</reg>
+                        </choice>
+                        <choice>
+                            <orig>Devills</orig>
+                            <reg>Devil's</reg>
+                        </choice>
+                        <choice>
+                            <orig>sonnes</orig>
+                            <reg>sons</reg>
+                        </choice>, to have so <choice>
+                            <orig>fowle</orig>
+                            <reg>foul</reg>
+                        </choice> event.</l>
+                </div>
             </div>
             <div n="5" type="plate">
                 <figure>
                     <graphic
                         url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0057_jpg.htm"/>
-                    <figDesc sameAs="EUL description">The English soldiers return in triumph,
-                        carrying severed Irish heads and leading a captive by a halter</figDesc>
+                    <figDesc sameAs="EULdesc">The English soldiers return in triumph, carrying
+                        severed Irish heads and leading a captive by a halter</figDesc>
                 </figure>
                 <cb n="1"/>
-                <floatingText type="caption">
-                    <body>
-                        <p><metamark place="margin" function="imageCaption">B</metamark></p>
-                    </body>
-                </floatingText>
-                <l>And though the <choice>
-                        <orig>pray</orig>
-                        <reg>prey</reg>
-                    </choice>
-                    <choice>
-                        <orig>recover'd</orig>
-                        <reg>recovered</reg>
-                    </choice> be, yet are not all thinges ended:</l>
-                <l>For why<!-- symbol for abbreviation see image --><choice>
-                        <orig><expan>whylst</expan></orig>
-                        <reg>while</reg>
-                    </choice> the <choice>
-                        <orig>souldiours</orig>
-                        <reg>soldiers</reg>
-                    </choice>
-                    <choice>
-                        <orig>doe</orig>
-                        <reg>do</reg>
-                    </choice> pursue, the <choice>
-                        <orig>Roges</orig>
-                        <reg>rogues</reg>
-                    </choice> that have offended,</l>
-                <l>Who never cease till in the <choice>
-                        <orig>bloud</orig>
-                        <reg>blood</reg>
-                    </choice>, of these light <choice>
-                        <orig>fing'red</orig>
-                        <reg>fingered</reg>
-                    </choice>
-                    <choice>
-                        <orig>theeves</orig>
-                        <reg>thieves</reg>
-                    </choice>:</l>
-                <l>Their blades are <choice>
-                        <orig>bathd</orig>
-                        <reg>bathed</reg>
-                    </choice> to teach them how, they after <choice>
-                        <orig>prowle</orig>
-                        <reg>prowl</reg>
-                    </choice> for <choice>
-                        <orig>Beeves</orig>
-                        <reg>beefs</reg>
-                    </choice>.</l>
-                <p><metamark place="margin" function="imageCaption">A</metamark></p>
-                <l>To see a souldiour <term xml:id="arc">toze</term> a Karne, O Lorde it is a
-                        wonder:<gloss target="#arc">To pull asunder; to separate or unravel the
-                        fibres of; to comb or card (OED.) Used here derisevely to point to the
-                        eminent beheading of a captive Irish soldier. </gloss></l>
-                <l>And <choice>
-                        <orig>eke</orig>
-                        <reg>also</reg>
-                    </choice> what care he <choice>
-                        <orig>takth</orig>
-                        <reg>takes</reg>
-                    </choice> to part, the head from neck <choice>
-                        <orig>a sonder</orig>
-                        <reg>asunder</reg>
-                    </choice>.</l>
-                <cb n="2"/>
-                <l>5</l>
-                <note type="clarification">Number "5" next to the column identifies this as plate
-                    5</note>
-                <l>To see another <choice>
-                        <orig>leade</orig>
-                        <reg>lead</reg>
-                    </choice> a <choice>
-                        <orig>theefe</orig>
-                        <reg>thief</reg>
-                    </choice>, with such a lordly grace:</l>
-                <l>And for to <choice>
-                        <orig>marke</orig>
-                        <reg>mark</reg>
-                    </choice> how <choice>
-                        <orig>lothe</orig>
-                        <reg>loath</reg>
-                    </choice> the knave, <choice>
-                        <orig>doth</orig>
-                        <reg>does</reg>
-                    </choice> follow in that case.</l>
-                <p><metamark place="margin" function="imageCaption">C</metamark></p>
-                <l>To see how trimme their glibbed heades, are borne by valliant men,</l>
-                <p><metamark place="margin" function="imageCaption">D</metamark></p>
-                <l>And <choice>
-                        <orig>garded</orig>
-                        <reg>guarded</reg>
-                    </choice> with a <choice>
-                        <orig>royall</orig>
-                        <reg>royal</reg>
-                    </choice>
-                    <choice>
-                        <orig>sorte</orig>
-                        <reg>sort</reg>
-                    </choice>, of worthy <choice>
-                        <orig>souldiours</orig>
-                        <reg>soldiers</reg>
-                    </choice> then.</l>
-                <l>All these are <choice>
-                        <orig>thinges</orig>
-                        <reg>things</reg>
-                    </choice> sufficient, to move a <choice>
-                        <orig>subjects</orig>
-                        <reg>subject's</reg>
-                    </choice>
-                    <choice>
-                        <orig>minde</orig>
-                        <reg>mind</reg>
-                    </choice>:</l>
-                <l>To <choice>
-                        <orig>prayse</orig>
-                        <reg>praise</reg>
-                    </choice> the <choice>
-                        <orig>souldiours</orig>
-                        <reg>soldiers</reg>
-                    </choice>, which reward, the woodkarne in their <choice>
-                        <orig>kinde</orig>
-                        <reg>kind</reg>
-                    </choice>.</l>
-
-                <div n="6" type="plate">
-                    <figure>
-                        <graphic
-                            url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0058_jpg.htm"/>
-                        <figDesc sameAs="EUL description">Sir Henry Sidney, Lord-Deputy, accompanied
-                            by an armed force, sets out from Dublin Castle for a progress through
-                            Ireland</figDesc>
-                    </figure>
-                    <div type="caption" rend="top">
-                        <caption><l>These <choice>
-                                    <orig>trunckles</orig>
-                                    <reg>trunckless</reg>
-                                </choice>
-                                <choice>
-                                    <orig>headdes</orig>
-                                    <reg>heads</reg>
-                                </choice> do <choice>
-                                    <orig>playnly</orig>
-                                    <reg>plainly</reg>
-                                </choice>
-                                <choice>
-                                    <orig>showe</orig>
-                                    <reg>show</reg>
-                                </choice>, <choice>
-                                    <orig>eache</orig>
-                                    <reg>each</reg>
-                                </choice>
-                                <choice>
-                                    <orig>rebeles</orig>
-                                    <reg>rebel's</reg>
-                                </choice>
-                                <choice>
-                                    <orig>fatall</orig>
-                                    <reg>fatal</reg>
-                                </choice> end,</l>
-                            <l>And what a <choice>
-                                    <orig>haynous</orig>
-                                    <reg>heinous</reg>
-                                </choice> crime it is, the <choice>
-                                    <orig><rs corresp="#QElizabeth">Queene</rs></orig>
-                                    <reg>Queen</reg>
-                                </choice> for to offend.</l></caption>
-                    </div>
-                    <cb n="1"/>
-                    <div type="bottom">
-                        <l>Although the <choice>
-                                <orig>theeves</orig>
-                                <reg>thieves</reg>
-                            </choice> are plagued thus, by <choice>
-                                <orig>Princes</orig>
-                                <reg>prince's</reg>
-                            </choice> trusty <choice>
-                                <orig>frends</orig>
-                                <reg>friends</reg>
-                            </choice>,</l>
-                        <l>And brought for their <choice>
-                                <orig>innormyties</orig>
-                                <reg>enormities</reg>
-                            </choice>, to <choice>
-                                <orig>sondrie</orig>
-                                <reg>sundry</reg>
-                            </choice> wretched <choice>
-                                <orig>endes</orig>
-                                <reg>ends</reg>
-                            </choice>:</l>
-                        <l>Yet may not that a warning be, to those they leave <choice>
-                                <orig>behinde</orig>
-                                <reg>behind</reg>
-                            </choice>,</l>
-                        <l>But <choice>
-                                <orig>needes</orig>
-                                <reg>needs</reg>
-                            </choice> their treasons must <choice>
-                                <orig>appeare</orig>
-                                <reg>appear</reg>
-                            </choice>, long kept in <choice>
-                                <orig>festred</orig>
-                                <reg>festered</reg>
-                            </choice>
-                            <choice>
-                                <orig>mynde</orig>
-                                <reg>mind</reg>
-                            </choice>.</l>
-                        <l>Whereby the matter <choice>
-                                <orig>groweth</orig>
-                                <reg>growths</reg>
-                            </choice> at length, unto a <choice>
-                                <orig>bloudy</orig>
-                                <reg>bloody</reg>
-                            </choice>
-                            <choice>
-                                <orig>fielde</orig>
-                                <reg>field</reg>
-                            </choice>,</l>
-                        <l>Even to the <choice>
-                                <orig>rebells</orig>
-                                <reg>rebels'</reg>
-                            </choice> overthrow, except the <choice>
-                                <orig>traytours</orig>
-                                <reg>traitors</reg>
-                            </choice>
-                            <choice>
-                                <orig>yelde</orig>
-                                <reg>yield</reg>
-                            </choice>.</l>
-                    </div>
+                <div type="caption" corresp="#p5">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p5sB"
+                        >B</metamark></p>
+                    <l>And though the <choice>
+                            <orig>pray</orig>
+                            <reg>prey</reg>
+                        </choice>
+                        <choice>
+                            <orig>recover'd</orig>
+                            <reg>recovered</reg>
+                        </choice> be, yet are not all thinges ended:</l>
+                    <l>For why<!--ASilva: symbol for abbreviation see image --><!-- RJP: We need to great a g element - a special character placeholder similar to what we need for the Pilcrow --><choice>
+                            <orig><expan>whylst</expan></orig>
+                            <reg>while</reg>
+                        </choice> the <choice>
+                            <orig>souldiours</orig>
+                            <reg>soldiers</reg>
+                        </choice>
+                        <choice>
+                            <orig>doe</orig>
+                            <reg>do</reg>
+                        </choice> pursue, the <choice>
+                            <orig>Roges</orig>
+                            <reg>rogues</reg>
+                        </choice> that have offended,</l>
+                    <l>Who never cease till in the <choice>
+                            <orig>bloud</orig>
+                            <reg>blood</reg>
+                        </choice>, of these light <choice>
+                            <orig>fing'red</orig>
+                            <reg>fingered</reg>
+                        </choice>
+                        <choice>
+                            <orig>theeves</orig>
+                            <reg>thieves</reg>
+                        </choice>:</l>
+                    <l>Their blades are <choice>
+                            <orig>bathd</orig>
+                            <reg>bathed</reg>
+                        </choice> to teach them how, they after <choice>
+                            <orig>prowle</orig>
+                            <reg>prowl</reg>
+                        </choice> for <choice>
+                            <orig>Beeves</orig>
+                            <reg>beefs</reg>
+                        </choice>.</l>
+                </div>
+                <div type="caption" corresp="#p5">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p5sA"
+                        >A</metamark></p>
+                    <l>To see a souldiour <term xml:id="arc">toze</term> a Karne, O Lorde it is a
+                        wonder:</l>
+                    <note type="gloss" resp="#ASilva"><gloss target="#arc">To pull asunder; to
+                            separate or unravel the fibres of; to comb or card (OED.) Used here
+                            derisevely to point to the eminent beheading of a captive Irish soldier.
+                        </gloss></note>
+                    <l>And <choice>
+                            <orig>eke</orig>
+                            <reg>also</reg>
+                        </choice> what care he <choice>
+                            <orig>takth</orig>
+                            <reg>takes</reg>
+                        </choice> to part, the head from neck <choice>
+                            <orig>a sonder</orig>
+                            <reg>asunder</reg>
+                        </choice>.</l>
+                    <p><metamark place="margin" function="plateID">5</metamark><note
+                            type="clarification">Number "5" next to the column identifies this as
+                            plate 5</note></p>
                     <cb n="2"/>
-                    <div type="bottom">
-                        <l>6</l>
+                    <l>To see another <choice>
+                            <orig>leade</orig>
+                            <reg>lead</reg>
+                        </choice> a <choice>
+                            <orig>theefe</orig>
+                            <reg>thief</reg>
+                        </choice>, with such a lordly grace:</l>
+                    <l>And for to <choice>
+                            <orig>marke</orig>
+                            <reg>mark</reg>
+                        </choice> how <choice>
+                            <orig>lothe</orig>
+                            <reg>loath</reg>
+                        </choice> the knave, <choice>
+                            <orig>doth</orig>
+                            <reg>does</reg>
+                        </choice> follow in that case.</l>
+                </div>
+                <div type="caption" corresp="#p5">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p5sC"
+                        >C</metamark></p>
+                    <l>To see how trimme their glibbed heades, are borne by valliant men,</l>
+                </div>
+                <div type="caption" corresp="#p5">
+                    <p><metamark place="margin" function="imageCaption" corresp="#p5sD"
+                        >D</metamark></p>
+                    <l>And <choice>
+                            <orig>garded</orig>
+                            <reg>guarded</reg>
+                        </choice> with a <choice>
+                            <orig>royall</orig>
+                            <reg>royal</reg>
+                        </choice>
+                        <choice>
+                            <orig>sorte</orig>
+                            <reg>sort</reg>
+                        </choice>, of worthy <choice>
+                            <orig>souldiours</orig>
+                            <reg>soldiers</reg>
+                        </choice> then.</l>
+                    <l>All these are <choice>
+                            <orig>thinges</orig>
+                            <reg>things</reg>
+                        </choice> sufficient, to move a <choice>
+                            <orig>subjects</orig>
+                            <reg>subject's</reg>
+                        </choice>
+                        <choice>
+                            <orig>minde</orig>
+                            <reg>mind</reg>
+                        </choice>:</l>
+                    <l>To <choice>
+                            <orig>prayse</orig>
+                            <reg>praise</reg>
+                        </choice> the <choice>
+                            <orig>souldiours</orig>
+                            <reg>soldiers</reg>
+                        </choice>, which reward, the woodkarne in their <choice>
+                            <orig>kinde</orig>
+                            <reg>kind</reg>
+                        </choice>.</l>
+                </div>
+            </div>
+
+            <div n="6" type="plate">
+                <figure>
+                    <graphic
+                        url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0058_jpg.htm"/>
+                    <figDesc sameAs="EULdesc">Sir Henry Sidney, Lord-Deputy, accompanied by an armed
+                        force, sets out from Dublin Castle for a progress through Ireland</figDesc>
+                </figure>
+                <div type="caption" corresp="#p6" rend="top">
+                    <l>These <choice>
+                            <orig>trunckles</orig>
+                            <reg>trunckless</reg>
+                        </choice>
+                        <choice>
+                            <orig>headdes</orig>
+                            <reg>heads</reg>
+                        </choice> do <choice>
+                            <orig>playnly</orig>
+                            <reg>plainly</reg>
+                        </choice>
+                        <choice>
+                            <orig>showe</orig>
+                            <reg>show</reg>
+                        </choice>, <choice>
+                            <orig>eache</orig>
+                            <reg>each</reg>
+                        </choice>
+                        <choice>
+                            <orig>rebeles</orig>
+                            <reg>rebel's</reg>
+                        </choice>
+                        <choice>
+                            <orig>fatall</orig>
+                            <reg>fatal</reg>
+                        </choice> end,</l>
+                    <l>And what a <choice>
+                            <orig>haynous</orig>
+                            <reg>heinous</reg>
+                        </choice> crime it is, the <choice>
+                            <orig><rs corresp="#QElizabeth">Queene</rs></orig>
+                            <reg>Queen</reg>
+                        </choice> for to offend.</l>
+                </div>
+                <cb n="1"/>
+                <div type="caption" corresp="#p6">
+                    <l>Although the <choice>
+                            <orig>theeves</orig>
+                            <reg>thieves</reg>
+                        </choice> are plagued thus, by <choice>
+                            <orig>Princes</orig>
+                            <reg>prince's</reg>
+                        </choice> trusty <choice>
+                            <orig>frends</orig>
+                            <reg>friends</reg>
+                        </choice>,</l>
+                    <l>And brought for their <choice>
+                            <orig>innormyties</orig>
+                            <reg>enormities</reg>
+                        </choice>, to <choice>
+                            <orig>sondrie</orig>
+                            <reg>sundry</reg>
+                        </choice> wretched <choice>
+                            <orig>endes</orig>
+                            <reg>ends</reg>
+                        </choice>:</l>
+                    <l>Yet may not that a warning be, to those they leave <choice>
+                            <orig>behinde</orig>
+                            <reg>behind</reg>
+                        </choice>,</l>
+                    <l>But <choice>
+                            <orig>needes</orig>
+                            <reg>needs</reg>
+                        </choice> their treasons must <choice>
+                            <orig>appeare</orig>
+                            <reg>appear</reg>
+                        </choice>, long kept in <choice>
+                            <orig>festred</orig>
+                            <reg>festered</reg>
+                        </choice>
+                        <choice>
+                            <orig>mynde</orig>
+                            <reg>mind</reg>
+                        </choice>.</l>
+                    <l>Whereby the matter <choice>
+                            <orig>groweth</orig>
+                            <reg>growths</reg>
+                        </choice> at length, unto a <choice>
+                            <orig>bloudy</orig>
+                            <reg>bloody</reg>
+                        </choice>
+                        <choice>
+                            <orig>fielde</orig>
+                            <reg>field</reg>
+                        </choice>,</l>
+                    <l>Even to the <choice>
+                            <orig>rebells</orig>
+                            <reg>rebels'</reg>
+                        </choice> overthrow, except the <choice>
+                            <orig>traytours</orig>
+                            <reg>traitors</reg>
+                        </choice>
+                        <choice>
+                            <orig>yelde</orig>
+                            <reg>yield</reg>
+                        </choice>.</l>
+                    <cb n="2"/>
+                    <p>
+                        <metamark place="margin" function="plateID">6</metamark>
                         <note type="clarification">Number "6" next to the column identifies this as
-                            plate 6</note>
-                        <l>for <rs corresp="#HSidney">he that governes Irish <choice>
-                                    <orig>soyle</orig>
-                                    <reg>soil</reg>
-                                </choice></rs>, presenting there her grace,</l>
-                        <l>Whose fame made <choice>
-                                <orig>rebelles</orig>
-                                <reg>rebels</reg>
-                            </choice> often <choice>
-                                <orig>flye</orig>
-                                <reg>fly</reg>
-                            </choice>, the presence of his face:</l>
-                        <l>He he I say, he <choice>
-                                <orig>goeth</orig>
-                                <reg>goes</reg>
-                            </choice> forth, with <choice>
-                                <orig>Marsis</orig>
-                                <reg>Mars'</reg>
-                            </choice> noble <choice>
-                                <orig>trayne</orig>
-                                <reg>train</reg>
-                            </choice>,</l>
-                        <l>To <choice>
-                                <orig>justifie</orig>
-                                <reg>justify</reg>
-                            </choice> his <choice>
-                                <orig>Princes</orig>
-                                <reg>Prince's</reg>
-                            </choice> cause, but their <choice>
-                                <orig>demenures</orig>
-                                <reg>demeanor's</reg>
-                            </choice>
-                            <choice>
-                                <orig>vayne</orig>
-                                <reg>vain</reg>
-                            </choice>:</l>
-                        <l>Thus <rs corresp="#QElizabeth"><choice>
-                                    <orig>Queene</orig>
-                                    <reg>Queen</reg>
-                                </choice></rs> he will have honored, in <choice>
-                                <orig>middest</orig>
-                                <reg>midst</reg>
-                            </choice> of all her foes,</l>
-                        <l>And <choice>
-                                <orig>knowne</orig>
-                                <reg>known</reg>
-                            </choice> to be a <choice>
-                                <orig>royall</orig>
-                                <reg>royal</reg>
-                            </choice> Prince, even in despite of those.</l>
-                    </div>
-
-
+                            plate 6</note></p>
+                    <l>for <rs corresp="#HSidney">he that governes Irish <choice>
+                                <orig>soyle</orig>
+                                <reg>soil</reg>
+                            </choice></rs>, presenting there her grace,</l>
+                    <l>Whose fame made <choice>
+                            <orig>rebelles</orig>
+                            <reg>rebels</reg>
+                        </choice> often <choice>
+                            <orig>flye</orig>
+                            <reg>fly</reg>
+                        </choice>, the presence of his face:</l>
+                    <l>He he I say, he <choice>
+                            <orig>goeth</orig>
+                            <reg>goes</reg>
+                        </choice> forth, with <choice>
+                            <orig>Marsis</orig>
+                            <reg>Mars'</reg>
+                        </choice> noble <choice>
+                            <orig>trayne</orig>
+                            <reg>train</reg>
+                        </choice>,</l>
+                    <l>To <choice>
+                            <orig>justifie</orig>
+                            <reg>justify</reg>
+                        </choice> his <choice>
+                            <orig>Princes</orig>
+                            <reg>Prince's</reg>
+                        </choice> cause, but their <choice>
+                            <orig>demenures</orig>
+                            <reg>demeanor's</reg>
+                        </choice>
+                        <choice>
+                            <orig>vayne</orig>
+                            <reg>vain</reg>
+                        </choice>:</l>
+                    <l>Thus <rs corresp="#QElizabeth"><choice>
+                                <orig>Queene</orig>
+                                <reg>Queen</reg>
+                            </choice></rs> he will have honored, in <choice>
+                            <orig>middest</orig>
+                            <reg>midst</reg>
+                        </choice> of all her foes,</l>
+                    <l>And <choice>
+                            <orig>knowne</orig>
+                            <reg>known</reg>
+                        </choice> to be a <choice>
+                            <orig>royall</orig>
+                            <reg>royal</reg>
+                        </choice> Prince, even in despite of those.</l>
                 </div>
             </div>
         </body>
