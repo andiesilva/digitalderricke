@@ -7,7 +7,7 @@
             </titleStmt>
             <publicationStmt>
                 <p>Born-digital file. Created on 2018-06-14 by project consultant Rebecca J. Parker
-                    at ILiADS18. Last updated 2018-06-14.</p>
+                    at ILiADS18. Last updated 2018-06-14.<!-- RJP:2018-06-14: Update this date whenever you enter anything new in this file! --></p>
             </publicationStmt>
             <sourceDesc>
                 <p>The listPerson section of this file was originally generated using the PersonographyCreation.xsl file
@@ -21,7 +21,7 @@
     </teiHeader>
     <text>
         <body>
-            <!-- RJP:2018-06-14: Add new people in alphabetical order by first <forename> element.  -->
+            <!-- RJP:2018-06-14: Add new people in alphabetical order by first <forename> element. Refer to http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html for additional elements.-->
             <listPerson type="projectContributors">
                 <person xml:id="ASilva" role="editor">
                     <persName><forename>Andie</forename>
@@ -53,8 +53,12 @@
                     sameAs="https://viaf.org/viaf/58221805">
                     <persName>John Derricke</persName>
                     <occupation cert="low">Surveyor</occupation>
-                    <occupation cert="high" resp="ASilva">Woodcarver</occupation>
+                    <occupation cert="high" resp="#ASilva">Woodcarver</occupation>
                     <floruit notBefore="1581"/>
+                </person>
+                <person xml:id="MSweeney">
+                    <persName>Mac Sweeney</persName>
+                    <occupation cert="medium" resp="#DI">Irish Lord</occupation>
                 </person>
                 <person>
                     <persName xml:id="TONeill" sameAs="https://viaf.org/viaf/315683882">Turlough
