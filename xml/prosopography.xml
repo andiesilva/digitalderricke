@@ -52,13 +52,20 @@
                 <person xml:id="JDerrick" role="author, illustrator"
                     sameAs="https://viaf.org/viaf/58221805">
                     <persName>John Derricke</persName>
+                    <floruit notBefore="1581"/>
                     <occupation cert="low">Surveyor</occupation>
                     <occupation cert="high" resp="#ASilva">Woodcarver</occupation>
-                    <floruit notBefore="1581"/>
                 </person>
                 <person xml:id="MSweeney">
                     <persName>Mac Sweeney</persName>
-                    <occupation cert="medium" resp="#DI">Irish Lord</occupation>
+                    <floruit notAfter="1573"/>
+                    <occupation cert="medium" resp="#DI">mercenary</occupation>                 
+                    <residence>Ulster</residence>
+                </person>
+                <person xml:id="ROg" sameAs="http://viaf.org/viaf/315945342">
+                    <persName>Rorie Og O'More</persName>
+                    <floruit notAfter="1578"/>
+                    <residence>Kildare</residence>
                 </person>
                 <person>
                     <persName xml:id="TONeill" sameAs="https://viaf.org/viaf/315683882">Turlough
@@ -78,7 +85,7 @@
             <listBibl>
                 <bibl xml:id="p1" facs="EUL_plate01.jpg"> 
                     <title>Plate 1</title>
-                    <note resp=""><!--RJP:2018-06-14: Editor's description of plate will go here. Please include editor ID in @resp.--></note>
+                    <note resp="#DI" type="secondarySource">"This plate gives a vivid picture of the Woodkarne and their costume" Small, 1883. "An Irish chieftain is represented in full dress, beside him is a man with a battle-axe in his hand, and a boy holding the horse of the chief" Small, 1883. It contains a title page on the left-hand side marking "A notable discovery most lively describing the state and condition of the Wilde men in Ireland, properly called Woodkarne." Names Day's print house at the bottom of the title description.</note>
                     <note sameAs="EULdesc">A soldier holding a battle-axe hands a spear
                         to an Irish chieftain in full dress, with a page holding the chieftain's
                         horse</note>
