@@ -1,0 +1,652 @@
+<!DOCTYPE html
+  SYSTEM "about:legacy-compat">
+<html xmlns="http://www.w3.org/1999/xhtml">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8"></meta>
+      <title>Digital Derrick</title>
+      <meta name="Description" content="Digital Derricke is a collaborative effort of Dr. Denna Iammarino (Case Western Reserve University) and Dr. Andie Silva (York College/City University of New York); supported by the Freedman Fellows (CWRU) digital scholarship fellowship 2017-2018, Baker-Nord Center for Humanities (CWRU) faculty research grant(2016-2017), Digital Humanities Summer Institute Scholarship to attend the 2017 Conceptualising a Digital Edition course, and PSC-CUNY research grant 2017-2018. XML, XSLT, and web design consultation provided by Rebecca Parker (Loyola University Chicago) beginning at the 2018 Institute for Liberal Arts Digital Scholarship (ILiADS)."></meta>
+      <meta name="keywords" content="TEI, Text Encoding Initiative, digital edition, electronic edition, electronic text, early modern, English literature, early modern English, renaissance"></meta>
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"></meta>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"></link>
+   </head>
+   <body>
+      <div class="container">
+         <div class="row">
+            <div class="col-sm">
+               <div class="image"><img src="images/BL001.jpg" class="img-fluid" alt="BL001.jpg image"></img></div>
+               <div class="image"><img src="images/BL002.jpg" class="img-fluid" alt="BL002.jpg image"></img></div>
+               <div class="image"><img src="images/BL003.jpg" class="img-fluid" alt="BL003.jpg image"></img></div>
+               <div class="image"><img src="images/BL004.jpg" class="img-fluid" alt="BL004.jpg image"></img></div>
+               <div class="image"><img src="images/BL005.jpg" class="img-fluid" alt="BL005.jpg image"></img></div>
+               <div class="image"><img src="images/BL006.jpg" class="img-fluid" alt="BL006.jpg image"></img></div>
+               <div class="image"><img src="images/BL007.jpg" class="img-fluid" alt="BL007.jpg image"></img></div>
+               <div class="image"><img src="images/BL008.jpg" class="img-fluid" alt="BL008.jpg image"></img></div>
+               <div class="image"><img src="images/BL009.jpg" class="img-fluid" alt="BL009.jpg image"></img></div>
+               <div class="image"><img src="images/BL010.jpg" class="img-fluid" alt="BL010.jpg image"></img></div>
+               <div class="image"><img src="images/BL011.jpg" class="img-fluid" alt="BL011.jpg image"></img></div>
+               <div class="image"><img src="images/BL012.jpg" class="img-fluid" alt="BL012.jpg image"></img></div>
+               <div class="image"><img src="images/BL013.jpg" class="img-fluid" alt="BL013.jpg image"></img></div>
+               <div class="image"><img src="images/BL014.jpg" class="img-fluid" alt="BL014.jpg image"></img></div>
+               <div class="image"><img src="images/BL015.jpg" class="img-fluid" alt="BL015.jpg image"></img></div>
+               <div class="image"><img src="images/BL016.jpg" class="img-fluid" alt="BL016.jpg image"></img></div>
+               <div class="image"><img src="images/BL017.jpg" class="img-fluid" alt="BL017.jpg image"></img></div>
+               <div class="image"><img src="images/BL018.jpg" class="img-fluid" alt="BL018.jpg image"></img></div>
+               <div class="image"><img src="images/BL019.jpg" class="img-fluid" alt="BL019.jpg image"></img></div>
+               <div class="image"><img src="images/BL020.jpg" class="img-fluid" alt="BL020.jpg image"></img></div>
+               <div class="image"><img src="images/BL021.jpg" class="img-fluid" alt="BL021.jpg image"></img></div>
+               <div class="image"><img src="images/BL022.jpg" class="img-fluid" alt="BL022.jpg image"></img></div>
+               <div class="image"><img src="images/BL023.jpg" class="img-fluid" alt="BL023.jpg image"></img></div>
+               <div class="image"><img src="images/BL024.jpg" class="img-fluid" alt="BL024.jpg image"></img></div>
+               <div class="image"><img src="images/BL025.jpg" class="img-fluid" alt="BL025.jpg image"></img></div>
+               <div class="image"><img src="images/BL026.jpg" class="img-fluid" alt="BL026.jpg image"></img></div>
+               <div class="image"><img src="images/BL027.jpg" class="img-fluid" alt="BL027.jpg image"></img></div>
+               <div class="image"><img src="images/BL028.jpg" class="img-fluid" alt="BL028.jpg image"></img></div>
+               <div class="image"><img src="images/BL029.jpg" class="img-fluid" alt="BL029.jpg image"></img></div>
+               <div class="image"><img src="images/BL030.jpg" class="img-fluid" alt="BL030.jpg image"></img></div>
+               <div class="image"><img src="images/BL031.jpg" class="img-fluid" alt="BL031.jpg image"></img></div>
+               <div class="image"><img src="images/BL032.jpg" class="img-fluid" alt="BL032.jpg image"></img></div>
+               <div class="image"><img src="images/BL033.jpg" class="img-fluid" alt="BL033.jpg image"></img></div>
+               <div class="image"><img src="images/BL034.jpg" class="img-fluid" alt="BL034.jpg image"></img></div>
+               <div class="image"><img src="images/BL035.jpg" class="img-fluid" alt="BL035.jpg image"></img></div>
+               <div class="image"><img src="images/BL036.jpg" class="img-fluid" alt="BL036.jpg image"></img></div>
+               <div class="image"><img src="images/BL037.jpg" class="img-fluid" alt="BL037.jpg image"></img></div>
+               <div class="image"><img src="images/BL038.jpg" class="img-fluid" alt="BL038.jpg image"></img></div>
+               <div class="image"><img src="images/BL039.jpg" class="img-fluid" alt="BL039.jpg image"></img></div>
+               <div class="image"><img src="images/BL040.jpg" class="img-fluid" alt="BL040.jpg image"></img></div>
+               <div class="image"><img src="images/BL041.jpg" class="img-fluid" alt="BL041.jpg image"></img></div>
+               <div class="image"><img src="images/BL042.jpg" class="img-fluid" alt="BL042.jpg image"></img></div>
+               <div class="image"><img src="images/BL043.jpg" class="img-fluid" alt="BL043.jpg image"></img></div>
+               <div class="image"><img src="images/BL044.jpg" class="img-fluid" alt="BL044.jpg image"></img></div>
+               <div class="image"><img src="images/BL045.jpg" class="img-fluid" alt="BL045.jpg image"></img></div>
+               <div class="image"><img src="images/BL046.jpg" class="img-fluid" alt="BL046.jpg image"></img></div>
+               <div class="image"><img src="images/BL047.jpg" class="img-fluid" alt="BL047.jpg image"></img></div>
+               <div class="image"><img src="images/BL048.jpg" class="img-fluid" alt="BL048.jpg image"></img></div>
+               <div class="image"><img src="images/BL049.jpg" class="img-fluid" alt="BL049.jpg image"></img></div>
+               <div class="image"><img src="images/BL050.jpg" class="img-fluid" alt="BL050.jpg image"></img></div>
+               <div class="image"><img src="images/BL051.jpg" class="img-fluid" alt="BL051.jpg image"></img></div>
+               <div class="image"><img src="images/BL052.jpg" class="img-fluid" alt="BL052.jpg image"></img></div>
+               <div class="image"><img src="images/BL053.jpg" class="img-fluid" alt="BL053.jpg image"></img></div>
+               <div class="image"><img src="images/BL054.jpg" class="img-fluid" alt="BL054.jpg image"></img></div>
+               <div class="image"><img src="images/BL055.jpg" class="img-fluid" alt="BL055.jpg image"></img></div>
+               <div class="image"><img src="images/BL056.jpg" class="img-fluid" alt="BL056.jpg image"></img></div>
+               <div class="image"><img src="images/BL057.jpg" class="img-fluid" alt="BL057.jpg image"></img></div>
+               <div class="image"><img src="images/BL058.jpg" class="img-fluid" alt="BL058.jpg image"></img></div>
+               <div class="image"><img src="images/BL059.jpg" class="img-fluid" alt="BL059.jpg image"></img></div>
+               <div class="image"><img src="images/BL060.jpg" class="img-fluid" alt="BL060.jpg image"></img></div>
+               <div class="image"><img src="images/BL061.jpg" class="img-fluid" alt="BL061.jpg image"></img></div>
+               <div class="image"><img src="images/BL062.jpg" class="img-fluid" alt="BL062.jpg image"></img></div>
+               <div class="image"><img src="images/BL063.jpg" class="img-fluid" alt="BL063.jpg image"></img></div>
+               <div class="image"><img src="images/BL064.jpg" class="img-fluid" alt="BL064.jpg image"></img></div>
+               <div class="image"><img src="images/BL065.jpg" class="img-fluid" alt="BL065.jpg image"></img></div>
+               <div class="image"><img src="images/BL066.jpg" class="img-fluid" alt="BL066.jpg image"></img></div>
+               <div class="image"><img src="images/BL067.jpg" class="img-fluid" alt="BL067.jpg image"></img></div>
+               <div class="image"><img src="images/BL068.jpg" class="img-fluid" alt="BL068.jpg image"></img></div>
+               <div class="image"><img src="images/BL069.jpg" class="img-fluid" alt="BL069.jpg image"></img></div>
+               <div class="image"><img src="images/BL070.jpg" class="img-fluid" alt="BL070.jpg image"></img></div>
+               <div class="image"><img src="images/BL071.jpg" class="img-fluid" alt="BL071.jpg image"></img></div>
+               <div class="image"><img src="images/BL072.jpg" class="img-fluid" alt="BL072.jpg image"></img></div>
+               <div class="image"><img src="images/BL073.jpg" class="img-fluid" alt="BL073.jpg image"></img></div>
+               <div class="image"><img src="images/BL074.jpg" class="img-fluid" alt="BL074.jpg image"></img></div>
+               <div class="image"><img src="images/BL075.jpg" class="img-fluid" alt="BL075.jpg image"></img></div>
+               <div class="image"><img src="images/BL076.jpg" class="img-fluid" alt="BL076.jpg image"></img></div>
+               <div class="image"><img src="images/BL077.jpg" class="img-fluid" alt="BL077.jpg image"></img></div>
+               <div class="image"><img src="images/BL078.jpg" class="img-fluid" alt="BL078.jpg image"></img></div>
+               <div class="image"><img src="images/BL079.jpg" class="img-fluid" alt="BL079.jpg image"></img></div>
+               <div class="image"><img src="images/BL080.jpg" class="img-fluid" alt="BL080.jpg image"></img></div>
+               <div class="image"><img src="images/BL081.jpg" class="img-fluid" alt="BL081.jpg image"></img></div>
+               <div class="image"><img src="images/BL082.jpg" class="img-fluid" alt="BL082.jpg image"></img></div>
+               <div class="image"><img src="images/BL083.jpg" class="img-fluid" alt="BL083.jpg image"></img></div>
+               <div class="image"><img src="images/BL084.jpg" class="img-fluid" alt="BL084.jpg image"></img></div>
+               <div class="image"><img src="images/BL085.jpg" class="img-fluid" alt="BL085.jpg image"></img></div>
+               <div class="image"><img src="images/BL086.jpg" class="img-fluid" alt="BL086.jpg image"></img></div>
+               <div class="image"><img src="images/BL087.jpg" class="img-fluid" alt="BL087.jpg image"></img></div>
+               <div class="image"><img src="images/BL088.jpg" class="img-fluid" alt="BL088.jpg image"></img></div>
+               <div class="image"><img src="images/BL089.jpg" class="img-fluid" alt="BL089.jpg image"></img></div>
+               <div class="image"><img src="images/BL090.jpg" class="img-fluid" alt="BL090.jpg image"></img></div>
+               <div class="image"><img src="images/BL091.jpg" class="img-fluid" alt="BL091.jpg image"></img></div>
+               <div class="image"><img src="images/BL092.jpg" class="img-fluid" alt="BL092.jpg image"></img></div>
+               <div class="image"><img src="images/BL093.jpg" class="img-fluid" alt="BL093.jpg image"></img></div>
+               <div class="image"><img src="images/BL094.jpg" class="img-fluid" alt="BL094.jpg image"></img></div>
+               <div class="image"><img src="images/BL095.jpg" class="img-fluid" alt="BL095.jpg image"></img></div>
+               <div class="image"><img src="images/BL096.jpg" class="img-fluid" alt="BL096.jpg image"></img></div>
+               <div class="image"><img src="images/BL097.jpg" class="img-fluid" alt="BL097.jpg image"></img></div>
+               <div class="image"><img src="images/BL098.jpg" class="img-fluid" alt="BL098.jpg image"></img></div>
+               <div class="image"><img src="images/BL099.jpg" class="img-fluid" alt="BL099.jpg image"></img></div>
+            </div>
+            <div class="col-sm text"></div>
+            <div class="col-sm margin">[marginalia]<span class="marginalia">The aucthor in this his
+                  firste beginnyng, sheweth that GOD was the onely cause, whiche moued hym to write
+                  and set out this his woorkes, helpyng and fauourably supportyng hym in the same,
+                  who beyng otherwise insufficient, and not able of hym self to doe the same, but by
+                  the goodnesse and furtheraunce of God, yeldeth to hym due honor therefore.Forraine Princes, Nations and Countries, can witnesse of
+                  the honourable estate and Royaltie of the kynges of Englande since the tyme it was
+                  enhabited.Probations.Prince Arthure is here brought forth as an vnreprobable
+                  testes (beyng as it wer) a moste famous Riuer that watereth the face of ye whole earth, with the streames of his immortall fame and
+                  renowne.The honour of king
+                  Arthure his Actes, manhode, conquestes Magnanimitie, Chiualrie, and what els, in
+                  chronicles are sufficiently set out, to the greate comforte and consolatiō of all Britishe and Englishe mennes hartes.King Hēry the secōd as Chronicles record for wisedome, knowledge, and iudgement was holden
+                  famous throughout the world in so muche as Emperours, (namely the Emperour of
+                  Rome, and of Constantinople) hearing of his notable wisedome, sent by their
+                  Ambassadors to haue his resolution &amp; iudgement in great matters of strife and
+                  contētion. Read more of this Kynges glorie his wealth and
+                  possessions in maister Foxes Ecclesiasticall historie, I meane the Actes and
+                  monumentes.He sheweth the cause why kyng Henry was had in suche
+                  honour and greate admiratiō
+                  The Scepter of the noble Relame of Englande, daiely more
+                  &amp; more encreased in honor and fame, beeyng as the Sunne in the firmament of
+                  heauen, that casteth ye beames of his shine vnto the
+                  vttermoste partes of the worlde, so that nothyng might bee hid from the heate and
+                  presence thereof.Prince Edward the third
+                  is here a noble testimony, to approue the aboue saied allegation, beeyng in his
+                  tyme moste excellent on yearth, as in Chronicles is reported.Kyng Edward not abiding the mallepartnesse of the dronken
+                  Pope of Rome, which needes would bee a stickler twixt him and the Frenche Kyng,
+                  standes at defiaunce bothe with Frenche Kyng and Pope, and offereth to fight hand
+                  to hande with them bothe, whiche when the Pope vnderstandeth, like a Coward, or
+                  rather like a snaile in a shell, draweth in his hornes, for feare of a broken
+                  Costerd, and quietly suffereth this noble Kyng Edward accordyng his pleasure, to
+                  execute the force of his sword against his aduersarie, whiche braue exā ple if al other kynges would followe &amp; imitate, the
+                  beaste would beware how he entermedled with Princes matters, impertinent to his
+                  callyng.Kyng Edward hauyng
+                  long ruled the scepter of his Kyngdome with glorie and greate honor, resigned the
+                  same vp to his successours, who also augmente the fame thereof, and in his
+                  posteritie is more excellente then his antecessours, as in the tradations of
+                  histories is at large discussed.Though sonderie of Kyng Edwardes successours deserued
+                  immortal renowme, whō seuerally I omitted here to entreate
+                  of, yet emongest them all, one of late memorie I thought fit for proofe and
+                  argumentes sake to set forthe as an vndoubted paterne of all Nobilitie, whiche is
+                  meant of Kyng Henry the eight.The onely looke and countenance of Kyng Henry the eight, was
+                  sufficiēt to discomfort an hoste of menne.Kyng Henry beyng at warre with the Frēch
+                  retaines the Emperour to serue vnder his standred, and ther withall makes his foes
+                  to taste bitterly of the rod of his correction, for his Maiestie would not abide
+                  to be dallied withall.Kyng Henry waiyng with hym self, what a miserable plague it was
+                  for hym self, his people and kingdome, to be subiect vnto the Pope of Rome (that
+                  presumpteous Prelate to the admiratiō of all the worlde,
+                  vnhorseth the Pope, and makes him go on fote (wt a mischeef)
+                  where as before he spared not to ride in the neckes of Christan Emperours and
+                  Kynges farre better then hym self. (So couragious was ye
+                  excellent king) as therin he enterprised that whiche all the potentates of ye world durst not attempt besides.Kyng Henry waiyng with hym self, what a miserable plague it was
+                  for hym self, his people and kingdome, to be subiect vnto the Pope of Rome (that
+                  presumpteous Prelate to the admiratiō of all the worlde,
+                  vnhorseth the Pope, and makes him go on fote (wt a mischeef)
+                  where as before he spared not to ride in the neckes of Christan Emperours and
+                  Kynges farre better then hym self. (So couragious was ye
+                  excellent king) as therin he enterprised that whiche all the potentates of ye world durst not attempt besides.
+                  
+                  <p>The honour of Kyng Henry is triple augmēted in his
+                     successors (especially in the gouernement of our gracious and Soueraigne Ladie
+                     the quenes moste excellente maiestie) who not onely hath continued in ye course of her Father, by suppressyng ye pope but wt more seueritie hath holden his nose
+                     doune to the grindestone, as by continual grindyng it is almost worne out to
+                     the gristle and bare stumps. The honour of our good Queene in her excellencie
+                     is here in published.
+                  </p>
+                  
+                  <p>Queene Elizabethes sacred arme, as ye pope saieth, hath
+                     giuen him such a cut ouerthwart his Monkishe visnamie, that he is in dout
+                     whether he shall euer be able to be cured of the wounde, his Cardinalles are
+                     vtterly discōforted, his Chiturgians haue giuen hym ouer
+                     as all his doctours doe doubt. The great care of her maiestie is euer in sekyng
+                     out the waie by whiche she maie gouerne her people and coūtrie wt al godlines trāquillite
+                     and peace. The life and blood of her Maiestie (whiche GOD for his mercie
+                     preserue &amp; maintain) is not to deare in her Graces sight, for the
+                     preseruation of her people and Countrie, but that she would if occasion serued
+                     (as God forbid that wee should see that daie to be so distressed) bothe venter
+                     an hazarde for defēce of the same for whiche God bee
+                     praised, and her Maiestie honoured (a singuler token of a most godly and
+                     christian prince.) The aucthor stirreth vp all Christian people and true
+                     subiectes to giue forthe a signe of their hartie good will, and loue towardes
+                     her sacred Maiestie, by adding) Amen) to that whiche
+                     he before praied for.
+                  </p>
+                  
+                  <p>Here the aucthour exhorteth al estates and degrees of menne to praie for the
+                     prosperitie of her Grace, that God would be on her right hande, continually
+                     giuyng good successe to all her highnesse enterprises, (that she with vs her
+                     loyall and obedient subiectes, and we with her our right dread and soueraigne
+                     Queene, the true anoynted of the Lorde) maie raigne, and liue together in all
+                     peace and godlinesse, to the honour and glorie of God for euer.
+                  </p>
+                  
+                  
+                  <p>In all our petitions, actiōs, and requestes, wee muste
+                     referre the successe euer to the good will &amp; pleasure of God.
+                  </p>
+                  
+                  <p>The cause why wee should yeeld our will to Gods will is, because he is euen
+                     still ye self same thyng that neuer chaungeth nor alters
+                     his entent or purpose, established in his secret counsell, but as he doeth
+                     &amp; hath purposed, so also in tyme conuenient doeth likewise accomplishe by
+                     whiche we may perceiue his excellent puritie.
+                  </p>
+                  This is a portion of that whiche in the beginnyng was
+                  alledged, where it is saied, that God was ye cause principall,
+                  whereby the mynde of the aucthor was mightely enflamed to write some pleasant
+                  Historie, but wiste not what, till at length by the self same cause he was
+                  enstructed and taught what he should write, as more fullie hereafter to set
+                  doune.The aucthour is not ashamed to acknoweledge his
+                  imbecillitie, of hym self vnable to bring to passe any notable exploite, saue
+                  onely that he depēdeth on Gods direction to fluishe the thyng
+                  his goodnesse shall begin.Better to bee meere ignorant, then to bee ouer skilfull to
+                  the hurt of other.Meanyng not acquainted in the science of Usurie, whereby
+                  he might haue had good occasion and matter to write of.The aucthour still
+                  procedyng on in the discription of his imperfectiō, and
+                  hauyng felt the ground of his knowledge, seing him self to bee altogether
+                  vnfurnished of that, which in historiographers is required (doth as it) were aske
+                  a question, how it wer possible for hym to accō plish the
+                  thing he gladly desired, wherevnto he makes aunswere, alledgyng though in his owne
+                  eyes he seemed insufficient, yet God who gouerneth all thynges, bids hym but adde
+                  to his good will, &amp; he would further hym in the reste.Three principal thinges are to be retained of euery Chronicler
+                  &amp; writer of Histories, (that is to saie) Inuentiō,
+                  Memorie, and pleasant Conueiance without whiche, what soeuer a man doeth is
+                  altogether vnsauerie.The aucthour at last through many daies trauail, obtaineth the
+                  Porte and Hauen of reste, where his three foresaid companions Inuention, Memorie
+                  and Conueighaunce, consultyng together, agree and conculde that he should entreat
+                  vpon the Irishe soile and inhabitauntes of the same, with the fertilitie of the
+                  ground.Marke the preparation made for the aucthour, leste
+                  peraduenture he might relate ought amisse, and so by false discouerie of thynges
+                  therein contained, roune in danger of reprofe, wherevnto the nature of the
+                  Cauiller is passyngly addicted.By these flowyng stremes are
+                  ment, the goodlie Hauens and Riuers through euery parte of Irelande, most famous
+                  for marchantes, in whiche riuers also are store, change, and choise of all fine
+                  and delicate fishes, and that in most abondant sort, a notable pleasure and
+                  necessarie cōmoditie for a cōmon
+                  wealthe, and this is the firste parte cōcernyng the
+                  watersAs the Riuers of Irelande are notable famous for the
+                  varietie of all maner of fisshes, giuen in moste plentifull maner, so is the lande
+                  farre more renowmed for her situation, pleasant ayre operation, and goodly store
+                  of all maner of cattell behofefull for the lande, and for all kinde of wildfoule
+                  for pleasure and profite of man, as in the discourse thereof shall spedely be set
+                  out.The discription of the woodes of Irelande.The discouery of the Irish Nimphes, their pleasures,
+                  pastymes, and accustomable vsages, wherein daiely thei are occupied, are
+                  figuratiuely expressed.This doe expounde the true
+                  meanyng of the rest that went before.These Nimphes deserues eternal memorie for their holy
+                  conuersation: yea, though it were but with Asmodious the Deuil of hell: For pitie
+                  it were if thei should not bee remembred somwhere and since thei are not thought
+                  vpon in heauen, giue them leaue to bee had in memorie in hell.The cause why these Nimphes are worthy of suche
+                  remembrance is because of ye greate paine and labour thei
+                  tooke in the lande in bryngyng forth fruite after their kinde.The generation of these wood Nimphes are in their kind
+                  more craftier then ye Foxes more frettyng then Bores, and
+                  terribler thā Beares, working by secret conspiracies the
+                  subuersion, ruine, and destruction of the hurtlesse creatures of the
+                  lande.The Aucthour seing the greate inconueniences that happen
+                  daily by the retaining of suche a pestiferous generation, giueth counsell to all
+                  those that loue their owne saftie and securitie to ridde their handes of them,
+                  least retainyng and still maintaining them they doe but foster a wolfe, and
+                  cherishe a sarpent, which are redy daily both to deuoure, and destroye
+                  them.The aucthour continuing in his exhortation thereby to
+                  driue it more deper into the hartes of men bringeth forth a similitude of a tode
+                  and a crocadill, signifiyng that it is all one equall securitie for a mā to sleepe with all those poysonyng wormes, as it is to keepe
+                  about hym those members before specified, for (in cōclusion)
+                  the wormes can but poyson them, and they murder them, so that bothe of them do
+                  worke all one effectte whiche is death.It is a true saiyng. preuent the worste and the
+                  best shall saue it self.Here the aucthour renueth his storie and
+                  setteth out the operation of the Irishe grounde, whiche neither breedeth nor yet
+                  fostereth vp in it any venimous beastes or wormes.Irelande tyme past, had store of all kinde of wormes, serpents,
+                  and venimous beasts if fables be scriptures.Doubtfull obiectiōs, whether processe of
+                  tyme, or the power of Gods abbollished the serpentes out of Irelande.Emongest sondrie suppositions
+                  a very likely hoode, opening the tyme of the wormes exylement.The aucthour yeelds his
+                  verdict and opinion, in this pretie tale.Good counsell neuer yet
+                  hurted ye receiuer.Mars cōfirmeth Appolloes saiyng, verifiyng
+                  his greate wisedome, showing reason why they should exempt feare.The reason truly set doune, for the abollyshyng of
+                  feare.Bloodie Mars ouertwharteth Appollo, annichillating his reasons,
+                  giuyng contrarie counsell to the confusion of the enemie.Apollo contendyng with Mars, manifesteth his notable
+                  wisdome in waiyng the royall estate.The deuice of Apollo is here
+                  most excellēt, who opens a meane to saue both men and
+                  money.Mars
+                  addicted onely to slauter gensaithe Apolloes counsell, obiectyng, it to bee voyde
+                  of wisedomes forecast, not hauyng regarde to causalties that might ensue.Mars showeth reason, why the
+                  Gods should reiecte Apolloes counsell, he sets out the whole rabble of ill beastes
+                  bred in the lande.Mars makes here his conclusion.Apollo confuteth Mars and his Marshall reasons beyng once
+                  experimented in the misteries of diuinitie hauyng fore knowledge of Iupiters
+                  entent and purpose.It appeares by this, that
+                  Apollo was first deuisour of the woodkarnes glibbe and mantell.Mars conuicted by reason, concludes with Apollo.Iupiter to Mars in Apolloes praise, ratefyng, that Apollo had
+                  respecte, to daungers as well extant, as to those that might after followe.The order of the Irishe karnes apparel, is here allowed by
+                  Iupiter beyng first found out by Apollo.It is agreed vpon, by consent of the Gods, that Woodkarne shall
+                  weare glibbed heds, signifiyng their monstrous mallice, irefull hartes, and
+                  bloodie hands, which moste stricktly they to this daie doe obserue.The Irishe man, contrarie to the former allegations
+                  prescisly saieth that sainct Patritke expulsed the venimous beasts out of
+                  Irelande, for whiche thei haue hym at this daie in greate addoration.A renuyng againe of the historie.Greate store of wolues in
+                  Irelande.Irelande replenished with all
+                  kinde of necessarie and profitable cattell.Plentie of all kinde of
+                  wilde foule in Irelande whatsoeuer maie be named.Irelande hath great
+                  store of Hawkes bred in it.The names of the Hawkes that are bred in Ireland with their
+                  estemations orderly whiche are in nomber seuen.The Irishe Hawkes peerles, for speedines of wing.Many Eagles in Irelande.The olde saiyng is here
+                  founde true, that like loueth like.By pollicie brute beastes
+                  are brought to a peaceable order of liuyng, seruyng and obaiyng man orderly in
+                  their nature and kinde, yea the very foules of the ayre and beastes of the fielde,
+                  haue a certaine kinde of reuerence and feare, towardes those whom they consider
+                  doe worke them any good, but onely these monsters of the worlde, these pernicious
+                  members of Sathan, these wretched wretches haue no consideration, nor yet beare
+                  any kindly affection towardes (her Maiestie) whose mercie doeth preserue them,
+                  whose gracious fauour doeth protect them, whose royaltie not only wisheth them
+                  good, but also doth them good, not for a day, a weeke, a moneth, or a yeare, but
+                  continually, for if her Grace would their subuertion, if then she had but saide
+                  the worde onely, iudge what had followed (euen vtter desolation) which thing,
+                  these blinde Idiots doe not or at least will not see or consider, O ingratitude
+                  moste intollerable, and blindnesse irrecuperable.No pollicie, wisedom or cunnyng, scarce altreth the wilde
+                  Wodkarnes croked nature.In steede of ciuillitie, Woodkarne vse
+                  villanie.The felicitie, that Irishe karne do most of all reioyce
+                  in.The sowe returnes to the mire, and the dog to his vomite
+                  againe.This hath been to well proued true in these late
+                  daies.An exclamation vppon Sainct Patrick, chief Sainct in
+                  Irelande.Irishe karne more
+                  hurtfull then Serpentes.Sainct Patrickes preachynges,
+                  could neuer bring Woodkarne to holly perfection of life.Sainct Patricke is here
+                  excused, who doutlesse tooke great paine and labour, if it had been possible to
+                  haue made Woodkarne be come religious Sainctes.No strength maie preuaile whom God doeth withstande, no phisicke
+                  can cure, whom God in his ire striketh, showing that God hath giuen vp Woodkarne
+                  to a reprobate sence infectyng them also with an incurable botche.Signifiyng it is mere madnesse
+                  to striue against the lorde god. Irelande hath no Pyes breeding in it.Better it were to haue Pyes thē
+                  prowlers.Where Irishe karne haue superioritie, ther thei commit all
+                  thinges to fire and sword, as house, corne, and cattell, men, women and children.
+                  
+                  <p>
+                     O viperous VVoodkarne,<br></br>
+                     right sons of the deuill:<br></br>
+                     A hangyng come to you,<br></br>
+                     rewardyng your euill.<br></br>
+                     A poore onely hangyng,<br></br>
+                     for this pestilent brood:<br></br>
+                     Both hanging &amp; drawing,<br></br>
+                     were for them to good.<br></br>
+                     
+                  </p>
+                  By murderyng, spoylyng and burnyng, Woodkarne hope to come to
+                  heauen, but it must be by a ha
+                  •
+                  ter.The glorie of Irelande wholy extinguisht, through Irish karnes
+                  liuyng.An exclamation drawen from the depth of the harte, wherein
+                  the aucthour seemeth to bewaile the deformation of the lande by or through the
+                  liues of these rebellious Woodkarne.Irishe karne brutisher then beastes.No men more gracelesse then Woodkarne, none greater foes to
+                  their country, nor yet any that reioyce more in vnhappinesse then they.Woodkarnes armes artificially displaide.Woodkarne of
+                  all creatures least regardeth vertue, beyng giuen wholy to wicked sensualitie and
+                  lust, they are of least credite vnder heauen a notable commendaiton.Gods grace must support where man can doe no
+                  good.Sir Henry Sidneys indeuour in reducyng of Irelande.Two thynges practised by Sir Henry
+                  Sidney, drawyng the Irishrie to a conformitie of good liuyng, that is to saie,
+                  iudgement and mercie.Sir Henries care, wisedome and pollicie, could not bryng
+                  the Woodkarne to a better order and conformitie of liuyng.Marke here the obstinacie of these wodkarne whiche by how
+                  muche lenitie they are better vsed ordered, and gouerned, by so muche the more
+                  wilfulnesse, frowardnesse and stubbornesse, they are alienated, and enstranged
+                  frō all good discipline, and loyall obedience, a moste
+                  euident signe and token of an vntowarde generation.A reasonable request to be graunted in consideration of the
+                  paines.The discription of
+                  the Irishman, aswell of the Lordes, as of the galliglasse and horseboy fully
+                  set out.The Irishe Karnes apparell moste liuely set out.Woodkarnes manners are more
+                  straunger then his apparell.The fruite sheweth the
+                  goodnesse of the tree, approuyng all Woodkarne, strong theeues for to
+                  bee.Irishe Rebbelles feare
+                  neither god nor man.The hautie hartes of Woodkarne
+                  desire rule dome, but they shall haue a rope.The Rebbelles enuie towarde a
+                  good Subiecte, whereto many be ioyned, the affection of a pernicious Papist,
+                  towarde a true Christian.Marke the moste pestilent nature of the wilde villanous
+                  Woodkarne.Woodkarne are as Grashoppers, and Catterpillers to
+                  their countrey, and people.The ioye of rebbelles is
+                  in plagyng of true men.Spoyling and burnyng is the Irishe karnes renoune.Woodkarnes exercises when true men take rest, to robbe burne
+                  and murder, when true men take rest, with fire sworde and axcesse, these
+                  traiters are preste, thei take no compassion of men children nor wiues, but
+                  ioye when they doe them, depriue of their liues.Irishe karne seldome leaue any thyng worth the bearyng awaie
+                  behinde them, but either thei take it or els do set it on fire.The stolne p
+                  o
+                  ore Cowe must be knocked doune as sone as they come home, to make the
+                  theeues a feaste.The woodkarnes Cookes.Bread seldomly vsed amongst Wodkarne. Maister and man all one at eatyng
+                  of meatA moste perfecte discription of
+                  Irishe hors boyes eatyng their meate.The rudenesse of hors boyes is
+                  herein set open, who fill them with driffe draffe, farwell the good
+                  token.Beholde here the difference twixt
+                  Karne and their men, the Karne haue the best meate, the hors boyes eate then,
+                  of inmeates and puddings, which to lucke is imputed, their lippes with greene
+                  onytment beyng fouly poluted.The very order of the wilde Irish,
+                  their sittyng, table, dishes, and cushens discribed O braue swinishe fashion
+                  founde our emongst hogges. Deseruyng for maners to sitt amongst dogges.The order of Wodkarne is to haue a Frier blesse hym and all
+                  his housholde before he sits doune.Irishe Karne euery yeare once or twise peraduenture
+                  make exchaunge of their wiues, as thei like thē so will
+                  thei keepe thē, for thei will not be bounde to
+                  them.Friers haue chiefest and hiest roomes at feastes amongst the
+                  Irishrie, and why should not we giue them like honour at the
+                  gallowes.Like vnto like saide the Deuill to the
+                  Collier.A
+                  Foyner of three quarters of a yarde long, is the Woodkarnes knife.The Irishe mans drinke.A thyng of necessitie proued to be phisicke,
+                  hauyng his confirmation vpon the othe of a periured caitiffe Karne.
+                  Vskebeaghe, is Aquanite.The Woodthiues loue mirth after
+                  meate.A Barde and a Rimer is all
+                  one.The Barde by his
+                  Rimes hath as great force emongst Woodkarne to perswade, as the elloquent
+                  oration of a learned Oratour emongest the ciuill people.The pollicie of the Barde to encense the Rebelles to doe
+                  mischefe, by repeating then forfathers actes, O craftie Appostle as holy as a
+                  Deuill.Marke how apte and prone these theeues are to doe mischiefe,
+                  in whiche is verified the saiyng that is witten, like as the father is, suche
+                  is the sonne, knaue father and knaue sonne, to the twentie generation.A wicked man neuer wants ill counsell.The Frier perswades the Rebels that it is an high worke of
+                  charitie, to kill loyall Subiectes, which thyng they beleeue though neuer
+                  founde on scripture, O ghostly Frier as innocent as Iudas.Beholde the plaguy counsell of a pockie Frier, the very
+                  fruite of Papistrie.This flatteryng Frier promiseth to the Rebels
+                  euerlasting life, if they perceiuer in rebellyng against the
+                  (Queene.)The ende of the Friers oration, is the
+                  beginnyng of rebellion, he is a sharpe spurre to make them gallop hedlong to
+                  all kinde of mischiefes, and last to the gallowes and deuill of hell.The Karne go forth with the
+                  Friers blessyng to spoyle loyall subiecttes, but looke what enseweth.Whom the Frier doth blesse, them
+                  doth God curse, bringyng their wicked purposes to a wonderfull ende.The praie is recouered to the Rebels
+                  damage.Sweete meate must haue sowre sauce.As a notable Rebell had in his life tyme greater dignitie
+                  then many of like profession, so beyng dead, his head receiues a more stately
+                  place of exaltation.Suche Astronomers God sende vs enough daily.Now God be thanked hedlesse Woodkarne are not to bee feared,
+                  fortune goeth beionde their expectations, which bryngeth Rebels with all their
+                  reuels to shame and dishonour.The Frier mournes for the losse of his poore Woodkarne, he
+                  curseth as blacke as pitch their oppressors.The kindnesse of the Frier towardes the Rebelles after their
+                  death, by purchasyng their pardons, with booke, bell, and candell, whiche thyng
+                  artificially the knaue doth handell.A notable question whiche demaundes, if pardones frō Rome, maie bryng damned soules from hell.Friers perswasions cause Rebelies
+                  still to perseuer in rebellion, O blinde fooles, to beleeue all that
+                  Papisticall Monkishe momes tell you to bee Scripture, when in the ende they
+                  seeke your vtter destruction and desolation.The Friers in Irelande, are
+                  chiefest instrumentes of Irishe disturbaunce, they are the onely spurre to
+                  pricke them onward to rebell against the Queene, procuryng the meanes of their
+                  vtter distruction, beyng the hed welspring of all sinne and wickednesse.Rebelles bewitched or deluded by sathan, measure not their
+                  owne estate by other mens harmes, or calamities, but still marche forwarde in
+                  the pursute of sinne, till they come to like ende of destruction.As by obaiyng the Prince, there springeth rest, peace, and
+                  tranquilitie, so, in displeasing her Grace, groweth trouble, vexation,
+                  confusion, and death.The Karne goe still on in their malice, growyng from
+                  pettie fellonie to maine treason.They boste of their manhood.They vowe, the Englishe hostes destruction.The successe of reachlesse enterprises.The celeritie of Sir Henry Sidney, to encounter with the
+                  Rebelles.The noble stomacke of the Captaines described.The courage of the Souldiers liuely expressed, who had rather
+                  then their liues be vpon the Iackets of these fif kyng and shippyng
+                  Rebelles.Recommendation of the good subiectes of Irelande, their fidelitie, loyaltie,
+                  and seruice to their Prince is described.The daie of 
+                  ••
+                  ttai
+                  •
+                  e is appointed, if wodkarne will abide it.In this is manifestly proued
+                  how the Lord Deputie attempteth nothyng vnaduisedly, either in rearyng vp of
+                  warr or in puttyng it doune, whereby the Irishrie might finde any occasion of
+                  rebellion, or cause to rebell, for beyng come into the fielde in hostill araie,
+                  yet before he soundeth to the battaile, mercifully allureth them to submitte
+                  them selues to the Queenes good Grace, who refusing this offer, fallyng vpon
+                  them, showeth no mercie or compassion, whose eye doeth neither pitie them, nor
+                  yet his hande spare them, but like a most seuere warrier, executeth the
+                  function and office appertaing to warreThe marche of the Irishry and their notable bragges beyng
+                  farre from their enemies, wherein they discouer openly their couragious
+                  dasterly hartes.The stately courage of the Rebelles, is sone put doune, at
+                  sight of our Princes hoste.Feare a suppresser of the sturdiest Rebels harte.The order of the Irishe warre is plainly set out, who leauyng
+                  the order of battaile raye, beyng neare the combat, fall into a cluster,
+                  therein they suppose their saftie to consiste, makyng a moste terrible noyse of criyng
+                  to terrifie (if it were
+                  possible) the whole hoste of Englishe men.Uauntyng Woodkarne doe
+                  first giue backe.Under these covert tytles, the valure of all our English Captaines are expressed.O Souldiers of renowne shielde you
+                  from mischaunce, whiche doe in spight of Irishe karne, your Countries praise
+                  aduaunce.Woodkarne must needes sweate, for
+                  their labour is great.The piper seyng
+                  the Karne to haue the worste ende of the staffe, doe lull the Irishe
+                  retreate.Commendations worthie of
+                  right, to be long to our Englishe Captaines, who neuer shrincketh, but with
+                  greate valure and manhood tarieth the finall ende of the battaile.No daunger ought to be eschewed, nor labour refused, in the
+                  defendyng our prince and Countries cause.The gelousie of a Prince deuoureth like the flames of
+                  fire.The anger of a prince ceaseth not til he hath brought his
+                  purpose to perfection.The Irishe Karnes hartes now more and more doe
+                  faint.Irishe Woodkarne had rather flie then fight, and good reason they haue so to do, for
+                  who would take
+                  blowes if he can shun them.Marke Traiters in the midst of
+                  battaile is no place to repent.A notable question that
+                  demaundes, if the repentaunce of a vile catrife, and rebellious Wodkarne, maie satisfie
+                  the Iniuries
+                  committed against our Queene.A similitude of the Lyon.The Princes pleasure put in
+                  execution by Sir Henry Sidney.Bygour is meetest where
+                  clemencie auaileth not.That whiche is doen by
+                  compulsion, is no godamarcie.Iustice and fortitude yeeldes Rebels
+                  their hire.The Souldiers wrecke their anger and displeasure vpon the
+                  poore Irish karne without all pitie.O harde harted men that takes pitie of none.Woodkarne abides the brunt of fortune.Irishe Karne fight with their heeles with greater courage,
+                  then with their handes.The piper and his bagpipe laide bothe flatte on the
+                  grounde.The Woodkarnes legges must helpe them when handes will
+                  not serue them.Uery good counsell giuen to the remnant of Woodkarne, warnyng
+                  them how they doe attempt any thing preiudicall to the honour of the
+                  Crowne.As the Lyon is feared, and reuerenced of all the beastes in
+                  the Forrest, so ought a King to be feared and loued of his subiectes within his
+                  Realme.The rewarde of Rebellion is
+                  death.A cauiat for Woodkarne.Good reason that the Asses calamity
+                  should make the Foxe to be ware.The corde that rebellion did binde,
+                  maie not be loused by any meanes, but by the ingen of death.The Irishe Karnes
+                  crie.The remnaunt of the vnslaine
+                  Wodkarne, doe parte take the Bogges, and other some the Wood.Irishe coltes are tamed by the snaffie of warre.Englishe men returne ConquerersSir Henry Sidney is worthely renowmd for prudence and
+                  magnanimitie.Peace commeth of warre.A Godly praier that Irelande ought to vse.Rorie Ogg showeth here the Countie wherein he dwelleth, and his naturall inclination,
+                  whereunto he is addicted.Marke where vnto this Rebelles harte is
+                  bent, (that is to saie) to all kind of mischiefe, sinne and wickednesse.Rorie in accusing hym self, is not to be iudged of
+                  other, for here he showeth that he is as craftie as a Foxe, an extortioner like
+                  the Wolfe, falser then a theef, and a traiter to the Queene, in whiche I beleue
+                  hym, though he neuer swore for the matter.Rory Ogge goyng forwarde in the settyng
+                  out of his dispositiō telleth that he doeth all this kind
+                  of mischefe of set purpose against ye queene, who
+                  notwithstandyng, laieth al the blame and falte vpon the Deuill.In this he manifesteth the great goodnesse of the
+                  Queene, whose mercie is daily extended towardes those whiche are willyng to
+                  yeelde to the obseruation of her statutes and lawes, but he in no wise maie
+                  yeeld therto, till by compulsion he bee constrained.Rory Ogg beyng compelde to acknowledge ye great aucthority of the Prince, is therfore worthie of small
+                  godamercie.Where Rorie bid the three curses light vpon him, I
+                  wish hym for euery one twentie (sauyng my charitie.)A good note for Rebelles, Marks the effecte, of
+                  rebellion, and wherevnto it driueth this wretched Roge, euen to the brincke of
+                  desperation, who as he saieth beyng yet aliue, feeleth moste apparantly the
+                  tormentes of hell, and here it is proued true, that a mans owne conscience is
+                  better then a thousande witnesses.There be two sortes of people on earth, knaues
+                  and honest men, whereon I gather that Rorie Ogge being banished the companie of
+                  honest men, must be entertained of his like equall companiōs, (who as him self saith) is daily
+                  pursued of the good in moste wofull sorte.Rorie is here a very penitent persone, whiche cōfesseth his life to
+                  haue deserued death, which refused the princes pardone once offered
+                  hym.Here Rorie Ogge taketh on with himself for refusing the
+                  pardone, &amp; acknowledgeth hym self an asse, and a beast in deniyng the
+                  same.Rorie calleth to memorie the sa
+                  y
+                   ing that is written, tyme beyng once past, is not easely cald back,
+                  whereby we are learned to take the tyme present whilst it is offered.He verifieth and approueth the aboue saiyng by hym self,
+                  whiche reiectyng grace beyng offered, now seeketh after it, but maie not haue
+                  it, though with weeping he doth request it.Rorie Ogge sheweth for pardone, but maie not obtaine
+                  it, for Princes by Rebels will not be deluded.Rorie Ogg seyng hym self enuironed on
+                  euery side with enemies, manifesteth his miserie, showing not one craftie hose
+                  or denne to be free from the knowledge of ye Lord
+                  deputie, but that he hath intelligēce and knowledge of
+                  it.Rorie sheweth how spitefull greedie, the English
+                  Captanes and Souldiers are in chasyng and hūting
+                  him.Rorie acknowledgeth ye
+                  Lorde Deputies notable wisedome, onely to haue brought hym to this
+                  miserie.He proueth his affirmation by a moste
+                  manifest example, whiche was brought at that time to pasRorie Oges wife is slaine.Rories
+                  frendes to the nomber of sixtene are saine in a cabbin, beyng in a Wood of the
+                  Englishe men, and after warde the cabbin beyng set on fire, all their bodies
+                  are burned also.Rorie Ogg beyng at that tyme in
+                  the foresaied cabbin, with those that were killed hardly escapeth, though not
+                  without a good knocke of a halbert vpon his costarde.To leape well is very necessarie sometyme, as appeareth here
+                  by Rorie Ogge.Rorie here showeth that the Englishe men, were very sory for
+                  his escape out of the cabbin, and from their handes. This happines is to be
+                  referred to the Englishe men, whose chaunce was to kill those rebellious
+                  knaues. Rorie Ogge especially doth be waile the death of one Shaune Macke Rorie Reagh aboue ye rest that were slaine
+                  at ye tyme.Here he setteth out ye cause why he so
+                  deploreth his destenie.Rorie Ogge being be reaued of his counsellers, is all moste
+                  out of his wittes.When Rebels lacke fawterers and helpers,
+                  thē fall they to miserie.The first steppe to Rories miserie.The Lord Deputie is
+                  in armour against Rorie Ogge, whose fame is spread vniuersaly through out the
+                  Realme of Irelande.Sir Henry Sidney encreaseth Rorie Oges
+                  miserie, and worketh his subuersion by his notable industerie.
+                  
+                  <p>Souldiers are sent out to put in practise, the Lord Deputies purpose.</p>
+                  
+                  <p>Rorie plaieth the Astronomer this starre was sene from Dublin south west, by
+                     whiche blasyng starre, Rorie Oge coniectures his speedy fall, whiche
+                     accordyngly hapned. By these enis and cees, are ment the Mores and Comores
+                     Rories cheefe frendes.
+                  </p>
+                  This H. doeth signifie, how Macke Shaue whiche is Rorie
+                  Oges father in lawe.This is a true and good cōfession of
+                  Rorie Oge, vttered in his extremitie. Rorie Oge is in his similitudes vp to the
+                  harde eares, prouyng with manifest arguments, vnlesse he had been bolstered vp
+                  by his saide father in lawe and his frendes, it had been vnpossible that he
+                  should haue continued so long vnexecuted or taken.Marke here Rories reasone, whiche speaketh
+                  by experience.Gods blessyng haste thou good Rorie for
+                  speakyng the truthe.Rorie Ogge taketh vpon hym here, to haue
+                  skill in Phisick.As the Lorde Deputie abbridged the daies of
+                  some of Rorie Oges fosterers in this his visitation, so he prophesteth of the
+                  ende of the rest of his said frendes together with hym self.Rorie seeth by some secret waie
+                  that his prophesie is at hande, ready to be performed, and so muche the more he
+                  is certaine of it, because he doeth see Sir Henry Sidney bent wholy to his
+                  destruction.Rorie Ogge taketh this sithe to be the sworde of Iustice, which the Lord Deputie hath
+                  plucked out of the sheath onely to do execution vpon all
+                  transgressors.The Harolde of death is sent to Rorie Oge, certainly to make
+                  manifest, his ruine and fall.The peace is discribed that shall be after the death of Rorie
+                  Oge.The Lord Deputie in prosecuting his purpose against Rorie
+                  Oge, &amp; through procurement of the saide Rories fall, deserueth euerlastyng
+                  remembraunce, with all good &amp; famous men.Rorie Oge maketh here his conclusion, and
+                  giueth forthe a good exhortatiō to all men, councelyng
+                  them to eschewe and flee treasons, and showeth though sinnes be for a while let
+                  go vnpunished, yet at length they are recompensed at full.If beastes whiche haue no vnderstandyng,
+                  doe reioyce at winters departyng, and at the comming in of sommer, (the
+                  encreaser of their delightes) much more ought that man, who beyng long without
+                  the princes fauour, and kept in disgrace, be trebble ioyous, (receiued at
+                  length to mercie and fauour)The fauour of the prince is an inestimable treasure to that
+                  subiect which hath it, surmountyng pearles and preacious stones.This setteth out most liuely in sondrie, formes and fashones, what a thing the fauor
+                  and grace of our Queene is.The happie estate and condition of good subiects, is with out
+                  all comparisons.In deede, I think if there were any grace at al in hym,
+                  whiche is once brought to be a subiecte, he maie not lightly be turned to be a
+                  Rebel again.Truly the condition of Rebelles in
+                  Irelande is very ticklish, and their chaunces very harde, as in this parte is discribed.A most plain and true discription
+                  of Rebelles timerosirie.Feare euery while and where, troubleth
+                  the Rebell, waking, sleepyng, and at all tymes and seasons.The traiter that thinketh hym self in
+                  moste securitie, is often tymes brought into greatest perplexitie, such an
+                  horrible thing is treasone.
+                  Rebellion is 
+                  a
+                   very foolish plaie and pastyme, and moste foolish is he, that filleth his hart and
+                  stomack with treason as if it were with moste holsome
+                  meatThose that liue well, and loue well their Prince, is euery
+                  wher counted happie &amp; blessed.This is the protestation of O Neale to the Lorde
+                  Deputie.This is largely profferd of hym.O Neale promiseth to expell al Scots out of
+                  the North of Irelande, if the Queenes Maiestie would but giue hym ayde, or if
+                  her grace would haue it so.Meanyng Sir Henry Sidney, to whom O Neale
+                  made like protestation.An admonition to the enhabitantes and
+                  borderers neare to the NorthO Neale promiseth not onely to be a
+                  scourdge to the euill liuers and disturbers of her Maiesties people, but also a
+                  frende and helper of her good subiectes to the vttermost of his powre.In this part
+                  Rorie Oge showeth the state of that man to be sure, so long as he kepeth hym
+                  self dutifull to his Prince and Countrie.That man whiche casteth of feare falleth
+                  into many mischefes.He that hath wicked rancour in his breast,
+                  hath with it also a greate nomber of euill vices. Tyme is a detectour of
+                  treasone.Treason espied, is execused by
+                  reasone.That traiter which is wilfully giuen to plaie the Rebell,
+                  hath neuer regard to the cause be it good or bad, for whiche he
+                  riseth.A Rebell doeth not remember what is the ende of his treasons.Though fortune doeth fauer the traitour for a while, yet at
+                  last she leaueth hym in the bryers.Many 
+                  what
+                   founde fo
+                  r
+                  tune very dec
+                  e
+                  iptfull.To augment the miserie of man, fortune doeth some tyme seeme frendly, riddyng him
+                  out of one
+                  small trouble, to bryng hym in to fowre greater, and then bids hym
+                  adewe.Rorie Oge is a sufficient
+                  witnesse, to tell of Dame Fortunes variablenes.Marke how fortune did fauer Rorie Oge,
+                  accordyng to his owne setyng, who beyng to muche besotted therwith, fell to
+                  vtter confusion and shame at last.
+                  
+                  Rorie
+                   Oge gathereth eight score men to maintaine his knauerie.Rorie Oge troubleth both Toune and Country with his Karne,
+                  and setteth more then a hundred houses on fire in one night.Rorie Oge maketh the Farmers of Leasse to giue ouer their
+                  plowing, by reasone of his daily robbing and burning.The iust Iustice of God permitteth not Rorie Oge to rage
+                  still on in his furie, but calyng hym to accompt yeildeth hym his
+                  duetie.Rorie Oge hed is sert vppon the top of
+                  the Castel of Dublin, for a spectakle to all the whole lande.Rorie Oge maketh
+                  here his conclusiō and giueth wholsome counsel more better
+                  then he euer could take, how they attempt any thyng that might be preiudiciall
+                  to the prince, for feare of like distruction.</span></div>
+         </div>
+      </div><script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script><script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script></body>
+</html>
