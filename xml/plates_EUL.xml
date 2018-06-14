@@ -11,7 +11,7 @@
                 <principal>Andie Silva</principal>
                 <respStmt>
                     <resp>principal researcher and editor</resp>
-                    <name key="AS">Andie Silva</name>
+                    <name key="ASilva">Andie Silva</name>
                 </respStmt>
                 <principal>Denna Iammarino</principal>
                 <respStmt>
@@ -20,7 +20,7 @@
                 </respStmt>
                 <respStmt>
                     <resp>transcribed by</resp>
-                    <name key="AS">Andie Silva</name>
+                    <name key="ASilva">Andie Silva</name>
                     <name key="DI">Denna Iammarino</name>
                 </respStmt>
                 <respStmt>
@@ -960,44 +960,7 @@
                         </choice> Prince, even in despite of those.</l>
                 </div>
             </div>
-        </body>
-        <back>
-            <listPerson>
-                <person xml:id="JDay" sameAs="https://viaf.org/viaf/74118429">
-                    <persName>John Day</persName>
-                    <floruit from="1540" to="1584"/>
-                    <occupation>Printer</occupation>
-                </person>
-                <person xml:id="HSidney">
-                    <persName>Henry Sidney</persName>
-                    <birth when="1529"/>
-                    <death when="1589"/>
-                    <occupation>Lord Deputy of Ireland</occupation>
-                </person>
-                <person xml:id="JDerrick" role="author, illustrator"
-                    sameAs="https://viaf.org/viaf/58221805">
-                    <persName>John Derricke</persName>
-                    <occupation cert="low">Surveyor</occupation>
-                    <occupation cert="high" resp="AndieS">Woodcarver</occupation>
-                    <floruit notBefore="1581"/>
-                </person>
-                <person>
-                    <persName xml:id="TONeill" sameAs="https://viaf.org/viaf/315683882">Turlough
-                        Luineach O'Neill</persName>
-                    <birth when="1532"/>
-                    <death when="1595"/>
-                    <occupation>Lord of Tyrone</occupation>
-                </person>
-                <person>
-                    <persName xml:id="QElizabeth" sameAs="http://viaf.org/viaf/97107753">Queen
-                        Elizabeth I</persName>
-                    <birth when="1533"/>
-                    <death when="1603"/>
-                    <occupation from="1558" to="1603">Queen of England</occupation>
-                </person>
-            </listPerson>
-
-        </back>
+        </body>        
     </text>
 
 
