@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Derrike Prosopography</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Born-digital file. Created on 2018-06-14 by project consultant Rebecca J. Parker
+                    at ILiADS18. Last updated 2018-06-14.</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>The listPerson section of this file was originally generated using the PersonographyCreation.xsl file
+                    created by project consultant Rebecca J. Parker from the back section of the plates_EUL.xml file
+                    created by project editor Andie Silva. At the time of creation the
+                    plates_EUL.xml file contained transcriptions for plates 1-6.</p>
+                <p>Project editors update the listPerson section of this file as they come across additional people during the continued transcription of the plates (plates 7-12) and the encoding of the text from the Oxford TCP base text transcription.</p>
+                <p>The listBibl section of this file was created by project consultant Rebecca J. Parker as a way of linking plates and plates' sections to descriptions written by project editors Andie Silva and Deena Iammarino.</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <!-- RJP:2018-06-14: Add new people in alphabetical order by first <forename> element.  -->
+            <listPerson type="projectContributors">
+                <person xml:id="ASilva" role="editor">
+                    <persName><forename>Andie</forename>
+                    <surname>Silva</surname></persName>
+                </person>
+                <person xml:id="DI" role="editor">
+                    <persName><forename>Denna</forename>
+                        <surname>Silva</surname></persName>
+                </person>
+                <person xml:id="RJP" role="consultant">
+                    <persName><forename>Rebecca</forename>
+                        <surname>Parker</surname></persName>
+                </person>
+            </listPerson>
+            <!-- RJP:2018-06-14: Add new people in alphabetical order by first word in <persName> element (most often the person's first name).  -->
+            <listPerson type="text">
+                <person xml:id="HSidney">
+                    <persName>Henry Sidney</persName>
+                    <birth when="1529"/>
+                    <death when="1589"/>
+                    <occupation>Lord Deputy of Ireland</occupation>
+                </person>
+                <person xml:id="JDay" sameAs="https://viaf.org/viaf/74118429">
+                    <persName>John Day</persName>
+                    <floruit from="1540" to="1584"/>
+                    <occupation>Printer</occupation>
+                </person>
+                <person xml:id="JDerrick" role="author, illustrator"
+                    sameAs="https://viaf.org/viaf/58221805">
+                    <persName>John Derricke</persName>
+                    <occupation cert="low">Surveyor</occupation>
+                    <occupation cert="high" resp="ASilva">Woodcarver</occupation>
+                    <floruit notBefore="1581"/>
+                </person>
+                <person>
+                    <persName xml:id="TONeill" sameAs="https://viaf.org/viaf/315683882">Turlough
+                        Luineach O'Neill</persName>
+                    <birth when="1532"/>
+                    <death when="1595"/>
+                    <occupation>Lord of Tyrone</occupation>
+                </person>
+                <person>
+                    <persName xml:id="QElizabeth" sameAs="http://viaf.org/viaf/97107753">Queen
+                        Elizabeth I</persName>
+                    <birth when="1533"/>
+                    <death when="1603"/>
+                    <occupation from="1558" to="1603">Queen of England</occupation>
+                </person>
+            </listPerson>
+            <listBibl>
+                <bibl xml:id="p1" facs="EUL_plate01.jpg"> 
+                    <title>Plate 1</title>
+                    <note resp=""><!--RJP:2018-06-14: Editor's description of plate will go here. Please include editor ID in @resp.--></note>
+                    <note sameAs="EULdesc">A soldier holding a battle-axe hands a spear
+                        to an Irish chieftain in full dress, with a page holding the chieftain's
+                        horse</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0053_jpg.htm"/>
+                    <listRelation>
+                        <relation xml:id="p1sA" facs="">
+                            <desc resp=""><title>Plate 1 Section A</title> <!--RJP:2018-06-14: Editor's description of plate section will go here. Please include a space after the <title> before beginning note. Also, include editor ID in @resp.--></desc>                            
+                        </relation>
+                    </listRelation>
+                </bibl>
+                <bibl xml:id="p2" facs="EUL_plate02.jpg"> 
+                    <title>Plate 2</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">An armed company of the kerne, carrying halberds and
+                        pikes and led by a piper, attack and burn a farmhouse and drive off the
+                        horses and cattle</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0054_jpg.htm"/>
+                    <listRelation>
+                        <relation xml:id="p2sA" facs="">
+                            <desc resp=""><title>Plate 2 Section A</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p2sB" facs="">
+                            <desc resp=""><title>Plate 2 Section B</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p2sC" facs="">
+                            <desc resp=""><title>Plate 2 Section C</title> </desc>                            
+                        </relation>
+                    </listRelation>
+                </bibl>
+                <bibl xml:id="p3" facs="EUL_plate03.jpg"> 
+                    <title>Plate 3</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">The most famous plate of the set shows the chief of
+                        the Mac Sweynes seated at dinner and being entertained by a bard and a
+                        harper</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0055_jpg.htm"/>
+                    <listRelation>
+                        <relation xml:id="p3sA" facs="">
+                            <desc resp=""><title>Plate 3 Section A</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p3sB" facs="">
+                            <desc resp=""><title>Plate 3 Section B</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p3sC" facs="">
+                            <desc resp=""><title>Plate 3 Section C</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p3sD" facs="">
+                            <desc resp=""><title>Plate 3 Section D</title> </desc>                            
+                        </relation>
+                    </listRelation>
+                </bibl>
+                <bibl xml:id="p4" facs="EUL_plate04.jpg"> 
+                    <title>Plate 4</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">The Irish chieftain receives the priest's blessing
+                        before departing to fight the English, who are shown in full
+                        armour</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0056_jpg.htm"/>
+                    <listRelation>
+                        <relation xml:id="p4sA" facs="">
+                            <desc resp=""><title>Plate 4 Section A</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p4sB" facs="">
+                            <desc resp=""><title>Plate 4 Section B</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p4sC" facs="">
+                            <desc resp=""><title>Plate 4 Section C</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p4sD" facs="">
+                            <desc resp=""><title>Plate 4 Section D</title> </desc>                            
+                        </relation>
+                    </listRelation>
+                </bibl>
+                <bibl xml:id="p5" facs="EUL_plate05.jpg"> 
+                    <title>Plate 5</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">The English soldiers return in triumph, carrying
+                        severed Irish heads and leading a captive by a halter</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0057_jpg.htm"/>
+                    <listRelation>
+                        <relation xml:id="p5sA" facs="">
+                            <desc resp=""><title>Plate 5 Section A</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p5sB" facs="">
+                            <desc resp=""><title>Plate 5 Section B</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p5sC" facs="">
+                            <desc resp=""><title>Plate 5 Section C</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p5sD" facs="">
+                            <desc resp=""><title>Plate 5 Section D</title> </desc>                            
+                        </relation>
+                    </listRelation>
+                </bibl>
+                <bibl xml:id="p6" facs="EUL_plate06.jpg"> 
+                    <title>Plate 6</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">Sir Henry Sidney, Lord-Deputy, accompanied by an armed
+                        force, sets out from Dublin Castle for a progress through Ireland</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0058_jpg.htm"/>
+                </bibl>
+                <bibl xml:id="p7" facs="EUL_plate07.jpg"> 
+                    <title>Plate 7</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">The English army is drawn up for battle, while Sidney himself parleys with a defiant messenger from the Irish</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0059_jpg.htm"/>
+                    <listRelation>
+                        <relation xml:id="p7sA" facs="">
+                            <desc resp=""><title>Plate 7 Section A</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p7sB" facs="">
+                            <desc resp=""><title>Plate 7 Section B</title> </desc>                            
+                        </relation>
+                        <relation xml:id="p7sC" facs="">
+                            <desc resp=""><title>Plate 7 Section C</title> </desc>                            
+                        </relation>
+                    </listRelation>
+                </bibl>
+                <bibl xml:id="p8" facs="EUL_plate08.jpg"> 
+                    <title>Plate 8</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">Sidney and the English army on the march with standards and trumpets</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0060_jpg.htm"/>
+                </bibl>
+                <bibl xml:id="p9" facs="EUL_plate09.jpg"> 
+                    <title>Plate 9</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">The English army puts the Irish army to flight. The piper is cut down with his pipes beside him</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0061_jpg.htm"/>
+                </bibl>
+                <bibl xml:id="p10" facs="EUL_plate10.jpg"> 
+                    <title>Plate 10</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">Sir Henry Sidney returns in triumph to Dublin Castle and is received by the Lord Mayor and Aldermen</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0062_jpg.htm"/>
+                    <listRelation>
+                        <relation xml:id="p10sA" facs="">
+                            <desc resp=""><title>Plate 10 Section A</title> </desc>                            
+                        </relation>
+                    </listRelation>
+                </bibl>
+                <bibl xml:id="p11" facs="EUL_plate11.jpg"> 
+                    <title>Plate 11</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">Rorie Oge, a wild kerne and a defeated rebel, in the forest with wolves for company</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0063_jpg.htm"/>
+                </bibl>
+                <bibl xml:id="p12" facs="EUL_plate12.jpg"> 
+                    <title>Plate 12</title>
+                    <note resp=""></note>
+                    <note sameAs="EULdesc">Turlough Lynagh O'Neale and the other kerne kneel to Sidney in submission. In the background Sidney seems to be embracing O'Neale as a noble friend.</note>
+                    <link facs="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0064_jpg.htm"/>
+                </bibl>
+            </listBibl>
+        </body>
+    </text>
+</TEI>
