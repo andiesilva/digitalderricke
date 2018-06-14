@@ -455,8 +455,8 @@
             <div n="3" type="plate" facs="EUL_plate03.jpg">
                 <figure>
                     <graphic url="http://www.docs.is.ed.ac.uk/docs/lib-archive/bgallery/Gallery/researchcoll/pages/bg0055_jpg.htm"/>
-                    <figDesc sameAs="EULdesc">The most famous plate of the set shows the chief of
-                        the <persName sameAs="#MSweeney">Mac Sweynes</persName> seated at dinner and being entertained by a bard and a
+                    <figDesc sameAs="EULdesc">The most famous plate of the set shows <rs sameAs="#MSweeney">the chief of
+                        the Mac Sweynes</rs> seated at dinner and being entertained by a bard and a
                         harper</figDesc>
                 </figure>
                 <cb n="1"/>
