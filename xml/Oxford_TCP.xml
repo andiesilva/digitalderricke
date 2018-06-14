@@ -199,21 +199,20 @@
          </div>
          <pb facs="BL003.jpg"/>
          <div type="title_page">
-            <p>The Image of Irelande, with a discouerie of VVoodkarne, wherin is moste liuely
-               expressed, the Nature, and qualitie of the laied wilde Irishe Woodkarne, their
-               notable aptnesse, celeritie, and pronesse to Rebellion, and by waie of argumente is
-               manifested their originall, and ofspryng, their descent and Pedigree: Also their
-               habite and apparell, is there plainly showne. The execrable life, and miserable death
-               of <seg rend="italics">Rorie Roge,</seg> that famous Archtraitour to God and the
-               Croune (otherwise called <seg rend="italics">Rorie Oge</seg>) is likewise discribed.
-               Lastlie the commyng in of <seg rend="italics">Thyrlaghe Leonaghe</seg> the greate
-                  <seg rend="italics">Oneale</seg> of Irelande, with the effecte of his submission,
-               to the right honourable Sir <seg rend="italics">Henry Sidney</seg> (Lorde Deputie of
-               the saied lande) is thereto adioyned. Made and deuised by <seg rend="italics">Ihon
-                  Derricke, Anno</seg> 1578. and now published and set forthe by the saied authour
-               this present yere of our Lorde 1581. for pleasure and delight of the well disposed
+            <p>The Image of <choice><orig>Irelande</orig><reg>Ireland</reg></choice>, with a <choice><orig>discoverie</orig><reg>discovery</reg></choice> of Woodkarne, wherin is <choice><orig>moste</orig><reg>most</reg></choice> lively
+               expressed, the nature, and <choice><orig>qualitie</orig><reg>quality</reg></choice> of the <choice><orig>laied</orig><reg>laid</reg></choice> <choice><orig>wilde</orig><reg>wild</reg></choice> <choice><orig>Irishe</orig><reg>Irish</reg></choice> Woodkarne, their
+               notable aptnesse, <choice><orig>celeritie</orig><reg>celerity</reg></choice>, and <choice><orig>pronesse</orig><reg>proneness</reg></choice> to rebellion, and by <choice><orig>waie</orig><reg>way</reg></choice> of <choice><orig>argumente</orig><reg>argument</reg></choice> is
+               manifested their <choice><orig>originall</orig><reg>original</reg></choice>, and <choice><orig>ofspryng</orig><reg>offspring</reg></choice>, their descent and pedigree: Also their
+               <choice><orig>habite</orig><reg>habit</reg></choice> and <choice><orig>apparell</orig><reg>apparel</reg></choice>, is there plainly <choice><orig>showne</orig><reg>shown</reg></choice>. The execrable life, and miserable death
+               of <seg rend="italics"><persName corresp="#ROg">Rorie Roge</persName>,</seg> that famous <choice><orig>archtraitour</orig><reg>arch traitor</reg></choice> to God and the
+               <choice><orig>Croune</orig><reg>Crown</reg></choice> (otherwise called <seg rend="italics"><persName corresp="#ROg">Rorie Oge</persName></seg>) is likewise <choice><orig>discribed</orig><reg>described</reg></choice>.
+               <choice><orig>Lastlie</orig><reg>lastly</reg></choice> the <choice><orig>commyng</orig><reg>coming</reg></choice> in of <seg rend="italics"><persName corresp="#TONeill">Thyrlaghe Leonaghe</persName></seg> the <choice><orig>greate</orig><reg>great</reg></choice>
+                  <seg rend="italics"><choice><orig>Oneale</orig><reg>O'Neill</reg></choice></seg> of <choice><orig>Irelande</orig><reg>Ireland</reg></choice>, with the <choice><orig>effecte</orig><reg>effect</reg></choice> of his submission,
+               to the right honourable Sir <seg rend="italics"><persName corresp="#HSidney">Henry Sidney</persName></seg> (<choice><orig>Lorde</orig><reg>Lord</reg></choice> <choice><orig>Deputie</orig><reg>Deputy</reg></choice> of
+               the <choice><orig>saied</orig><reg>said</reg></choice> <choice><orig>lande</orig><reg>land</reg></choice>) is thereto <choice><orig>adjoyned</orig><reg>adjoined</reg></choice>. Made and devised by <seg rend="italics"><persName corresp="#JDerrick">Jhon Derricke</persName>, Anno</seg> 1578. and now published and set <choice><orig>forthe</orig><reg>forth</reg></choice> by the <choice><orig>saied</orig><reg>said</reg></choice> authour
+               this present <choice><orig>yere</orig><reg>year</reg></choice> of our <choice><orig>Lorde</orig><reg>Lord</reg></choice> 1581. for pleasure and delight of the well disposed
                reader.</p>
-            <p>Imprinted at London by Ihon Daie. 1581.</p>
+            <p>Imprinted at London by <persName corresp="#JDay">Ihon Daie</persName>. 1581.</p>
          </div>
          <pb facs="BL004.jpg"/>
          <note type="clarification" resp="#ASilva">Blank page.</note>
@@ -952,8 +951,8 @@
             <l>some good successe to finde.</l>
             <l>
                <pb facs="BL028.jpg"/>In whiche my trauells suerly,</l>
-            <l>he did so we<gap reason="faded" resp="#ASilva" extent="1 letter">
-                  <desc>•</desc>
+            <l>he did so we<gap reason="faded" extent="1 letter">
+                  <desc resp="#ASilva">l</desc>
                </gap>l attende me:</l>
             <l>As nothyng could bee deemed fit,</l>
             <l>but forthwith did he sende me.</l>
@@ -1040,12 +1039,12 @@
             <l>vpon the stable lande.</l>
             <l>I there beheld how eurie parte,</l>
             <l>and percell was conuaide:</l>
-            <l>With hills, an<gap reason="faded" resp="#ASilva" extent="1 letter">
-                  <desc>•</desc>
+            <l>With hills, an<gap reason="faded" extent="1 letter">
+                  <desc resp="#ASilva">d</desc>
                </gap> woods &amp; champion ground,</l>
             <l>moste artificiall laide.</l>
-            <l>The hills d<gap reason="faded" resp="#ASilva" extent="1 letter">
-                  <desc>•</desc>
+            <l>The hills d<gap reason="faded" extent="1 letter">
+                  <desc resp="#ASilva">i</desc>
                </gap>rectly ronnyng forthe,</l>
             <l>and turnyng in a genne:</l>
             <l>
@@ -1739,8 +1738,8 @@
             <l>eternall ioyes to winne.</l>
             <l>
                <note place="margin" rend="null" type="marginalia" n="82">By murderyng, spoylyng and burnyng, Woodkarne hope to come to
-                  heauen, but it must be by a ha<gap reason="faded" resp="#ASilva" extent="1 letter">
-                     <desc>•</desc>
+                  heauen, but it must be by a ha<gap reason="faded"  extent="1 letter">
+                     <desc resp="#ASilva">l</desc>
                   </gap>ter.</note>O pleasaunt lande deformed through,</l>
             <l>the life of Irishe Karne:</l>
             <l>
@@ -1851,8 +1850,8 @@
             <l>it shalbe then amended,</l>
             <trailer>FINIS.</trailer>
          </div>
+         <pb facs="BL049.jpg"/>
          <div type="prologue">
-            <pb facs="BL049.jpg"/>
             <head>The Prolog to the seconde parte.</head>
             <l>
                <seg rend="decorInit">S</seg>Ince sacred Ioue whose royall throne,</l>
@@ -1894,10 +1893,10 @@
             <l>my sillie verse doeth spring.</l>
             <trailer>FINIS.</trailer>
          </div>
+         <pb facs="BL051.jpg"/>
          <div n="2" type="part">
-            <pb facs="BL051.jpg"/>
             <head>The second part of the Image of Irelande.</head>
-            <lg>
+            
                <l>
                   <seg rend="decorInit">T</seg>Hough that the royall soyle,</l>
                <l>and fertill Irishe grounde:</l>
@@ -1953,14 +1952,14 @@
                <l>with pleates set thicke about,</l>
                <l>And Irishe trouzes more to put,</l>
                <l>their straunge protractours out</l>
-            </lg>
+            
             <lg>
                <l>Loe Lordynges here the draught,</l>
                <l>sett out in open vewe:</l>
                <l>For by instructions I am taught.</l>
                <l>false forgynges to eschewe. </l>
-            </lg>
-            <lg>
+               <l>I</l>
+            </lg><note type="clarification" resp="#DI">Number 1 indicates this is the second of three independent poetic stanzas in Part II. These stanzas may point the reader to the woodcut plates.</note>
                <pb facs="BL053.jpg"/>
                <l>Like as their weedes be straunge,</l>
                <l>and monstrous to beholde:</l>
@@ -2256,15 +2255,15 @@
                <l>
                   <pb facs="BL059.jpg"/>And through the pardons in his Male,</l>
                <l>he workes a Knauishe Knacke.</l>
-            </lg>
+            
             <lg>
                <l>Beholde the self same thyng,</l>
                <l>set forthe by Caruers Arte:</l>
                <l>With pictures framed pretely,</l>
                <l>expoundyng euery parte.</l>
-            </lg>
-            <lg n="2">
-               <head>2</head>
+            <l>2</l></lg><note type="clarification" resp="DI">Number 2 indicates this is the second of three independent poetic stanzas in Part II. These stanzas may point the reader to the woodcut plates.</note>
+            
+               
                <l>When Friers tale is doen,</l>
                <l>and Rebells waied haue:<note place="margin" rend="null" type="marginalia" n="133">The ende of the Friers oration, is the
                      beginnyng of rebellion, he is a sharpe spurre to make them gallop hedlong to
@@ -2446,10 +2445,10 @@
                <l>The pot now ginnes to seeth,</l>
                <l>the fire is so greate:</l>
                <l>And Smith assaies with mightie sleadge,</l>
-               <l>the Iron hotte to beate.<note place="margin" rend="null" type="marginalia" n="156">The daie of <gap reason="illegible" resp="#ASilva" extent="2 letters">
-                        <desc>••</desc>
-                     </gap>ttai<gap reason="illegible" resp="#ASilva" extent="1 letter">
-                        <desc>•</desc>
+               <l>the Iron hotte to beate.<note place="margin" rend="null" type="marginalia" n="156">The daie of <gap reason="illegible"  extent="2 letters">
+                        <desc resp="#DI">ba</desc>
+                     </gap>ttai<gap reason="illegible" resp="#DI" extent="1 letter">
+                        <desc>l</desc>
                      </gap>e is appointed, if wodkarne will abide it.</note>
                </l>
                <l>The daie appointed is,</l>
@@ -2469,16 +2468,17 @@
                <l>with answere of the foe:</l>
                <l>And worde for worde as he did speake,</l>
                <l>he doeth relate it soe.</l>
-            </lg>
+            
             <lg>
                <l>Agen beholde the thyng<hi rend="sup">e</hi>
                </l>
                <l>in figures well requited:</l>
                <l>Expoundyng breefly euery point,</l>
                <l>that was euen now recited.</l>
-            </lg>
-            <lg n="3">
-               <head>3</head>
+               <l>3</l>
+            </lg><note type="clarification" resp="#DI">Number 3 indicates this is the second of three independent poetic stanzas in Part II. These stanzas may point the reader to the woodcut plates.</note>
+            
+               
                <l>Now forward marche our hoste,</l>
                <l>in battaill raie beset:</l>
                <l>Who with couragious hartes goes on,</l>
@@ -2793,12 +2793,12 @@
                <l>of that whiche went before:</l>
                <l>And lande discride, the wished tide,</l>
                <l>hath brought my Shippe to shore.</l>
-            </lg>
+            
             <trailer>FINIS.</trailer>
          </div>
-         <div type="part">
-            <pb facs="BL071.jpg"/>
-            <p>
+         <pb facs="BL071.jpg"/>
+<div type="prologue">
+<p>
                <seg rend="decorInit">A</seg>Fter that I had finished the first and seconde parte of
                the Image of Irelande, and had there somewhat disclosed the nature and qualitie of
                the wantone Irishe wilde VVoodkarne, I thought it expedient for the volumes
@@ -2821,8 +2821,8 @@
                lamentably, with brynishe salte woluishe teares, his life as enseweth.</p>
             <trailer>FINIS.</trailer>
          </div>
-         <div type="part">
-            <pb facs="BL073.jpg"/>
+         <pb facs="BL073.jpg"/>
+         <div type="monologue">
             <lg>
                <l>
                   <seg rend="italics">I Rorie Ogge,</seg>
@@ -3323,8 +3323,8 @@
             </lg>
             <trailer>FINIS.</trailer>
          </div>
-         <div type="part">
-            <pb facs="BL084.jpg"/>
+         <pb facs="BL084.jpg"/>
+            <div type="prologue">
             <p>
                <seg rend="decorInit">E</seg>Nteryng into the discourse of Rorie Ogge, at the firste,
                I was purposely bent, frendly with hym to adioine the liues of many (the open
@@ -3358,8 +3358,8 @@
                noblie accepteth, renderyng such honour as to his persone appertaineth. The effecte
                whereof hereafter followeth.</p>
          </div>
-         <div type="part">
-            <pb facs="BL087.jpg"/>
+         <pb facs="BL087.jpg"/>
+         <div type="monologue">
             <lg>
                <l>IF sillie beastes,<note place="margin-right" rend="null" type="marginalia" n="241">If beastes whiche haue no vnderstandyng,
                      doe reioyce at winters departyng, and at the comming in of sommer, (the
@@ -3579,8 +3579,8 @@
             </lg>
             <trailer>FINIS.</trailer>
          </div>
-         <div type="part">
-            <pb facs="BL092.jpg"/>
+         <pb facs="BL092.jpg"/>
+         <div type="exhortation">
             <head>The Aucthors exhortation.</head>
             <lg>
                <l>Come eche wight, whiche now do haunt the wood,</l>
@@ -3602,8 +3602,9 @@
             </lg>
             <trailer>FINIS.</trailer>
          </div>
-         <div type="part">
-            <pb facs="BL093.jpg"/>
+         <pb facs="BL093.jpg"/>
+         <div type="prologue">
+            
             <p>
                <seg rend="decorInit">T</seg>HE miserable calamitie of Rorie Ogge set out by meanes
                of the deadly pursute of valiaunt seruitures daily pursewyng him, remained nothyng to
@@ -3630,9 +3631,9 @@
                ensewe.</p>
             <trailer>FINIS.</trailer>
          </div>
-         <div type="part">
-            <pb facs="BL095.jpg"/>
-            <lg>
+         <pb facs="BL095.jpg"/>
+<div type="epilogue">
+                        <lg>
                <l>WHilste feare ioynde w<hi rend="sup">t</hi> hope,<note place="margin-right" rend="null" type="marginalia" n="258">In this part
                      Rorie Oge showeth the state of that man to be sure, so long as he kepeth hym
                      self dutifull to his Prince and Countrie.</note> liege people retaine,</l>
