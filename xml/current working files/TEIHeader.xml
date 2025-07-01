@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI>
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Digital Dericke: A Digital Edition of John Derricke’s Image of Irelande (1581)</title><!-- You can add attributes to these to describe what type of titles they are -->
+                <title>The image of Irelande with a Discoverie of Woodkarne</title>
+                <title>The image of Irelande with a discouerie of woodkarne, wherin is moste liuely expressed, the nature, and qualitie of the saied wilde Irishe woodkarne, their notable aptnesse, celeritie, and pronesse to rebellion, and by waie of argumente is manifested their originall, and ofspryng, their descent and pedigree: also their habite and apparell, is there plainly showne. The execrable life, and miserable death of Rorie Roge, that famous archtraitour to God and the croune (otherwise called Rorie Oge) is like wise discribed. Lastlie the commyng in of Thyrlaghe Leonaghe the greate Oneale of Irelande, with the effecte of his submission, to the right honourable Sir Henry Sidney (Lorde Deputie of the saied lande) is thereto adioyned. Made and deuised by Ihon Derricke, anno 1578. and now published and set forthe by the saied authour this present yere of our Lorde 1581. for pleasure and delight of the well disposed reader.</title>
+                <respStmt>
+                    <resp>Author</resp>
+                    <name ref="JDerricke">John Derricke</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Printer</resp>
+                    <name ref="JDay">John Day</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Editor</resp>
+                    <name>Andie Silva</name>
+                    <name>Denna Iammarino</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Transcriber</resp>
+                    <name>EEBO Text Creation Partnership</name>
+                    <name>Kate LeBere</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Encoder</resp>
+                    <name>Kate LeBere</name>
+                    <name>Lee Zickel</name>
+                    <name>Rebecca Parker</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Proofreader</resp>
+                    <name>Kate LeBere</name>
+                    <name>Andie Silva</name>
+                    <name>Denna Iammarino</name>
+                    <!-- Add more going forward -->
+                </respStmt>
+                <funder>Case Western Reserve University Faculty Freedman Fellowship, <date>2017-2018</date></funder>
+                <funder>Case Western Reserve University, Baker-Nord Center for the Humanities Special Projects Grant, <date>2016</date></funder>
+                <funder>Case Western Reserve University, Baker-Nord Center for the Humanities, Faculty Research Travel Grant, <date>2016-2019</date></funder>
+                <funder>PSC-CUNY Research Grant, <date>2017-2018</date></funder>
+                <funder>PSC-CUNY Research Grant, <date>2022-2023</date></funder>
+                <funder>PSC-CUNY Research Grant, <date>2025-2026</date></funder>
+            </titleStmt>
+                <publicationStmt>
+                    <publisher>
+                        <title level="m">Digital Dericke: A Digital Edition of John Derricke’s Image of Irelande (1581)</title>
+                    </publisher>
+                    <availability>
+                        <p>Copyright held by <title level="m">Digital Derricke</title> on behalf of the contributors.</p>
+                        <licence target="http://creativecommons.org/licenses/by-sa/4.0/">
+                            <p>This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License. For more information, contact the project directors, Andie Silva and Denna Iammarino, for specific information on the availability and licensing for the contents of this project.</p>
+                            <p>We encourage scholars to reuse and remix it according to our Creative Commons License.</p>
+                        </licence>
+                    </availability>
+                </publicationStmt>
+                <sourceDesc>
+                    <p>There are seven surviving copies of this text worldwide: Edinburgh University Library (12 plates); National Library of Scotland (8 plates); The British Library (3 copies, 0 plates); Cambridge University (0 plates); The Folger Library (0 plates). The British Library copy (Call number: C.21.b.32. G.5527) was filmed for Early English Books (reel position 922:17), STC 6734 and scanned for Early English Books online. This edition adapts and amends the transcription made by the EEBO Textual Creation Partnership project. Andie Silva, Denna Iammarino, and Rebecca Parker proofread the EEBO-TCP transcription and Kate LeBere checked the transcription against the British Library copy.</p>
+                    <p>The Edinburgh University Library (Call number: De.3.76a) includes additional 12 leaves of plate illustrations. Andie Silva transcribed the plate’s accompanying poems and Denna Iammarino proofread the transcription against digitally available scans. Denna Iammarino viewed the EUL and BL copies in <date>2017</date> and  <date>2019</date>.</p>
+                    <p>
+                        <list>
+                            <item>Codex</item>
+                            <item>Octavo</item>
+                            <item>Signatures: a⁴ b² A-L⁴</item>
+                            <item>100 p., 12 plates</item>
+                            <item>Woodcut plates have separate title page beginning "A notable discouery .. of the wilde men in Ireland.." (STC)</item>
+                        </list>
+                    </p>
+                </sourceDesc>
+        </fileDesc>  
+        <profileDesc>
+            <abstract>
+                <p>Poetry and prose work written by John Derricke describing Sir Henry Sidney’s campaign in Ireland on behalf of the British crown. Includes a poem imagining the surrender of Irish resistance leader, Rory Og O’More. One surviving copy includes 12 illustrations with accompanying poems tipped in at the end of the volume. Printed by John Kingston for John Day in <date>1581</date>. Composite transcription prepared by Digital Derricke team, adapted from EEBO-TCP original transcription. Full credits and editorial practices can be found at <!-- URL Placeholder -->.</p>
+            </abstract>
+        </profileDesc>
+        <encodingDesc>
+            <editorialDecl>
+                <p>This digital edition is a composite transcription of the British Library and Edinburgh University Library copies. We aimed to provide clean, minimally edited, readable TEI transcriptions. We have silently filled in transcription gaps and corrected small mistakes from the EEBO-TCP transcription. Whenever we offer interpretations for missing characters due to damage, ink blots, bleedthrough, and cropping, we record supplied text using <gi>supplied</gi>. Our completed transcription has been checked against the EEBO scan as well as against high-resolution photos of the BL and EUL copies.</p>
+                <p>Title pages, dedications, and prefaces are encoded as front matter, using the <gi>front</gi> element. Poems and prose narrative are encoded in the <gi>body</gi> element. Marginalia is encoded using the <gi>note</gi> element with a <att>type</att> attribute and a <val>marginalia</val> value and a <att>place</att> attribute and a <val>margin</val> value.</p>
+                <p>The plate illustrations contain captions that refer both to the illustrated action as well as to points in the accompanying poems or earlier parts of the text. We used the Image Markup Tool and later the <!-- Add other tool --> to encode those sections with the <gi>metamark</gi> element.</p>
+                <p>Most punctuation, spelling, and typographical features of the text have been preserved, with a few exceptions. Following the EEBO-TCP transcription, we silently regularize the long ſ. We have also silently regularized exchangeable letters, such as u/v, vv/w, and i/j. Capitalization has been modernized in the case where nouns are randomly capitalized. We preserve the italicization of words by tagging them with a <gi>hi</gi> element with a <att>style</att> value of <val>font-style: italic;</val>.  We retain page breaks and link to facsimile pages so the user may observe the original spacing and typesetting. We preserve hyphenation of words, both within and at the end of lines. Signatures and catchwords have also been retained and marked using the <gi>fw</gi> element.</p>
+                <p>We preserve the line breaks in verse sections and the line wrapping in prose sections in the old-spelling edition. Prose line breaks have been encoded with a self-closing <gi>lb</gi> element. All line breaks in verse are produced by the use of <gi>l</gi> elements contained by <gi>lg</gi> elements. Woodblock capitals that mark the beginning of a section have been marked using the <att>rend</att> attribute and <val>decorInit</val> value.</p>
+                <p>We have interpreted and encoded names, places, and dates. See the project’s personography for further information. Where editorial and/or scholarly information has been added, we use the <gi>note</gi> element, distinguishing collated notes by previous editors (Scott, Quinn) from this project’s editors’ using the <!-- Add attributes --> attributes.</p>
+            </editorialDecl>
+        </encodingDesc>
+    </teiHeader>
+</TEI>

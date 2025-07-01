@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile n="1" xml:id="PL1F1">
+      <surface lry="1915" lrx="3285" uly="29" ulx="23">
+         <graphic url="../images/Derricke_EUL_first_edition/EUL_plate01.tif"/>
+         <zone xml:id="PL1F1_pilcrow" points="63,1369 93,1372 88,1410 58,1407"/>
+         <zone xml:id="PL1F1_title" points="104,34 678,53 620,1282 67,1249"/>
+         <zone xml:id="PL1F1_rights" points="158,1282 497,1302 499,1352 155,1335"/>
+         <zone xml:id="PL1F1_imprint" points="91,1344 614,1373 579,1473 102,1450"/>
+         <zone xml:id="PL1F1_titleDecor" points="163,1481 481,1501 472,1603 159,1589"/>
+         <zone xml:id="PL1F1_frontMatter" points="78,35 685,56 615,1620 37,1596"/>
+         <zone xml:id="PL1F1_irishLord" corresp="./personography.xml#irishLord"
+            points="1768,314 1909,597 2072,1167 1809,1526 1559,1525 1515,610"/>
+         <!-- you may decide that this is not the same figure as in plates 3 and 4 -->
+         <zone xml:id="PL1F1_woodcut" points="1637,74 3207,76 3249,1594 1666,1625 619,1584 690,56"/>
+         <zone xml:id="PL1F1_metamark_A" points="748,1661 781,1663 781,1700 744,1699"/>
+         <zone xml:id="PL1F1_column1" points="793,1613 1745,1646 1845,1893 796,1876"/>
+         <zone xml:id="PL1F1_plateMark" lry="1685" lrx="2024" uly="1652" ulx="2002"/>
+         <zone xml:id="PL1F1_column2" points="2082,1637 3097,1635 3111,1869 2085,1888"/>
+         <zone xml:id="PL1F1_caption_A"
+            points="1814,1697 2080,1625 3102,1634 3114,1865 2074,1885 1837,1891 736,1886 731,1657"/>
+         <zone xml:id="PL1F1_descriptiveText"
+            points="1690,1639 3109,1631 3108,1870 2074,1892 1701,1903 733,1876 739,1601"/>
+      </surface>
+   </facsimile>
+   <text n="1" corresp="#PL1F1" xml:lang="emodeng">
+      <body>
+         <div n="1" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate01.tif">
+            <div type="frontMatter" corresp="#PL1F1_frontMatter">
+               <div type="title" corresp="#PL1F1_title">
+                  <head>A nota<lb/>ble <choice>
+                        <orig>disco<lb/>uery</orig>
+                        <reg>disco<lb/>very</reg>
+                     </choice> most <choice>
+                        <orig>liue<lb/>ly</orig>
+                        <reg>live<lb/>ly</reg>
+                     </choice> describing the state and<lb/>condition of the <choice>
+                        <!-- is the removal and normalization of hyphenated words consistent across the project (and is it noted in your encodingDesc)?-->
+                        <orig>Wilde</orig>
+                        <reg>Wild</reg>
+                     </choice> men<lb/>in Ireland, properly called <term xml:id="karne"
+                        >Wood<lb/>karne</term>, with their actions, and exer<lb/>cises wherein they
+                     are <choice>
+                        <!-- woodkarne ?might? get a @ref to a <gloss>. If there are many of these, a list of terms might be added somewhere -->
+                        <!-- but if there are only a few, then doing glosses in line will be fine. -->
+                        <orig>dayly</orig>
+                        <reg>daily</reg>
+                     </choice> occupied,<lb/>also the order of their rebellion and<lb/>success of
+                     the same is likewise dete<lb/>cted. Which also <choice>
+                        <orig>concludeth</orig>
+                        <reg>concludes</reg>
+                     </choice> with<lb/>the <choice>
+                        <orig>comming</orig>
+                        <reg>coming</reg>
+                     </choice> in of <seg rend="italics"><persName corresp="./personography.xml#TONeill">Thirlaugh
+                           Leo<lb/>naugh</persName></seg> the great <seg rend="smallcaps"
+                        >ONEALE</seg> of Ireland,<lb/>submitting himself to the right ho<lb/>norable <choice>
+                        <orig>Syr</orig>
+                        <reg>Sir</reg>
+                     </choice><seg rend="italics">
+                        <persName corresp="./personography.xml#HSidney">Henry Sydney</persName></seg>, at what<lb/>time
+                     he was L.Deputy general there<lb/> of the <choice>
+                        <orig>sayd</orig>
+                        <reg>said</reg>
+                     </choice> Land, being in <seg rend="italics">An. <date when="1578"
+                        >1578</date></seg>.<lb/><choice>
+                        <orig>Nowe</orig>
+                        <reg>Now</reg>
+                     </choice> published and set forth by<lb/><seg rend="italics allcaps"><persName
+                        corresp="./personography.xml#JDerrick">JOHN DERRICK</persName></seg> this present<lb/><choice>
+                        <orig>yeare</orig>
+                        <reg>year</reg>
+                     </choice> of our Lord. <date when="1581">1581</date>. For plea<lb/>sure and
+                     delight of those, whose<lb/><choice>
+                        <orig>mindes</orig>
+                        <reg>minds</reg>
+                     </choice> in laudable exerci<lb/>ses are <choice>
+                        <orig>vertuously<lb/></orig>
+                        <reg>virtuously<lb/></reg>
+                     </choice> occupied.</head>
+               </div>
+               <div type="rights" corresp="#PL1F1_rights">
+                  <p rend="italics" xml:id="PL1F1_permission"><choice>
+                        <orig>Seene</orig>
+                        <reg>Seen</reg>
+                     </choice> and allowed.</p>
+                  <note corresp="#PL1F1_permission" place="end" type="editorial" n="1"
+                     resp="#ASilva">This line acts as an indicator Permission to print and
+                     distribute.</note>
+               </div>
+               <div type="imprint" corresp="#PL1F1_imprint">
+                  <p><metamark place="margin" corresp="#PL1F1_pilcrow" function="ADD-FUNCTION"
+                        sameAs="&#182;"/> At <placeName>London</placeName>, printed by <persName
+                           corresp="./personography.xml#JDay">John Daye</persName><lb/>dwelling over
+                        <placeName>Aldersgate</placeName><date when="1581">1581</date>. <!-- ASilva: is there a tag for something like place type = bookshop? -->
+                     <!-- RJP: We would create a list in the back that gives such information about the places mentioned if we decide to grab such things as place names in addition to what we already have agreed on grabbing: persNames = people  -->
+                  </p>
+               </div>
+               <div corresp="#PL1F1_titleDecor">
+                  <figure>
+                     <figDesc>ADD YOUR DESCRIPTION OF THIS DECORATIVE ELEMENT</figDesc>
+                     <!-- ADD YOUR DESCRIPTION -->
+                  </figure>
+               </div>
+            </div>
+            <div type="woodcut" corresp="#PL1F1_woodcut">
+               <figure>
+                  <figDesc corresp="./plateNotes.xml#PL1F1_plateDesc"/>
+               </figure>
+            </div>
+            <div type="descriptiveText" corresp="#PL1F1_descriptiveText" rend="blackletter">
+               <!-- In blackletter, how do you differentiate between "v" and "u"??? e.g., ln1 lively vs. liuely -->
+               <div type="column" n="1" corresp="#PL1F1_column1">
+                  <cb n="1"/>
+                  <lg type="couplet" rhyme="AA">
+                     <l n="1">The liuely shape of <choice><!-- correct U/V and add choice -->
+                           <orig>Irysh</orig>
+                           <reg>Irish</reg>
+                        </choice>
+                        <seg rend="roman">karne</seg>, most perfect to behold,</l>
+                     <anchor type="caption" corresp="#PL1F1_caption_A" xml:id="PL1F1_capA_text"
+                        sameAs="#PL1F1_woodcutZone_A"/>
+                     <metamark place="margin" function="imageCaptionLink"
+                        corresp="#PL1F1_metamark_A" rend="allcaps">A</metamark>
+                     <l n="2">Of man, the master, and the boy, these pictures <choice>
+                           <orig>doe</orig>
+                           <reg>do</reg>
+                        </choice>
+                        <choice>
+                           <orig>unf<gap quantity="1" unit="chars" reason="illegible" agent="fold"
+                                 /><supplied cert="high" evidence="external" reason=" fold"
+                                 resp="#ASilva">o</supplied>lde</orig>
+                           <reg>unf<gap quantity="1" unit="chars" reason="illegible" agent="fold"
+                                 /><supplied cert="high" evidence="external" reason=" fold"
+                                 resp="#ASilva">o</supplied>ld</reg>
+                        </choice>:</l>
+                  </lg>
+                  <lg type="couplet" rhyme="BB">
+                     <l n="3">Wherein is bravely <choice>
+                           <orig>paynted</orig>
+                           <reg>painted</reg>
+                        </choice> forth, A <choice>
+                           <orig>naturall</orig>
+                           <reg>natural</reg>
+                        </choice> Irish grac<gap quantity="1" unit="chars" reason="illegible"
+                           agent="tear"/><supplied cert="high" evidence="external"
+                           reason="overbinding tear fold" resp="#ASilva">e</supplied></l>
+                     <!-- is this a true gap? like a missing character? if so, reason might be made more explicit (missing != illegible, missing = gone) -->
+                     <!-- I will continue markup as is, but y'all might want to look at <damage>: see TEI 11.3.3.2-->
+                     <l n="4">Whose like in <choice>
+                           <orig><choice>
+                                 <abbr>eu'ry</abbr>
+                                 <expan>euery</expan>
+                              </choice></orig>
+                           <reg><choice>
+                                 <abbr>ev'ry</abbr>
+                                 <expan>every</expan>
+                              </choice></reg>
+                        </choice>
+                        <choice>
+                           <orig>poynt</orig>
+                           <reg>point</reg>
+                        </choice> to <choice>
+                           <orig>vewe</orig>
+                           <reg>view</reg>
+                        </choice>, hath <choice>
+                           <orig>seldome</orig>
+                           <reg>seldom</reg>
+                        </choice>
+                        <choice>
+                           <orig>stept</orig>
+                           <reg>stepped</reg>
+                        </choice> in <gap quantity="2" unit="chars" reason="illegible" agent="fold"
+                           /><supplied cert="high" evidence="external" reason=" fold" resp="#ASilva"
+                           >pl</supplied>ace</l>
+                  </lg>
+                  <lg type="couplet" rhyme="CC">
+                     <l n="5"><choice>
+                           <orig>Marke</orig>
+                           <reg>Mark</reg>
+                        </choice> me the <seg rend="roman">karne</seg> that <choice>
+                           <orig>gripes</orig>
+                           <reg>grips</reg>
+                        </choice> the axe, fast with his <choice>
+                           <abbr>mu<gap quantity="2" unit="chars" reason="illegible" agent="fold"
+                                 /><supplied cert="high" evidence="external" reason=" fold"
+                                 resp="#ASilva">rd</supplied>'ring</abbr>
+                           <expan>mu<gap quantity="3" unit="chars" reason="illegible" agent="fold"
+                                 /><supplied cert="high" evidence="external" reason=" fold"
+                                 resp="#ASilva">rde</supplied>ring</expan>
+                        </choice>hand</l>
+                     <l n="6">Then <choice>
+                           <orig>shal</orig>
+                           <reg>shall</reg>
+                        </choice> you say a righter knave, came never in the lan<gap quantity="2"
+                           unit="chars" reason="illegible" agent="fold"/><supplied cert="high"
+                           evidence="external" reason=" fold" resp="#ASilva">d:</supplied></l>
+                  </lg>
+               </div>
+               <div type="middleMargin">
+                  <metamark place="middleMargin" function="plateID" corresp="#PL1F1_plateMark"
+                     rend="allcaps">1</metamark>
+                  <note type="clarification">Number "1" next to the column identifies this as plate
+                     1</note>
+               </div>
+               <div type="column" n="2" corresp="#PL1F1_column2">
+                  <cb n="2"/>
+                  <lg type="couplet" rhyme="DD">
+                     <l n="7">As for the rest so trimly <choice>
+                           <orig>drest</orig>
+                           <reg>dressed</reg>
+                        </choice> , I <choice>
+                           <orig>speake</orig>
+                           <reg>speak</reg>
+                        </choice> of them no <choice>
+                           <orig>evill</orig>
+                           <reg>evil</reg>
+                        </choice>,</l>
+                     <l n="8">In <choice>
+                           <orig>ech</orig>
+                           <reg>each</reg>
+                        </choice> respect, they are detect, (as honest as the <choice>
+                           <orig>devill</orig>
+                           <reg>devil</reg>
+                        </choice>.)</l>
+                  </lg>
+                  <lg type="couplet" rhyme="EE">
+                     <l n="9">As honest as the <seg rend="roman">Pope</seg>
+                        <choice>
+                           <orig>himselfe</orig>
+                           <reg>himself</reg>
+                        </choice>, in all their outward actions,</l>
+                     <l n="10">And constant like the wavering <choice>
+                           <orig>winde</orig>
+                           <reg>wind</reg>
+                        </choice>, in the Imaginations,</l>
+                  </lg>
+                  <lg type="couplet" rhyme="FF">
+                     <l n="11">Which may be <choice>
+                           <orig><choice>
+                                 <abbr>prov'de</abbr>
+                                 <expan>provede</expan>
+                              </choice></orig>
+                           <reg><choice>
+                                 <abbr>prov'd</abbr>
+                                 <expan>proved</expan>
+                              </choice></reg>
+                        </choice>in sundry <choice>
+                           <orig>partes</orig>
+                           <reg>parts</reg>
+                        </choice>, hereafter that ensue,</l>
+                     <l n="12">A perfect <choice>
+                           <orig>signe</orig>
+                           <reg>sign</reg>
+                        </choice> for to define, <choice>
+                           <abbr>th'above</abbr>
+                           <expan>the above</expan>
+                        </choice> additions true.</l>
+                  </lg>
+                  <span from="#PL1F1_capA_text"/>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

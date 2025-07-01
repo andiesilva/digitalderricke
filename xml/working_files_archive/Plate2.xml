@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile n="2" xml:id="PL2F2">
+      <surface lry="2131" lrx="3083" uly="55" ulx="17">
+         <graphic url="../images/Derricke_EUL_first_edition/EUL_plate02.tif"/>
+         <zone xml:id="PL2F2_metamark_A" lry="1849" lrx="193" uly="1807" ulx="155"/>
+         <zone xml:id="PL2F2_caption_A" lry="1990" lrx="1400" uly="1803" ulx="155"/>
+         <zone xml:id="PL2F2_metamark_B" lry="2032" lrx="189" uly="1994" ulx="159"/>
+         <zone xml:id="PL2F2_caption_B-I" lry="2088" lrx="1348" uly="1989" ulx="156"/>
+         <zone xml:id="PL2F2_caption_B-F"
+            points="1877,1815 2789,1807 2881,1905 2896,1947 2672,1990 1875,2003 1717,1998 1731,1815"/>
+         <!-- I did B-I and B-F echoing the @part="I" and @part="F"-->
+         <zone xml:id="zone_urz_mc5_hhb" lry="2088" lrx="1401" uly="1802" ulx="153"/>
+         <zone xml:id="PL2F2_metamark_C" lry="2035" lrx="1676" uly="1989" ulx="1633"/>
+         <zone xml:id="PL2F2_caption_C"
+            points="1751,2000 2686,1990 2868,2048 2861,2088 1747,2098 1634,2042 1630,1988"/>
+         <zone xml:id="PL2F2_column2" points="2887,1808 2893,2087 1782,2118 1618,2034 1673,1818"/>
+         <zone xml:id="PL2F2_plateMark" lry="1855" lrx="1646" uly="1817" ulx="1608"/>
+         <zone xml:id="PL2F2_descriptiveText" lry="2100" lrx="2889" uly="1800" ulx="155"/>
+         <zone xml:id="PL2F2_woodcut_A" lry="881" lrx="992" uly="797" ulx="910"/>
+         <zone xml:id="PL2F2_woodcutZone_A"
+            points="478,592 667,669 956,689 1318,1756 36,1758 46,821"/>
+         <zone xml:id="PL2F2_woodcut_B" points="2211,1572 2262,1589 2251,1649 2209,1635"/>
+         <zone xml:id="PL2F2_woodcutZone_B"
+            points="1861,510 1905,87 2943,97 2964,1741 1328,1753 1333,805"/>
+         <zone xml:id="PL2F2_woodcut_C" lry="157" lrx="1190" uly="95" ulx="1146"/>
+         <zone xml:id="PL2F2_woodcutZone_C" points="1912,97 1838,553 1166,889 746,697 58,607 51,87"/>
+         <zone xml:id="PL2F2_woodcut" points="58,88 2958,79 2977,1767 35,1767"/>
+      </surface>
+   </facsimile>
+   <text n="2" corresp="#PL2F2" xml:lang="emodeng">
+      <body>
+         <div n="2" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate02.jpg">
+            <div type="woodcut" corresp="#PL2F2_woodcut">
+               <figure>
+                  <graphic url="../images/Derricke_EUL_first_edition/EUL_plate02.tif"/>
+                  <figDesc corresp="./plateNotes.xml#PL2F2_plateDesc"/>
+               </figure>
+            </div>
+            <div rend="blackplate" type="descriptiveText" corresp="#PL2F2_descriptiveText">
+               <div type="column" n="1" corresp="#PL2F2_column1">
+                  <cb n="1"/>
+                  <anchor type="caption" corresp="#PL2F2_caption_A" xml:id="PL2F2_capA_text"
+                     sameAs="#PL2F2_woodcutZone_A"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL2F2_metamark_A"
+                     rend="allcaps">A</metamark>
+                  <lg type="couplet" rhyme="AA">
+                     <l n="1">Here <choice>
+                           <orig>creepes</orig>
+                           <reg>creeps</reg>
+                        </choice> out of <seg rend="roman"><choice>
+                              <orig>Sainct</orig>
+                              <reg>Saint</reg>
+                           </choice> Filchers <choice>
+                              <orig>denne</orig>
+                              <reg>den</reg>
+                           </choice></seg>, a <choice>
+                           <orig>packe</orig>
+                           <reg>pack</reg>
+                        </choice> of prowling mates,</l>
+                     <l n="2">Most <choice>
+                           <orig>hurtfull</orig>
+                           <reg>hurtful</reg>
+                        </choice> to the English pale, and <choice>
+                           <orig>noysome</orig>
+                           <reg>noisome</reg>
+                        </choice> to the states,</l>
+                  </lg>
+                  <lg type="couplet" rhyme="BB">
+                     <l n="3">Which spare no more their country <choice>
+                           <orig>byrth</orig>
+                           <reg>birth</reg>
+                        </choice>, then those of <choice>
+                           <choice>
+                              <orig><choice>
+                                    <abbr>th’english</abbr>
+                                    <expan>the english</expan>
+                                 </choice></orig>
+                              <reg><choice>
+                                    <abbr>th'English</abbr>
+                                    <expan>the English</expan>
+                                 </choice></reg>
+                           </choice>
+                        </choice> race,</l>
+                     <l n="4">But <choice>
+                           <orig>yeld</orig>
+                           <reg>yelled</reg>
+                           <!-- is this yelled or yield? -->
+                        </choice> to each a <choice>
+                           <orig>lyke</orig>
+                           <reg>like</reg>
+                        </choice> good <choice>
+                           <orig>turne</orig>
+                           <reg>turn</reg>
+                        </choice>, when as they come in place.</l>
+                  </lg>
+                  <span from="#PL2F2_capA_text"/>
+                  <anchor type="caption" corresp="#PL2F2_caption_B-I #PL2F2_caption_B-F"
+                     xml:id="PL2F2_capB_text" sameAs="#PL2F2_woodcutZone_B"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL2F2_metamark_B"
+                     rend="allcaps">B</metamark>
+                  <lg type="couplet" rhyme="CC">
+                     <l n="5">They <choice>
+                           <orig>spoyle</orig>
+                           <reg>spoil</reg>
+                        </choice>, and <choice>
+                           <orig>burne</orig>
+                           <reg>burn</reg>
+                        </choice>, and <choice>
+                           <orig>beare</orig>
+                           <reg>bear</reg>
+                        </choice> away, as <choice>
+                           <orig>fitte</orig>
+                           <reg>fit</reg>
+                        </choice> occasions serve,</l>
+                     <l n="6">And <choice>
+                           <orig>thinke</orig>
+                           <reg>think</reg>
+                        </choice> the greater ill they <choice>
+                           <orig>doe</orig>
+                           <reg>do</reg>
+                        </choice>, the greater <choice>
+                           <orig>prayse</orig>
+                           <reg>praise</reg>
+                        </choice> deserve:</l>
+                  </lg>
+               </div>
+               <div type="middleMargin">
+                  <metamark place="middleMargin" function="plateID" corresp="#PL2F2_plateMark"
+                     rend="allcaps">2</metamark>
+                  <note type="clarification">Number "2" next to the column identifies this as plate
+                     2</note>
+               </div>
+               <div type="column" n="2" corresp="#PL2F2_column2">
+                  <cb n="2"/>
+                  <lg type="couplet" rhyme="DD">
+                     <l n="7">They <choice>
+                           <!-- Please double check, this line seems it might read "They pause not for the poor man's cry" -->
+                           <orig>passe</orig>
+                           <reg>pass</reg>
+                        </choice>
+                        <gap quantity="1" unit="chars" reason="illegible" agent="fold"/><supplied
+                           cert="high" evidence="internal" reason=" fold" resp="#ASilva"
+                           >f</supplied>or the <choice>
+                           <orig>poore</orig>
+                           <reg>poor</reg>
+                        </choice>
+                        <choice>
+                           <sic>mans</sic>
+                           <corr>man's</corr>
+                        </choice> cry, nor yet respect his tears,</l>
+                     <l n="8">But rat<unclear reason="fold" unit="chars" quantity="2" cert="high"
+                           resp="#ASilva">he</unclear>r <choice>
+                           <orig>ioy</orig>
+                           <reg>joy</reg>
+                        </choice>
+                        <gap quantity="1" unit="chars" reason="illegible" agent="tear"/><supplied
+                           cert="high" evidence="internal" reason="overbinding tear fold"
+                           resp="#ASilva">t</supplied>o see the fire, to flash about his <choice>
+                           <orig>eares</orig>
+                           <reg>ears</reg>
+                        </choice>.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="EE">
+                     <l n="9">To see <unclear reason="fold" unit="chars" quantity="2" cert="high"
+                           resp="#ASilva">bo</unclear>th fla<unclear reason="fold" unit="chars"
+                           quantity="1" cert="high" resp="#ASilva">m</unclear>e, and <choice>
+                           <orig>smouldring</orig>
+                           <reg>smoldering</reg>
+                        </choice> smoke, to <choice>
+                           <orig>duske</orig>
+                           <reg>dusk</reg>
+                        </choice> the <choice>
+                           <orig>christall</orig>
+                           <reg>crystal</reg>
+                        </choice>
+                        <choice>
+                           <orig>skyes</orig>
+                           <reg>skies</reg>
+                        </choice>,</l>
+                     <l n="10">Next to <unclear reason="fold" unit="chars" quantity="2" cert="high"
+                           resp="#ASilva">th</unclear>eir pray, therein I say, their second glory <choice>
+                           <!-- LEE - Fix Pray/prey and the missing letters - bereaving in 208 as well -->
+                           <!-- pray or prey?? -->
+                           <orig>lyes</orig>
+                           <reg>lies</reg>
+                        </choice>.</l>
+                  </lg>
+                  <span from="#PL2F2_capB_text"/>
+                  <anchor type="caption" corresp="#PL2F2_caption_C" xml:id="PL2F2_capC_text"
+                     sameAs="#PL2F2_woodcutZone_C"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL2F2_metamark_C"
+                     >C</metamark>
+                  <lg type="couplet" rhyme="FF">
+                     <l n="11">And thus bereaving him of house, of <choice>
+                           <orig>cattell</orig>
+                           <reg>cattle</reg>
+                        </choice> and of store:</l>
+                     <l n="12">They do <choice>
+                           <orig>returne</orig>
+                           <reg>return</reg>
+                        </choice>
+                        <choice>
+                           <orig>backe</orig>
+                           <reg>back</reg>
+                        </choice> to the wood, from whence they came before.</l>
+                  </lg>
+                  <span from="#PL2F2_capC_text"/>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

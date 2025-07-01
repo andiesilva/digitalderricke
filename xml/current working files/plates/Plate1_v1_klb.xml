@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile n="1" xml:id="PL1F1">
+      <surface lry="1915" lrx="3285" uly="29" ulx="23">
+         <graphic url="../images/Derricke_EUL_first_edition/EUL_plate01.tif"/>
+         <zone xml:id="PL1F1_pilcrow" points="63,1369 93,1372 88,1410 58,1407"/>
+         <zone xml:id="PL1F1_title" points="104,34 678,53 620,1282 67,1249"/>
+         <zone xml:id="PL1F1_rights" points="158,1282 497,1302 499,1352 155,1335"/>
+         <zone xml:id="PL1F1_imprint" points="91,1344 614,1373 579,1473 102,1450"/>
+         <zone xml:id="PL1F1_titleDecor" points="163,1481 481,1501 472,1603 159,1589"/>
+         <zone xml:id="PL1F1_frontMatter" points="78,35 685,56 615,1620 37,1596"/>
+         <zone xml:id="PL1F1_irishLord" corresp="./personography.xml#irishLord" points="1768,314 1909,597 2072,1167 1809,1526 1559,1525 1515,610"/>
+         <!-- you may decide that this is not the same figure as in plates 3 and 4 -->
+         <zone xml:id="PL1F1_woodcut" points="1637,74 3207,76 3249,1594 1666,1625 619,1584 690,56"/>
+         <zone xml:id="PL1F1_metamark_A" points="748,1661 781,1663 781,1700 744,1699"/>
+         <zone xml:id="PL1F1_column1" points="793,1613 1745,1646 1845,1893 796,1876"/>
+         <zone xml:id="PL1F1_plateMark" lry="1685" lrx="2024" uly="1652" ulx="2002"/>
+         <zone xml:id="PL1F1_column2" points="2082,1637 3097,1635 3111,1869 2085,1888"/>
+         <zone xml:id="PL1F1_caption_A" points="1814,1697 2080,1625 3102,1634 3114,1865 2074,1885 1837,1891 736,1886 731,1657"/>
+         <zone xml:id="PL1F1_descriptiveText" points="1690,1639 3109,1631 3108,1870 2074,1892 1701,1903 733,1876 739,1601"/>
+      </surface>
+   </facsimile>
+   
+   <text n="1" corresp="#PL1F1" xml:lang="emodeng">
+      <body>
+         <div n="1" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate01.tif">
+            <div type="frontMatter" corresp="#PL1F1_frontMatter">
+               <div type="title" corresp="#PL1F1_title">
+                  <head><hi rend="roman">A NOTA<lb type="hyphenInWord"/>BLE DISCO<lb type="hyphenInWord"/>uery most liue<lb type="hyphenInWord"/>ly describing the state and <lb/>condition of the <orgName corresp="#Woodkern">Wilde men <lb/>in <placeName corresp="#Ireland">Ireland</placeName></orgName>, properly called <orgName corresp="#Woodkern">Wood<lb type="hyphenInWord"/>karne</orgName>, with their actions, and exer<lb type="hyphenInWord"/>cises wherein they are dayly occupied, <lb/>also the order of their rebellion and <lb/>successe of the same is likewise dete<lb type="hyphenInWord"/>cted. Which also concludeth with <lb/>the comming in of <seg rend="italics"><persName corresp="#TONeill">Thirlaugh Leo<lb type="hyphenInWord"/>naugh</persName></seg> the great O<seg rend="smallcaps">NEALE</seg> of <placeName corresp="#Ireland">Ireland</placeName>, <lb/>submitting himselfe to the right ho<lb type="hyphenInWord"/>norable <persName corresp="#HSidney">Syr <seg rend="italics">Henry Sydney</seg></persName>, at what <lb/>time he was L. Deputy general there <lb/>of the sayd Land, being in <seg rend="italics">An. <date calendar="julien" when="1578">1578</date></seg>. <lb/> Nowe published and set forth by <lb/><seg rend="italics"><persName corresp="#JDerrick">IOHN DERRICK</persName></seg> this present <lb/>yeare of our Lord. <date calendar="julien" when="1581">1581</date>. For plea<lb type="hyphenInWord"/>sure and delight of those, whose<lb/> mindes in laudable exerci<lb type="hyphenInWord"/>ses are vertuously <lb/>occupied.</hi></head>
+               </div>
+               
+               <div type="rights" corresp="#PL1F1_rights">
+                  <p xml:id="PL1F1_permission"><seg rend="italics">Seene and allowed.</seg></p><note corresp="#PL1F1_permission" place="end" type="editorial" n="1" resp="#ASilva">This line acts as an indicator Permission to print and distribute.</note>
+               </div>
+               
+               <div type="imprint" corresp="#PL1F1_imprint">
+                  <p><metamark place="margin" corresp="#PL1F1_pilcrow"/><g ref="#pilcrow">¶</g> At <placeName corresp="#London">London</placeName>, printed by <persName corresp="#JDay">Iohn Daye</persName> <lb/>dwelling ouer <placeName corresp="#Aldersgate">Aldersgate</placeName> <date when="1581" calendar="julien">1581</date>.</p>
+               </div>
+               
+               <div corresp="#PL1F1_titleDecor">
+                  <figure>
+                     <figDesc>ADD YOUR DESCRIPTION OF THIS DECORATIVE ELEMENT</figDesc>
+                     <!-- ADD YOUR DESCRIPTION -->
+                  </figure>
+               </div>
+            </div>
+            <div type="woodcut" corresp="#PL1F1_woodcut">
+               <figure>
+                  <figDesc corresp="./plateNotes.xml#PL1F1_plateDesc"/>
+               </figure>
+            </div>
+            <div type="descriptiveText" corresp="#PL1F1_descriptiveText" rend="blackletter">
+
+
+               <div type="column" n="1" corresp="#PL1F1_column1">
+                  <cb n="1"/>
+                  <lg type="couplet" rhyme="AA">
+                     <l n="1">The liuely shape of <orgName corresp="#Woodkern">Irysh <hi rend="roman">karne</hi></orgName>, most perfect to behold,</l>
+                     <anchor type="caption" corresp="#PL1F1_caption_A" xml:id="PL1F1_capA_text" sameAs="#PL1F1_woodcutZone_A"/><metamark place="margin" function="imageCaptionLink" corresp="#PL1F1_metamark_A" rend="allcaps">A</metamark>
+                     <l n="2">Of man, the master, and the boy, these pictures doe unf<supplied reason="illegible" extent="2 letters" resp="#ASilva">ol</supplied>de:</l>
+                  </lg>
+                  <lg type="couplet" rhyme="BB">
+                     <l n="3">Wherein is brauely paynted forth, A nat’rall Irish grac<supplied reason="illegible" extent="1 letter" resp="#ASilva">e</supplied></l>
+                     <l n="4">Whose like in eu’ry poynt to vewe, hath seldome stept in <supplied reason="illegible" extent="2 letters" resp="#ASilva">pl</supplied>ace.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="CC">
+                     <l n="5">Marke me the <orgName corresp="#Woodkern"><hi rend="roman">karne</hi></orgName> that gripes the axe, fast with his mu<supplied reason="illegible" extent="2 letters" resp="#ASilva">rd</supplied>’ring hand,</l>
+                     <l n="6">Then shall you say a righter knaue, came neuer in the lan<supplied reason="illegible" extent="2 letters" resp="#ASilva">d:</supplied></l>
+                  </lg>
+               </div>
+               
+               <div type="middleMargin">
+                  <metamark place="middleMargin" function="plateID" corresp="#PL1F1_plateMark" rend="allcaps">1</metamark> <note type="clarification">Number “1” next to the column identifies this as plate 1.</note>
+               </div>
+               
+               <div type="column" n="2" corresp="#PL1F1_column2">
+                  <cb n="2"/>
+                  <lg type="couplet" rhyme="DD">
+                     <l n="7">As for the rest so trimly drest, I speake of them no euill,</l>
+                     <l n="8">In ech respect, they are detect, (as honest as the devill.)</l>
+                  </lg>
+                  <lg type="couplet" rhyme="EE">
+                     <l n="9">As honest as the <seg rend="roman"><rs>Pope</rs></seg> himselfe, in all their outward actions,</l>
+                     <l n="10">And constant like the wauering winde, in their Imaginations,</l>
+                  </lg>
+                  <lg type="couplet" rhyme="FF">
+                     <l n="11">Which may be prou’de in sundry partes, hereafter that ensue,</l>
+                     <l n="12">A perfect signe for to define, th’aboue additions true.</l>
+                  </lg>
+                  <span from="#PL1F1_capA_text"/>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile n="4" xml:id="PL4F4">
+      <surface>
+         <graphic url="../images/Derricke_EUL_first_edition/EUL_plate04.tif"/>
+         <zone xml:id="PL4F4_metamark_A" lry="1925" lrx="233" uly="1886" ulx="195"/>
+         <zone xml:id="PL4F4_caption_A" points="1485,1898 1480,1987 192,1972 191,1884"/>
+         <zone xml:id="PL4F4_metamark_B" lry="2013" lrx="225" uly="1979" ulx="198"/>
+         <zone xml:id="PL4F4_caption_B" points="192,1971 1292,1989 1289,2079 195,2068"/>
+         <zone xml:id="PL4F4_column1" lry="2078" lrx="1486" uly="1793" ulx="199"/>
+         <zone xml:id="PL4F4_plateMark" lry="1851" lrx="1550" uly="1810" ulx="1515"/>
+         <zone xml:id="PL4F4_metamark_C" lry="1841" lrx="1707" uly="1800" ulx="1667"/>
+         <zone xml:id="PL4F4_caption_C" points="1665,1798 2825,1802 2803,1987 1664,1983"/>
+         <zone xml:id="PL4F4_metamark_D" lry="2023" lrx="1706" uly="1986" ulx="1668"/>
+         <zone xml:id="PL4F4_caption_D" points="1667,1983 2880,1989 2880,2085 1672,2078"/>
+         <zone xml:id="PL4F4_column2" lry="2083" lrx="2878" uly="1801" ulx="1665"/>
+         <zone xml:id="PL4F4_descriptiveText" lry="2075" lrx="2878" uly="1790" ulx="200"/>
+         <zone xml:id="PL4F4_woodcut_A" lry="854" lrx="659" uly="814" ulx="619"/>
+         <zone xml:id="PL4F4_irishLordAbsolved" corresp="./personography.xml#irishLord"
+            points="606,885 725,957 802,1092 781,1752 158,1745 487,1007"/>
+         <zone xml:id="PL4F4_smelfeastAbsolves"
+            points="371,705 534,750 651,910 505,1042 494,1275 367,1604 245,1667 95,1632 226,797"
+            corresp="./personography.xml#FSmelfeast"/>
+         <zone xml:id="PL4F4_woodcutZone_A" lry="1753" lrx="789" uly="683" ulx="49"/>
+         <zone xml:id="PL4F4_woodcut_B" lry="148" lrx="1076" uly="106" ulx="1038"/>
+         <zone xml:id="PL4F4_irishLordOnHorse" corresp="./personography.xml#irishLord"
+            points="780,132 890,92 1363,355 1364,584 786,704 677,377"/>
+         <zone xml:id="PL4F4_smelfeastAtHorse"
+            points="638,170 800,140 918,691 774,823 578,757 558,218" corresp="./personography.xml#FSmelfeast"/>
+         <zone xml:id="PL4F4_irishLordAtWar" corresp="./personography.xml#irishLord"
+            points="1380,540 1747,1021 1458,1545 1161,1514 1022,1048 1242,931"/>
+         <zone xml:id="PL4F4_woodcutZone_B"
+            points="397,628 506,69 1386,82 1404,521 1530,782 1791,1017 1415,1754 786,1750 760,817"/>
+         <zone xml:id="PL4F4_woodcut_C" lry="148" lrx="2498" uly="106" ulx="2459"/>
+         <zone xml:id="PL4F4_woodcutZone_C"
+            points="1378,506 1391,84 2973,97 2958,1034 1828,1036 1526,793"/>
+         <zone xml:id="PL4F4_woodcut_D" lry="1128" lrx="1865" uly="1088" ulx="1831"/>
+         <zone xml:id="PL4F4_smelfeastBlessing" corresp="./personography.xml#FSmelfeast"
+            points="2218,993 2483,1088 2436,1302 2069,1329 2003,1059"/>
+         <zone xml:id="PL4F4_woodcutZone_D"
+            points="2152,1006 2963,1039 2956,1756 1415,1758 1776,1008"/>
+         <zone xml:id="PL4F4_woodcut" lry="1763" lrx="2967" uly="67" ulx="33"/>
+      </surface>
+   </facsimile>
+   <text n="4" corresp="#PL4F4" xml:lang="emodeng">
+      <body>
+         <div n="4" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate04.jpg">
+            <div type="woodcut" corresp="#PL4F4_woodcut">
+               <figure>
+                  <graphic url="../images/Derricke_EUL_first_edition/EUL_plate04.tif"/>
+                  <figDesc corresp="./plateNotes.xml#PL4F4_plateDesc"/>
+               </figure>
+            </div>
+            <div rend="blackplate" type="descriptiveText" corresp="#PL4F4_descriptiveText">
+               <div type="column" n="1" corresp="#PL4F4_column1">
+                  <cb n="1"/>
+                  <lg type="couplet" rhyme="AA">
+                     <l n="1">And when with myrth and belly cheere, they are sufficed well,</l>
+                     <l n="2">Marke what ensueth, a playne discourse, of Irish sleightes I tell:</l>
+                  </lg>
+                  <anchor type="caption" corresp="#PL4F4_caption_A" xml:id="PL4F4_capA_text"
+                     sameAs="#PL4F4_woodcutZone_A"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL4F4_metamark_A"
+                     rend="allcaps">A</metamark>
+                  <lg type="couplet" rhyme="BB">
+                     <l n="3">The <rs corresp="#FriarSmelfeast">Fryer</rs> then absolues the <rs>theefe</rs>,<!-- tag? --> from all his former sinne.</l>
+                     <l n="4">And bids him plague the princes frendes, if heauen he minde to winne.</l>
+                  </lg>
+                  <span from="#PL4F4_capA_text"/>
+                  <anchor type="caption" corresp="#PL4F4_caption_B" xml:id="PL4F4_capB_text"
+                     sameAs="#PL4F4_woodcutZone_B"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL4F4_metamark_B"
+                     rend="allcaps">B</metamark>
+                  <lg type="couplet" rhyme="CC">
+                     <l n="5">Which beyng sayd, he takes his horse, to put in practise then,</l>
+                     <l n="6">The spoyling and destroying of, <rs corresp="#QElizabeth">her grace</rs>s loyall men.</l>
+                  </lg>
+                  <span from="#PL4F4_capB_text"/>
+               </div>
+               <div type="middleMargin">
+                  <metamark place="middleMargin" function="plateID" corresp="#PL4F4_plateMark"
+                     rend="allcaps">4</metamark>
+                  <note type="clarification">Number “4” next to the column identifies this as plate 4.</note>
+               </div>
+               <div type="column" n="2" corresp="#PL4F4_column2">
+                  <cb n="2"/>
+                  <anchor type="caption" corresp="#PL4F4_caption_C" xml:id="PL4F4_capC_text"
+                     sameAs="#PL4F4_woodcutZone_C"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL4F4_metamark_C"
+                     >C</metamark>
+                  <lg type="couplet" rhyme="DD">
+                     <l n="7">But Lo<supplied reason="fold" extent="1 letter" resp="#ASilva">e</supplied> t<supplied reason="fold" extent="1 letter" resp="#ASilva">h</supplied>e souldiers then the plague, unto this <seg rend="roman">Karnish</seg> rowt:</l>
+                     <l n="8">To yeld <supplied reason="fold" extent="1 letter" resp="#ASilva">t</supplied>h<supplied reason="illegible" extent="2 letters" resp="#ASilva">em</supplied> vengaunce for their sinnes, in warlicke sort rise out.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="EE">
+                     <l n="9">They pr<supplied reason="fold" extent="1 letter" resp="#ASilva">e</supplied>sse <supplied reason="fold" extent="1 letter" resp="#ASilva">t</supplied>he rauncoure of the theeues, by force of bloudy knife.</l>
+                     <l n="10">And sta<supplied reason="fold" extent="1 letter" resp="#ASilva">y</supplied> th<supplied reason="fold" extent="1 letter" resp="#ASilva">e</supplied> <supplied reason="fold" extent="1 letter" resp="#ASilva">p</supplied>ray they filcht away, depriuing them of life:</l>
+                  </lg>
+                  <!-- CHECK the "stay" in line 10, the other references has this as "stap", but it looks like a y to me. -->
+                  <span from="#PL4F4_capC_text"/>
+                  <anchor type="caption" corresp="#PL4F4_caption_D" xml:id="PL4F4_capD_text"
+                     sameAs="#PL4F4_woodcutZone_D"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL4F4_metamark_D"
+                     >D</metamark>
+                  <lg type="couplet" rhyme="FF">
+                     <l n="11">The fr<supplied reason="fold" extent="1 letter" resp="#ASilva">y</supplied>er t<supplied reason="fold" extent="1 letter" resp="#ASilva">h</supplied>en that traytrous knaue, with <seg rend="roman">Ough Ough hone</seg><!-- https://bit.ly/2Ii5unM --> lament:</l><!--ASilva: check Small/Scott for annotation on language?/transl -->
+                     <l n="12">To see h<supplied reason="fold" extent="1 letter" resp="#ASilva">i</supplied>s c<supplied reason="fold" extent="2 letters" resp="#ASilva">oo</supplied>sin Deuills sonnes, to haue so fowle euent.</l>
+                  </lg>
+                  <span from="#PL4F4_capD_text"/>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile n="5" xml:id="PL5F5">
+      <surface lry="2080" lrx="3093" uly="52" ulx="19">
+         <graphic url="../images/Derricke_EUL_first_edition/EUL_plate05.tif"/>
+         <zone xml:id="PL5F5_metamark_B" lry="1834" lrx="208" uly="1784" ulx="165"/>
+         <zone xml:id="PL5F5_caption_B" lry="1926" lrx="1391" uly="1783" ulx="158"/>
+         <zone xml:id="PL5F5_metamark_A" lry="2014" lrx="209" uly="1964" ulx="159"/>
+         <zone xml:id="PL5F5_caption_A" lry="2057" lrx="1506" uly="1928" ulx="162"/>
+         <zone xml:id="PL5F5_column1" lry="2066" lrx="1514" uly="1774" ulx="242"/>
+         <zone xml:id="PL5F5_metamark_C" lry="1924" lrx="1702" uly="1880" ulx="1654"/>
+         <zone xml:id="PL5F5_caption_C" lry="1926" lrx="2857" uly="1877" ulx="1655"/>
+         <zone xml:id="PL5F5_metamark_D" lry="1969" lrx="1698" uly="1928" ulx="1654"/>
+         <zone xml:id="PL5F5_caption_D" lry="2067" lrx="2916" uly="1926" ulx="1653"/>
+         <zone xml:id="PL5F5_column2" lry="2073" lrx="2919" uly="1787" ulx="1652"/>
+         <zone xml:id="PL5F5_plateMark" lry="1847" lrx="1557" uly="1797" ulx="1524"/>
+         <zone xml:id="PL5F5_descriptiveText" lry="2073" lrx="2923" uly="1779" ulx="159"/>
+         <zone xml:id="PL5F5_woodcut_A" lry="246" lrx="851" uly="169" ulx="769"/>
+         <zone xml:id="PL5F5_woodcutZone_A" points="684,65 1827,73 1750,690 211,979 41,269"/>
+         <zone xml:id="PL5F5_woodcut_C" lry="1683" lrx="424" uly="1619" ulx="358"/>
+         <zone xml:id="PL5F5_woodcutZone_C" points="1104,544 2044,714 1922,1712 48,1734 57,926"/>
+         <zone xml:id="PL5F5_woodcut_D" lry="1687" lrx="2014" uly="1623" ulx="1947"/>
+         <zone xml:id="PL5F5_woodcutZone_D" points="2459,424 2875,951 2944,1708 1932,1711 2042,736"/>
+         <zone xml:id="PL5F5_woodcut_B" lry="169" lrx="2259" uly="95" ulx="2197"/>
+         <zone xml:id="PL5F5_woodcutZone_B"
+            points="1826,73 2967,91 2977,1079 2461,418 2012,887 1746,687"/>
+         <zone xml:id="PL5F5_woodcut" lry="1754" lrx="2992" uly="61" ulx="22"/>
+      </surface>
+   </facsimile>
+   <text n="5" corresp="#PL5F5" xml:lang="emodeng">
+      <body>
+         <div n="5" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate05.jpg">
+            <div type="woodcut" corresp="#PL5F5_woodcut">
+               <figure>
+                  <graphic url="../images/Derricke_EUL_first_edition/EUL_plate05.tif"/>
+                  <figDesc corresp="./plateNotes.xml#PL5F5_plateDesc"/>
+               </figure>
+            </div>
+            <div rend="blackplate" type="descriptiveText" corresp="#PL5F5_descriptiveText">
+               <div type="column" n="1" corresp="#PL5F5_column1">
+                  <cb n="1"/>
+                  <anchor type="caption" corresp="#PL5F5_caption_B" xml:id="PL5F5_capB_text"
+                     sameAs="#PL5F5_woodcutZone_B"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL5F5_metamark_B"
+                     rend="allcaps">B</metamark>
+                  <lg type="couplet" rhyme="AA">
+                     <l n="1">And though the pray recouer’d be, yet are not all thinges ended:</l>
+                     <l n="2">For why? the souldiours doe pursue, the Roges that haue offended.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="BB">
+                     <l n="3">Who neuer cease till in the bloud, of these light fing’red theeues:</l>
+                     <span from="#PL5F5_capB_text"/>
+                     <anchor type="caption" corresp="#PL5F5_caption_A" xml:id="PL5F5_capA_text"
+                        sameAs="#PL5F5_woodcutZone_A"/>
+                     <l n="4">Their blades are bathd to teach them how, they after prowle for Beeues.</l>
+                  </lg>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL5F5_metamark_A"
+                     rend="allcaps">A</metamark>
+                  <lg type="couplet" rhyme="CC">
+                     <l n="5">To see a souldiour toze<note type="gloss" resp="#ASilva">To pull asunder; to separate or unravel the <choice> <orig>fibres</orig><reg>fibers</reg></choice> of; to comb or card (OED.) Used here derisevely to point to the eminent beheading of a captive Irish soldier.</note> a Karne, O Lord it is a wonder:</l>
+                     
+                     <l n="6">And eke what care he takth to part, the head from neck a sonder.</l>
+                  </lg>
+                  <span from="#PL5F5_capA_text"/>
+               </div>
+               <div type="middleMargin">
+                  <metamark place="middleMargin" function="plateID" corresp="#PL5F5_plateMark"
+                     rend="allcaps">5</metamark>
+                  <note type="clarification">Number “5” next to the column identifies this as plate
+                     5.</note>
+               </div>
+               <div type="column" n="2" corresp="#PL5F5_column2">
+                  <cb n="2"/>
+                  <lg type="couplet" rhyme="DD">
+                     <l n="7">To see another leade a theefe, with such a lordly grace:</l>
+                     <l n="8">And for to marke how lothe the knaue, doth follow in that case.</l>
+                  </lg>
+                  <anchor type="caption" corresp="#PL5F5_caption_C" xml:id="PL5F5_capC_text"
+                     sameAs="#PL5F5_woodcutZone_C"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL5F5_metamark_C"
+                     >C</metamark>
+                  <lg part="I" type="couplet" rhyme="EE">
+                     <l n="9">To see how trimme their glibbed heades, are borne by valiant men,</l>
+                  </lg>
+                  <span from="#PL5F5_capC_text"/>
+                  <anchor type="caption" corresp="#PL5F5_caption_D" xml:id="PL5F5_capD_text"
+                     sameAs="#PL5F5_woodcutZone_D"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL5F5_metamark_D"
+                     >D</metamark>
+                  <lg part="F" type="couplet" rhyme="EE">
+                     <l n="10">And garded with a royall sorte, of worthy souldiours then.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="FF">
+                     <l n="11">All these are thinges sufficient, to moue a subiects minde:</l>
+                     <l n="12">To prayse the souldiours, which reward, the <orgName corresp="#Woodkern">woodkarne</orgName> in their kinde.</l>
+                  </lg>
+                  <span from="#PL5F5_capD_text"/>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

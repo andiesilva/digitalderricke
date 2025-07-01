@@ -1,0 +1,515 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title corresp="http://imageofirelande.org">Digital Derricke: a Machine Readable
+               Transcription of John Derricke's The Image of Irelande (1581)</title>
+            <funder>Freedman Fellows Grant, Case West Reserve University</funder>
+            <sponsor><!-- ADD SPONSOR INFORMATION --></sponsor>
+            <principal>Andie Silva</principal>
+            <principal>Denna Iammarino</principal>
+            <respStmt>
+               <resp>principal researcher and editor</resp>
+               <name corresp="#ASilva">Andie Silvia</name>
+            </respStmt>
+            <respStmt>
+               <resp>principal researcher and editor</resp>
+               <name corresp="#DIammarino">Denna Iammarino</name>
+            </respStmt>
+            <respStmt>
+               <resp>header created by</resp>
+               <name corresp="#RParker">Becca Parker</name>
+               <name corresp="#LZickel">Lee Zickel</name>
+            </respStmt>
+            <respStmt>
+               <resp>transcribed by</resp>
+               <name corresp="#ASilva">Andie Silva</name>
+               <name corresp="#DIammarino">Denna Iammarino</name>
+            </respStmt>
+         </titleStmt>
+
+         <publicationStmt>
+            <publisher><!-- FIGURE THIS OUT --></publisher>
+            <availability>
+               <p>Available upon request for teaching and academic purposes only, if distributed
+                  with the header information provided.</p>
+            </availability>
+         </publicationStmt>
+
+         <sourceDesc>
+
+            <biblFull>
+               <titleStmt>
+                  <title>The image of Irelande, with a discouerie of vvoodkarne, wherin is moste
+                     liuely expressed, the nature, and qualitie of the saied wilde Irishe woodkarne,
+                     their notable aptnesse, celeritie, and pronesse to rebellion, and by waie of
+                     argumente is manifested their originall, and ofspryng, their descent and
+                     pedigree: also their habite and apparell, is there plainly showne. The
+                     execrable life, and miserable death of Rorie Roge, that famous archtraitour to
+                     God and the croune (otherwise called Rorie Oge) is like wise discribed. Lastlie
+                     the commyng in of Thyrlaghe Leonaghe the greate Oneale of Irelande, with the
+                     effecte of his submission, to the right honourable Sir Henry Sidney (Lorde
+                     Deputie of the saied lande) is thereto adioyned. Made and deuised by Ihon
+                     Derricke, anno 1578. and now published and set forthe by the saied authour this
+                     present yere of our Lorde 1581. for pleasure and delight of the well disposed
+                     reader.</title>
+                  <author>Derricke, John.</author>
+               </titleStmt>
+               <extent>[100] p., [12] plates </extent>
+               <publicationStmt>
+                  <publisher>By [J. Kingston for] Ihon Daie,</publisher>
+                  <pubPlace>Imprinted at London :</pubPlace>
+                  <date>1581.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>In verse.</note>
+                  <note>Actual printer's name from STC.</note>
+                  <note>Woodcut plates have separate title page beginning "A notable discouery .. of
+                     the wilde men in Ireland.."--Folger catalogue.</note>
+                  <note>Signatures: a⁴ b² A-L⁴.</note>
+                  <note>Imperfect; lacking 12 folding woodcuts with letterpress verses.</note>
+                  <!-- FIX THIS NOTE ON FILES WHERE PLATES ARE INCLUDED -->
+                  <note>Reproduction of the original in the British Library.</note>
+               </notesStmt>
+            </biblFull>
+
+            <msDesc>
+               <msIdentifier>
+                  <repository>Edinburgh University Library</repository>
+                  <idno>De.3.76</idno>
+                  <msName>The Image of Irelande, by John Derrick (London, 1581) - Plates</msName>
+               </msIdentifier>
+               <msContents>
+                  <p>TO DO - describe the intellectual content of a manuscript, manuscript part, or
+                     other object either as a series of paragraphs or as a series of structured
+                     manuscript items</p>
+               </msContents>
+               <!-- STUFF IN HERE IS STILL DEV MSS
+               <physDesc>
+                   
+                  <objectDesc form="codex">
+                     <supportDesc>
+                        <support>
+                           <p> Small quarto <material>paper</material> composition-book (<ref>Remley
+                                 1994</ref>; <ref>Southall 1964</ref>). </p>
+                        </support>
+                        <extent> iv + 114 + vi </extent>
+                        <foliation>
+                           <p>Folios renumbered 1-96 after acquisition by the British Museum. This
+                              renumbering begins at f3 and does not include leaves that are blank on
+                              both recto and verso (<ref>Remley 1994</ref>; <ref>Southall
+                              1964</ref>). Numbers appear in the upper right corner of recto
+                              pages.</p>
+                        </foliation>
+                     </supportDesc>
+                  </objectDesc>
+
+               </physDesc>
+               <history>
+
+                  <origin>
+                     <p>Written in <origPlace>England</origPlace> in the <origDate notAfter="1559"
+                           notBefore="1525">earlier half of the 16th century</origDate>.</p>
+                  </origin>
+                  <provenance>
+                     <p>Southall (1964) argues that the manuscript was acquired by Henry Howard or
+                        Henry Fitzroy in approximately 1532. They later gave the manuscript to Mary
+                        Fitzroy (nee Howard) who took it with her when she went to live in Anne
+                        Boleyn's household in 1536. Following the death of her husband in 1536, Mary
+                        Fitzroy returned to her father's estate, leaving the manuscript with Mary
+                        Shelton. Between 1539 and 1540, the manuscript was shared by Mary Fitzroy
+                        (who had returned to court in 1539) and Mary Shelton. During 1540, however,
+                        the manuscript was in the hands of Margaret Douglas. Between 1541 and 1543,
+                        it is likely that the manuscript was in the joint possession of Mary
+                        Fitzroy, Mary Shelton, and Margaret Douglas. After 1545, the manuscript was
+                        in the hands of Margaret Douglas and later passed into the possession of her
+                        son, Henry Stuart, Lord Darnley. Eventually, the manuscript was deposited in
+                        Chatsworth House, the seat of the Dukes of Devonshire.</p>
+                     <p>The manuscript was part of the Devonshire Collection until it was borrowed
+                        by G. F. Nott and sold with Nott's library in 1842.</p>
+                     <p>
+                        <ref>(Southall 1964)</ref>
+                     </p>
+                  </provenance>
+                  <acquisition>Purchased by the British Museum in 1848 (<ref>Southall
+                     1964</ref>).</acquisition>
+               </history>
+-->
+            </msDesc>
+         </sourceDesc>
+
+      </fileDesc>
+      <!-- STUFF IN HERE IS STILL DEV MSS  
+      <div type="chunkingShitOut">
+      <encodingDesc>
+
+         <projectDesc>
+            <p>The project is to transcribe, encode, and publish, for the first time in its
+               entirety, the Devonshire MS. (B.L. Addl. 17492) in parallel print and electronic
+               editions.</p>
+         </projectDesc>
+         <editorialDecl>
+            <correction>
+               <p>The transcription is based on two forms of a document. The base-text was a
+                  microfilm of the manuscript supplied by the British Library, from which a paper
+                  print and scanned images were produced. The initial transcriptions were made with
+                  those two forms of the document, but the final transcription was done with
+                  reference to the manuscript itself. Two transcriptions were created, in a blind
+                  process. Collation of the two proved unfeasible by electronic means, so this was
+                  done by eye and hand. Once the two were collated, a good rough draft transcription
+                  was produced, and the variants were resolved as far as possible using expanded
+                  paper prints with references to the images, as necessary. Remaining areas of
+                  uncertainty were resolved with reference to the manuscript. </p>
+               <p>As far as is possible, a diplomatic edition is intended, so there is a strong
+                  orientation towards the physical appearance of each page, including recording such
+                  aspects as indentations, centring, brackets, and spaces. All omissions,
+                  truncations, deletions, etc. in the original are retained. Text that is
+                  indecipherable is marked by the use of the &lt;gap&gt; element. The choice
+                  element, containing &lt;orig&gt; or &lt;sic&gt; paired with &lt;expan&gt; or
+                  &lt;corr&gt; marks text that is in some way possibly erroneous, idiosyncratic, or
+                  easily misunderstood with a clarification. Not marked are ligatures, dropped
+                  &#145;r&#146;, long &#145;s&#146;, situations in which lines are placed over words
+                  or letter combinations. </p>
+               <p>Punctuation in the copy-text, although minimal, is retained. Most often, a virgule
+                  is the only punctuation used. Half-virgules are not distinguished from full
+                  virgules. Carets (denoting a correction - often superscript - inserted by a
+                  scribe) are included and inverse carets are marked with an editorial note. In one
+                  situation, a punctuation mark is used for which there is no ASCII symbol. As a
+                  temporary expedient an editorial note and description marks the instance.</p>
+            </correction>
+            <normalization method="markup">
+               <p>Spelling is not modernized. The symbol, that in the early Tudor secretary hand
+                  (which Petti calls a Tironian nota &#145;et&#146; - see page 23) denotes 'and' is
+                  normalized as an ampersand. The transcription distinguishes between the individual
+                  scribe's use of the letters &#145;u&#146; and &#145;v&#146;, &#145;i&#146; and
+                  &#145;j&#146;, and &#145;vv&#146; and &#145;w&#146;. Unusual usages are noted. eg.
+                  majuscule &#145;s&#146; where miniscule is expected, initial &#145;s&#146; in
+                  terminal position. Not marked are: ligatures, dropped &#145;r&#146;, long
+                  &#145;s&#146;, situations in which lines are placed over words or letter
+                  combinations. For clarity, when a usage is highly unusual, the word is identified
+                  with a specialized element tag that gives both the original text as content and a
+                  regularized version as an attribute value, using the element &lt;orig&gt; and
+                  attributes reg= and resp= within a &lt;choice&gt; element. </p>
+               <p>Abbreviations (eg. elided letters) and expansions (brevigraphs and contractions)
+                  are marked as such in both their contracted and expanded forms. Words, wordforms,
+                  or compounded words in which letters are elided by the scribe are designated as
+                  abbreviations and encoded with the element &lt;abbr&gt; and the attribute expan=
+                  recording both the construction of the original and the expanded format. Words or
+                  characters that indicate that letters have been omitted by the use of scribal
+                  marks or superscripted characters, or that are understood to be standard
+                  abbreviations for the time, are encoded with the element &lt;expan&gt; and the
+                  attribute abbr= giving both the expanded form and a description of the contracted
+                  form. Editorial notes further describe especially unusual scribal usages. The
+                  expanded form is given in modernized spelling, since spelling was unfixed at the
+                  time and several permutations are equally valid. Also, scribes use the same form
+                  to indicate one of several possible meanings, therefore the expanded form is based
+                  on a study of the context.</p>
+               <p>Whatever form is used to describe the abbreviation is less important than
+                  consistency in application and availability of the codes used. As a placeholder
+                  until such time as entities to describe the forms of brevigraphs are designated or
+                  a full description is possible in Unicode, the Renaissance Electronic Text (RET)
+                  codes have been used to describe the abbreviation, since they are robust,
+                  descriptive, based on scholarly evidence, and available (Lancashire). It has been
+                  necessary to extend and adapt those codes, after due consideration of scribal
+                  preferences, consultation with respected authorities on early handwriting
+                  (Cappelli, Petti), and examination of the context in which a scribe uses a
+                  particular abbreviation. (See accompanying file for additions and changes).</p>
+               <p>The element &lt;del&gt; is applied to text that is in some way indicated by a
+                  scribe to have been cancelled or deleted, with the use of the attribute type= to
+                  indicate the nature of the deletion. The most common reason is a
+                  &#145;cross-out&#146;, which is a penstroke (or strokes) that have been applied
+                  over text, crosswise or slantwise. The element &lt;add&gt; is applied to text that
+                  is inserted or added (either at the time by the originating hand, as in the case
+                  of deletions and self-corrections or later by an annotating/correcting hand in
+                  which case there is an accompanying &lt;handShift/&gt; indication) to text, with
+                  place attribute to describe placement, if not inline, and the attribute rend=
+                  (rendition) to describe situations of overwriting. In situations where a scribe
+                  forms a character and then writes over it or changes it to form a different
+                  character, the cancelled character is described as &#145;overwritten&#146; and the
+                  replacement character is described as &#145;overwritten.&#146; When a line is
+                  deleted or is a false start, the line is not given a line number. Instead, the
+                  corresp attribute is used to tie the deletion or fast start to the replacement
+                  line.</p>
+               <p>Scribal corrections or additions within the body of the text are distinguished
+                  from annotations, which are encoded with the element &lt;note&gt; and the
+                  attribute type= with a description of &#145;annotation&#146; to distinguish
+                  scribal notes from editorial notes, which are encoded with the element
+                  &lt;note&gt; and the attribute type= with a description of &#145;editorial.&#146;
+                  In addition, scribal annotations carry the attribute place= with a description of
+                  their situation on the page, or relative to the poetic unit. The presence of
+                  annotations is noted in the &lt;head&gt; section of each &lt;div&gt; and, if the
+                  hand is not the main scribal hand, a &lt;handShift/&gt; element marks the shift. </p>
+               <p>In some cases, characters are placed superscript to the baseline that may or may
+                  not indicate abbreviations. They are not retroactive additions to the text, so
+                  much as characters written in a distinctive manner, therefore, the element
+                  &lt;c&gt; is used together with an attribute rend= and a description of how/where
+                  the character is placed (most often superscript).</p>
+               <p>Personal names of historical interest, mostly of poets or scribes, are identified
+                  as such and refer back to a &lt;listPerson&gt; item using a key tag. Within the
+                  listPerson descriptions, each person is identified with a ref pointer using the
+                  Library of Congress Authority number, and a second URI ref to the Dictionary of
+                  National Biography. Modern researchers or scholars who are referred to in the
+                  text, including the project team, are listed in a second listPerson element, with
+                  the attribute of type="modern". When names or initials appear within the text,
+                  often as a subscript to an entry (possibly indicating authorship or
+                  responsibility), an editorial note gives the probable identification of that
+                  individual. Each name so identified is within a &lt;name&gt; element, with the
+                  attribute key. In some cases, a name or initial is used to indicate authorship; in
+                  those instances, the attribute type="author" was added to the name tag.</p>
+               <p>The element &lt;note&gt; is used for additions to the text that are marginal and
+                  for editorial notes. They are delineated by first, type (editorial, annotation,
+                  scribal), and secondly, place on the page (in the case of an annotation). </p>
+               <p>The element &lt;gap&gt; records the (possibly temporary) unavailability of a
+                  transcription, implying indecipherability, for one reason or another: faintness,
+                  obliteration (for example, by an ink blotch), deletion (when it so thorough that
+                  the deleted letters cannot be deciphered), invisibility (when the letters enter
+                  the spine of the book, erased, or torn. The extent of the indecipherable section
+                  is not recorded. The element &lt;supplied&gt; records instances in which a
+                  character is supplied by the editor on reasonable grounds that it exists. The
+                  element &lt;unclear&gt; is used to identify a transcription that is difficult to
+                  ascertain. The element &#147;damage&#148; is used for occasions where the text has
+                  suffered some damage, most usually due to ink blots. The element &lt;space&gt; is
+                  used to record deliberate gaps left by the scribes, with attribute of extent, with
+                  the value indicating the approximate number of characters or lines. </p>
+            </normalization>
+            
+            <segmentation>
+               <p>In line with the orientation toward the physical aspect of the manuscript,
+                  graphical and bibliographical descriptions form an important component of the
+                  file. For example, we record details of page presentation, such as torn pages and
+                  a repaired leaf and we recognize of the former position of a page. For instance,
+                  what was once likely to have been the inside front cover, before the manuscript
+                  was rebound (at an unknown time) is noted as such. Besides the description of such
+                  presentational aspects on a page as centring, indentation, brackets, and spaces,
+                  for example, a scribe&#146;s use of facing pages (on which some poems are placed
+                  in their entirety) is noted. The element &lt;hi&gt; with the attribute rend=
+                  designates letters or passages that are in some way graphically distinct from the
+                  text, as in the case of abnormally large or elaborate capital letters or
+                  characters that are placed in a supralinear position relative to the baseline, for
+                  instance. </p>
+               <p>British Library stamps are not recorded, however, the numbering system presumably
+                  applied by the library staff, which appears as a nineteenth century inked Arabic
+                  numeral on the upper right corner of the recto side of many leaves is used.
+                  Another numbering system is visible in some places, but it is not recorded at this
+                  time. The British Library numbering system is used as the basis to identify each
+                  side of each leaf. For example, the library did not number leaves on which no
+                  writing appears, therefore, a number was applied by reference to the number on the
+                  recto leaf preceding the unnumbered leaves. Also, the numbers for the verso side
+                  of each leaf are derived with reference to the recto designation. </p>
+               <p>The text as a whole is divided into segments by the use of specialized element
+                  tags that record the division points that mark the boundaries between sections,
+                  known as milestone type element tags, with reference to the TEI Guidelines
+                  (6.9.3). For example, the point at which the text continues on a different page is
+                  marked (&lt;pb/&gt;) with an attribute value n= that gives the number and leaf
+                  side of the new page. Similarly, when a scribe divides the text into columns, the
+                  point at which a new column begins is marked by a specialized element tag designed
+                  for that purpose (&lt;cb/&gt;), with an attribute value of left or right. When a
+                  scribe writes a line of text in other than poetic lines wholly contained on one
+                  horizontal plane and in non-poetic units, a specialized element tag marks the
+                  point at which a new graphical line begins (&lt;lb/&gt;). The exception to this is
+                  situations in which the scribe places the last few words or word that complete a
+                  poetic line above or below the graphical line before starting a new poetic line.
+                  That part of the text is designated as a &lt;seg&gt; (segment), with an attribute
+                  value giving its place. </p>
+               <p>Despite recognizing divisions into pages, columns, and graphical lines, the
+                  principal orientation is into semantic units, poems, generally. The basic unit
+                  within the text of the manuscript as a whole is the individual poem (&lt;div&gt;),
+                  together with its associated material, such as scribal annotations that appear in
+                  proximity to a poem and seem to refer to it. The poetic entity includes some units
+                  that are not strictly poems, such as poem fragments, anagram, annotation, figure,
+                  epigram, and some collective divisions (&lt;ab&gt; [anonymous block]) in which
+                  occur a number of what might be termed miscellaneous graffiti consisting of
+                  symbols, initials, words, epigrams, and drawings. Despite the varied nature of the
+                  basic division, it is here referred to as a poem.</p>
+               <p>Each poem has a descriptive section (&lt;head&gt;) in which the poem is identified
+                  as to title (which is the incipit) and information such as whether or not an
+                  author has been identified for that poem and how the poem may have originated (as
+                  an excerpt or a translation, for instance), along with, as mentioned, editorial
+                  notes on the hands and annotations, as well as any descriptive information about
+                  the page orientation. Each poem has a unique designator (id=) within the text. (In
+                  the title element, abbreviations are silently expanded and capitals are not
+                  distinguished for relative prominence.) That designator is composed of the
+                  in-house abbreviation for the manuscript (LDev) together with its position within
+                  the manuscript from to back, top to bottom, left to right of the manuscript as a
+                  whole. For poems that have a standard index designation, that designation (or
+                  designations, in the case of multiple designations in various indexes) forms the
+                  second part of the unique identifier. The exception to that general rule is made
+                  for the poems copied from Thynne's Chaucer, which would otherwise have an unwieldy
+                  designator, therefore a shortened title is used instead, comprised of the LDev
+                  locator and an abbreviated title. For example, selections from Chaucer’s Troilus
+                  and Criseyde are designated as id="LDev00-Troilus." Following is a list of the
+                  original long form and the abbreviated versions: <list>
+                     <item>LDev047-TP1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev047-Troilus</item>
+                     <item>LDev047.1-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev047.1-Troilus</item>
+                     <item>LDev047.2-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev047.2-Troilus</item>
+                     <item>LDev092-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev092-Troilus</item>
+                     <item>LDev180-TM339-TP333.5-BR666-BR1609.5-BR4217.6-BR1255 is
+                        LDev180-Cupid</item>
+                     <item>LDev181-TM339-TP333.5-BR666-BR1609.5-BR4217.6-BR1255 is
+                        LDev181-Cupid</item>
+                     <item>LDev182-TM1389-BR3084-BR1409.3-TP1549 is LDev182-Remedy</item>
+                     <item>LDev183-TM517-BR1086-TP529 is LDev183-La_Belle</item>
+                     <item>LDev184-TM517-BR1086-TP529 is LDev184-La_Belle</item>
+                     <item>LDev185-TM339-TP333.5-BR666-BR1609.5-BR4217.6-BR1255 is
+                        LDev185-Cupid</item>
+                     <item>LDev186-TM1684-BR3670-TP1940.5 is LDev186-Annelida</item>
+                     <item>LDev187-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev187-Troilus</item>
+                     <item>LDev187.5-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev187.5-Troilus</item>
+                     <item>LDev188-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev188-Troilus</item>
+                     <item>LDev189-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev189-Troilus</item>
+                     <item>LDev190-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev190-Troilus</item>
+                     <item>LDev191.1-TM1510-BR3327-BR848.5-BR1418.5-BR2577.5-BR1422.1-BR1926.5-TP1702.5
+                        is LDev191-1-Troilus</item>
+                  </list></p>
+               <p>The text of the poem itself is contained within a stanza division (or divisions,
+                  if there is more than one), using &lt;lg&gt; (linegroup). Each stanza is numbered
+                  sequentially within the poem (unless there is only one). The stanza divisions are
+                  according to standard indexes and modern editions (if there is such an edition)
+                  because scribal practice is highly variable in both the intention to divide the
+                  text into stanzas and the method of doing so. For instance, it is not assumed that
+                  scribes leave spaces between stanzas. Sometimes there is no indication as to where
+                  one stanza ends and another begins. Sometimes scribes indicate internal divisions
+                  with marks in the left margins, the use of majuscule characters, spaces between
+                  groupings, or by aligning the first line of a stanza to the left compared to the
+                  alignment of the other lines of that stanza. The existence and type of stanza
+                  marking (or lack thereof) are described in editorial notes. When a scribe&#146;s
+                  presentation of stanzaic divisions differs from that given in standard indexes,
+                  the situation is recorded in an editorial note. </p>
+               <p>Each stanza is divided into poetic lines using &lt;l&gt; (poetic line), each of
+                  which is numbered sequentially within the poem in an attribute value n=. Lines
+                  that are aborted or deleted by a scribe but that are recognizably part of the poem
+                  are numbered with half-numbers that indicate their position in the sequence. Lines
+                  that are omitted (according to standard indexes and modern editions) are indicated
+                  by a row of hyphens, numbered and noted as omissions. Annotations are included as
+                  the content of an element &lt;note&gt; with an attribute type="annotation" to
+                  distinguish them from editorial notes that have an attribute type of "editorial"
+                  and scribal notes that have an attribute type="scribal". Annotations also have an
+                  attribute giving their place relative to the poem. Within annotations, if no line
+                  divisions are noted by the use of &lt;seg&gt;, it is to be assumed that the
+                  annotation is on one graphical line, unless it is marked as being placed 'inline.'
+                  The poetic lines are occasionally segmented to distinguish, for example, resonant
+                  phrases and graphically displaced words and phrases (as mentioned earlier). The
+                  element &lt;w&gt; (word) is occasionally used as an alternative when one word is
+                  involved in the distinction.</p>
+               <p>The encoding of witnesses follows the practice of the main text, however, the
+                  encoding is somewhat simplified. Only the relevant poems are included.
+                  Capitalization, abbreviations, deletions, and annotations are recorded. Each
+                  witness manuscript or print source is encoded in a single file, which validates to
+                  the DTD of the main document. Each witness file can be considered a satellite to
+                  the main document file.</p>
+               <p>The header section (which is also simplified) of each witness file includes an
+                  index encoded as a &lt;list&gt; of incipits (as they appear in the witness text)
+                  arranged alphabetically within a &lt;p&gt; section within a &lt;note&gt; that
+                  relates the location of a particular poem instance in the witness to the location
+                  within the Devonshire MS., which is repeated in the head section of each division.
+                  In addition, each relationship also mentions the other contemporary witnesses to
+                  that particular poem as a "See also" section and, when necessary, a designation of
+                  how that first line appears in the Devonshire MS, if there are significant
+                  differences. The header section includes a detailed description of the original
+                  source text used and, in some cases, also includes a description of the source of
+                  a modern transcription if that has been used instead, but it does not duplicate
+                  the detailed description of encoding practices as is found in the main
+                  document.</p>
+               <p>The internal structure of each witness file parallels the main file, with a
+                  division into a &lt;div&gt; element for each poem, and further divisions into
+                  &lt;lg&gt; and &lt;l&gt;. Each poem is given an &lt;id&gt; based on the
+                  abbreviation for that particular witness and its position in the sequence of poems
+                  transcribed from that witness. For example, AAH01 is the first poem transcribed
+                  from the Arundel-Harington MS. witness.</p>
+               <p>The type of script is assumed to be Tudor secretary, unless otherwise noted. Any
+                  variations are noted in the &lt;head&gt; section of each &lt;div&gt;. The hand
+                  that inscribes the poem (or poem fragment, or other type of unit) is identified in
+                  the head section of each &lt;div&gt;, as well as that of any annotating hands
+                  associated with the poem. Helen Baron's designations of which hands write which
+                  parts of the manuscript are generally followed, although when the transcribers
+                  differ from her findings, the project's identification is used. The milestone
+                  element &lt;handShift/&gt; with the attributes old= and new= demarcates the
+                  boundary between hands. Unidentified hands are listed as id=unknown. When a hand's
+                  pattern of usage varies, differences are noted. The schematics that will show how
+                  each specific hand makes its characters are being assembled as well as notes on
+                  each hand's characteristic practices. Ink colour is not recorded, nor is the use
+                  of a pencil or charcoal.</p>
+            </segmentation>
+            <interpretation>
+               <p>Unless otherwise noted, responsiblity for all analytical or interpretive material
+                  that appears in the editorial notes rests with the editorial team as a whole.</p>
+            </interpretation>
+         </editorialDecl>
+         <metDecl>
+            <p>The rhyme scheme is derived from standard indexes and notes made on any variants from
+               that information. It is recorded as an attribute value (@rhyme=) of each &lt;div1&gt;
+               unit that is a poem. </p>
+         </metDecl>
+         <variantEncoding method="location-referenced" location="external"/>
+      </encodingDesc></div> 
+      
+      STILL DEV MSS -->
+
+      <profileDesc>
+         <creation>
+            <date notBefore="1525" notAfter="1559">1525-1559 <interp>especially
+               mid-1530s</interp></date>
+            <rs type="country">England</rs>
+         </creation>
+
+
+         <particDesc>
+<!-- I kept this ProjContrib list here, but moved all historical and ficitonal people to the personography -->
+
+            <!-- RJP:2018-06-14: Add new people in alphabetical order by first <forename> element. Refer to http://www.tei-c.org/release/doc/tei-p5-doc/en/html/ref-person.html for additional elements.-->
+            <listPerson type="projectContributors">
+               <person xml:id="ASilva" role="editor">
+                  <persName><forename>Andie</forename>
+                     <surname>Silva</surname></persName>
+               </person>
+               <person xml:id="DIammarino" role="editor">
+                  <persName><forename>Denna</forename>
+                     <surname>Iammarino</surname></persName>
+               </person>
+               <person xml:id="LZickel" role="consultant">
+                  <persName><forename>Lee</forename>
+                     <surname>Zickel</surname></persName>
+               </person>
+               <person xml:id="RParker" role="consultant">
+                  <persName><forename>Rebecca</forename>
+                     <surname>Parker</surname></persName>
+               </person>
+
+            </listPerson>
+         </particDesc>
+      </profileDesc>
+      <revisionDesc>
+         <list>
+            <item>ADD THINGS HERE (if y'all decide to track changes this way)</item>
+            <!--
+                   Examples from Devonshire
+                   <item>AA: on May 29, 2012, revised the markup for publication</item>
+                  <item>CC: on Sept 28, 2011, added the names xml to the teiHeader</item>
+                  <item>CC: on Sept 20 and 21, 2011, input Elizabeth Heale's corrections to the
+                    transcription</item>
+                -->
+         </list>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>This is a placeholder file for the complete header information. once the header is
+            completed, much of the information in the various lists may be moved to individual
+            files.</p>
+      </body>
+   </text>
+</TEI>

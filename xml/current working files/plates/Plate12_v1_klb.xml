@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile n="12" xml:id="PL12F12">
+        <surface>
+            <graphic url="../images/Derricke_EUL_first_edition/EUL_plate12.tif"/>
+            <zone xml:id="PL12F12_column1" ulx="66" uly="1121" lrx="579" lry="1264" />
+            <zone xml:id="PL12F12_column2" ulx="687" uly="1120" lrx="1163" lry="1261" />
+            <zone xml:id="PL12F12_column3" ulx="1279" uly="1115" lrx="1765" lry="1246" />
+            <zone xml:id="PL12F12_plateMark" ulx="621" uly="1126" lrx="659" lry="1158" />
+            <zone xml:id="PL12F12_imprint" ulx="1706" uly="1231" lrx="1785" lry="1255" />
+            <zone xml:id="PL12F12_woodcut" ulx="13" uly="34" lrx="1887" lry="1112" />
+            <zone xml:id="PL12F12_descriptiveText" ulx="27" uly="1114" lrx="1826" lry="1269" />
+            <zone xml:id="PL12F12_pilcrow" ulx="1687" uly="1234" lrx="1710" lry="1264" />
+        </surface>
+    </facsimile>
+    <text n="12" corresp="#PL12F12" xml:lang="emodeng">
+        <body>
+            <div n="12" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate12.jpg">
+                <div type="woodcut" corresp="#PL12F12_woodcut">
+                    <figure>
+                        <graphic url="../images/Derricke_EUL_first_edition/EUL_plate12.tif"/>
+                        <figDesc corresp="./plateNotes.xml#PL12F12_plateDesc"/>
+                    </figure>
+                </div>
+                <div rend="blackplate" type="descriptiveText" corresp="#PL12F12_descriptiveText">
+                    <div type="column" n="1" corresp="#PL12F12_column1">
+                        <cb n="1"/>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="1">When flickering fame had fild the eares of marshall men of might,</l>
+                            <l n="2">With rare report of <hi rend="roman"><persName corresp="#HSidney">Sydney</persName>s</hi> prayse. (that honorable knight)</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="3">And though the bruite in Iryshe soyle did well confirme the same,</l>
+                            <l n="4">As who could say in <placeName corresp="#England">England</placeName>s claime, of Justice there he came,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="5">And to mayntayne the sacred right, of such a <rs corresp="#QElizabeth">Uirgine Queene</rs>,</l>
+                            <l n="6">For seeking of her Subiectes wealth, whose like hath neuer bene,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="7">The great <hi rend="roman"><persName corresp="#TONeill">Oneale</persName></hi>, to strike the stroke, insealing up the same,</l>  
+                        </lg>
+                    </div>
+                    <div type="middleMargin">
+                        <metamark place="middleMargin" function="plateID" corresp="#PL12F12_plateMark" rend="allcaps">12</metamark>
+                        <note type="clarification">Number “12” next to the column identifies this as plate 12.</note>
+                    </div>
+                    <div type="column" n="2" corresp="#PL12F12_column2">
+                        <cb n="2"/>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme --><!-- Need to connect this <lg> to the previous one, maybe @next and @prev? -->
+                            <l n="8">And to prepare this noble knight, a way to greater fame</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="9">Amazed with such straunge reportes, and of his owne accord,</l>
+                            <l n="10">Came in prostrating him before, the presence of this Lord.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="11">With humble sute for <rs corresp="#QElizabeth">Prince</rs>s grace, and mercy to obtayne,</l>
+                            <l n="12">With like request upon the same, his frendship to attayne</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="13">Who promiste then by pledge of life, and vertue of his hand,</l>
+                            <l n="14">For euer to <rs corresp="#QElizabeth">her noble grace</rs>, a subiect true to stand,</l>
+                        </lg>
+                    </div>
+                    <div type="column" n="3" corresp="#PL12F12_column3">
+                        <cb n="3"/>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="15">And to defe<supplied reason="fold" extent="1 letter" resp="#KLeBere">n</supplied>d in each respect, her honor and her name,</l>
+                            <l n="16">Agaynst all <supplied reason="fold" extent="1 letter" resp="#KLeBere">w</supplied>hose that durst deface, the glory of the same.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="17">Which thing<supplied reason="fold" extent="1 letter" resp="#KLeBere">e</supplied>s with other accions moe, redound unto the fame</l>
+                            <l n="18">Of good <hi rend="roman"><persName corresp="#HSidney">Syr Henry Sydney</persName></hi> Knight, so called by his name.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="19">Loe where h<supplied reason="fold" extent="1 letter" resp="#KLeBere">e</supplied> sittes in honors seate, most comely to be seene,</l>
+                            <l n="20">As worthy <supplied reason="fold" extent="3 letters" resp="#KLeBere">for</supplied> to represent, the person of a Queene.</l>
+                        </lg>
+                    </div>
+                    <div type="imprint" corresp="#PL12F12_imprint">
+                        <p><metamark place="margin" corresp="#PL12F12_pilcrow"/><g ref="#pilcrow">¶</g> <hi rend="roman">FINIS</hi>.</p>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

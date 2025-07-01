@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile n="11" xml:id="PL10F10">
+        <surface>
+            <graphic url="../images/Derricke_EUL_first_edition/EUL_plate11.tif"/>
+            <zone xml:id="PL10F10_column1" ulx="90" uly="1101" lrx="882" lry="1277"/>
+            <zone xml:id="PL10F10_column2" ulx="1019" uly="1100" lrx="1735" lry="1273"/>
+            <zone xml:id="PL10F10_woodcut" ulx="10" uly="37" lrx="1850" lry="1084"/>
+            <zone xml:id="PL10F10_descriptiveText" ulx="36" uly="1095" lrx="1809" lry="1277"/>
+            <zone xml:id="PL10F10_metamark_A" ulx="41" uly="1100" lrx="78" lry="1137"/>
+            <zone xml:id="PL10F10_caption_A" ulx="94" uly="1101" lrx="882" lry="1216"/><!-- I am not sure where this ends -->
+            <zone xml:id="PL10F10_plateMark" ulx="916" uly="1102" lrx="956" lry="1133"/>
+            <zone xml:id="PL10F10_woodcut_A" ulx="548" uly="740" lrx="597" lry="786"/>
+            <zone xml:id="PL10F10_woodcutZone_A" ulx="485" uly="292" lrx="960" lry="834"/>
+            <zone xml:id="PL10F10_marginCouplet" ulx="1395" uly="906" lrx="1733" lry="1012"/>
+            <zone xml:id="PL10F10_marginZone" ulx="1375" uly="892" lrx="1742" lry="1034"/>
+            <zone xml:id="PL10F10_marginNote" ulx="1776" uly="122" lrx="1835" lry="154"/>
+        </surface>    
+    </facsimile>
+    <text n="10" corresp="#PL10F10" xml:lang="emodeng">
+        <body>
+            <div n="10" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate10.jpg">
+                <div type="woodcut" corresp="#PL10F10_woodcut">
+                    <figure>
+                        <graphic url="../images/Derricke_EUL_first_edition/EUL_plate10.tif"/>
+                        <figDesc corresp="./plateNotes.xml#PL10F10_plateDesc"/><!-- is this right? -->
+                        <floatingText xml:id="PL10F10_marginCouplet_text">
+                            <body>
+                                <!-- Does an <anchor> go here? -->
+                                <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                                    <l n="1"><hi rend="roman">O <persName corresp="#HSidney">Sidney</persName> worthy of triple renown,</hi></l>
+                                    <l n="2"><hi rend="roman">For plaguing the traitors that troubled the <rs corresp="#QElizabeth">crown</rs>. <date calendar="julien" when="1581">1581</date></hi>.</l>
+                                </lg> 
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                        <floatingText xml:id="PL10F10_marginNote_text">
+                            <body>
+                                <!-- Does an <anchor> go here? -->
+                                <l n="1"><hi rend="roman"><placeName corresp="#Dublin">dublin</placeName></hi></l>
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                    </figure>
+                </div>
+                <div rend="blackplate" type="descriptiveText" corresp="#PL10F10_descriptiveText">
+                    <div type="column" n="1" corresp="#PL10F10_column1">
+                        <cb n="1"/>
+                        <anchor type="caption" corresp="#PL10F10_caption_A" xml:id="PL10F10_capA_text"
+                            sameAs="#PL10F10_woodcutZone_A"/>
+                        <metamark place="margin" function="imageCaptionLink" corresp="#PL10F10_metamark_A"
+                            rend="allcaps">A</metamark>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="1">When thus this thrice renowned knight, hath captive made and thrall,</l>
+                            <l n="2">The furious force of frantic foes, and troupe of rebels all,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="3">When he by marshall<!-- mods --> feats of arms, hath nobly them subdued</l>
+                            <l n="4">To Prince’s Dome: whose heavy wrath, their treasons have renewed</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="5">When he their glory and their pride, hath trampled in the dust,</l>
+                            <l n="6">And brought to naught which do pursue, the bloody rebels’ lust:</l>
+                        </lg> 
+                        <span from="#PL10F10_capA_text"/>
+                    </div>
+                    <div type="middleMargin">
+                        <metamark place="middleMargin" function="plateID" corresp="#PL10F10_plateMark" rend="allcaps">10</metamark>
+                        <note type="clarification">Number “10” next to the column identifies this as plate 10.</note>
+                    </div>
+                    <div type="column" n="2" corresp="#PL10F10_column2">
+                        <cb n="2"/>
+                        <lg type="couplet" rhyme="ADD">
+                            <l n="7">When he by conquest thus hath won, the honour of the field,</l>
+                            <l n="8">And fame unto our <rs corresp="#QElizabeth">Sovereign</rs>’s Court, report thereof doth yield</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="9">And to conclude when honour brave, his travels to requite</l>
+                            <l n="10">Hath clothed him with eternal fame, meet for so great a knight</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="11">When all these things are done and past, then doth he back revert</l>
+                            <l n="12">To <hi rend="roman"><placeName corresp="#Dublin">Dublin</placeName></hi> where he is received; with joy on every part.</l>
+                        </lg>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

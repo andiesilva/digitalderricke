@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile n="08" xml:id="PL8F8">
+        <surface>
+            <graphic url="../images/Derricke_EUL_first_edition/EUL_plate08.tif"/>
+            <zone xml:id="PL8F8_column1" ulx="90" uly="1101" lrx="764" lry="1284"/>
+            <zone xml:id="PL8F8_column2" ulx="1010" uly="1112" lrx="1749" lry="1295"/>
+            <zone xml:id="PL8F8_woodcut" ulx="17" uly="36" lrx="1874" lry="1098"/>
+            <zone xml:id="PL8F8_descriptiveText" ulx="69" uly="1095" lrx="1779" lry="1292"/>
+            <zone xml:id="PL8F8_plateMark" ulx="871" uly="1113" lrx="903" lry="1150"/>  
+            <zone xml:id="PL8F8_woodcut_A" ulx="515" uly="1037" lrx="556" lry="1075"/>
+            <zone xml:id="PL8F8_woodcutZone_A" ulx="31" uly="604" lrx="811" lry="1099"/><!-- Is this right? -->
+            <zone xml:id="PL8F8_woodcut_B" ulx="799" uly="500" lrx="827" lry="527"/>
+            <zone xml:id="PL8F8_woodcutZone_B" ulx="843" uly="333" lrx="1084" lry="727"/><!-- Is this right? -->
+            <zone xml:id="PL8F8_marginNote" ulx="1513" uly="1051" lrx="1568" lry="1079"/>
+        </surface>    
+    </facsimile>
+    <text n="08" corresp="#PL8F8" xml:lang="emodeng">
+        <body>
+            <div n="08" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate08.jpg">
+                <div type="woodcut" corresp="#PL8F8_woodcut">
+                    <figure>
+                        <graphic url="../images/Derricke_EUL_first_edition/EUL_plate08.tif"/>
+                        <figDesc corresp="./plateNotes.xml#PL8F8_plateDesc"/><!-- is this right? -->
+                        <floatingText xml:id="PL8F8_marginNote_text">
+                            <body>
+                                <!-- Does an <anchor> go here? -->
+                                <l n="1"><hi rend="roman">ID</hi></l>
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                    </figure>
+                </div>
+                <div rend="blackplate" type="descriptiveText" corresp="#PL8F8_descriptiveText">
+                    <div type="column" n="1" corresp="#PL8F8_column1">
+                        <cb n="1"/>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="1">And marching on in warlike wise, set out in battle ray,</l>
+                            <l n="2">He doth pronounce by heavy doom: the enemies’ pride to lay,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="3">And all the rabble of the foes, by bloody blade to quell</l>
+                            <l n="4">That rising shall assist the sort, which traitorously rebel.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="5">Delivering them to open spoil, from most unto the least</l>
+                            <l n="6">And bid them welcome heartily, unto that golden feast</l>
+                        </lg> 
+                        <span from="#PL8F8_capA_text"/>
+                    </div>
+                    <div type="middleMargin">
+                        <metamark place="middleMargin" function="plateID" corresp="#PL8F8_plateMark" rend="allcaps">8</metamark>
+                        <note type="clarification">Number “8” next to the column identifies this as plate 8.</note>
+                    </div>
+                    <div type="column" n="2" corresp="#PL8F8_column2">
+                        <cb n="2"/>
+                        <lg type="couplet" rhyme="ADD">
+                            <l n="7">For what is he of all the <hi rend="roman"><orgName corresp="#Woodkern">Kern</orgName></hi>, that may withstand her power,</l>
+                            <l n="8">Or yet resist so great a <rs corresp="#QElizabeth">Prince</rs>, one minute of an hour,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="9">If he or they with tagge<!-- mods --> and ragge,<!-- mods --> for maintenance of their cause,</l>
+                            <l n="10">Durst<!-- mods --> venture to approach the field, to try it by marshall<!-- mods --> laws.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="11">Not one of this rebelling sort, that thinks himself most sure</l>
+                            <l n="12">Is able to abide the Knight, or presence his endure.</l>
+                        </lg>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

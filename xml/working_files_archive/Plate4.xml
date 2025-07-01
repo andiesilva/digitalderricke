@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile n="4" xml:id="PL4F4">
+      <surface>
+         <graphic url="../images/Derricke_EUL_first_edition/EUL_plate04.tif"/>
+         <zone xml:id="PL4F4_metamark_A" lry="1925" lrx="233" uly="1886" ulx="195"/>
+         <zone xml:id="PL4F4_caption_A" points="1485,1898 1480,1987 192,1972 191,1884"/>
+         <zone xml:id="PL4F4_metamark_B" lry="2013" lrx="225" uly="1979" ulx="198"/>
+         <zone xml:id="PL4F4_caption_B" points="192,1971 1292,1989 1289,2079 195,2068"/>
+         <zone xml:id="PL4F4_column1" lry="2078" lrx="1486" uly="1793" ulx="199"/>
+         <zone xml:id="PL4F4_plateMark" lry="1851" lrx="1550" uly="1810" ulx="1515"/>
+         <zone xml:id="PL4F4_metamark_C" lry="1841" lrx="1707" uly="1800" ulx="1667"/>
+         <zone xml:id="PL4F4_caption_C" points="1665,1798 2825,1802 2803,1987 1664,1983"/>
+         <zone xml:id="PL4F4_metamark_D" lry="2023" lrx="1706" uly="1986" ulx="1668"/>
+         <zone xml:id="PL4F4_caption_D" points="1667,1983 2880,1989 2880,2085 1672,2078"/>
+         <zone xml:id="PL4F4_column2" lry="2083" lrx="2878" uly="1801" ulx="1665"/>
+         <zone xml:id="PL4F4_descriptiveText" lry="2075" lrx="2878" uly="1790" ulx="200"/>
+         <zone xml:id="PL4F4_woodcut_A" lry="854" lrx="659" uly="814" ulx="619"/>
+         <zone xml:id="PL4F4_irishLordAbsolved" corresp="./personography.xml#irishLord"
+            points="606,885 725,957 802,1092 781,1752 158,1745 487,1007"/>
+         <zone xml:id="PL4F4_smelfeastAbsolves"
+            points="371,705 534,750 651,910 505,1042 494,1275 367,1604 245,1667 95,1632 226,797"
+            corresp="./personography.xml#FSmelfeast"/>
+         <zone xml:id="PL4F4_woodcutZone_A" lry="1753" lrx="789" uly="683" ulx="49"/>
+         <zone xml:id="PL4F4_woodcut_B" lry="148" lrx="1076" uly="106" ulx="1038"/>
+         <zone xml:id="PL4F4_irishLordOnHorse" corresp="./personography.xml#irishLord"
+            points="780,132 890,92 1363,355 1364,584 786,704 677,377"/>
+         <zone xml:id="PL4F4_smelfeastAtHorse"
+            points="638,170 800,140 918,691 774,823 578,757 558,218" corresp="./personography.xml#FSmelfeast"/>
+         <zone xml:id="PL4F4_irishLordAtWar" corresp="./personography.xml#irishLord"
+            points="1380,540 1747,1021 1458,1545 1161,1514 1022,1048 1242,931"/>
+         <zone xml:id="PL4F4_woodcutZone_B"
+            points="397,628 506,69 1386,82 1404,521 1530,782 1791,1017 1415,1754 786,1750 760,817"/>
+         <zone xml:id="PL4F4_woodcut_C" lry="148" lrx="2498" uly="106" ulx="2459"/>
+         <zone xml:id="PL4F4_woodcutZone_C"
+            points="1378,506 1391,84 2973,97 2958,1034 1828,1036 1526,793"/>
+         <zone xml:id="PL4F4_woodcut_D" lry="1128" lrx="1865" uly="1088" ulx="1831"/>
+         <zone xml:id="PL4F4_smelfeastBlessing" corresp="./personography.xml#FSmelfeast"
+            points="2218,993 2483,1088 2436,1302 2069,1329 2003,1059"/>
+         <zone xml:id="PL4F4_woodcutZone_D"
+            points="2152,1006 2963,1039 2956,1756 1415,1758 1776,1008"/>
+         <zone xml:id="PL4F4_woodcut" lry="1763" lrx="2967" uly="67" ulx="33"/>
+      </surface>
+   </facsimile>
+   <text n="4" corresp="#PL4F4" xml:lang="emodeng">
+      <body>
+         <div n="4" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate04.jpg">
+            <div type="woodcut" corresp="#PL4F4_woodcut">
+               <figure>
+                  <graphic url="../images/Derricke_EUL_first_edition/EUL_plate04.tif"/>
+                  <figDesc corresp="./plateNotes.xml#PL4F4_plateDesc"/>
+               </figure>
+            </div>
+            <div rend="blackplate" type="descriptiveText" corresp="#PL4F4_descriptiveText">
+               <div type="column" n="1" corresp="#PL4F4_column1">
+                  <cb n="1"/>
+                  <lg type="couplet" rhyme="AA">
+                     <l n="1">And when with myrth and belly <choice>
+                           <orig>cheere</orig>
+                           <reg>cheer</reg>
+                        </choice>, they are sufficed well,</l>
+                     <l n="2">Mark what <choice>
+                           <orig>ensueth</orig>
+                           <reg>ensued</reg>
+                        </choice>, a <choice>
+                           <orig>playne</orig>
+                           <reg>plain</reg>
+                        </choice> discourse, of Irish <choice>
+                           <orig>sleightes</orig>
+                           <reg>slights</reg>
+                        </choice> I tell:</l>
+                  </lg>
+                  <anchor type="caption" corresp="#PL4F4_caption_A" xml:id="PL4F4_capA_text"
+                     sameAs="#PL4F4_woodcutZone_A"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL4F4_metamark_A"
+                     rend="allcaps">A</metamark>
+                  <lg type="couplet" rhyme="BB">
+                     <l n="3">The <rs corresp="./personography.xml#FSmelfeast"><choice>
+                              <orig>fryer</orig>
+                              <reg>friar</reg>
+                     </choice></rs> then absolves the <rs corresp="./personography.xml#irishLord"><choice>
+                              <orig>theefe</orig>
+                              <reg>thief</reg>
+                           </choice></rs>, from all his former <choice>
+                           <orig>sinne</orig>
+                           <reg>sin</reg>
+                        </choice>.</l>
+                     <l n="4">And bids him plague the <choice>
+                           <orig>princes</orig>
+                           <reg>prince's</reg>
+                        </choice>
+                        <choice>
+                           <orig>frendes</orig>
+                           <reg>friends</reg>
+                        </choice>, if heaven he <choice>
+                           <orig>minde</orig>
+                           <reg>mind</reg>
+                        </choice> to <choice>
+                           <orig>winne</orig>
+                           <reg>win</reg>
+                        </choice>.</l>
+                  </lg>
+                  <span from="#PL4F4_capA_text"/>
+                  <anchor type="caption" corresp="#PL4F4_caption_B" xml:id="PL4F4_capB_text"
+                     sameAs="#PL4F4_woodcutZone_B"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL4F4_metamark_B"
+                     rend="allcaps">B</metamark>
+                  <lg type="couplet" rhyme="CC">
+                     <l n="5">Which <choice>
+                           <orig>beyng</orig>
+                           <reg>being</reg>
+                        </choice>
+                        <choice>
+                           <orig>sayd</orig>
+                           <reg>said</reg>
+                        </choice>, he takes his horse, to put in <choice>
+                           <orig>practise</orig>
+                           <reg>practice</reg>
+                        </choice> then,</l>
+                     <l n="6">The <choice>
+                           <orig>spoyling</orig>
+                           <reg>spoiling</reg>
+                        </choice> and destroying of, her <choice>
+                           <orig>graces</orig>
+                           <reg>grace's</reg>
+                        </choice>
+                        <choice>
+                           <orig>loyall</orig>
+                           <reg>loyal</reg>
+                        </choice> men.</l>
+                  </lg>
+                  <span from="#PL4F4_capB_text"/>
+               </div>
+               <div type="middleMargin">
+                  <metamark place="middleMargin" function="plateID" corresp="#PL4F4_plateMark"
+                     rend="allcaps">4</metamark>
+                  <note type="clarification">Number "4" next to the column identifies this as plate
+                     4</note>
+               </div>
+               <div type="column" n="2" corresp="#PL4F4_column2">
+                  <cb n="2"/>
+                  <anchor type="caption" corresp="#PL4F4_caption_C" xml:id="PL4F4_capC_text"
+                     sameAs="#PL4F4_woodcutZone_C"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL4F4_metamark_C"
+                     >C</metamark>
+                  <lg type="couplet" rhyme="DD">
+                     <l n="7">But <choice>
+                           <orig>Lo<gap reason="illegible" agent="fold"/><supplied cert="high"
+                                 evidence="external" reason="fold" resp="#ASilva"
+                              >e</supplied></orig>
+                           <reg>Lo</reg>
+                        </choice> t<gap reason="illegible" agent="fold"/><supplied cert="high"
+                           evidence="external" reason="fold" resp="#ASilva">h</supplied>e <choice>
+                           <orig>souldiers</orig>
+                           <reg>soldiers</reg>
+                        </choice> then the plague, unto this <seg rend="roman">Karnish</seg>
+                        <choice>
+                           <!--ASilva: needs XML:ID for Kern -->
+                           <orig>rowt</orig>
+                           <reg>route</reg>
+                        </choice>:</l>
+                     <l n="8">To <choice>
+                           <orig>yeld</orig>
+                           <reg>yield</reg>
+                        </choice>
+                        <gap reason="illegible" agent="fold"/><supplied cert="high"
+                           evidence="external" reason="fold" resp="#ASilva">t</supplied>h<gap
+                           reason="illegible" agent="fold"/><supplied cert="high"
+                           evidence="external" reason="fold" resp="#ASilva">e</supplied><unclear
+                           reason="fold" unit="chars" quantity="1" cert="high" resp="#ASilva"
+                           >m</unclear>
+                        <choice>
+                           <orig>vengaunce</orig>
+                           <reg>vengeance</reg>
+                        </choice> for their <choice>
+                           <orig>sinnes</orig>
+                           <reg>sins</reg>
+                        </choice>, in <choice>
+                           <orig>warlicke</orig>
+                           <reg>war like</reg>
+                        </choice> sort rise out.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="EE">
+                     <l n="9">They <choice>
+                           <orig>pr<gap reason="illegible" agent="fold"/><supplied cert="high"
+                                 evidence="external" reason="fold" resp="#ASilva"
+                              >e</supplied>sse</orig>
+                           <reg>press</reg>
+                        </choice>
+                        <gap reason="illegible" agent="fold"/><supplied cert="high"
+                           evidence="external" reason="fold" resp="#ASilva">t</supplied>he <choice>
+                           <orig>rauncoure</orig>
+                           <reg>rancour</reg>
+                        </choice> of the <choice>
+                           <orig>theeves</orig>
+                           <reg>thieves</reg>
+                        </choice>, by force of bloody knife.</l>
+                     <l n="10">And sta<unclear reason="fold" unit="chars" quantity="1" cert="low"
+                           resp="#ASilva">y</unclear> th<gap reason="illegible" agent="fold"
+                           /><supplied cert="high" evidence="external" reason="fold" resp="#ASilva"
+                           >e</supplied>
+                        <unclear reason="fold" unit="chars" quantity="1" cert="high" resp="#ASilva"
+                           >p</unclear>ray they <choice>
+                           <orig>filcht</orig>
+                           <reg>filched</reg>
+                        </choice> away, depriving them of life:</l>
+                  </lg>
+                  <!-- CHECK the "stay" in line 10, the other references has this as "stap", but it looks like a y to me. -->
+                  <span from="#PL4F4_capC_text"/>
+                  <anchor type="caption" corresp="#PL4F4_caption_D" xml:id="PL4F4_capD_text"
+                     sameAs="#PL4F4_woodcutZone_D"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL4F4_metamark_D"
+                     >D</metamark>
+                  <lg type="couplet" rhyme="FF">
+                     <l n="11">The <choice>
+                           <orig>fr<unclear reason="fold" unit="chars" quantity="1" cert="high"
+                                 resp="#ASilva">y</unclear>er</orig>
+                           <reg>friar</reg>
+                        </choice> t<gap reason="illegible" agent="fold"/><supplied cert="high"
+                           evidence="external" reason="fold" resp="#ASilva">h</supplied>en that <choice>
+                           <orig>traytrous</orig>
+                           <reg>traitorous</reg>
+                        </choice> knave, with <seg rend="roman">Ough Ough hone</seg>
+                        <!-- https://bit.ly/2Ii5unM --> lament:</l>
+                     <!--ASilva: check Small/Scott for annotation on language?/transl -->
+                     <l n="12">To see h<gap reason="illegible" agent="fold"/><supplied cert="high"
+                           evidence="external" reason="fold" resp="#ASilva">i</supplied>s <choice>
+                           <orig>c<gap reason="illegible" agent="fold"/><supplied cert="high"
+                                 evidence="external" reason="fold" resp="#ASilva"
+                              >oo</supplied>sin</orig>
+                           <reg>cousin</reg>
+                        </choice>
+                        <choice>
+                           <orig>Devills</orig>
+                           <reg>Devil's</reg>
+                        </choice>
+                        <choice>
+                           <orig>sonnes</orig>
+                           <reg>sons</reg>
+                        </choice>, to have so <choice>
+                           <orig>fowle</orig>
+                           <reg>foul</reg>
+                        </choice> event.</l>
+                  </lg>
+                  <span from="#PL4F4_capD_text"/>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

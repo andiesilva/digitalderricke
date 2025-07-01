@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile n="07" xml:id="PL7F7">
+        <surface>
+            <graphic url="../images/Derricke_EUL_first_edition/EUL_plate07.tif"/>
+            <zone xml:id="PL7F7_column1" ulx="129" uly="1102" lrx="860" lry="1280"/>
+            <zone xml:id="PL7F7_column2" ulx="1026" uly="1096" lrx="1771" lry="1277"/>
+            <zone xml:id="PL7F7_woodcut" ulx="14" uly="16" lrx="1867" lry="1094"/>
+            <zone xml:id="PL7F7_descriptiveText" ulx="74" uly="1093" lrx="1795" lry="1280"/>
+            <zone xml:id="PL7F7_plateMark" ulx="896" uly="1105" lrx="930" lry="1143"/>
+            <zone xml:id="PL7F7_marginNote" ulx="901" uly="1039" lrx="948" lry="1072"/>
+            <zone xml:id="PL7F7_caption" ulx="858" uly="907" lrx="1050" lry="954"/>
+            <zone xml:id="PL7F7_speech" ulx="1012" uly="503" lrx="1067" lry="524"/>
+            <zone xml:id="PL7F7_metamark_A" ulx="82" uly="1181" lrx="123" lry="1217"/>         
+            <zone xml:id="PL7F7_caption_A" ulx="156" uly="1162" lrx="863" lry="1279"/>
+            <zone xml:id="PL7F7_metamark_B" ulx="81" uly="1104" lrx="123" lry="1139"/>
+            <zone xml:id="PL7F7_caption_B" ulx="131" uly="1104" lrx="735" lry="1168"/>
+            <zone xml:id="PL7F7_metamark_c" ulx="993" uly="1101" lrx="1030" lry="1135"/>
+            <zone xml:id="PL7F7_caption_C" ulx="1031" uly="1099" lrx="1771" lry="1279"/>      
+            <zone xml:id="PL7F7_woodcut_A" ulx="434" uly="1030" lrx="497" lry="1070"/>
+            <zone xml:id="PL7F7_woodcutZone_A" ulx="22" uly="381" lrx="763" lry="1089"/><!-- Is this right? -->
+            <zone xml:id="PL7F7_woodcut_B" ulx="1161" uly="855" lrx="1183" lry="883"/>
+            <zone xml:id="PL7F7_woodcutZone_B" ulx="833" uly="242" lrx="1400" lry="931"/><!-- Is this right? -->
+            <zone xml:id="PL7F7_woodcut_C" ulx="1730" uly="897" lrx="1767" lry="931"/>
+            <zone xml:id="PL7F7_woodcutZone_C" ulx="1418" uly="290" lrx="1842" lry="1069"/><!-- Is this right? -->
+        </surface>    
+    </facsimile>
+    <text n="07" corresp="#PL7F7" xml:lang="emodeng">
+        <body>
+            <div n="07" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate07.jpg">
+                <div type="woodcut" corresp="#PL7F7_woodcut">
+                    <figure>
+                        <graphic url="../images/Derricke_EUL_first_edition/EUL_plate07.tif"/>
+                        <figDesc corresp="./plateNotes.xml#PL7F7_plateDesc"/><!-- is this right? -->
+                        <floatingText xml:id="PL7F7_marginNote_text">
+                            <body>
+                                <!-- Does an <anchor> go here? -->
+                                <l n="1"><hi rend="roman">ID</hi></l>
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                        <floatingText xml:id="PL7F7_caption_text">
+                            <body>
+                                <!-- Does an <anchor> go here? -->
+                                <l n="1"><hi rend="roman"><persName corresp="#DOBrien">Donald O’Brien</persName><!-- Is this right? --> the messenger</hi></l>
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                        <floatingText xml:id="PL7F7_speech_text">
+                            <body>
+                                <!-- Does an <anchor> go here? -->
+                                <l n="1"><hi rend="roman">shogh</hi><!-- mods --></l>
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                    </figure>
+                </div>
+                <div rend="blackplate" type="descriptiveText" corresp="#PL7F7_descriptiveText">
+                    <div type="column" n="1" corresp="#PL7F7_column1">
+                        <cb n="1"/>
+                        <anchor type="caption" corresp="#PL7F7_caption_B" xml:id="PL7F7_capB_text"
+                            sameAs="#PL7F7_woodcutZone_A"/>
+                        <metamark place="margin" function="imageCaptionLink" corresp="#PL7F7_metamark_B"
+                            rend="allcaps">B</metamark>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="1">Which is for to prove in every point, (to his eternal fame)</l>
+                            <l n="2">He standeth forth in open field, for trial of the same,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="3">Round compased with a worthy crew, most comely to be seen,</l>
+                            <span from="#PL7F7_capB_text"/>
+                            <anchor type="caption" corresp="#PL7F7_caption_A" xml:id="PL7F7_capA_text"
+                                sameAs="#PL7F7_woodcutZone_A"/>
+                            <metamark place="margin" function="imageCaptionLink" corresp="#PL7F7_metamark_A"
+                                rend="allcaps">A</metamark>
+                            <l n="4">Of Captain’s bold, for to uphold the honour of that <rs corresp="#QElizabeth">Queen</rs>.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="5">And they be guarded with the like, or valiant Soldiers then:</l>
+                            <l n="6">Whereof the meanest have been found, full often doughty men.</l>
+                        </lg> 
+                        <span from="#PL7F7_capA_text"/>
+                    </div>
+                    <div type="middleMargin">
+                        <metamark place="middleMargin" function="plateID" corresp="#PL7F7_plateMark" rend="allcaps">7</metamark>
+                        <note type="clarification">Number “7” next to the column identifies this as plate 7.</note>
+                    </div>
+                    <div type="column" n="2" corresp="#PL7F7_column2">
+                        <cb n="2"/>
+                        <anchor type="caption" corresp="#PL7F7_caption_C" xml:id="PL7F7_capC_text"
+                            sameAs="#PL7F7_woodcutZone_C"/>
+                        <metamark place="margin" function="imageCaptionLink" corresp="#PL7F7_metamark_C"
+                            >C</metamark>
+                        <lg type="couplet" rhyme="ADD">
+                            <l n="7">All which are in readynes,<!-- mods --> to venture life and blood:</l>
+                            <l n="8">For safeguard of her happy state, whereon our safeties stood,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="9">But ere they enter ’mongest those broils, <persName corresp="#HSidney">Sir Henry</persName> both prefer:</l>
+                            <l n="10">(If happy to get) a blessed peace, before most cruel war,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="11">Which if they will not take in worth, (thy folly is their own)</l>
+                            <l n="12">For then he goeth with fire and sword, to make her power known.</l>
+                        </lg>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

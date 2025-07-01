@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile n="6" xml:id="PL6F6">
+      <surface lry="2239" lrx="3121" uly="67" ulx="21">
+         <graphic url="../images/Derricke_EUL_first_edition/EUL_plate06.tif"/>
+         <zone xml:id="PL6F6_column1" lry="2215" lrx="1318" uly="1928" ulx="138"/>
+         <zone xml:id="PL6F6_column2" lry="2211" lrx="2660" uly="1933" ulx="1633"/>
+         <zone xml:id="PL6F6_plateMark" lry="1974" lrx="1453" uly="1937" ulx="1424"/>
+         <zone xml:id="PL6F6_descriptiveText" lry="2213" lrx="2660" uly="1929" ulx="140"/>
+         <zone xml:id="PL6F6_marginCouplet" lry="169" lrx="1402" uly="69" ulx="308"/>
+         <zone xml:id="PL6F6_marginZone" lry="425" lrx="920" uly="187" ulx="424"/>
+         <zone xml:id="PL6F6_woodcutInitials" lry="1816" lrx="1275" uly="1773" ulx="1189"/>
+         <zone xml:id="PL6F6_sidneyZone" corresp="./personography.xml#HSidney"
+            points="1294,607 1808,969 1553,1653 1278,1648 975,1096"/>
+         <zone xml:id="PL6F6_woodcut" lry="1886" lrx="2996" uly="185" ulx="46"/>
+      </surface>
+   </facsimile>
+   <text>
+      <body>
+         <div n="6" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate06.jpg">
+            <div type="woodcut" corresp="#PL6F6_woodcut">
+               <figure>
+                  <graphic url="../images/Derricke_EUL_first_edition/EUL_plate06.tif"/>
+                  <figDesc corresp="./plateNotes.xml#PL6F6_plateDesc"/>
+                  <floatingText xml:id="PL6F6_marginCouplet_text"
+                     rendition="./plateNotes.xml#PL6F6_marginNote">
+                     <body>
+                        <anchor type="caption" corresp="#PL6F6_marginCouplet"
+                           xml:id="PL6F6_margin_text" sameAs="#PL6F6_marginZone"/>
+                        <lg type="couplet" rhyme="GG">
+                           <l n="1">These <choice>
+                                 <orig>trunckles</orig>
+                                 <reg>trunckless</reg>
+                              </choice>
+                              <choice>
+                                 <orig>headdes</orig>
+                                 <reg>heads</reg>
+                              </choice> do <choice>
+                                 <orig>playnly</orig>
+                                 <reg>plainly</reg>
+                              </choice>
+                              <choice>
+                                 <orig>showe</orig>
+                                 <reg>show</reg>
+                              </choice>, <choice>
+                                 <orig>eache</orig>
+                                 <reg>each</reg>
+                              </choice>
+                              <choice>
+                                 <orig>rebeles</orig>
+                                 <reg>rebel's</reg>
+                              </choice>
+                              <choice>
+                                 <orig>fatall</orig>
+                                 <reg>fatal</reg>
+                              </choice> end,</l>
+                           <l n="2">And what a <choice>
+                                 <orig>haynous</orig>
+                                 <reg>heinous</reg>
+                              </choice> crime it is, the <choice>
+                                 <orig><rs corresp="./personography.xml#QElizabeth">Queene</rs></orig>
+                                 <reg>Queen</reg>
+                              </choice> for to offend.</l>
+                        </lg>
+                        <span from="#PL6F6_margin_text"/>
+                     </body>
+                  </floatingText>
+               </figure>
+            </div>
+            <div rend="blackplate" type="descriptiveText" corresp="#PL6F6_descriptiveText">
+               <div type="column" n="1" corresp="#PL6F6_column1">
+                  <cb n="1"/>
+                  <lg type="couplet" rhyme="AA">
+                     <l n="1">Although the <choice>
+                           <orig>theeves</orig>
+                           <reg>thieves</reg>
+                     </choice> are plagued thus, by <rs corresp="./personography.xml#HSidney"><choice>
+                              <orig>Princes</orig>
+                              <reg>prince's</reg>
+                           </choice></rs> trusty <choice>
+                           <orig>frends</orig>
+                           <reg>friends</reg>
+                        </choice>,</l>
+                     <l n="2">And brought for their <choice>
+                           <orig>innormyties</orig>
+                           <reg>enormities</reg>
+                        </choice>, to <choice>
+                           <orig>sondrie</orig>
+                           <reg>sundry</reg>
+                        </choice> wretched <choice>
+                           <orig>endes</orig>
+                           <reg>ends</reg>
+                        </choice>:</l>
+                  </lg>
+                  <lg type="couplet" rhyme="BB">
+                     <l n="3">Yet may not that a warning be, to those they leave <choice>
+                           <orig>behinde</orig>
+                           <reg>behind</reg>
+                        </choice>,</l>
+                     <l n="4">But <choice>
+                           <orig>needes</orig>
+                           <reg>needs</reg>
+                        </choice> their treasons must <choice>
+                           <orig>appeare</orig>
+                           <reg>appear</reg>
+                        </choice>, long kept in <choice>
+                           <orig>festred</orig>
+                           <reg>festered</reg>
+                        </choice>
+                        <choice>
+                           <orig>mynde</orig>
+                           <reg>mind</reg>
+                        </choice>.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="CC">
+                     <l n="5">Whereby the matter <choice>
+                           <orig>groweth</orig>
+                           <reg>growths</reg>
+                        </choice> at length, unto a <choice>
+                           <orig>bloudy</orig>
+                           <reg>bloody</reg>
+                        </choice>
+                        <choice>
+                           <orig>fielde</orig>
+                           <reg>field</reg>
+                        </choice>,</l>
+                     <l n="6">Even to the <choice>
+                           <orig>rebells</orig>
+                           <reg>rebels'</reg>
+                           <!-- Is this really a possessive? -->
+                        </choice> overthrow, except the <choice>
+                           <orig>traytours</orig>
+                           <reg>traitors</reg>
+                        </choice>
+                        <choice>
+                           <orig>yelde</orig>
+                           <reg>yield</reg>
+                        </choice>.</l>
+                  </lg>
+               </div>
+               <div type="middleMargin">
+                  <metamark place="middleMargin" function="plateID" corresp="#PL6F6_plateMark"
+                     rend="allcaps">6</metamark>
+                  <note type="clarification">Number "6" next to the column identifies this as plate
+                     6</note>
+               </div>
+               <div type="column" n="2" corresp="#PL6F6_column2">
+                  <cb n="2"/>
+                  <lg type="couplet" rhyme="DD">
+                     <l n="7">for <rs corresp="./personography.xml#HSidney">he that <choice>
+                              <orig>go<gap reason="illegible" agent="fold"/><supplied cert="high"
+                                    evidence="external" reason="fold" resp="#ASilva"
+                                 >ver</supplied>nes</orig>
+                              <reg>governs</reg>
+                           </choice> Irish <choice>
+                              <orig>soyle</orig>
+                              <reg>soil</reg>
+                           </choice></rs>, presenting there her grace,</l>
+                     <l n="8">Whose fame <unclear reason="fold" unit="chars" quantity="1"
+                           cert="high" resp="#ASilva">m</unclear>a<unclear reason="fold"
+                           unit="chars" quantity="1" cert="high" resp="#ASilva">d</unclear>e <choice>
+                           <orig>rebelles</orig>
+                           <reg>rebels</reg>
+                        </choice> often <choice>
+                           <orig>flye</orig>
+                           <reg>fly</reg>
+                        </choice>, the presence of his face:</l>
+                  </lg>
+                  <lg type="couplet" rhyme="EE">
+                     <l n="9">He he I say, he <choice>
+                           <orig><unclear reason="fold" unit="chars" quantity="1" cert="high"
+                                 resp="#ASilva">g</unclear><gap reason="illegible" agent="fold"
+                                 /><supplied cert="high" evidence="external" reason="fold"
+                                 resp="#ASilva">o</supplied>eth</orig>
+                           <reg>goes</reg>
+                        </choice>
+                        <unclear reason="fold" unit="chars" quantity="1" cert="high" resp="#ASilva"
+                           >f</unclear>orth, with <seg rend="roman"><choice>
+                              <orig>Marsis</orig>
+                              <reg>Mars'</reg>
+                           </choice></seg> noble <choice>
+                           <orig>trayne</orig>
+                           <reg>train</reg>
+                        </choice>,</l>
+                     <l n="10">To <choice>
+                           <orig>justifie</orig>
+                           <reg>justify</reg>
+                        </choice> his <choice>
+                           <orig><unclear reason="fold" unit="chars" quantity="1" cert="high"
+                                 resp="#ASilva">P</unclear><gap reason="illegible" agent="fold"
+                                 /><supplied cert="high" evidence="external" reason="fold"
+                                 resp="#ASilva">r</supplied>inc<unclear reason="fold" unit="chars"
+                                 quantity="1" cert="high" resp="#ASilva">e</unclear>s</orig>
+                           <reg><rs corresp="./personography.xml#HSidney">Prince</rs>'s</reg>
+                        </choice>
+                        cause, but their <choice>
+                           <orig>demenures</orig>
+                           <reg>demeanor's</reg>
+                        </choice>
+                        <choice>
+                           <orig>vayne</orig>
+                           <reg>vain</reg>
+                        </choice>:</l>
+                  </lg>
+                  <lg type="couplet" rhyme="FF">
+                     <l n="11">Thus <rs corresp="./personography.xml#QElizabeth"><choice>
+                              <orig>Queen<gap reason="illegible" agent="fold"/><supplied cert="high"
+                                    evidence="external" reason="fold" resp="#ASilva"
+                                 >e</supplied></orig>
+                              <reg>Queen</reg>
+                           </choice></rs> h<unclear reason="fold" unit="chars" quantity="1"
+                           cert="high" resp="#ASilva">e</unclear> will have honored, in <choice>
+                           <orig>middest</orig>
+                           <reg>midst</reg>
+                        </choice> of all her foes,</l>
+                     <l n="12">And <choice>
+                           <orig>knowne</orig>
+                           <reg>known</reg>
+                        </choice>
+                        <gap reason="illegible" agent="fold"/><supplied cert="high"
+                           evidence="external" reason="fold" resp="#ASilva">t</supplied><unclear
+                           reason="fold" unit="chars" quantity="1" cert="high" resp="#ASilva"
+                           >o</unclear> be a <choice>
+                           <orig><unclear reason="fold" unit="chars" quantity="2" cert="high"
+                                 resp="#ASilva">ro</unclear>yall</orig>
+                           <reg>royal</reg>
+                        </choice>
+                        <rs corresp="./personography.xml#HSidney">Prince</rs>, even in <choice>
+                           <orig>despight</orig>
+                           <reg>despite</reg>
+                        </choice> of those.</l>
+                  </lg>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

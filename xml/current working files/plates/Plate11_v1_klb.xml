@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile n="11" xml:id="PL11F11">
+        <surface>
+            <graphic url="../images/Derricke_EUL_first_edition/EUL_plate11.tif"/>
+            <zone xml:id="PL11F11_column1" ulx="57" uly="1102" lrx="574" lry="1253" />
+            <zone xml:id="PL11F11_column2" ulx="669" uly="1105" lrx="1205" lry="1252" />
+            <zone xml:id="PL11F11_column3" ulx="1246" uly="1106" lrx="1760" lry="1233" />
+            <zone xml:id="PL11F11_plateMark" ulx="599" uly="1114" lrx="637" lry="1148" />
+            <zone xml:id="PL11F11_woodcut" ulx="19" uly="36" lrx="1878" lry="1099" />
+            <zone xml:id="PL11F11_descriptiveText" ulx="52" uly="1097" lrx="1773" lry="1251" />
+            <zone xml:id="PL11F11_vulgarZone" ulx="605" uly="184" lrx="1098" lry="644" />
+            <zone xml:id="PL11F11_vulgarSpeech_L1" points="623,456 611,479 689,626 708,612"/>
+            <zone xml:id="PL11F11_vulgarSpeech_L2" points="975,341 990,355 1011,342 1011,314 1045,298 1084,256 1098,220 1077,192 1053,211 1053,240 1022,260 991,290 975,310"/>
+        </surface>
+    </facsimile>
+    <text n="11" corresp="#PL11F11" xml:lang="emodeng">
+        <body>
+            <div n="11" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate11.jpg">
+                <div type="woodcut" corresp="#PL11F11_woodcut">
+                    <figure>
+                        <graphic url="../images/Derricke_EUL_first_edition/EUL_plate11.tif"/>
+                        <figDesc corresp="./plateNotes.xml#PL11F11_plateDesc"/><!-- is this right? -->
+                        <floatingText xml:id="PL11F11_vulgarSpeech" sameAs="#PL3F3_vulgarZone">
+                            <body><!-- Does an <anchor> go here? -->
+                                <l n="1" corresp="#PL11F11_vulgarSpeech_L1"><foreign xml:lang="la"><hi rend="roman">VE Mihi Misero</hi></foreign><note type="translation">Woe to me.</note></l>
+                                <l n="2" corresp="#PL11F11_vulgarSpeech_L2"><foreign xml:lang="la"><hi rend="roman">VE Atque dolor</hi></foreign><note type="translation">Woe and pain.</note></l>
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                    </figure>
+                </div>
+                <div rend="blackplate" type="descriptiveText" corresp="#PL11F11_descriptiveText">
+                    <div type="column" n="1" corresp="#PL11F11_column1">
+                        <cb n="1"/>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="1">This rebell stoute, in traytrous sorte, that rose agaynst his <rs corresp="#QElizabeth">Prince</rs>,</l>
+                            <l n="2">And sought by bloudy broyles of warre, her scepter to conuince:</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="3">So long as fortune did support, his deuilish enterprice.</l>
+                            <l n="4">So long ambition blinded quight his <hi rend="roman">Karnysh</hi> knauish eyes.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="5">And moude him proudly to usurpe the title not his owne,</l>
+                            <l n="6">As one that might enjoy the fruite, which other men had sowne.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="7">But when his mistres did reuoke her former good successe,</l>  
+                        </lg>
+                    </div>
+                    <div type="middleMargin">
+                        <metamark place="middleMargin" function="plateID" corresp="#PL12F12_plateMark" rend="allcaps">11</metamark>
+                        <note type="clarification">Number “11” next to the column identifies this as plate 11.</note>
+                    </div>
+                    <div type="column" n="2" corresp="#PL11F11_column2">
+                        <cb n="2"/>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme --><!-- Need to connect this <lg> to the previous one, maybe @next and @prev? -->
+                            <l n="8">And left the roge in greeuous bandes of sore and deepe distresse:</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="9">He then bewaylde his former lyfe, and pagentes playde in vayne,</l>
+                            <l n="10">Repentyng that <rs corresp="#QElizabeth">her highnes</rs> lawes he held in such disdayne:</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="11">But all to late his folly sought, his grief for to recure,</l>
+                            <l n="12">When that agaynst his will, he must her heauy stroke endure;</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="13">For though at first he founde successe, (the sweet, once past, came sowre)</l>
+                            <l n="14">And overthrew his glorious state, in minute of an houre:</l>
+                        </lg>
+                    </div>
+                    <div type="column" n="3" corresp="#PL11F11_column3">
+                        <cb n="3"/>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="15">So as his raigne endured not long, but tombled in the myre,</l>
+                            <l n="16">Because he sinde in that he moude, our <rs corresp="#QElizabeth">noble Queene</rs> to ire.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="17">O lamentable thyng to see, ambition clyme so high,</l>
+                            <l n="18">When superstitious pride shall fall, in twynckling of an eye:</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="19">For such is euery rebeles state, and euermore hath bene,</l>
+                            <l n="20">And let them neuer better speede, that ryse agaynst our <rs corresp="#QElizabeth">Queene</rs>.</l>
+                        </lg>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

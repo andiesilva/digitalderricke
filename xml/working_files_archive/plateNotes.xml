@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="plateDescriptions">
+            <list>
+               <!-- Use this list to fully describe all the plate images. The ID's are linked with <figure> in each plate -->
+               <!-- This essentially just shortens each plate file by referencing this list instead of having it all in each plate's .xml file -->
+               <!-- You could always just cut/paste these notes into the <figDesc> of each plate's <figure> as <figDesc>s, but I'd leave it here -->
+               <item xml:id="PL1F1_plateDesc">
+                  <note type="EUL_caption">A soldier holding a battle-axe hands a spear to an Irish
+                     chieftain in full dress, with a page holding the chieftain's horse</note>
+                  <note type="secondarySource">"This plate gives a vivid picture of the Woodkarne
+                     and their costume" Small, 1883. "An Irish chieftain is represented in full
+                     dress, beside him is a man with a battle-axe in his hand, and a boy holding the
+                     horse of the chief" Small, 1883. It contains a title page on the left-hand side
+                     marking "A notable discovery most lively describing the state and condition of
+                     the Wilde men in Ireland, properly called Woodkarne." Names Day's print house
+                     at the bottom of the title description.</note>
+               </item>
+               <item xml:id="PL2F2_plateDesc">
+                  <note type="EUL_caption">An armed company of the kerne, carrying halberds and
+                     pikes and led by a piper, attack and burn a farmhouse and drive off the horses
+                     and cattle</note>
+               </item>
+               <item xml:id="PL3F3_plateDesc">
+                  <note type="EUL_caption">The most famous plate of the set shows the chief of the
+                     Mac Sweynes seated at dinner and being entertained by a bard and a
+                     harper</note>
+                  <note xml:id="PL3F3_vulgarNote">WRITE something about the _rendition/@rend_ of the
+                     couplet (see Plate3 floatingText). Discussion of the content/image should be in
+                     other notes. This is just for talking about how the text is turned 90deg and
+                     how they are speech bubble equivalents.</note>
+               </item>
+               <item xml:id="PL4F4_plateDesc">
+                  <note type="EUL_caption">The Irish chieftain receives the priest's blessing before
+                     departing to fight the English, who are shown in full armour</note>
+               </item>
+               <item xml:id="PL5F5_plateDesc">
+                  <note type="EUL_caption">The English soldiers return in triumph, carrying severed
+                     Irish heads and leading a captive by a halter</note>
+               </item>
+               <item xml:id="PL6F6_EuULdesc">
+                  <note type="EUL_caption">Sir Henry Sidney, Lord-Deputy, accompanied by an armed
+                     force, sets out from Dublin Castle for a progress through Ireland</note>
+                  <note xml:id="PL6F6_marginNote">WRITE something about the _rendition/@rend_ of the
+                     couplet (see Plate6 floatingText).</note>
+               </item>
+               <item xml:id="PL7F7_plateDesc">
+                  <note type="EUL_caption">The English army is drawn up for battle, while Sidney
+                     himself parleys with a defiant messenger from the Irish</note>
+               </item>
+               <item xml:id="PL8F8_plateDesc">
+                  <note type="EUL_caption">Sidney and the English army on the march with standards
+                     and trumpets</note>
+               </item>
+               <item xml:id="PL9F9_plateDesc">
+                  <note type="EUL_caption">The English army puts the Irish army to flight. The piper
+                     is cut down with his pipes beside him</note>
+               </item>
+               <item xml:id="PL10F10_plateDesc">
+                  <note type="EUL_caption">Sir Henry Sidney returns in triumph to Dublin Castle and
+                     is received by the Lord Mayor and Aldermen</note>
+               </item>
+               <item xml:id="PL11F11_plateDesc">
+                  <note type="EUL_caption">Rorie Oge, a wild kerne and a defeated rebel, in the
+                     forest with wolves for company</note>
+               </item>
+               <item xml:id="PL12F12_plateDesc">
+                  <note type="EUL_caption">Turlough Lynagh O'Neale and the other kerne kneel to
+                     Sidney in submission. In the background Sidney seems to be embracing O'Neale as
+                     a noble friend.</note>
+               </item>
+            </list>
+         </div>
+      </body>
+   </text>
+</TEI>

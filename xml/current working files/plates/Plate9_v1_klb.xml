@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Title</title>
+            </titleStmt>
+            <publicationStmt>
+                <p>Publication Information</p>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Information about the source</p>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <facsimile n="09" xml:id="PL9F9">
+        <surface>
+            <graphic url="../images/Derricke_EUL_first_edition/EUL_plate09.tif"/>
+            <zone xml:id="PL9F9_column1" ulx="92" uly="1108" lrx="889" lry="1288"/>
+            <zone xml:id="PL9F9_column2" ulx="1029" uly="1110" lrx="1810" lry="1282"/>
+            <zone xml:id="PL9F9_woodcut" ulx="12" uly="41" lrx="1885" lry="1094"/>
+            <zone xml:id="PL9F9_descriptiveText" ulx="90" uly="1108" lrx="1810" lry="1286"/>
+            <zone xml:id="PL9F9_plateMark" ulx="907" uly="1117" lrx="936" lry="1148"/>          
+            <zone xml:id="PL9F9_marginNote1" ulx="937" uly="486" lrx="987" lry="514"/>
+            <zone xml:id="PL9F9_marginNote2" ulx="39" uly="1031" lrx="96" lry="1069"/>
+            <zone xml:id="PL9F9_piper" ulx="839" uly="426" lrx="1015" lry="518"/>                  
+        </surface>    
+    </facsimile>
+    <text n="09" corresp="#PL9F9" xml:lang="emodeng">
+        <body>
+            <div n="09" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate09.jpg">
+                <div type="woodcut" corresp="#PL9F9_woodcut">
+                    <figure>
+                        <graphic url="../images/Derricke_EUL_first_edition/EUL_plate09.tif"/>
+                        <figDesc corresp="./plateNotes.xml#PL9F9_plateDesc"/><!-- is this right? -->
+                        <floatingText xml:id="PL9F9_marginNote1_text">
+                            <body>
+                                <!-- Does an <anchor> go here? -->
+                                <l n="1"><hi rend="roman">pyper</hi></l>
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                        <floatingText xml:id="PL9F9_marginNote2_text">
+                            <body>
+                                <!-- Does an <anchor> go here? -->
+                                <l n="1"><hi rend="roman">FD</hi></l>
+                                <!-- Does a <span> go here? -->
+                            </body>
+                        </floatingText>
+                    </figure>
+                </div>
+                <div rend="blackplate" type="descriptiveText" corresp="#PL9F9_descriptiveText">
+                    <div type="column" n="1" corresp="#PL9F9_column1">
+                        <cb n="1"/>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="1">For if his valure once be moude, reuenge on them to take,</l>
+                            <l n="2">Which doe our <rs corresp="#QElizabeth">soueraigne Prince</rs>s lawes, like beastly beastes forsake:</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="3">Tys not the cruell stormy rage, not gathered force of those</l>
+                            <l n="4">Not yet the crooked crabbtree lookes, of greasye glibbed foes,</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="5">Can make him reuoke the thing, his honor hath pretended</l>
+                            <l n="6">But that Dame Iustice must proceede, ‘gaynst those that haue offended.</l>
+                        </lg> 
+                        <span from="#PL9F9_capA_text"/>
+                    </div>
+                    <div type="middleMargin">
+                        <metamark place="middleMargin" function="plateID" corresp="#PL9F9_plateMark" rend="allcaps">9</metamark>
+                        <note type="clarification">Number “9” next to the column identifies this as plate 9.</note>
+                    </div>
+                    <div type="column" n="2" corresp="#PL9F9_column2">
+                        <cb n="2"/>
+                        <lg type="couplet" rhyme="ADD">
+                            <l n="7">For <hi rend="roman">Mars</hi> <supplied reason="tear" extent="1 letter" resp="#KLeBere">w</supplied>ill se<supplied reason="fold" extent="1 letter" resp="#KLeBere">e</supplied> the finall end, of trayt’rous waged warres,</l>
+                            <l n="8">To plucke t<supplied reason="tear" extent="1 letter" resp="#KLeBere">h</supplied>e ha<supplied reason="fold" extent="1 letter" resp="#KLeBere">r</supplied>tes of Rebells downe, that lately pearst the starres.</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="9">To yelde th<supplied reason="tear" extent="1 letter" resp="#KLeBere">e</supplied>m gu<supplied reason="fold" extent="1 letter" resp="#KLeBere">e</supplied>rdon for desertes, by rigour of his blade,</l>
+                            <l n="10">And with t<supplied reason="tear" extent="1 letter" resp="#KLeBere">h</supplied>e sam<supplied reason="fold" extent="1 letter" resp="#KLeBere">e</supplied> to gall their hartes, which such uprores haue made</l>
+                        </lg>
+                        <lg type="couplet" rhyme="ADD"><!-- Add rhyme scheme -->
+                            <l n="11">Loe where it is in <supplied reason="fold" extent="1 letter" resp="#KLeBere">o</supplied>pen sight, most perfect to be seene</l>
+                            <l n="12">Which she<supplied reason="tear" extent="1 letter" resp="#KLeBere">w</supplied>eth th<supplied reason="fold" extent="1 letter" resp="#KLeBere">e</supplied> <supplied reason="fold" extent="1 letter" resp="#KLeBere">f</supplied>atall end aright, of rebells to our <rs corresp="#QElizabeth">Queene</rs>.</l>
+                        </lg>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

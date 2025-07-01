@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://dcl.slis.indiana.edu/cbml/schema/cbml.rng" type="application/xml" schematypens="http://www.cbml.org/ns/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <facsimile n="3" xml:id="PL3F3">
+      <surface lry="2030" lrx="3076" uly="72" ulx="11">
+         <graphic url="../images/Derricke_EUL_first_edition/EUL_plate03.tif"/>
+         <zone xml:id="PL3F3_metamark_A" lry="1874" lrx="230" uly="1834" ulx="189"/>
+         <zone xml:id="PL3F3_caption_A" lry="2013" lrx="1429" uly="1828" ulx="187"/>
+         <zone xml:id="PL3F3_metamark_C" lry="2053" lrx="241" uly="2015" ulx="202"/>
+         <zone xml:id="PL3F3_caption_C" lry="2060" lrx="1287" uly="2014" ulx="201"/>
+         <zone xml:id="PL3F3_metamark_B" lry="2098" lrx="242" uly="2061" ulx="209"/>
+         <zone xml:id="PL3F3_caption_B-I" lry="2106" lrx="1370" uly="2058" ulx="201"/>
+         <zone xml:id="PL3F3_caption_B-F" lry="2009" lrx="2802" uly="1821" ulx="1767"/>
+         <zone xml:id="PL3F3_metamark_D" lry="2044" lrx="1701" uly="2008" ulx="1664"/>
+         <zone xml:id="PL3F3_caption_D" lry="2106" lrx="2813" uly="2009" ulx="1664"/>
+         <zone xml:id="PL3F3_column1" lry="2106" lrx="1430" uly="1828" ulx="186"/>
+         <zone xml:id="PL3F3_column2" lry="2106" lrx="2812" uly="1819" ulx="1664"/>
+         <zone xml:id="PL3F3_plateMark" lry="1875" lrx="1586" uly="1835" ulx="1565"/>
+         <zone xml:id="PL3F3_descriptiveText" lry="2106" lrx="2813" uly="1828" ulx="186"/>
+         <zone xml:id="PL3F3_woodcut_A" lry="202" lrx="449" uly="151" ulx="389"/>
+         <zone xml:id="PL3F3_woodcutZone_A" lry="990" lrx="832" uly="115" ulx="43"/>
+         <zone xml:id="PL3F3_woodcut_B" lry="215" lrx="1381" uly="165" ulx="1331"/>
+         <zone xml:id="PL3F3_smelfeastPresse"
+            points="1120,143 1365,250 1315,606 1130,549 927,657 917,201" corresp="./personography.xml#FSmelfeast"/>
+         <zone xml:id="PL3F3_smelfeastTable"
+            points="1737,157 1872,243 2001,450 1704,647 1602,486 1595,278" corresp="./personography.xml#FSmelfeast"/>
+         <zone xml:id="PL3F3_irishLordAtTable" corresp="./personography.xml#irishLord"
+            points="1431,272 1595,355 1865,727 1651,841 1349,881 1356,372"/>
+         <zone xml:id="PL3F3_woodcutZone_B"
+            points="2365,79 2375,368 1786,929 1813,1779 1184,1786 1015,1086 836,986 838,109"/>
+         <zone xml:id="PL3F3_woodcut_C" lry="1705" lrx="329" uly="1654" ulx="287"/>
+         <zone xml:id="PL3F3_woodcutZone_C" points="572,891 1024,1091 1178,1791 51,1791 48,970"/>
+         <zone xml:id="PL3F3_woodcut_D" lry="1624" lrx="1946" uly="1579" ulx="1896"/>
+         <zone xml:id="PL3F3_woodcutZone_D"
+            points="2504,663 2640,1227 2754,1779 1818,1775 1686,872 2018,625"/>
+         <zone xml:id="PL3F3_vulgarCouplet_L1" lry="1029" lrx="2922" uly="548" ulx="2869"/>
+         <zone xml:id="PL3F3_vulgarCouplet_L2" lry="1754" lrx="2931" uly="1222" ulx="2871"/>
+         <zone xml:id="PL3F3_vulgarZone" points="2793,336 2965,384 2970,1786 2754,1784 2438,654"/>
+         <zone xml:id="PL3F3_woodcut" lry="1795" lrx="2975" uly="86" ulx="52"/>
+      </surface>
+   </facsimile>
+   <text n="3" corresp="#PL3F3" xml:lang="emodeng">
+      <body>
+         <div n="3" type="plate" facs="../images/Derricke_EUL_first_edition/EUL_plate03.jpg">
+            <div type="woodcut" corresp="#PL3F3_woodcut">
+               <figure>
+                  <graphic url="../images/Derricke_EUL_first_edition/EUL_plate03.tif"/>
+                  <figDesc corresp="./plateNotes.xml#PL3F3_plateDesc"/>
+                  <floatingText xml:id="PL3F3_vulgarCouplet" rend="turned-ninty-degrees"
+                     rendition="./plateNotes.xml#PL3F3_vulgarNote">
+                     <!-- I would argue that these lines actually deserve a <cbml:balloon>, perhaps wrapping each <l> -->
+                     <!-- (it's still a rhymed couplet). trying to make that work.... -->
+                     <body>
+                        <anchor type="caption" corresp="#PL3F3_vulgarCouplet"
+                           xml:id="PL3F3_vulgar_text" sameAs="#PL3F3_vulgarZone"/>
+                        <lg type="couplet" rhyme="GG">
+                           <l n="1" corresp="#PL3F3_vulgarCouplet_L1"><choice>
+                                 <orig><foreign xml:lang="la">Aspice spectator sic me docuere
+                                       parentes</foreign></orig>
+                                 <reg>This is how my parents taught me to behave as a
+                                    spectator</reg>
+                              </choice></l>
+                           <l n="2" corresp="#PL3F3_vulgarCouplet_L2"><choice>
+                                 <orig><foreign xml:lang="la">Me quoque maiores omnes virtute
+                                       carentes</foreign></orig>
+                                 <reg>All older people lacking in goodness taught me the same</reg>
+                              </choice>.</l>
+                        </lg>
+                        <span from="#PL3F3_vulgar_text"/>
+                     </body>
+                  </floatingText>
+               </figure>
+            </div>
+            <div rend="blackplate" type="descriptiveText" corresp="#PL3F3_descriptiveText">
+               <div type="column" n="1" corresp="#PL3F3_column1">
+                  <cb n="1"/>
+                  <anchor type="caption" corresp="#PL3F3_caption_A" xml:id="PL3F3_capA_text"
+                     sameAs="#PL3F3_woodcutZone_A"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL3F3_metamarkA"
+                     rend="allcaps">A</metamark>
+                  <lg type="couplet" rhyme="AA">
+                     <l n="1">Now when into their fenced <choice>
+                           <orig>holdes</orig>
+                           <reg>holds</reg>
+                        </choice>, the knaves are <choice>
+                           <orig>entred</orig>
+                           <reg>entered</reg>
+                        </choice> in</l>
+                     <l n="2">To smite and <choice>
+                           <orig>knocke</orig>
+                           <reg>knock</reg>
+                        </choice> the <choice>
+                           <orig>cattell</orig>
+                           <reg>cattle</reg>
+                        </choice>
+                        <choice>
+                           <orig>downe</orig>
+                           <reg>down</reg>
+                        </choice>, the hangmen <choice>
+                           <orig>doe</orig>
+                           <reg>do</reg>
+                        </choice>
+                        <choice>
+                           <orig>beginne</orig>
+                           <reg>begin</reg>
+                        </choice>.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="BB">
+                     <l n="3">One <choice>
+                           <orig>plucketh</orig>
+                           <reg>plucks</reg>
+                        </choice> off the <choice>
+                           <orig>Oxes</orig>
+                           <reg>Ox's</reg>
+                        </choice>
+                        <choice>
+                           <orig>cote</orig>
+                           <reg>coat</reg>
+                        </choice>, which he even now did <choice>
+                           <orig>weare</orig>
+                           <reg>wear</reg>
+                        </choice>:</l>
+                     <l n="4">Another lacking <choice>
+                           <orig>pannes</orig>
+                           <reg>pans</reg>
+                        </choice>, to <choice>
+                           <orig>boyle</orig>
+                           <reg>boil</reg>
+                        </choice> the flesh, his hide prepare.</l>
+                  </lg>
+                  <span from="#PL3F3_capA_text"/>
+                  <anchor type="caption" corresp="#PL3F3_caption_C" xml:id="PL3F3_capC_text"
+                     sameAs="#PL3F3_woodcutZone_C"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL3F3_metamark_C"
+                     >C</metamark>
+                  <lg type="couplet" rhyme="CC">
+                     <l n="5">These <choice>
+                           <orig>theeves</orig>
+                           <reg>thieves</reg>
+                        </choice> attend upon the fire, for serving up the feast:</l>
+                     <span from="#PL3F3_capC_text"/>
+                     <anchor type="caption" corresp="#PL3F3_caption_B-I #PL3F3_caption_B-F"
+                        xml:id="PL3F3_capB_text" sameAs="#PL3F3_woodcutZone_B"/>
+                     <metamark place="margin" function="imageCaptionLink"
+                        corresp="#PL3F3_metamark_B" rend="allcaps">B</metamark>
+                     <l n="6">And <name type="gagName" corresp="./personography.xml#FSmelfeast"><choice>
+                              <orig>Fryer</orig>
+                              <reg>Friar</reg>
+                           </choice> Smelfeast</name> sneaking in, doth <choice>
+                           <orig>preace</orig>
+                           <reg>press</reg>
+                        </choice><!-- prease/press is the best guess I've got.... HA! press. It's a joke. https://bit.ly/2UeVEtU  -->
+                        <choice>
+                           <orig>amongst</orig>
+                           <reg>among</reg>
+                        </choice> the best.</l>
+                  </lg>
+               </div>
+               <div type="middleMargin">
+                  <metamark place="middleMargin" function="plateID" corresp="#PL3F3_plateMark"
+                     rend="allcaps">3</metamark>
+                  <note type="clarification">Number "3" next to the column identifies this as plate
+                     3</note>
+               </div>
+               <div type="column" n="2" corresp="#PL3F3_column2">
+                  <cb n="2"/>
+                  <lg type="couplet" rhyme="DD">
+                     <l n="7">W<gap reason="illegible" agent="tear" extent="half-inch"/><supplied
+                           cert="high" evidence="external" reason="tear" resp="#ASilva">ho </supplied><choice>
+                           <orig><supplied cert="high" evidence="external" reason="tear"
+                                 resp="#ASilva">play'</supplied>t<unclear reason="fold" unit="chars"
+                                 quantity="1" cert="high" resp="#ASilva" evidence="external"
+                                 >h</unclear></orig>
+                           <reg>plays</reg>
+                        </choice> in Romish <!-- I Fixed It!!! Go Me!-->
+                        <choice>
+                           <orig>toyes</orig>
+                           <reg>toys</reg>
+                        </choice> the <seg rend="roman">Ape</seg>, by<choice>
+                           <orig>counterfetting</orig>
+                           <reg>counterfeiting</reg>
+                        </choice>
+                        <choice>
+                           <orig>Paull</orig>
+                           <reg>Paul</reg>
+                        </choice>:</l>
+                     <l n="8">Fo<gap reason="illegible" agent="tear" extent="half-inch"/><supplied
+                           cert="high" evidence="external" reason="tear" resp="#ASilva">r which
+                           th</supplied>ey <choice>
+                           <orig>doe</orig>
+                           <reg>do</reg>
+                        </choice> award him then, the highest <choice>
+                           <orig>roome</orig>
+                           <reg>room</reg>
+                        </choice> of all.</l>
+                  </lg>
+                  <lg type="couplet" rhyme="EE">
+                     <l n="9">W<gap reason="illegible" agent="tear" extent="half-inch"/><supplied
+                           cert="high" evidence="external" reason="tear" resp="#ASilva">ho
+                           being</supplied>
+                        <unclear reason="fold" unit="chars" quantity="1" cert="high" resp="#ASilva"
+                           >s</unclear>et, because the <choice>
+                           <orig>cheere</orig>
+                           <reg>cheer</reg>
+                        </choice>, is deemed little worth:</l>
+                     <l n="10">E<gap reason="illegible" agent="tear" extent="half-inch"/><supplied
+                           cert="high" evidence="external" reason="tear" resp="#ASilva">xcept the
+                           s</supplied>ame be <choice>
+                           <orig>intermixt</orig>
+                           <reg>intermixed</reg>
+                        </choice>, and <choice>
+                           <orig>lac'de</orig>
+                           <reg>lacked</reg>
+                           <!-- Laced? -->
+                        </choice> with Irish myrth.</l>
+                  </lg>
+                  <span from="#PL3F3_capB_text"/>
+                  <anchor type="caption" corresp="#PL3F3_caption_D" xml:id="PL3F3_capD_text"
+                     sameAs="#PL3F3_woodcutZone_D"/>
+                  <metamark place="margin" function="imageCaptionLink" corresp="#PL3F3_metamark_D"
+                     >D</metamark>
+                  <lg type="couplet" rhyme="FF">
+                     <l n="11">B<gap reason="illegible" agent="tear" extent="half-inch"/><supplied
+                           cert="high" evidence="external" reason="tear" resp="#ASilva">oth <seg
+                              rend="roman">Barde</seg></supplied> and Harper, is <choice>
+                           <orig>preparde</orig>
+                           <reg>prepared</reg>
+                        </choice>, which by their cunning art,</l>
+                     <l n="12">D<gap reason="illegible" agent="tear" extent="half-inch"/><supplied
+                           cert="high" evidence="external" reason="tear" resp="#ASilva"><choice>
+                              <orig>oe</orig>
+                              <reg>o</reg>
+                           </choice> strike a</supplied>nd <choice>
+                           <orig>cheare</orig>
+                           <reg>cheer</reg>
+                        </choice> up all the <choice>
+                           <orig>gestes</orig>
+                           <reg>guests</reg>
+                        </choice>, with comfort at the <choice>
+                           <orig>hart</orig>
+                           <!-- ??hearth?? or should it be comfort *to* the heart-->
+                           <reg>heart</reg>
+                        </choice>.</l>
+                  </lg>
+                  <span from="#PL3F3_capD_text"/>
+               </div>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+  </teiHeader>
+  <text>
+      <body>
+         <!-- RJP:2018-06-14: Add new people in alphabetical order by first word in <persName> element (most often the person's first name).  -->
+         <listPerson type="historical">
+            <person xml:id="HSidney">
+               <persName>Henry Sidney</persName>
+               <birth when="1529"/>
+               <death when="1589"/>
+               <occupation>Lord Deputy of Ireland</occupation>
+               <figure corresp="#PL6F6_sidneyZone"/>
+            </person>
+            <person xml:id="JDay" sameAs="https://viaf.org/viaf/74118429">
+               <persName>John Day</persName>
+               <floruit from="1540" to="1584"/>
+               <occupation>Printer</occupation>
+            </person>
+            <person xml:id="JDerrick" role="author, illustrator"
+               sameAs="https://viaf.org/viaf/58221805">
+               <persName>John Derricke</persName>
+               <floruit notBefore="1581"/>
+               <occupation cert="low">Surveyor</occupation>
+               <occupation cert="high" resp="#ASilva">Woodcarver</occupation>
+            </person>
+            <person xml:id="MSweeney">
+               <persName>Mac Sweeney</persName>
+               <floruit notAfter="1573"/>
+               <occupation cert="medium" resp="#DIammarino">mercenary</occupation>
+               <residence>Ulster</residence>
+            </person>
+            <person xml:id="ROg" sameAs="http://viaf.org/viaf/315945342">
+               <persName>Rorie Og O'More</persName>
+               <floruit notAfter="1578"/>
+               <residence>Kildare</residence>
+            </person>
+            <person xml:id="TONeill">
+               <persName sameAs="https://viaf.org/viaf/315683882">Turlough Luineach
+                  O'Neill</persName>
+               <birth when="1532"/>
+               <death when="1595"/>
+               <occupation>Lord of Tyrone</occupation>
+            </person>
+            <person xml:id="QElizabeth">
+               <persName sameAs="http://viaf.org/viaf/97107753">Queen Elizabeth I</persName>
+               <birth when="1533"/>
+               <death when="1603"/>
+               <occupation from="1558" to="1603">Queen of England</occupation>
+            </person>
+         </listPerson>
+         
+         <listPerson type="fictional">
+            <!-- you can change this @type to anything that works -->
+            <!-- As you start into analysis, it may (or may not) be useful to add the various captions to the @corresp -->
+            <!-- You can also <rs @corresp> to these as I did in Plate 4 Line 3 -->
+            <!-- <rs>s could be added to all the various "he" "him" etc. throughout -->
+            <person xml:id="FSmelfeast">
+               <figure
+                  corresp="#PL3F3_smelfeastPresse #PL3F3_smelfeastTable #PL4F4_smelfeastAbsolves #PL4F4_smelfeastAtHorse #PL4F4_smelfeastBlessing"
+               />
+               <!-- If you want to be able to talk about these more granularly, you can: -->
+               <!-- 1) Link these corresp to various notes here or in plateNotes.xml -->
+               <!-- 2) Change the various <rs>s to <span>s and make a <spanGrp>, or something like that -->
+               <socecStatus>A category you might want to add!</socecStatus>
+               
+            </person>
+            <person xml:id="irishLord">
+               <figure
+                  corresp="#PL1F1_irishLord #PL3F3_irishLordAtTable #PL4F4_irishLordAbsolved #PL4F4_irishLordOnHorse #PL4F4_irishLordAtWar"/>
+               <note>LZ: assumed the figure in plate 1 was the same as that in plates 3 and 4,
+                  based on the armor, helm, and cloak</note>
+            </person>
+         </listPerson>
+      </body>
+  </text>
+</TEI>
